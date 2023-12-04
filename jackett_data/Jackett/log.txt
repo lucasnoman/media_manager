@@ -1,0 +1,387 @@
+2023-12-03 22:08:29.7691 Info Starting Jackett v0.21.1298
+2023-12-03 22:08:30.4222 Info Environment version: 6.0.25 (/app/Jackett/)
+2023-12-03 22:08:30.4326 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2023-12-03 22:08:30.4358 Info Jackett variant: CoreLinuxMuslAmdx64
+2023-12-03 22:08:30.4381 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2023-12-03 22:08:30.4407 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2023-12-03 22:08:30.4439 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2023-12-03 22:08:30.4464 Info App config/log directory: /config/Jackett
+2023-12-03 22:08:30.4495 Info Using proxy: Disabled
+2023-12-03 22:08:30.4518 Info Using FlareSolverr: No
+2023-12-03 22:08:30.4551 Info Using HTTP Client: HttpWebClient2
+2023-12-03 22:08:30.4715 Info Loading Native indexers ...
+2023-12-03 22:08:30.5451 Info Loaded 73 Native indexers.
+2023-12-03 22:08:30.5507 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2023-12-03 22:08:31.9962 Info Loaded 532 Cardigann indexers.
+2023-12-03 22:08:31.9990 Info Loaded 605 indexers in total
+2023-12-03 22:08:32.0025 Info Adding aggregate indexer ('all' indexer) ...
+2023-12-03 22:08:32.0125 Info Adding filter indexer ('type:public' indexer) ...
+2023-12-03 22:08:32.0164 Info Adding filter indexer ('type:private' indexer) ...
+2023-12-03 22:08:32.0282 Info Adding filter indexer ('type:semi-public' indexer) ...
+2023-12-03 22:08:32.1895 Warn No XML encryptor configured. Key {6c803981-1b5c-4bc4-8a0f-b2736d79a389} may be persisted to storage in unencrypted form.
+2023-12-03 22:08:32.2371 Info Jackett startup finished in 2.715 s
+2023-12-03 22:10:22.4925 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 22:10:30.6446 Info Torznab search in 1337x => Found 9 releases [8156ms]
+2023-12-03 22:10:34.8755 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 22:10:34.8799 Info Torznab search in 1337x => Found 9 releases (from cache) [4ms]
+2023-12-03 22:10:56.9957 Info Torznab search in LimeTorrents clone => Found 20 releases [531ms]
+2023-12-03 22:10:58.4679 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2023-12-03 22:11:28.5961 Info Torznab search in The Pirate Bay => Found 10 releases [1095ms]
+2023-12-03 22:11:30.4125 Info Torznab search in The Pirate Bay => Found 10 releases (from cache) [0ms]
+2023-12-03 22:11:41.1387 Info Torznab search in TheRARBG => Found 40 releases [4874ms]
+2023-12-03 22:11:41.8265 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2023-12-03 22:12:34.2592 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:12:35.2813 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2023-12-03 22:12:35.2880 Error Error on 20231203221235 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2023-12-03 22:12:35.2955 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 339
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 357
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 733
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2023-12-03 22:12:53.0494 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:12:54.8469 Info Torznab search in TorrentGalaxy => Found 0 releases [2213ms]
+2023-12-03 22:13:00.0270 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2023-12-03 22:13:07.1123 Info Test search in TorrentGalaxy => Found 50 releases [764ms]
+2023-12-03 22:13:11.2449 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2023-12-03 22:13:28.9041 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2023-12-03 22:14:03.8295 Info Torznab search in TorrentGalaxy => Found 50 releases [1252ms]
+2023-12-03 22:14:08.7568 Info Torznab search in TorrentGalaxy => Found 50 releases [741ms]
+2023-12-03 22:14:14.3854 Info Torznab search in TorrentGalaxy => Found 50 releases [598ms]
+2023-12-03 22:14:17.9755 Info Torznab search in TorrentGalaxy => Found 50 releases [651ms]
+2023-12-03 22:14:25.6721 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:14:26.6333 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2023-12-03 22:14:26.6357 Error Error on 20231203221426 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2023-12-03 22:14:26.6388 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 339
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 357
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 733
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 469
+
+2023-12-03 22:14:48.6022 Info Torznab search in TorrentGalaxy => Found 50 releases [2569ms]
+2023-12-03 22:15:00.5833 Info Torznab search in TorrentGalaxy => Found 50 releases [781ms]
+2023-12-03 22:15:07.8490 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:15:14.4133 Info Torznab search in TorrentGalaxy => Found 0 releases [7013ms]
+2023-12-03 22:15:20.2064 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:15:21.1635 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2023-12-03 22:15:21.1659 Error Error on 20231203221521 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2023-12-03 22:15:21.1747 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 736
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 469
+
+2023-12-03 22:15:25.9080 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:15:27.6278 Info Torznab search in TorrentGalaxy => Found 0 releases [2143ms]
+2023-12-03 22:15:36.4489 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:15:42.2053 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2023-12-03 22:15:42.2084 Error Error on 20231203221542 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2023-12-03 22:15:42.2138 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 736
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 469
+
+2023-12-03 22:15:46.0683 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2023-12-03 22:15:48.0718 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2023-12-03 22:15:59.8041 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 22:16:00.0808 Info Torznab search in The Pirate Bay for Westworld S04E02 => Found 15 releases [274ms]
+2023-12-03 22:16:00.2412 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:16:00.5199 Info Torznab search in TheRARBG for Westworld S04E02 => Found 26 releases [713ms]
+2023-12-03 22:16:00.7055 Info Torznab search in LimeTorrents clone for Westworld S04E02 => Found 0 releases [899ms]
+2023-12-03 22:16:01.9727 Info Torznab search in TorrentGalaxy for Westworld S04E02 => Found 0 releases [2167ms]
+2023-12-03 22:16:09.4149 Info Torznab search in 1337x for Westworld S04E02 => Found 10 releases [9610ms]
+2023-12-03 22:16:58.8239 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 22:16:58.8823 Info Torznab search in The Pirate Bay for Westworld S04 => Found 13 releases [58ms]
+2023-12-03 22:16:59.1343 Info Torznab search in TheRARBG for Westworld S04 => Found 29 releases [310ms]
+2023-12-03 22:16:59.1483 Info Torznab search in LimeTorrents clone for Westworld S04 => Found 0 releases [324ms]
+2023-12-03 22:16:59.6055 Info Torznab search in TorrentGalaxy for Westworld S04 => Found 50 releases [781ms]
+2023-12-03 22:17:07.3166 Info Torznab search in 1337x for Westworld S04 => Found 38 releases [8492ms]
+2023-12-03 22:20:11.9162 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 22:20:12.1885 Info Torznab search in The Pirate Bay for Westworld S04E03 => Found 17 releases [272ms]
+2023-12-03 22:20:12.6779 Info Torznab search in LimeTorrents clone for Westworld S04E03 => Found 0 releases [762ms]
+2023-12-03 22:20:12.8778 Info Torznab search in TheRARBG for Westworld S04E03 => Found 26 releases [961ms]
+2023-12-03 22:20:13.2291 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:20:14.2050 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2023-12-03 22:20:14.2077 Error Error on 20231203222014 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2023-12-03 22:20:14.2107 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 736
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 469
+
+2023-12-03 22:20:20.6084 Info Torznab search in 1337x for Westworld S04E03 => Found 14 releases [8692ms]
+2023-12-03 22:21:18.2981 Info Test search in TorrentGalaxy => Found 50 releases [2961ms]
+2023-12-03 22:21:28.0283 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:21:32.2970 Info Manual search in TorrentGalaxy for westworld => Found 0 releases [7820ms]
+2023-12-03 22:22:00.1811 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:22:01.1478 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2023-12-03 22:22:01.1504 Error Error on 20231203222201 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2023-12-03 22:22:08.6350 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 736
+   at Jackett.Server.Controllers.ResultsController.Results(ApiSearch requestt) in ./Jackett.Server/Controllers/ResultsController.cs:line 233
+
+2023-12-03 22:22:08.6748 Info Manual search in LimeTorrents clone, 1337x, TheRARBG, TorrentGalaxy, The Pirate Bay for Westworld => Found 220 releases [8916ms]
+2023-12-03 22:25:08.2957 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 22:25:08.2990 Info Torznab search in 1337x => Found 9 releases (from cache) [3ms]
+2023-12-03 22:25:08.3043 Info Torznab search in The Pirate Bay => Found 10 releases (from cache) [0ms]
+2023-12-03 22:25:08.3046 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2023-12-03 22:25:08.3058 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2023-12-03 22:28:58.4604 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 22:28:58.4620 Info Torznab search in 1337x => Found 9 releases (from cache) [1ms]
+2023-12-03 22:28:58.4755 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2023-12-03 22:28:58.5047 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2023-12-03 22:28:58.5269 Info Torznab search in The Pirate Bay => Found 10 releases (from cache) [0ms]
+2023-12-03 22:28:58.7275 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2023-12-03 22:29:19.4372 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 22:29:19.9569 Info Torznab search in The Pirate Bay for Doom Patrol S03E02 => Found 10 releases [519ms]
+2023-12-03 22:29:20.0969 Info Torznab search in TheRARBG for Doom Patrol S03E02 => Found 18 releases [659ms]
+2023-12-03 22:29:20.4122 Info Torznab search in LimeTorrents clone for Doom Patrol S03E02 => Found 0 releases [974ms]
+2023-12-03 22:29:20.4826 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:29:22.4285 Info Torznab search in TorrentGalaxy for Doom Patrol S03E02 => Found 0 releases [2991ms]
+2023-12-03 22:29:27.5142 Info Torznab search in 1337x for Doom Patrol S03E02 => Found 11 releases [8076ms]
+2023-12-03 22:40:08.6484 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 22:40:08.6571 Info Torznab search in 1337x => Found 9 releases (from cache) [8ms]
+2023-12-03 22:40:08.6571 Info Torznab search in The Pirate Bay => Found 10 releases (from cache) [0ms]
+2023-12-03 22:40:08.6580 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2023-12-03 22:40:08.6591 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2023-12-03 22:40:08.6605 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2023-12-03 22:55:38.9622 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 22:55:39.6444 Info Torznab search in LimeTorrents clone => Found 20 releases [675ms]
+2023-12-03 22:55:39.7059 Info Torznab search in TheRARBG => Found 40 releases [744ms]
+2023-12-03 22:55:40.1165 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-03 22:55:40.6878 Info Torznab search in The Pirate Bay => Found 14 releases [1723ms]
+2023-12-03 22:55:41.0684 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2023-12-03 22:55:41.0698 Error Error on 20231203225541 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2023-12-03 22:55:41.0714 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 736
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 469
+
+2023-12-03 22:55:47.0544 Info Torznab search in 1337x => Found 8 releases [8092ms]
+2023-12-03 23:08:32.3134 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2023-12-03 23:08:33.3953 Info Jackett is already updated. Current version: v0.21.1298
+2023-12-03 23:11:09.1701 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 23:11:09.1705 Info Torznab search in The Pirate Bay => Found 14 releases (from cache) [0ms]
+2023-12-03 23:11:09.1725 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2023-12-03 23:11:09.1725 Info Torznab search in 1337x => Found 8 releases (from cache) [2ms]
+2023-12-03 23:11:09.1725 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [3ms]
+2023-12-03 23:11:11.6494 Info Torznab search in TorrentGalaxy => Found 50 releases [2477ms]
+2023-12-03 23:26:39.3696 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 23:26:39.3710 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2023-12-03 23:26:39.3731 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2023-12-03 23:26:39.3738 Info Torznab search in The Pirate Bay => Found 14 releases (from cache) [0ms]
+2023-12-03 23:26:39.3738 Info Torznab search in 1337x => Found 8 releases (from cache) [4ms]
+2023-12-03 23:26:39.3749 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2023-12-03 23:27:11.8352 Info Test search in TorrentGalaxy => Found 50 releases [2111ms]
+2023-12-03 23:28:03.1789 Info Torznab search in SkTorrent-org => Found 25 releases [866ms]
+2023-12-03 23:28:04.3967 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2023-12-03 23:28:29.7770 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 23:28:30.0996 Info Torznab search in SkTorrent-org for Westworld S04E02 => Found 0 releases [315ms]
+2023-12-03 23:28:30.2355 Info Torznab search in LimeTorrents clone for Westworld S04E02 => Found 0 releases [458ms]
+2023-12-03 23:28:30.6637 Info Torznab search in TheRARBG for Westworld S04E02 => Found 26 releases [886ms]
+2023-12-03 23:28:31.2628 Info Torznab search in The Pirate Bay for Westworld S04E02 => Found 15 releases [1485ms]
+2023-12-03 23:28:31.8260 Info Torznab search in TorrentGalaxy for Westworld S04E02 => Found 11 releases [2048ms]
+2023-12-03 23:28:38.3903 Info Torznab search in 1337x for Westworld S04E02 => Found 10 releases [8613ms]
+2023-12-03 23:30:08.5924 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 23:30:09.3895 Info Torznab search in LimeTorrents clone for Westworld S04 => Found 0 releases [798ms]
+2023-12-03 23:30:09.4442 Info Torznab search in TheRARBG for Westworld S04 => Found 29 releases [850ms]
+2023-12-03 23:30:09.5027 Info Torznab search in SkTorrent-org for Westworld S04 => Found 0 releases [908ms]
+2023-12-03 23:30:10.0401 Info Torznab search in The Pirate Bay for Westworld S04 => Found 13 releases [1448ms]
+2023-12-03 23:30:10.1878 Info Torznab search in TorrentGalaxy for Westworld S04 => Found 50 releases [1593ms]
+2023-12-03 23:30:16.5344 Info Torznab search in 1337x for Westworld S04 => Found 38 releases [7942ms]
+2023-12-03 23:31:51.0268 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 23:31:51.0293 Info Torznab search in TorrentGalaxy for Westworld S04 => Found 50 releases (from cache) [0ms]
+2023-12-03 23:31:51.0271 Info Torznab search in SkTorrent-org for Westworld S04 => Found 0 releases (from cache) [0ms]
+2023-12-03 23:31:51.0280 Info Torznab search in The Pirate Bay for Westworld S04 => Found 13 releases (from cache) [0ms]
+2023-12-03 23:31:51.0280 Info Torznab search in TheRARBG for Westworld S04 => Found 29 releases (from cache) [1ms]
+2023-12-03 23:31:51.0271 Info Torznab search in LimeTorrents clone for Westworld S04 => Found 0 releases (from cache) [0ms]
+2023-12-03 23:31:51.0308 Info Torznab search in 1337x for Westworld S04 => Found 38 releases (from cache) [3ms]
+2023-12-03 23:32:17.8166 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 23:32:17.8182 Info Torznab search in TheRARBG for Westworld S04E02 => Found 26 releases (from cache) [1ms]
+2023-12-03 23:32:17.8182 Info Torznab search in LimeTorrents clone for Westworld S04E02 => Found 0 releases (from cache) [0ms]
+2023-12-03 23:32:17.8188 Info Torznab search in TorrentGalaxy for Westworld S04E02 => Found 11 releases (from cache) [0ms]
+2023-12-03 23:32:17.8269 Info Torznab search in 1337x for Westworld S04E02 => Found 10 releases (from cache) [10ms]
+2023-12-03 23:32:17.8269 Info Torznab search in SkTorrent-org for Westworld S04E02 => Found 0 releases (from cache) [0ms]
+2023-12-03 23:32:17.8292 Info Torznab search in The Pirate Bay for Westworld S04E02 => Found 15 releases (from cache) [0ms]
+2023-12-03 23:42:09.5536 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 23:42:09.5871 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2023-12-03 23:42:10.3032 Info Torznab search in TheRARBG => Found 40 releases [749ms]
+2023-12-03 23:42:10.4789 Info Torznab search in LimeTorrents clone => Found 20 releases [925ms]
+2023-12-03 23:42:10.7629 Info Torznab search in The Pirate Bay => Found 4 releases [1204ms]
+2023-12-03 23:42:11.2488 Info Torznab search in TorrentGalaxy => Found 50 releases [1692ms]
+2023-12-03 23:42:17.4646 Info Torznab search in 1337x => Found 8 releases [7911ms]
+2023-12-03 23:57:39.7785 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-03 23:57:39.7806 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2023-12-03 23:57:39.7812 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2023-12-03 23:57:39.7812 Info Torznab search in 1337x => Found 8 releases (from cache) [2ms]
+2023-12-03 23:57:39.7812 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2023-12-03 23:57:39.7827 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2023-12-03 23:57:39.7850 Info Torznab search in The Pirate Bay => Found 4 releases (from cache) [0ms]
+2023-12-04 00:13:10.1280 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-04 00:13:10.1280 Info Torznab search in The Pirate Bay => Found 4 releases (from cache) [0ms]
+2023-12-04 00:13:10.1292 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2023-12-04 00:13:10.1305 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2023-12-04 00:13:10.1314 Info Torznab search in 1337x => Found 8 releases (from cache) [3ms]
+2023-12-04 00:13:10.1326 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2023-12-04 00:13:11.1387 Info Torznab search in SkTorrent-org => Found 25 releases [1007ms]
+2023-12-04 00:28:40.2483 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-04 00:28:40.2521 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [3ms]
+2023-12-04 00:28:41.0194 Info Torznab search in LimeTorrents clone => Found 20 releases [771ms]
+2023-12-04 00:28:41.4751 Info Torznab search in TheRARBG => Found 40 releases [1211ms]
+2023-12-04 00:28:41.6775 Info Torznab search in The Pirate Bay => Found 3 releases [1421ms]
+2023-12-04 00:28:42.0429 Info Torznab search in TorrentGalaxy => Found 50 releases [1785ms]
+2023-12-04 00:28:47.8379 Info Torznab search in 1337x => Found 9 releases [7589ms]
+2023-12-04 00:44:10.5393 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-04 00:44:10.5565 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2023-12-04 00:44:10.5549 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2023-12-04 00:44:10.5555 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2023-12-04 00:44:10.5565 Info Torznab search in 1337x => Found 9 releases (from cache) [17ms]
+2023-12-04 00:44:10.5428 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2023-12-04 00:44:10.5735 Info Torznab search in The Pirate Bay => Found 3 releases (from cache) [0ms]
+2023-12-04 00:59:40.8682 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2023-12-04 00:59:40.8682 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-04 00:59:40.8682 Info Torznab search in The Pirate Bay => Found 3 releases (from cache) [0ms]
+2023-12-04 00:59:40.8700 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2023-12-04 00:59:40.8711 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2023-12-04 00:59:40.8800 Info Torznab search in 1337x => Found 9 releases (from cache) [11ms]
+2023-12-04 00:59:42.0714 Info Torznab search in SkTorrent-org => Found 25 releases [1202ms]
+2023-12-04 01:15:11.0095 Warn Some of the categories provided are unsupported in 1337x: 5045
+2023-12-04 01:15:11.0420 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2023-12-04 01:15:11.5883 Info Torznab search in LimeTorrents clone => Found 20 releases [573ms]
+2023-12-04 01:15:12.0070 Info Torznab search in TheRARBG => Found 40 releases [992ms]
+2023-12-04 01:15:12.4743 Info Torznab search in The Pirate Bay => Found 4 releases [1463ms]
+2023-12-04 01:15:13.0700 Info CardigannIndexer(torrentgalaxy): Relogin required
+2023-12-04 01:15:13.9827 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2023-12-04 01:15:13.9836 Error Error on 20231204011513 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2023-12-04 01:15:13.9849 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 736
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 469
+
+2023-12-04 01:15:19.1168 Info Torznab search in 1337x => Found 8 releases [8107ms]
+2023-12-04 01:18:36.0520 Info Jackett stopped
