@@ -1,0 +1,6 @@
+03/01/2024 11:20:51|ERROR   |root                            |BAZARR cannot use specified timezone: 'tzlocal() does not support non-zoneinfo timezones like %s. \nPlease use a timezone in the form of Continent/City'|
+03/01/2024 11:20:59|ERROR   |root                            |BAZARR cannot use specified timezone: 'tzlocal() does not support non-zoneinfo timezones like %s. \nPlease use a timezone in the form of Continent/City'|
+03/01/2024 11:21:07|ERROR   |root                            |BAZARR cannot use specified timezone: 'tzlocal() does not support non-zoneinfo timezones like %s. \nPlease use a timezone in the form of Continent/City'|
+03/01/2024 11:21:15|ERROR   |root                            |BAZARR cannot use specified timezone: 'tzlocal() does not support non-zoneinfo timezones like %s. \nPlease use a timezone in the form of Continent/City'|
+03/01/2024 11:21:23|ERROR   |root                            |BAZARR cannot use specified timezone: 'tzlocal() does not support non-zoneinfo timezones like %s. \nPlease use a timezone in the form of Continent/City'|
+03/01/2024 08:25:35|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
