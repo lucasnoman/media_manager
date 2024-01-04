@@ -385,3 +385,475 @@
 
 2023-12-04 01:15:19.1168 Info Torznab search in 1337x => Found 8 releases [8107ms]
 2023-12-04 01:18:36.0520 Info Jackett stopped
+2024-01-03 16:30:37.3014 Info Starting Jackett v0.21.1298
+2024-01-03 16:30:38.2053 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-03 16:30:38.2150 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-03 16:30:38.2175 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-03 16:30:38.2206 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-03 16:30:38.2230 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-03 16:30:38.2263 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-03 16:30:38.2279 Info App config/log directory: /config/Jackett
+2024-01-03 16:30:38.2306 Info Using proxy: Disabled
+2024-01-03 16:30:38.2322 Info Using FlareSolverr: No
+2024-01-03 16:30:38.2348 Info Using HTTP Client: HttpWebClient2
+2024-01-03 16:30:38.2518 Info Loading Native indexers ...
+2024-01-03 16:30:38.3173 Info Loaded 73 Native indexers.
+2024-01-03 16:30:38.3238 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-03 16:30:40.2652 Info Loaded 532 Cardigann indexers.
+2024-01-03 16:30:40.2666 Info Loaded 605 indexers in total
+2024-01-03 16:30:40.2685 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-03 16:30:40.2769 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-03 16:30:40.2785 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-03 16:30:40.2858 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-03 16:30:40.4448 Info Jackett startup finished in 3.742 s
+2024-01-03 16:31:09.3583 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 16:31:10.8824 Info Torznab search in TheRARBG => Found 40 releases [1532ms]
+2024-01-03 16:31:11.0647 Info Torznab search in The Pirate Bay => Found 22 releases [1715ms]
+2024-01-03 16:31:13.3049 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-03 16:31:17.7138 Info Torznab search in TorrentGalaxy => Found 50 releases [8364ms]
+2024-01-03 16:31:18.3731 Info Torznab search in SkTorrent-org => Found 25 releases [9023ms]
+2024-01-03 16:31:18.4841 Info Torznab search in 1337x => Found 10 releases [9135ms]
+2024-01-03 16:31:18.7523 Info Torznab search in LimeTorrents clone => Found 20 releases [9403ms]
+2024-01-03 16:33:32.9008 Info Test search in LimeTorrents clone => Found 150 releases [915ms]
+2024-01-03 16:33:33.1634 Info Test search in The Pirate Bay => Found 50 releases [1177ms]
+2024-01-03 16:33:36.3926 Info Test search in SkTorrent-org => Found 25 releases [4406ms]
+2024-01-03 16:33:36.4308 Info Test search in TheRARBG => Found 40 releases [4444ms]
+2024-01-03 16:33:40.0450 Info Test search in 1337x => Found 80 releases [8059ms]
+2024-01-03 16:33:41.3077 Info Test search in TorrentGalaxy => Found 50 releases [9312ms]
+2024-01-03 16:39:03.7241 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 16:39:04.2597 Info Torznab search in LimeTorrents clone for Westworld S04 => Found 0 releases [526ms]
+2024-01-03 16:39:04.6268 Info Torznab search in SkTorrent-org for Westworld S04 => Found 0 releases [901ms]
+2024-01-03 16:39:04.7274 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-03 16:39:05.1971 Info Torznab search in TheRARBG for Westworld S04 => Found 29 releases [1471ms]
+2024-01-03 16:39:05.4168 Info Torznab search in The Pirate Bay for Westworld S04 => Found 13 releases [1692ms]
+2024-01-03 16:39:05.5737 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-03 16:39:05.5790 Error Error on 20240103163905 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-03 16:39:05.5852 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 339
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 357
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 733
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-03 16:39:13.7525 Info Torznab search in 1337x for Westworld S04 => Found 38 releases [10028ms]
+2024-01-03 16:39:21.1569 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 16:39:25.7816 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 16:46:39.3874 Info Torznab search in The Pirate Bay => Found 22 releases (from cache) [0ms]
+2024-01-03 16:46:39.3874 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 16:46:39.3883 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 16:46:39.3906 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-03 16:46:39.3906 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 16:46:39.3948 Info Torznab search in 1337x => Found 10 releases (from cache) [6ms]
+2024-01-03 16:46:39.3957 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [2ms]
+2024-01-03 17:02:09.5494 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 17:02:09.5494 Info Torznab search in The Pirate Bay => Found 22 releases (from cache) [0ms]
+2024-01-03 17:02:09.5508 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-03 17:02:09.5508 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-03 17:02:09.5523 Info Torznab search in 1337x => Found 10 releases (from cache) [3ms]
+2024-01-03 17:02:09.5536 Info Torznab search in TheRARBG => Found 40 releases (from cache) [3ms]
+2024-01-03 17:02:09.5546 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 17:17:39.7821 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 17:17:40.4923 Info Torznab search in TheRARBG => Found 40 releases [711ms]
+2024-01-03 17:17:40.7690 Info Torznab search in LimeTorrents clone => Found 20 releases [985ms]
+2024-01-03 17:17:45.3042 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-03 17:17:50.0811 Info Torznab search in 1337x => Found 10 releases [10299ms]
+2024-01-03 17:17:53.0609 Info Torznab search in TorrentGalaxy => Found 50 releases [13278ms]
+2024-01-03 17:18:02.1036 Info Torznab search in SkTorrent-org => Found 25 releases [22319ms]
+2024-01-03 17:18:13.1238 Info Torznab search in The Pirate Bay => Found 17 releases [33342ms]
+2024-01-03 17:30:40.4588 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2024-01-03 17:30:45.0363 Info New release found. Current version: v0.21.1298 New version: v0.21.1468
+2024-01-03 17:30:45.0378 Info Downloading release v0.21.1468 It could take a while...
+2024-01-03 17:33:39.9123 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 17:33:39.9123 Info Torznab search in The Pirate Bay => Found 17 releases (from cache) [0ms]
+2024-01-03 17:33:39.9125 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 17:33:39.9145 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 17:33:39.9145 Info Torznab search in 1337x => Found 10 releases (from cache) [2ms]
+2024-01-03 17:33:39.9202 Info Torznab search in TheRARBG => Found 40 releases (from cache) [8ms]
+2024-01-03 17:33:39.9219 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-03 17:35:45.6294 Error Error performing update.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 300 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.FillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.CopyToContentLengthAsync(Stream destination, Boolean async, UInt64 length, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.ContentLengthReadStream.CompleteCopyToAsync(Task copyTask, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.ContentLengthReadStream.CompleteCopyToAsync(Task copyTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionResponseContent.SerializeToStreamAsync(Stream stream, TransportContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.LoadIntoBufferAsyncCore(Task serializeToStreamTask, MemoryStream tempBuffer)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in ./Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 178
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in ./Jackett.Common/Utils/Clients/WebClient.cs:line 219
+   at Jackett.Common.Services.UpdateService.DownloadRelease(List`1 assets, Boolean isWindows, String version) in ./Jackett.Common/Services/UpdateService.cs:line 238
+   at Jackett.Common.Services.UpdateService.CheckForUpdates() in ./Jackett.Common/Services/UpdateService.cs:line 133
+2024-01-03 17:49:10.0311 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 17:49:10.0375 Info Torznab search in TheRARBG => Found 40 releases (from cache) [6ms]
+2024-01-03 17:49:10.0377 Info Torznab search in The Pirate Bay => Found 17 releases (from cache) [0ms]
+2024-01-03 17:49:10.0377 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 17:49:10.0390 Info Torznab search in 1337x => Found 10 releases (from cache) [7ms]
+2024-01-03 17:49:10.0413 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 17:49:10.0426 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [11ms]
+2024-01-03 18:02:49.2477 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 18:02:50.9891 Info Torznab search in TheRARBG for Westworld S04E04 => Found 21 releases [1741ms]
+2024-01-03 18:02:51.3887 Info Torznab search in LimeTorrents clone for Westworld S04E04 => Found 0 releases [2140ms]
+2024-01-03 18:02:52.1238 Info Torznab search in The Pirate Bay for Westworld S04E04 => Found 14 releases [2565ms]
+2024-01-03 18:02:57.3696 Info Torznab search in TorrentGalaxy for Westworld S04E04 => Found 9 releases [8121ms]
+2024-01-03 18:02:59.1039 Info Torznab search in 1337x for Westworld S04E04 => Found 9 releases [9856ms]
+2024-01-03 18:03:01.4991 Info Torznab search in SkTorrent-org for Westworld S04E04 => Found 0 releases [12251ms]
+2024-01-03 18:03:37.7045 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 18:03:37.7671 Info Torznab search in The Pirate Bay for Westworld S04 => Found 13 releases [60ms]
+2024-01-03 18:03:37.8995 Info Torznab search in LimeTorrents clone for Westworld S04 => Found 0 releases [194ms]
+2024-01-03 18:03:38.5572 Info Torznab search in SkTorrent-org for Westworld S04 => Found 0 releases [848ms]
+2024-01-03 18:03:41.9947 Info Torznab search in TheRARBG for Westworld S04 => Found 29 releases [4286ms]
+2024-01-03 18:03:43.1912 Info Torznab search in TorrentGalaxy for Westworld S04 => Found 50 releases [5484ms]
+2024-01-03 18:03:46.8157 Info Torznab search in 1337x for Westworld S04 => Found 38 releases [9111ms]
+2024-01-03 18:04:40.1304 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 18:04:40.6690 Info Torznab search in LimeTorrents clone => Found 20 releases [528ms]
+2024-01-03 18:04:40.9237 Info Torznab search in TheRARBG => Found 40 releases [785ms]
+2024-01-03 18:04:41.0489 Info Torznab search in The Pirate Bay => Found 16 releases [906ms]
+2024-01-03 18:04:41.1583 Info Torznab search in SkTorrent-org => Found 25 releases [1017ms]
+2024-01-03 18:04:42.3514 Info Torznab search in TorrentGalaxy => Found 50 releases [2209ms]
+2024-01-03 18:04:49.2606 Info Torznab search in 1337x => Found 7 releases [9130ms]
+2024-01-03 18:08:56.2938 Info Torznab search in The Pirate Bay for Westworld S04 => Found 13 releases (from cache) [0ms]
+2024-01-03 18:08:56.2938 Info Torznab search in TorrentGalaxy for Westworld S04 => Found 50 releases (from cache) [0ms]
+2024-01-03 18:08:56.2957 Info Torznab search in TheRARBG for Westworld S04 => Found 29 releases (from cache) [1ms]
+2024-01-03 18:08:56.2997 Info Torznab search in SkTorrent-org for Westworld S04 => Found 0 releases (from cache) [0ms]
+2024-01-03 18:08:56.2997 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 18:08:56.3004 Info Torznab search in LimeTorrents clone for Westworld S04 => Found 0 releases (from cache) [0ms]
+2024-01-03 18:08:56.3096 Info Torznab search in 1337x for Westworld S04 => Found 38 releases (from cache) [9ms]
+2024-01-03 18:20:10.3535 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 18:20:10.3535 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 18:20:10.3535 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 18:20:10.3550 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-03 18:20:10.3561 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 18:20:10.3565 Info Torznab search in 1337x => Found 7 releases (from cache) [3ms]
+2024-01-03 18:20:10.3650 Info Torznab search in The Pirate Bay => Found 16 releases (from cache) [0ms]
+2024-01-03 18:35:40.6271 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 18:35:40.6271 Info Torznab search in The Pirate Bay => Found 16 releases (from cache) [0ms]
+2024-01-03 18:35:40.6271 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 18:35:40.6297 Info Torznab search in 1337x => Found 7 releases (from cache) [2ms]
+2024-01-03 18:35:40.6300 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-03 18:35:40.6300 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 18:35:40.6326 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 18:37:58.4236 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 18:37:59.8471 Info Torznab search in LimeTorrents clone for Star Wars Geschichten der Jedi S01 => Found 0 releases [1424ms]
+2024-01-03 18:38:00.6068 Info Torznab search in LimeTorrents clone for Star Wars Tales of the Jedi S01 => Found 0 releases [185ms]
+2024-01-03 18:38:01.4185 Info Torznab search in SkTorrent-org for Star Wars Geschichten der Jedi S01 => Found 0 releases [2782ms]
+2024-01-03 18:38:01.7679 Info Torznab search in The Pirate Bay for Star Wars Geschichten der Jedi S01 => Found 0 releases [3343ms]
+2024-01-03 18:38:02.1711 Info Torznab search in SkTorrent-org for Star Wars Tales of the Jedi S01 => Found 0 releases [746ms]
+2024-01-03 18:38:02.3212 Info Torznab search in TheRARBG for Star Wars Geschichten der Jedi S01 => Found 0 releases [3896ms]
+2024-01-03 18:38:02.9743 Info Torznab search in The Pirate Bay for Star Wars Tales of the Jedi S01 => Found 8 releases [1201ms]
+2024-01-03 18:38:04.0392 Info Torznab search in TheRARBG for Star Wars Tales of the Jedi S01 => Found 25 releases [1711ms]
+2024-01-03 18:38:07.7061 Info Torznab search in TorrentGalaxy for Star Wars Geschichten der Jedi S01 => Found 0 releases [9280ms]
+2024-01-03 18:38:08.8089 Info Torznab search in 1337x for Star Wars Geschichten der Jedi S01 => Found 0 releases [10385ms]
+2024-01-03 18:38:08.8142 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 18:38:14.2563 Info Torznab search in TorrentGalaxy for Star Wars Tales of the Jedi S01 => Found 18 releases [6543ms]
+2024-01-03 18:38:23.1851 Info Torznab search in 1337x for Star Wars: Tales of the Jedi S01 => Found 11 releases [14370ms]
+2024-01-03 18:51:10.8063 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 18:51:12.3234 Info Torznab search in LimeTorrents clone => Found 20 releases [1515ms]
+2024-01-03 18:51:12.6850 Info Torznab search in The Pirate Bay => Found 20 releases [1391ms]
+2024-01-03 18:51:12.9891 Info Torznab search in TheRARBG => Found 40 releases [2181ms]
+2024-01-03 18:51:18.5653 Info Torznab search in TorrentGalaxy => Found 50 releases [7749ms]
+2024-01-03 18:51:20.2548 Info Torznab search in SkTorrent-org => Found 25 releases [9439ms]
+2024-01-03 18:51:20.4171 Info Torznab search in 1337x => Found 7 releases [9610ms]
+2024-01-03 19:06:40.9695 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 19:06:40.9695 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 19:06:40.9695 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-03 19:06:40.9712 Info Torznab search in The Pirate Bay => Found 20 releases (from cache) [0ms]
+2024-01-03 19:06:40.9712 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 19:06:40.9727 Info Torznab search in 1337x => Found 7 releases (from cache) [3ms]
+2024-01-03 19:06:40.9753 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 19:22:11.1886 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 19:22:11.1886 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 19:22:11.1886 Info Torznab search in The Pirate Bay => Found 20 releases (from cache) [0ms]
+2024-01-03 19:22:11.1906 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-03 19:22:11.1906 Info Torznab search in 1337x => Found 7 releases (from cache) [2ms]
+2024-01-03 19:22:11.1906 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 19:22:11.1977 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [3ms]
+2024-01-03 19:37:41.2933 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 19:37:43.3954 Info Torznab search in TheRARBG => Found 40 releases [2107ms]
+2024-01-03 19:37:44.4961 Info Torznab search in SkTorrent-org => Found 25 releases [3203ms]
+2024-01-03 19:37:44.6065 Info Torznab search in The Pirate Bay => Found 26 releases [3313ms]
+2024-01-03 19:37:46.2685 Info Torznab search in LimeTorrents clone => Found 20 releases [4975ms]
+2024-01-03 19:37:50.5960 Info Torznab search in 1337x => Found 7 releases [9302ms]
+2024-01-03 19:37:57.1386 Info Torznab search in TorrentGalaxy => Found 50 releases [15849ms]
+2024-01-03 19:53:11.6583 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 19:53:11.6597 Info Torznab search in The Pirate Bay => Found 26 releases (from cache) [0ms]
+2024-01-03 19:53:11.6597 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 19:53:11.6597 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 19:53:11.6608 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 19:53:11.6621 Info Torznab search in 1337x => Found 7 releases (from cache) [3ms]
+2024-01-03 19:53:11.7655 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-03 19:55:37.4148 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 19:55:37.8926 Info Torznab search in The Pirate Bay for Star Wars Geschichten der Jedi S01 => Found 0 releases [477ms]
+2024-01-03 19:55:38.0179 Info Torznab search in LimeTorrents clone for Star Wars Geschichten der Jedi S01 => Found 0 releases [603ms]
+2024-01-03 19:55:38.5172 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-03 19:55:38.5310 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-03 19:55:38.5945 Info Torznab search in TheRARBG for Star Wars Geschichten der Jedi S01 => Found 0 releases [1179ms]
+2024-01-03 19:55:39.4666 Info Torznab search in The Pirate Bay for Star Wars Tales of the Jedi S01 => Found 8 releases [54ms]
+2024-01-03 19:55:39.4985 Info Torznab search in SkTorrent-org for Star Wars Geschichten der Jedi S01 => Found 0 releases [2059ms]
+2024-01-03 19:55:39.7958 Info Torznab search in TheRARBG for Star Wars Tales of the Jedi S01 => Found 25 releases [382ms]
+2024-01-03 19:55:39.8196 Info Torznab search in SkTorrent-org for Star Wars Tales of the Jedi S01 => Found 0 releases [313ms]
+2024-01-03 19:55:40.2046 Info Torznab search in TorrentGalaxy for Star Wars Geschichten der Jedi S01 => Found 0 releases [2789ms]
+2024-01-03 19:55:40.6201 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-03 19:55:41.5182 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-03 19:55:41.5197 Error Error on 20240103195541 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-03 19:55:41.5212 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 736
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 469
+
+2024-01-03 19:55:42.0818 Info Torznab search in LimeTorrents clone for Star Wars Tales of the Jedi S01 => Found 0 releases [2668ms]
+2024-01-03 19:55:45.2917 Info Torznab search in 1337x for Star Wars Geschichten der Jedi S01 => Found 0 releases [7876ms]
+2024-01-03 19:55:45.2968 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 19:55:54.8569 Info Torznab search in 1337x for Star Wars: Tales of the Jedi S01 => Found 11 releases [9560ms]
+2024-01-03 20:08:41.7346 Info Torznab search in The Pirate Bay => Found 26 releases (from cache) [0ms]
+2024-01-03 20:08:41.7346 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 20:08:41.7361 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-03 20:08:41.7369 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-03 20:08:41.7409 Info Torznab search in TheRARBG => Found 40 releases (from cache) [5ms]
+2024-01-03 20:08:41.7422 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 20:08:41.7499 Info Torznab search in 1337x => Found 7 releases (from cache) [7ms]
+2024-01-03 20:24:11.9487 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 20:24:12.8576 Info Torznab search in LimeTorrents clone => Found 20 releases [908ms]
+2024-01-03 20:24:13.3198 Info Torznab search in The Pirate Bay => Found 21 releases [1364ms]
+2024-01-03 20:24:13.3872 Info Torznab search in SkTorrent-org => Found 25 releases [1435ms]
+2024-01-03 20:24:13.4318 Info Torznab search in TorrentGalaxy => Found 50 releases [1406ms]
+2024-01-03 20:24:13.5431 Info Torznab search in TheRARBG => Found 40 releases [1593ms]
+2024-01-03 20:24:20.0303 Info Torznab search in 1337x => Found 8 releases [8081ms]
+2024-01-03 20:31:14.2424 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 20:31:14.4535 Info Torznab search in The Pirate Bay for Star Wars Geschichten der Jedi S01 => Found 0 releases [211ms]
+2024-01-03 20:31:14.8179 Info Torznab search in LimeTorrents clone for Star Wars Geschichten der Jedi S01 => Found 0 releases [575ms]
+2024-01-03 20:31:15.4218 Info Torznab search in TheRARBG for Star Wars Geschichten der Jedi S01 => Found 0 releases [1179ms]
+2024-01-03 20:31:15.5305 Info Torznab search in SkTorrent-org for Star Wars Geschichten der Jedi S01 => Found 0 releases [1288ms]
+2024-01-03 20:31:16.2968 Info Torznab search in The Pirate Bay for Star Wars Tales of the Jedi S01 => Found 8 releases [52ms]
+2024-01-03 20:31:16.5499 Info Torznab search in SkTorrent-org for Star Wars Tales of the Jedi S01 => Found 0 releases [306ms]
+2024-01-03 20:31:16.5911 Info Torznab search in LimeTorrents clone for Star Wars Tales of the Jedi S01 => Found 0 releases [347ms]
+2024-01-03 20:31:16.6265 Info Torznab search in TheRARBG for Star Wars Tales of the Jedi S01 => Found 25 releases [382ms]
+2024-01-03 20:31:21.2841 Info Torznab search in TorrentGalaxy for Star Wars Geschichten der Jedi S01 => Found 0 releases [7020ms]
+2024-01-03 20:31:22.4071 Info Torznab search in 1337x for Star Wars Geschichten der Jedi S01 => Found 0 releases [8164ms]
+2024-01-03 20:31:22.4131 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 20:31:24.3364 Info Torznab search in TorrentGalaxy for Star Wars Tales of the Jedi S01 => Found 18 releases [3046ms]
+2024-01-03 20:31:31.9737 Info Torznab search in 1337x for Star Wars: Tales of the Jedi S01 => Found 11 releases [9560ms]
+2024-01-03 20:39:42.2306 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 20:39:42.2306 Info Torznab search in The Pirate Bay => Found 21 releases (from cache) [0ms]
+2024-01-03 20:39:42.2332 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 20:39:42.2335 Info Torznab search in 1337x => Found 8 releases (from cache) [2ms]
+2024-01-03 20:39:42.2358 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 20:39:42.2358 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-03 20:39:42.2363 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-03 20:55:12.5647 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 20:55:12.5647 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 20:55:12.5647 Info Torznab search in The Pirate Bay => Found 21 releases (from cache) [0ms]
+2024-01-03 20:55:12.5658 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 20:55:12.5668 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 20:55:12.5668 Info Torznab search in 1337x => Found 8 releases (from cache) [2ms]
+2024-01-03 20:55:12.5713 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-03 21:02:56.5933 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 21:02:57.1597 Info Torznab search in LimeTorrents clone for Star Wars The Clone Wars S01 => Found 0 releases [566ms]
+2024-01-03 21:02:57.4794 Info Torznab search in TheRARBG for Star Wars The Clone Wars S01 => Found 9 releases [886ms]
+2024-01-03 21:02:57.9790 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-03 21:02:58.2380 Info Torznab search in The Pirate Bay for Star Wars The Clone Wars S01 => Found 6 releases [1644ms]
+2024-01-03 21:02:58.7741 Info Torznab search in LimeTorrents clone for Star Wars Las guerras clon S01 => Found 0 releases [180ms]
+2024-01-03 21:02:58.9553 Info Torznab search in SkTorrent-org for Star Wars The Clone Wars S01 => Found 0 releases [2343ms]
+2024-01-03 21:02:59.2661 Info Torznab search in SkTorrent-org for Star Wars Las guerras clon S01 => Found 0 releases [305ms]
+2024-01-03 21:02:59.3015 Info Torznab search in TheRARBG for Star Wars Las guerras clon S01 => Found 0 releases [708ms]
+2024-01-03 21:02:59.7898 Info Torznab search in The Pirate Bay for Star Wars Las guerras clon S01 => Found 0 releases [1196ms]
+2024-01-03 21:03:00.1945 Info Torznab search in TorrentGalaxy for Star Wars The Clone Wars S01 => Found 0 releases [3600ms]
+2024-01-03 21:03:01.3161 Info Torznab search in TorrentGalaxy for Star Wars Las guerras clon S01 => Found 0 releases [1116ms]
+2024-01-03 21:03:05.3487 Info Torznab search in 1337x for Star Wars The Clone Wars S01 => Found 3 releases [8755ms]
+2024-01-03 21:03:05.3566 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 21:03:15.1501 Info Torznab search in 1337x for Star Wars: Las guerras clon S01 => Found 0 releases [9792ms]
+2024-01-03 21:03:15.1576 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 21:03:25.7629 Info Torznab search in 1337x for Star Wars: The Clone Wars S01 => Found 3 releases [10605ms]
+2024-01-03 21:10:42.6529 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 21:10:43.3376 Info Torznab search in LimeTorrents clone => Found 20 releases [679ms]
+2024-01-03 21:10:43.7188 Info Torznab search in The Pirate Bay => Found 24 releases [1065ms]
+2024-01-03 21:10:43.8503 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-03 21:10:44.2026 Info Torznab search in TheRARBG => Found 40 releases [1526ms]
+2024-01-03 21:10:44.8607 Info Torznab search in SkTorrent-org => Found 25 releases [2202ms]
+2024-01-03 21:10:46.8810 Info Torznab search in TorrentGalaxy => Found 50 releases [4222ms]
+2024-01-03 21:10:50.0850 Info Torznab search in 1337x => Found 9 releases [7432ms]
+2024-01-03 21:26:12.8794 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 21:26:12.8794 Info Torznab search in The Pirate Bay => Found 24 releases (from cache) [0ms]
+2024-01-03 21:26:12.8794 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 21:26:12.8807 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-03 21:26:12.8816 Info Torznab search in 1337x => Found 9 releases (from cache) [2ms]
+2024-01-03 21:26:12.8816 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 21:26:12.8845 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 21:41:43.0932 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 21:41:43.0932 Info Torznab search in The Pirate Bay => Found 24 releases (from cache) [0ms]
+2024-01-03 21:41:43.0958 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 21:41:43.0958 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 21:41:43.0961 Info Torznab search in 1337x => Found 9 releases (from cache) [2ms]
+2024-01-03 21:41:43.0961 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-03 21:41:43.1087 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [10ms]
+2024-01-03 21:57:13.3622 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 21:57:15.3431 Info Torznab search in SkTorrent-org => Found 25 releases [1827ms]
+2024-01-03 21:57:15.3695 Info Torznab search in TheRARBG => Found 40 releases [2006ms]
+2024-01-03 21:57:16.0755 Info Torznab search in LimeTorrents clone => Found 20 releases [2681ms]
+2024-01-03 21:57:16.3187 Info Torznab search in The Pirate Bay => Found 34 releases [2807ms]
+2024-01-03 21:57:20.3932 Info Torznab search in TorrentGalaxy => Found 50 releases [6881ms]
+2024-01-03 21:57:23.0800 Info Torznab search in 1337x => Found 17 releases [9717ms]
+2024-01-03 22:06:40.7157 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:06:41.2179 Info Torznab search in LimeTorrents clone for Star Wars Geschichten der Jedi S01 => Found 0 releases [501ms]
+2024-01-03 22:06:41.6900 Info Torznab search in SkTorrent-org for Star Wars Geschichten der Jedi S01 => Found 0 releases [945ms]
+2024-01-03 22:06:42.0724 Info Torznab search in TheRARBG for Star Wars Geschichten der Jedi S01 => Found 0 releases [1356ms]
+2024-01-03 22:06:42.1768 Info Torznab search in The Pirate Bay for Star Wars Geschichten der Jedi S01 => Found 0 releases [1460ms]
+2024-01-03 22:06:42.8656 Info Torznab search in TorrentGalaxy for Star Wars Geschichten der Jedi S01 => Found 0 releases [2148ms]
+2024-01-03 22:06:42.9217 Info Torznab search in LimeTorrents clone for Star Wars Tales of the Jedi S01 => Found 0 releases [206ms]
+2024-01-03 22:06:43.0249 Info Torznab search in SkTorrent-org for Star Wars Tales of the Jedi S01 => Found 0 releases [309ms]
+2024-01-03 22:06:43.1127 Info Torznab search in TheRARBG for Star Wars Tales of the Jedi S01 => Found 25 releases [396ms]
+2024-01-03 22:06:43.5321 Info Torznab search in TorrentGalaxy for Star Wars Tales of the Jedi S01 => Found 18 releases [658ms]
+2024-01-03 22:06:43.9220 Info Torznab search in The Pirate Bay for Star Wars Tales of the Jedi S01 => Found 8 releases [1205ms]
+2024-01-03 22:06:48.7606 Info Torznab search in 1337x for Star Wars Geschichten der Jedi S01 => Found 0 releases [8044ms]
+2024-01-03 22:06:48.7683 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:06:58.4231 Info Torznab search in 1337x for Star Wars: Tales of the Jedi S01 => Found 11 releases [9654ms]
+2024-01-03 22:12:43.5399 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:12:43.5399 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 22:12:43.5440 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [4ms]
+2024-01-03 22:12:43.5456 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 22:12:43.5493 Info Torznab search in The Pirate Bay => Found 34 releases (from cache) [0ms]
+2024-01-03 22:12:43.5456 Info Torznab search in 1337x => Found 17 releases (from cache) [5ms]
+2024-01-03 22:12:43.5526 Info Torznab search in TheRARBG => Found 40 releases (from cache) [7ms]
+2024-01-03 22:13:45.4203 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:13:45.4203 Info Torznab search in TorrentGalaxy for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:13:45.4203 Info Torznab search in TheRARBG for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:13:45.4203 Info Torznab search in LimeTorrents clone for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:13:45.4220 Info Torznab search in 1337x for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [1ms]
+2024-01-03 22:13:45.4237 Info Torznab search in SkTorrent-org for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:13:45.4264 Info Torznab search in The Pirate Bay for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:13:47.4192 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:13:47.4192 Info Torznab search in TheRARBG for Star Wars Tales of the Jedi S01 => Found 25 releases (from cache) [1ms]
+2024-01-03 22:13:47.4208 Info Torznab search in SkTorrent-org for Star Wars Tales of the Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:13:47.4208 Info Torznab search in TorrentGalaxy for Star Wars Tales of the Jedi S01 => Found 18 releases (from cache) [0ms]
+2024-01-03 22:13:47.4227 Info Torznab search in LimeTorrents clone for Star Wars Tales of the Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:13:47.4227 Info Torznab search in The Pirate Bay for Star Wars Tales of the Jedi S01 => Found 8 releases (from cache) [0ms]
+2024-01-03 22:13:47.4229 Info Torznab search in 1337x for Star Wars: Tales of the Jedi S01 => Found 11 releases (from cache) [3ms]
+2024-01-03 22:15:06.7846 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:15:06.7847 Info Torznab search in LimeTorrents clone for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:15:06.7847 Info Torznab search in TheRARBG for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:15:06.7847 Info Torznab search in The Pirate Bay for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:15:06.7847 Info Torznab search in SkTorrent-org for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:15:06.7847 Info Torznab search in TorrentGalaxy for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:15:06.7861 Info Torznab search in 1337x for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [1ms]
+2024-01-03 22:15:08.7857 Info Torznab search in LimeTorrents clone for Star Wars Tales of the Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:15:08.7872 Info Torznab search in TheRARBG for Star Wars Tales of the Jedi S01 => Found 25 releases (from cache) [1ms]
+2024-01-03 22:15:08.7857 Info Torznab search in SkTorrent-org for Star Wars Tales of the Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:15:08.7857 Info Torznab search in TorrentGalaxy for Star Wars Tales of the Jedi S01 => Found 18 releases (from cache) [0ms]
+2024-01-03 22:15:08.7857 Info Torznab search in The Pirate Bay for Star Wars Tales of the Jedi S01 => Found 8 releases (from cache) [0ms]
+2024-01-03 22:15:08.7857 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:15:08.7972 Info Torznab search in 1337x for Star Wars: Tales of the Jedi S01 => Found 11 releases (from cache) [11ms]
+2024-01-03 22:28:13.7652 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 22:28:13.7652 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-03 22:28:13.7685 Info Torznab search in TheRARBG => Found 40 releases (from cache) [4ms]
+2024-01-03 22:28:13.7693 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:28:13.7693 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 22:28:13.7744 Info Torznab search in The Pirate Bay => Found 34 releases (from cache) [0ms]
+2024-01-03 22:28:13.7800 Info Torznab search in 1337x => Found 17 releases (from cache) [10ms]
+2024-01-03 22:34:35.1489 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:34:35.1489 Info Torznab search in TheRARBG for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:34:35.1489 Info Torznab search in LimeTorrents clone for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:34:35.1489 Info Torznab search in TorrentGalaxy for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:34:35.1489 Info Torznab search in The Pirate Bay for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:34:35.1508 Info Torznab search in 1337x for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [1ms]
+2024-01-03 22:34:35.1533 Info Torznab search in SkTorrent-org for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:34:37.1470 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:34:37.1499 Info Torznab search in LimeTorrents clone for Star Wars Tales of the Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:34:37.1499 Info Torznab search in TorrentGalaxy for Star Wars Tales of the Jedi S01 => Found 18 releases (from cache) [0ms]
+2024-01-03 22:34:37.1499 Info Torznab search in The Pirate Bay for Star Wars Tales of the Jedi S01 => Found 8 releases (from cache) [0ms]
+2024-01-03 22:34:37.1499 Info Torznab search in SkTorrent-org for Star Wars Tales of the Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:34:37.1512 Info Torznab search in 1337x for Star Wars: Tales of the Jedi S01 => Found 11 releases (from cache) [4ms]
+2024-01-03 22:34:37.1536 Info Torznab search in TheRARBG for Star Wars Tales of the Jedi S01 => Found 25 releases (from cache) [1ms]
+2024-01-03 22:42:41.0709 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:42:42.4682 Info Torznab search in The Pirate Bay for Star Wars Geschichten der Jedi S01 => Found 0 releases [1397ms]
+2024-01-03 22:42:42.5188 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-03 22:42:42.6736 Info Torznab search in TorrentGalaxy for Star Wars Geschichten der Jedi S01 => Found 0 releases [1602ms]
+2024-01-03 22:42:43.0568 Info Torznab search in TheRARBG for Star Wars Geschichten der Jedi S01 => Found 0 releases [1985ms]
+2024-01-03 22:42:43.2706 Info Torznab search in LimeTorrents clone for Star Wars Geschichten der Jedi S01 => Found 0 releases [2199ms]
+2024-01-03 22:42:43.4633 Info Torznab search in LimeTorrents clone for Star Wars Tales of the Jedi S01 => Found 0 releases [186ms]
+2024-01-03 22:42:43.5413 Info Torznab search in SkTorrent-org for Star Wars Geschichten der Jedi S01 => Found 0 releases [2419ms]
+2024-01-03 22:42:43.8535 Info Torznab search in SkTorrent-org for Star Wars Tales of the Jedi S01 => Found 0 releases [305ms]
+2024-01-03 22:42:43.9167 Info Torznab search in The Pirate Bay for Star Wars Tales of the Jedi S01 => Found 8 releases [846ms]
+2024-01-03 22:42:43.9247 Info Torznab search in TorrentGalaxy for Star Wars Tales of the Jedi S01 => Found 18 releases [855ms]
+2024-01-03 22:42:44.5431 Info Torznab search in TheRARBG for Star Wars Tales of the Jedi S01 => Found 25 releases [1473ms]
+2024-01-03 22:42:51.3579 Info Torznab search in 1337x for Star Wars Geschichten der Jedi S01 => Found 0 releases [10286ms]
+2024-01-03 22:42:51.3632 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:43:01.0657 Info Torznab search in 1337x for Star Wars: Tales of the Jedi S01 => Found 11 releases [9702ms]
+2024-01-03 22:43:44.0734 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:43:44.6100 Info Torznab search in LimeTorrents clone => Found 20 releases [536ms]
+2024-01-03 22:43:45.1336 Info Torznab search in TorrentGalaxy => Found 50 releases [1057ms]
+2024-01-03 22:43:45.1527 Info Torznab search in SkTorrent-org => Found 25 releases [1076ms]
+2024-01-03 22:43:45.1534 Info Torznab search in TheRARBG => Found 40 releases [1079ms]
+2024-01-03 22:43:45.3232 Info Torznab search in The Pirate Bay => Found 17 releases [1248ms]
+2024-01-03 22:43:51.8677 Info Torznab search in 1337x => Found 15 releases [7794ms]
+2024-01-03 22:47:22.4781 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:47:22.4781 Info Torznab search in TheRARBG for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:47:22.4788 Info Torznab search in LimeTorrents clone for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:47:22.4788 Info Torznab search in TorrentGalaxy for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:47:22.4788 Info Torznab search in The Pirate Bay for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:47:22.4788 Info Torznab search in 1337x for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [1ms]
+2024-01-03 22:47:22.4813 Info Torznab search in SkTorrent-org for Star Wars Geschichten der Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:47:24.4770 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:47:24.4781 Info Torznab search in The Pirate Bay for Star Wars Tales of the Jedi S01 => Found 8 releases (from cache) [0ms]
+2024-01-03 22:47:24.4818 Info Torznab search in SkTorrent-org for Star Wars Tales of the Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:47:24.4818 Info Torznab search in TorrentGalaxy for Star Wars Tales of the Jedi S01 => Found 18 releases (from cache) [0ms]
+2024-01-03 22:47:24.4824 Info Torznab search in TheRARBG for Star Wars Tales of the Jedi S01 => Found 25 releases (from cache) [4ms]
+2024-01-03 22:47:24.4824 Info Torznab search in LimeTorrents clone for Star Wars Tales of the Jedi S01 => Found 0 releases (from cache) [0ms]
+2024-01-03 22:47:24.4824 Info Torznab search in 1337x for Star Wars: Tales of the Jedi S01 => Found 11 releases (from cache) [5ms]
+2024-01-03 22:59:14.2056 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 22:59:14.2056 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 22:59:14.2124 Info Torznab search in The Pirate Bay => Found 17 releases (from cache) [0ms]
+2024-01-03 22:59:14.2107 Info Torznab search in 1337x => Found 15 releases (from cache) [5ms]
+2024-01-03 22:59:14.2091 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [3ms]
+2024-01-03 22:59:14.2135 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-03 22:59:14.2172 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 23:14:44.6246 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-03 23:14:44.6267 Info Torznab search in The Pirate Bay => Found 17 releases (from cache) [1ms]
+2024-01-03 23:14:44.6276 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-03 23:14:44.6288 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-03 23:14:44.6295 Info Torznab search in 1337x => Found 15 releases (from cache) [4ms]
+2024-01-03 23:14:44.6295 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-03 23:14:44.6318 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-03 23:16:21.8806 Info Jackett stopped

@@ -51,7 +51,9 @@ general:
   dont_notify_manual_actions: false
   embedded_subs_show_desired: true
   embedded_subtitles_parser: ffprobe
-  enabled_providers: []
+  enabled_providers:
+  - opensubtitlescom
+  - podnapisi
   flask_secret_key: 486c7ac0f5fe148b85c4259cdf663f66
   hi_extension: hi
   ignore_ass_subs: false
@@ -89,7 +91,7 @@ general:
   use_postprocessing_threshold_movie: false
   use_radarr: false
   use_scenename: true
-  use_sonarr: false
+  use_sonarr: true
   utf8_encode: true
   wanted_search_frequency: 6
   wanted_search_frequency_movie: 6
@@ -124,17 +126,17 @@ napisy24:
   password: ''
   username: ''
 opensubtitles:
-  password: ''
+  password: Al4035908/240596
   skip_wrong_fps: false
   ssl: false
   timeout: 15
   use_tag_search: false
-  username: ''
+  username: lucasnoman
   vip: false
 opensubtitlescom:
-  password: ''
+  password: Al4035908/240596
   use_hash: true
-  username: ''
+  username: lucasnoman
 podnapisi:
   verify_ssl: true
 postgresql:
@@ -182,10 +184,10 @@ series_scores:
   video_codec: 2
   year: 90
 sonarr:
-  apikey: ''
-  base_url: /
+  apikey: 9faba0ed88ee4093a0b6c7daccd6db20
+  base_url: ''
   defer_search_signalr: false
-  episodes_sync: 60
+  episodes_sync: 15
   exclude_season_zero: false
   excluded_series_types: []
   excluded_tags: []
@@ -193,10 +195,10 @@ sonarr:
   full_update_day: 6
   full_update_hour: 4
   http_timeout: 60
-  ip: 127.0.0.1
+  ip: 192.168.15.7
   only_monitored: false
   port: 8989
-  series_sync: 60
+  series_sync: 15
   ssl: false
   use_ffprobe_cache: true
 subf2m:
