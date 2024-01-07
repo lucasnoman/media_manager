@@ -54,6 +54,14 @@ general:
   enabled_providers:
   - opensubtitlescom
   - podnapisi
+  - gestdown
+  - embeddedsubtitles
+  - supersubtitles
+  - yifysubtitles
+  - opensubtitles
+  - napiprojekt
+  - subf2m
+  - wizdom
   flask_secret_key: 486c7ac0f5fe148b85c4259cdf663f66
   hi_extension: hi
   ignore_ass_subs: false
@@ -89,7 +97,7 @@ general:
   use_postprocessing: false
   use_postprocessing_threshold: false
   use_postprocessing_threshold_movie: false
-  use_radarr: false
+  use_radarr: true
   use_scenename: true
   use_sonarr: true
   utf8_encode: true
@@ -156,15 +164,15 @@ proxy:
   url: ''
   username: ''
 radarr:
-  apikey: ''
-  base_url: /
+  apikey: b58f0f30e97a4e93bac6e2c5868d00ea
+  base_url: ''
   defer_search_signalr: false
   excluded_tags: []
   full_update: Daily
   full_update_day: 6
   full_update_hour: 4
   http_timeout: 60
-  ip: 127.0.0.1
+  ip: 192.168.1.100
   movies_sync: 60
   only_monitored: false
   port: 7878
@@ -195,7 +203,7 @@ sonarr:
   full_update_day: 6
   full_update_hour: 4
   http_timeout: 60
-  ip: 192.168.15.7
+  ip: 192.168.1.100
   only_monitored: false
   port: 8989
   series_sync: 15

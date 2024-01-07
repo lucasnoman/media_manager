@@ -857,3 +857,1330 @@ System.Threading.Tasks.TaskCanceledException: The request was canceled due to th
 2024-01-03 23:14:44.6295 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
 2024-01-03 23:14:44.6318 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
 2024-01-03 23:16:21.8806 Info Jackett stopped
+2024-01-04 18:43:00.5427 Info Starting Jackett v0.21.1298
+2024-01-04 18:43:01.6416 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-04 18:43:01.6518 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-04 18:43:01.6547 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 18:43:01.6568 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-04 18:43:01.6587 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-04 18:43:01.6610 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-04 18:43:01.6630 Info App config/log directory: /config/Jackett
+2024-01-04 18:43:01.6654 Info Using proxy: Disabled
+2024-01-04 18:43:01.6682 Info Using FlareSolverr: No
+2024-01-04 18:43:01.6719 Info Using HTTP Client: HttpWebClient2
+2024-01-04 18:43:01.6900 Info Loading Native indexers ...
+2024-01-04 18:43:01.7542 Info Loaded 73 Native indexers.
+2024-01-04 18:43:01.7613 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-04 18:43:03.6005 Info Loaded 532 Cardigann indexers.
+2024-01-04 18:43:03.6021 Info Loaded 605 indexers in total
+2024-01-04 18:43:03.6052 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-04 18:43:03.6138 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-04 18:43:03.6156 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-04 18:43:03.6233 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-04 18:43:03.8365 Info Jackett startup finished in 3.960 s
+2024-01-04 18:43:34.4987 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 18:43:35.9638 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-04 18:43:35.9638 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-04 18:43:36.4531 Info Torznab search in LimeTorrents clone => Found 20 releases [1962ms]
+2024-01-04 18:43:36.4531 Info Torznab search in TheRARBG => Found 40 releases [1963ms]
+2024-01-04 18:43:36.7658 Info Torznab search in The Pirate Bay => Found 13 releases [2276ms]
+2024-01-04 18:43:37.0210 Info Torznab search in SkTorrent-org => Found 25 releases [2531ms]
+2024-01-04 18:43:37.0567 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-04 18:43:37.0677 Error Error on 20240104184337 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-04 18:43:37.0746 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 339
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 357
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 733
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-04 18:43:43.5209 Info Torznab search in 1337x => Found 8 releases [9025ms]
+2024-01-04 18:52:32.4394 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 18:52:32.4430 Info Torznab search in 1337x => Found 8 releases (from cache) [3ms]
+2024-01-04 18:52:32.4587 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-04 18:52:32.4931 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-04 18:52:32.5098 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-04 18:52:34.2279 Info Torznab search in TorrentGalaxy => Found 50 releases [1699ms]
+2024-01-04 18:52:34.2903 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-04 18:59:04.9976 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 18:59:04.9986 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-04 18:59:04.9995 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-04 18:59:05.0003 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 18:59:05.0009 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-04 18:59:05.0019 Info Torznab search in 1337x => Found 8 releases (from cache) [4ms]
+2024-01-04 18:59:05.0084 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-04 19:14:34.2712 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 19:14:34.2721 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-04 19:14:34.2749 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-04 19:14:34.2767 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 19:14:34.2729 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-04 19:14:34.2764 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-04 19:14:34.2749 Info Torznab search in 1337x => Found 8 releases (from cache) [3ms]
+2024-01-04 19:30:04.5945 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 19:30:05.2115 Info Torznab search in TheRARBG => Found 40 releases [616ms]
+2024-01-04 19:30:05.5716 Info Torznab search in LimeTorrents clone => Found 20 releases [843ms]
+2024-01-04 19:30:05.9658 Info Torznab search in SkTorrent-org => Found 25 releases [1370ms]
+2024-01-04 19:30:06.1072 Info Torznab search in The Pirate Bay => Found 13 releases [1512ms]
+2024-01-04 19:30:06.7786 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-04 19:30:08.7025 Info Torznab search in TorrentGalaxy => Found 0 releases [4105ms]
+2024-01-04 19:30:12.6878 Info Torznab search in 1337x => Found 8 releases [8093ms]
+2024-01-04 19:43:03.7380 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 19:43:04.7641 Info New release found. Current version: v0.21.1298 New version: v0.21.1491
+2024-01-04 19:43:04.7655 Info Downloading release v0.21.1491 It could take a while...
+2024-01-04 19:43:07.6324 Info Starting updater: /tmp/JackettUpdate-v0.21.1491-638399941863154439/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "162" --NoRestart
+2024-01-04 19:43:07.6418 Info Updater started process id: 286
+2024-01-04 19:43:11.4179 Info Starting Jackett v0.21.1491
+2024-01-04 19:43:12.0376 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-04 19:43:12.0458 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-04 19:43:12.0477 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 19:43:12.0488 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-04 19:43:12.0497 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-04 19:43:12.0515 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-04 19:43:12.0525 Info App config/log directory: /config/Jackett
+2024-01-04 19:43:12.0541 Info Using proxy: Disabled
+2024-01-04 19:43:12.0549 Info Using FlareSolverr: No
+2024-01-04 19:43:12.0572 Info Using HTTP Client: HttpWebClient2
+2024-01-04 19:43:12.0722 Info Loading Native indexers ...
+2024-01-04 19:43:12.1227 Info Loaded 73 Native indexers.
+2024-01-04 19:43:12.1268 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-04 19:43:13.6452 Info Loaded 533 Cardigann indexers.
+2024-01-04 19:43:13.6465 Info Loaded 606 indexers in total
+2024-01-04 19:43:13.6486 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-04 19:43:13.6561 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-04 19:43:13.6588 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-04 19:43:13.6659 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-04 19:43:13.6739 Info Deleting JackettUpdate temp files from /tmp/JackettUpdate-v0.21.1491-638399941863154439
+2024-01-04 19:43:13.8381 Info Jackett startup finished in 2.707 s
+2024-01-04 19:44:19.9112 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 19:44:20.8770 Info Torznab search in LimeTorrents clone for Star Wars Rebels S01 => Found 0 releases [973ms]
+2024-01-04 19:44:21.3501 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-04 19:44:21.4187 Info Torznab search in TorrentGalaxy for Star Wars Rebels S01 => Found 0 releases [1516ms]
+2024-01-04 19:44:21.5467 Info Torznab search in TheRARBG for Star Wars Rebels S01 => Found 7 releases [1644ms]
+2024-01-04 19:44:21.5541 Info Torznab search in The Pirate Bay for Star Wars Rebels S01 => Found 10 releases [1652ms]
+2024-01-04 19:44:22.3435 Info Torznab search in SkTorrent-org for Star Wars Rebels S01 => Found 0 releases [2274ms]
+2024-01-04 19:44:28.7936 Info Torznab search in 1337x for Star Wars Rebels S01 => Found 36 releases [8890ms]
+2024-01-04 19:45:20.9617 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 19:45:21.2669 Info Torznab search in SkTorrent-org for Doom Patrol S02 => Found 0 releases [305ms]
+2024-01-04 19:45:21.2913 Info Torznab search in LimeTorrents clone for Doom Patrol S02 => Found 0 releases [329ms]
+2024-01-04 19:45:21.6559 Info Torznab search in TheRARBG for Doom Patrol S02 => Found 25 releases [694ms]
+2024-01-04 19:45:22.1112 Info Torznab search in The Pirate Bay for Doom Patrol S02 => Found 7 releases [1149ms]
+2024-01-04 19:45:22.2688 Info Torznab search in TorrentGalaxy for Doom Patrol S02 => Found 50 releases [1307ms]
+2024-01-04 19:45:29.9294 Info Torznab search in 1337x for Doom Patrol S02 => Found 25 releases [8966ms]
+2024-01-04 19:45:34.8734 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 19:45:35.2125 Info Torznab search in SkTorrent-org => Found 25 releases [336ms]
+2024-01-04 19:45:35.2322 Info Torznab search in TheRARBG => Found 40 releases [359ms]
+2024-01-04 19:45:35.2537 Info Torznab search in LimeTorrents clone => Found 20 releases [378ms]
+2024-01-04 19:45:35.8187 Info Torznab search in TorrentGalaxy => Found 50 releases [943ms]
+2024-01-04 19:45:36.0974 Info Torznab search in The Pirate Bay => Found 13 releases [1221ms]
+2024-01-04 19:45:42.5062 Info Torznab search in 1337x => Found 8 releases [7632ms]
+2024-01-04 20:01:05.0020 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-04 20:01:05.0020 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-04 20:01:05.0030 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 20:01:05.0036 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-04 20:01:05.0050 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-04 20:01:05.0064 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 20:01:05.0079 Info Torznab search in 1337x => Found 8 releases (from cache) [4ms]
+2024-01-04 20:03:16.4562 Info Jackett stopped
+2024-01-04 20:03:29.8869 Info Starting Jackett v0.21.1298
+2024-01-04 20:03:30.8163 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-04 20:03:30.8311 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-04 20:03:30.8345 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 20:03:30.8475 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-04 20:03:30.8499 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-04 20:03:30.8553 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-04 20:03:30.8574 Info App config/log directory: /config/Jackett
+2024-01-04 20:03:30.8611 Info Using proxy: Disabled
+2024-01-04 20:03:30.8634 Info Using FlareSolverr: No
+2024-01-04 20:03:30.8664 Info Using HTTP Client: HttpWebClient2
+2024-01-04 20:03:30.8855 Info Loading Native indexers ...
+2024-01-04 20:03:31.0079 Info Loaded 73 Native indexers.
+2024-01-04 20:03:31.0158 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-04 20:03:33.6807 Info Loaded 532 Cardigann indexers.
+2024-01-04 20:03:33.6829 Info Loaded 605 indexers in total
+2024-01-04 20:03:33.6855 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-04 20:03:33.6934 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-04 20:03:33.6959 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-04 20:03:33.7031 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-04 20:03:33.8774 Info Jackett startup finished in 4.350 s
+2024-01-04 20:04:31.5138 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 20:04:32.5587 Info Torznab search in LimeTorrents clone for Star Wars Geschichten der Jedi S01 => Found 0 releases [1071ms]
+2024-01-04 20:04:32.5760 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-04 20:04:32.5824 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-04 20:04:33.0527 Info Torznab search in The Pirate Bay for Star Wars Geschichten der Jedi S01 => Found 0 releases [1566ms]
+2024-01-04 20:04:33.1170 Info Torznab search in TheRARBG for Star Wars Geschichten der Jedi S01 => Found 0 releases [1630ms]
+2024-01-04 20:04:33.5547 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-04 20:04:33.5647 Error Error on 20240104200433 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-04 20:04:33.5722 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 339
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 357
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 733
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-04 20:04:33.6189 Info Torznab search in SkTorrent-org for Star Wars Geschichten der Jedi S01 => Found 0 releases [2132ms]
+2024-01-04 20:04:33.6518 Info Torznab search in LimeTorrents clone for Star Wars Tales of the Jedi S01 => Found 0 releases [176ms]
+2024-01-04 20:04:33.9225 Info Torznab search in SkTorrent-org for Star Wars Tales of the Jedi S01 => Found 0 releases [296ms]
+2024-01-04 20:04:34.5430 Info Torznab search in TheRARBG for Star Wars Tales of the Jedi S01 => Found 25 releases [1068ms]
+2024-01-04 20:04:34.6162 Info Torznab search in The Pirate Bay for Star Wars Tales of the Jedi S01 => Found 8 releases [1141ms]
+2024-01-04 20:04:40.4875 Info Torznab search in 1337x for Star Wars Geschichten der Jedi S01 => Found 0 releases [9001ms]
+2024-01-04 20:04:40.4950 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 20:04:50.0652 Info Torznab search in 1337x for Star Wars: Tales of the Jedi S01 => Found 11 releases [9570ms]
+2024-01-04 20:05:03.6327 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 20:05:12.6632 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-04 20:05:12.9336 Info Torznab search in 1337x => Found 8 releases [9300ms]
+2024-01-04 20:05:13.3136 Info Torznab search in TheRARBG => Found 40 releases [364ms]
+2024-01-04 20:05:13.7521 Info Torznab search in LimeTorrents clone => Found 20 releases [407ms]
+2024-01-04 20:05:14.9608 Info Torznab search in The Pirate Bay => Found 13 releases [1189ms]
+2024-01-04 20:05:15.1124 Info Torznab search in TorrentGalaxy => Found 0 releases [2868ms]
+2024-01-04 20:05:15.5541 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-04 20:05:16.4861 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-04 20:05:16.4877 Error Error on 20240104200516 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-04 20:05:16.4891 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 339
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 357
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 733
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-04 20:05:16.8464 Info Torznab search in SkTorrent-org => Found 25 releases [321ms]
+2024-01-04 20:05:23.6168 Info Test search in TorrentGalaxy => Found 50 releases [836ms]
+2024-01-04 20:05:38.5710 Info Test search in TorrentGalaxy => Found 50 releases [1835ms]
+2024-01-04 20:05:40.7072 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-04 20:05:44.2285 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-04 20:06:08.4141 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 20:06:08.4160 Info Torznab search in 1337x => Found 8 releases (from cache) [1ms]
+2024-01-04 20:06:08.4303 Info Torznab search in TheRARBG => Found 40 releases (from cache) [1ms]
+2024-01-04 20:06:08.4625 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-04 20:06:08.4790 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-04 20:06:08.4983 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-04 20:06:08.5045 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-04 20:12:59.5833 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-04 20:14:08.3053 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-04 20:14:39.9567 Info Torznab search in TorrentGalaxy => Found 50 releases [1398ms]
+2024-01-04 20:14:44.2446 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-04 20:14:46.0206 Info Torznab search in TorrentGalaxy => Found 0 releases [2166ms]
+2024-01-04 20:14:52.1166 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 20:14:56.4210 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-04 20:14:57.3495 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-04 20:14:57.3509 Error Error on 20240104201457 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-04 20:14:57.3529 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 359
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 736
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 469
+
+2024-01-04 20:15:04.0140 Info Torznab search in TorrentGalaxy => Found 50 releases [626ms]
+2024-01-04 20:15:09.2008 Info Torznab search in TorrentGalaxy => Found 50 releases [652ms]
+2024-01-04 20:15:13.6950 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-04 20:15:26.4699 Info Torznab search in TheRARBG => Found 40 releases (from cache) [1ms]
+2024-01-04 20:16:30.8862 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-04 20:16:30.8885 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 20:16:30.8911 Info Torznab search in 1337x => Found 8 releases (from cache) [2ms]
+2024-01-04 20:16:30.8936 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-04 20:16:30.8956 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-04 20:16:30.8964 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-04 20:16:30.8985 Info Torznab search in TheRARBG => Found 40 releases (from cache) [3ms]
+2024-01-04 20:32:01.0249 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-04 20:32:01.0249 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 20:32:01.0265 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-04 20:32:01.0265 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-04 20:32:01.0280 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-04 20:32:01.0280 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-04 20:32:01.0280 Info Torznab search in 1337x => Found 8 releases (from cache) [3ms]
+2024-01-04 20:37:22.3866 Info Jackett stopped
+2024-01-04 20:42:11.0531 Info Starting Jackett v0.21.1298
+2024-01-04 20:42:11.7428 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-04 20:42:11.7531 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-04 20:42:11.7555 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 20:42:11.7570 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-04 20:42:11.7584 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-04 20:42:11.7606 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-04 20:42:11.7619 Info App config/log directory: /config/Jackett
+2024-01-04 20:42:11.7640 Info Using proxy: Disabled
+2024-01-04 20:42:11.7656 Info Using FlareSolverr: No
+2024-01-04 20:42:11.7683 Info Using HTTP Client: HttpWebClient2
+2024-01-04 20:42:11.7853 Info Loading Native indexers ...
+2024-01-04 20:42:11.8375 Info Loaded 73 Native indexers.
+2024-01-04 20:42:11.8424 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-04 20:42:13.3851 Info Loaded 532 Cardigann indexers.
+2024-01-04 20:42:13.3866 Info Loaded 605 indexers in total
+2024-01-04 20:42:13.3891 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-04 20:42:13.3974 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-04 20:42:13.4002 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-04 20:42:13.4072 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-04 20:42:13.5571 Info Jackett startup finished in 2.794 s
+2024-01-04 20:42:17.2346 Info Jackett stopped
+2024-01-04 20:42:31.4940 Info Starting Jackett v0.21.1298
+2024-01-04 20:42:32.2707 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-04 20:42:32.2793 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-04 20:42:32.2814 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 20:42:32.2828 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-04 20:42:32.2840 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-04 20:42:32.2860 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-04 20:42:32.2872 Info App config/log directory: /config/Jackett
+2024-01-04 20:42:32.2890 Info Using proxy: Disabled
+2024-01-04 20:42:32.2900 Info Using FlareSolverr: No
+2024-01-04 20:42:32.2930 Info Using HTTP Client: HttpWebClient2
+2024-01-04 20:42:32.3081 Info Loading Native indexers ...
+2024-01-04 20:42:32.3609 Info Loaded 73 Native indexers.
+2024-01-04 20:42:32.3653 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-04 20:42:34.2063 Info Loaded 532 Cardigann indexers.
+2024-01-04 20:42:34.2078 Info Loaded 605 indexers in total
+2024-01-04 20:42:34.2100 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-04 20:42:34.2192 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-04 20:42:34.2212 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-04 20:42:34.2284 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-04 20:42:34.4077 Info Jackett startup finished in 3.190 s
+2024-01-04 20:42:35.2997 Info Jackett stopped
+2024-01-04 20:44:25.8945 Info Starting Jackett v0.21.1298
+2024-01-04 20:44:26.5953 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-04 20:44:26.6046 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-04 20:44:26.6067 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 20:44:26.6082 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-04 20:44:26.6098 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-04 20:44:26.6120 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-04 20:44:26.6134 Info App config/log directory: /config/Jackett
+2024-01-04 20:44:26.6154 Info Using proxy: Disabled
+2024-01-04 20:44:26.6169 Info Using FlareSolverr: No
+2024-01-04 20:44:26.6195 Info Using HTTP Client: HttpWebClient2
+2024-01-04 20:44:26.6366 Info Loading Native indexers ...
+2024-01-04 20:44:26.6932 Info Loaded 73 Native indexers.
+2024-01-04 20:44:26.6978 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-04 20:44:28.3146 Info Loaded 532 Cardigann indexers.
+2024-01-04 20:44:28.3159 Info Loaded 605 indexers in total
+2024-01-04 20:44:28.3179 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-04 20:44:28.3254 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-04 20:44:28.3271 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-04 20:44:28.3342 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-04 20:44:28.4762 Info Jackett startup finished in 2.899 s
+2024-01-04 20:47:28.3190 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 20:47:29.6295 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-04 20:47:29.8833 Info Torznab search in The Pirate Bay => Found 13 releases [1572ms]
+2024-01-04 20:47:29.8833 Info Torznab search in LimeTorrents clone => Found 20 releases [1573ms]
+2024-01-04 20:47:30.2484 Info Torznab search in TheRARBG => Found 40 releases [1938ms]
+2024-01-04 20:47:30.5506 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-04 20:47:30.6611 Info Torznab search in SkTorrent-org => Found 25 releases [2351ms]
+2024-01-04 20:47:31.4296 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-04 20:47:31.4348 Error Error on 20240104204731 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-04 20:47:31.4416 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 339
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 357
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 733
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-04 20:47:36.8444 Info Torznab search in 1337x => Found 8 releases [8534ms]
+2024-01-04 20:52:15.5667 Info Jackett stopped
+2024-01-04 20:53:13.3644 Info Starting Jackett v0.21.1298
+2024-01-04 20:53:14.1297 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-04 20:53:14.1400 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-04 20:53:14.1425 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 20:53:14.1447 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-04 20:53:14.1464 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-04 20:53:14.1487 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-04 20:53:14.1519 Info App config/log directory: /config/Jackett
+2024-01-04 20:53:14.1549 Info Using proxy: Disabled
+2024-01-04 20:53:14.1562 Info Using FlareSolverr: No
+2024-01-04 20:53:14.1600 Info Using HTTP Client: HttpWebClient2
+2024-01-04 20:53:14.1818 Info Loading Native indexers ...
+2024-01-04 20:53:14.2534 Info Loaded 73 Native indexers.
+2024-01-04 20:53:14.2589 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-04 20:53:16.1150 Info Loaded 532 Cardigann indexers.
+2024-01-04 20:53:16.1185 Info Loaded 605 indexers in total
+2024-01-04 20:53:16.1213 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-04 20:53:16.1311 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-04 20:53:16.1334 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-04 20:53:16.1407 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-04 20:53:16.3023 Info Jackett startup finished in 3.238 s
+2024-01-04 20:53:48.6703 Warn Some of the categories provided are unsupported in 1337x: 2020,2050
+2024-01-04 20:53:56.9195 Info Torznab search in 1337x => Found 20 releases [8255ms]
+2024-01-04 20:54:42.0398 Info Torznab search in 1337x => Found 20 releases [7615ms]
+2024-01-04 20:54:43.7047 Info Torznab search in 1337x => Found 20 releases (from cache) [1ms]
+2024-01-04 20:55:24.9850 Info Torznab search in LimeTorrents clone => Found 0 releases [1540ms]
+2024-01-04 20:55:28.9260 Info Torznab search in LimeTorrents clone => Found 0 releases [374ms]
+2024-01-04 20:55:33.3787 Info Torznab search in LimeTorrents clone => Found 0 releases [382ms]
+2024-01-04 20:55:57.6901 Info Torznab search in LimeTorrents clone => Found 0 releases (from cache) [0ms]
+2024-01-04 20:56:34.8132 Warn Some of the categories provided are unsupported in LimeTorrents clone: 2010,2020,2030,2040,2045,2050,2060
+2024-01-04 20:56:35.3427 Info Torznab search in LimeTorrents clone => Found 0 releases [529ms]
+2024-01-04 20:56:41.5944 Info Torznab search in LimeTorrents clone => Found 0 releases (from cache) [0ms]
+2024-01-04 20:56:43.5947 Info Torznab search in LimeTorrents clone => Found 0 releases (from cache) [0ms]
+2024-01-04 20:56:49.2080 Info Torznab search in LimeTorrents clone => Found 80 releases [375ms]
+2024-01-04 20:56:53.6351 Info Torznab search in LimeTorrents clone => Found 0 releases (from cache) [0ms]
+2024-01-04 20:57:12.4512 Info Torznab search in LimeTorrents clone => Found 0 releases [393ms]
+2024-01-04 20:57:15.7038 Info Torznab search in LimeTorrents clone => Found 20 releases [377ms]
+2024-01-04 20:57:25.1508 Info Torznab search in LimeTorrents clone => Found 80 releases [391ms]
+2024-01-04 20:57:31.0079 Info Torznab search in LimeTorrents clone => Found 20 releases [377ms]
+2024-01-04 20:57:37.8719 Info Torznab search in LimeTorrents clone => Found 100 releases [377ms]
+2024-01-04 20:57:41.8655 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) [3ms]
+2024-01-04 20:58:00.2020 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-04 20:58:01.1962 Info Torznab search in SkTorrent-org => Found 25 releases [1798ms]
+2024-01-04 20:58:13.7274 Info Torznab search in SkTorrent-org => Found 25 releases [336ms]
+2024-01-04 20:58:20.7849 Info Torznab search in SkTorrent-org => Found 25 releases [314ms]
+2024-01-04 20:58:28.8734 Info Torznab search in SkTorrent-org => Found 25 releases [326ms]
+2024-01-04 20:58:37.6974 Info Torznab search in SkTorrent-org => Found 25 releases [318ms]
+2024-01-04 20:58:43.0827 Info Torznab search in SkTorrent-org => Found 25 releases [332ms]
+2024-01-04 20:58:44.7510 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-04 20:59:01.5286 Info Torznab search in The Pirate Bay => Found 1 releases [1476ms]
+2024-01-04 20:59:38.2012 Info Torznab search in The Pirate Bay => Found 43 releases [1231ms]
+2024-01-04 20:59:39.1179 Info Torznab search in The Pirate Bay => Found 43 releases (from cache) [0ms]
+2024-01-04 20:59:55.9235 Info Torznab search in TheRARBG => Found 40 releases [1404ms]
+2024-01-04 21:00:06.3026 Info Torznab search in TheRARBG => Found 40 releases [1582ms]
+2024-01-04 21:00:06.8731 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-04 21:00:31.0521 Info Torznab search in TorrentGalaxy => Found 50 releases [5916ms]
+2024-01-04 21:01:10.4284 Info Torznab search in TorrentGalaxy => Found 50 releases [783ms]
+2024-01-04 21:01:11.7019 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 21:02:45.5481 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 21:02:46.0299 Info Torznab search in TheRARBG => Found 40 releases [477ms]
+2024-01-04 21:02:46.2856 Info Torznab search in LimeTorrents clone => Found 20 releases [737ms]
+2024-01-04 21:02:46.8048 Info Torznab search in SkTorrent-org => Found 25 releases [1255ms]
+2024-01-04 21:02:46.9173 Info Torznab search in TorrentGalaxy => Found 50 releases [1375ms]
+2024-01-04 21:02:46.9590 Info Torznab search in The Pirate Bay => Found 13 releases [1410ms]
+2024-01-04 21:02:53.4725 Info Torznab search in 1337x => Found 8 releases [7924ms]
+2024-01-04 21:11:01.4564 Info Torznab search in LimeTorrents clone for Star Wars 1977 => Found 0 releases [565ms]
+2024-01-04 21:11:01.9076 Info Torznab search in TheRARBG => Found 40 releases [991ms]
+2024-01-04 21:11:02.0756 Info Torznab search in SkTorrent-org for Star Wars 1977 => Found 1 releases [1183ms]
+2024-01-04 21:11:02.3685 Info Torznab search in The Pirate Bay for Star Wars 1977 => Found 100 releases [1476ms]
+2024-01-04 21:11:02.8914 Info Torznab search in The Pirate Bay for Star Wars 1977 => Found 0 releases [0ms]
+2024-01-04 21:11:06.5040 Info Torznab search in TorrentGalaxy => Found 29 releases [5609ms]
+2024-01-04 21:11:10.2228 Info Torznab search in 1337x for Star Wars 1977 => Found 76 releases [9337ms]
+2024-01-04 21:11:31.2851 Info Torznab search in LimeTorrents clone for Star Wars 1977 => Found 0 releases (from cache) [0ms]
+2024-01-04 21:11:31.2856 Info Torznab search in SkTorrent-org for Star Wars 1977 => Found 1 releases (from cache) [0ms]
+2024-01-04 21:11:31.2921 Info Torznab search in 1337x for Star Wars 1977 => Found 76 releases (from cache) [5ms]
+2024-01-04 21:11:31.2896 Info Torznab search in TorrentGalaxy => Found 29 releases (from cache) [0ms]
+2024-01-04 21:11:31.2921 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-04 21:11:31.2893 Info Torznab search in The Pirate Bay for Star Wars 1977 => Found 100 releases (from cache) [2ms]
+2024-01-04 21:11:33.2852 Info Torznab search in The Pirate Bay for Star Wars 1977 => Found 0 releases [0ms]
+2024-01-04 21:12:34.6273 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 21:12:34.9854 Info Torznab search in LimeTorrents clone for Westworld S04 => Found 0 releases [357ms]
+2024-01-04 21:12:35.4817 Info Torznab search in SkTorrent-org for Westworld S04 => Found 0 releases [848ms]
+2024-01-04 21:12:35.7855 Info Torznab search in TheRARBG for Westworld S04 => Found 29 releases [1157ms]
+2024-01-04 21:12:35.9781 Info Torznab search in The Pirate Bay for Westworld S04 => Found 13 releases [1349ms]
+2024-01-04 21:12:36.1737 Info Torznab search in TorrentGalaxy for Westworld S04 => Found 50 releases [1546ms]
+2024-01-04 21:12:42.4011 Info Torznab search in 1337x for Westworld S04 => Found 38 releases [7773ms]
+2024-01-04 21:15:13.9611 Info Torznab search in 1337x => Found 20 releases (from cache) [0ms]
+2024-01-04 21:15:13.9643 Info Torznab search in The Pirate Bay => Found 43 releases (from cache) [0ms]
+2024-01-04 21:15:13.9643 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-04 21:15:13.9660 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) [4ms]
+2024-01-04 21:15:13.9660 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 21:15:13.9710 Info Torznab search in TheRARBG => Found 40 releases (from cache) [6ms]
+2024-01-04 21:16:12.2439 Info Torznab search in SkTorrent-org for Star Wars 1977 => Found 1 releases (from cache) [0ms]
+2024-01-04 21:16:12.2439 Info Torznab search in LimeTorrents clone for Star Wars 1977 => Found 0 releases (from cache) [0ms]
+2024-01-04 21:16:12.2439 Info Torznab search in The Pirate Bay for Star Wars 1977 => Found 100 releases (from cache) [0ms]
+2024-01-04 21:16:12.2481 Info Torznab search in 1337x for Star Wars 1977 => Found 76 releases (from cache) [5ms]
+2024-01-04 21:16:12.2481 Info Torznab search in TheRARBG => Found 40 releases (from cache) [4ms]
+2024-01-04 21:16:12.2491 Info Torznab search in TorrentGalaxy => Found 29 releases (from cache) [0ms]
+2024-01-04 21:16:14.2422 Info Torznab search in The Pirate Bay for Star Wars 1977 => Found 0 releases [0ms]
+2024-01-04 21:17:58.8975 Info Torznab search in LimeTorrents clone for Rogue One A Star Wars Story 2016 => Found 0 releases [730ms]
+2024-01-04 21:17:59.0789 Info Torznab search in SkTorrent-org for Rogue One A Star Wars Story 2016 => Found 0 releases [912ms]
+2024-01-04 21:17:59.2196 Info Torznab search in TheRARBG => Found 30 releases [1051ms]
+2024-01-04 21:17:59.6426 Info Torznab search in The Pirate Bay for Rogue One A Star Wars Story 2016 => Found 43 releases [1474ms]
+2024-01-04 21:18:06.1472 Info Torznab search in 1337x for Rogue One: A Star Wars Story 2016 => Found 71 releases [7980ms]
+2024-01-04 21:18:11.4185 Info Torznab search in TorrentGalaxy => Found 25 releases [13245ms]
+2024-01-04 21:18:15.6373 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 21:18:15.6397 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 21:18:15.6397 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-04 21:18:15.6402 Info Torznab search in 1337x => Found 8 releases (from cache) [3ms]
+2024-01-04 21:18:15.6402 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-04 21:18:15.6402 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-04 21:18:15.6450 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [5ms]
+2024-01-04 21:33:45.9690 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 21:33:45.9706 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 21:33:45.9725 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-04 21:33:45.9720 Info Torznab search in 1337x => Found 8 releases (from cache) [3ms]
+2024-01-04 21:33:45.9725 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-04 21:33:45.9720 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [1ms]
+2024-01-04 21:33:45.9862 Info Torznab search in TheRARBG => Found 40 releases (from cache) [11ms]
+2024-01-04 21:45:45.0753 Info Torznab search in LimeTorrents clone => Found 100 releases [798ms]
+2024-01-04 21:45:45.5707 Info Torznab search in SkTorrent-org => Found 25 releases [1289ms]
+2024-01-04 21:45:45.7133 Info Torznab search in The Pirate Bay => Found 43 releases [1431ms]
+2024-01-04 21:45:45.7680 Info Torznab search in TheRARBG => Found 40 releases [1484ms]
+2024-01-04 21:45:46.9677 Info Torznab search in TorrentGalaxy => Found 50 releases [2634ms]
+2024-01-04 21:45:52.4218 Info Torznab search in 1337x => Found 20 releases [8146ms]
+2024-01-04 21:49:16.1283 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 21:49:16.9468 Info Torznab search in LimeTorrents clone => Found 20 releases [808ms]
+2024-01-04 21:49:17.6138 Info Torznab search in SkTorrent-org => Found 25 releases [1480ms]
+2024-01-04 21:49:17.9086 Info Torznab search in TheRARBG => Found 40 releases [1779ms]
+2024-01-04 21:49:18.0813 Info Torznab search in The Pirate Bay => Found 13 releases [1951ms]
+2024-01-04 21:49:18.8273 Info Torznab search in TorrentGalaxy => Found 50 releases [2693ms]
+2024-01-04 21:49:25.6754 Info Torznab search in 1337x => Found 8 releases [9547ms]
+2024-01-04 21:53:16.3645 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 21:53:16.7677 Info New release found. Current version: v0.21.1298 New version: v0.21.1491
+2024-01-04 21:53:16.7690 Info Downloading release v0.21.1491 It could take a while...
+2024-01-04 21:53:19.7585 Info Starting updater: /tmp/JackettUpdate-v0.21.1491-638400019984158173/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "163" --NoRestart
+2024-01-04 21:53:19.7687 Info Updater started process id: 440
+2024-01-04 21:53:24.0378 Info Starting Jackett v0.21.1491
+2024-01-04 21:53:24.7601 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-04 21:53:24.7687 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-04 21:53:24.7709 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 21:53:24.7720 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-04 21:53:24.7731 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-04 21:53:24.7750 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-04 21:53:24.7761 Info App config/log directory: /config/Jackett
+2024-01-04 21:53:24.7777 Info Using proxy: Disabled
+2024-01-04 21:53:24.7786 Info Using FlareSolverr: No
+2024-01-04 21:53:24.7814 Info Using HTTP Client: HttpWebClient2
+2024-01-04 21:53:24.7957 Info Loading Native indexers ...
+2024-01-04 21:53:24.8494 Info Loaded 73 Native indexers.
+2024-01-04 21:53:24.8539 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-04 21:53:26.4775 Info Loaded 533 Cardigann indexers.
+2024-01-04 21:53:26.4787 Info Loaded 606 indexers in total
+2024-01-04 21:53:26.4807 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-04 21:53:26.4877 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-04 21:53:26.4892 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-04 21:53:26.4963 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-04 21:53:26.5033 Info Deleting JackettUpdate temp files from /tmp/JackettUpdate-v0.21.1491-638400019984158173
+2024-01-04 21:53:26.6883 Info Jackett startup finished in 2.945 s
+2024-01-04 22:04:46.5634 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 22:04:47.8500 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-04 22:04:48.3542 Info Torznab search in LimeTorrents clone => Found 20 releases [1798ms]
+2024-01-04 22:04:48.3549 Info Torznab search in TheRARBG => Found 40 releases [1800ms]
+2024-01-04 22:04:48.6172 Info Torznab search in The Pirate Bay => Found 13 releases [2062ms]
+2024-01-04 22:04:48.8986 Info Torznab search in SkTorrent-org => Found 25 releases [2343ms]
+2024-01-04 22:04:50.1629 Info Torznab search in TorrentGalaxy => Found 50 releases [3373ms]
+2024-01-04 22:04:54.7591 Info Torznab search in 1337x => Found 7 releases [8204ms]
+2024-01-04 22:16:15.7447 Info Torznab search in LimeTorrents clone => Found 100 releases [1193ms]
+2024-01-04 22:16:15.7457 Info Torznab search in The Pirate Bay => Found 43 releases [1194ms]
+2024-01-04 22:16:15.8768 Info Torznab search in SkTorrent-org => Found 25 releases [1325ms]
+2024-01-04 22:16:15.9868 Info Torznab search in TheRARBG => Found 40 releases [1435ms]
+2024-01-04 22:16:18.0978 Info Torznab search in TorrentGalaxy => Found 50 releases [3480ms]
+2024-01-04 22:16:23.0833 Info Torznab search in 1337x => Found 20 releases [8532ms]
+2024-01-04 22:20:16.5559 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 22:20:16.5559 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 22:20:16.5559 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-04 22:20:16.5633 Info Torznab search in 1337x => Found 7 releases (from cache) [7ms]
+2024-01-04 22:20:16.5633 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [4ms]
+2024-01-04 22:20:16.5661 Info Torznab search in TheRARBG => Found 40 releases (from cache) [6ms]
+2024-01-04 22:20:16.5661 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-04 22:35:46.7512 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 22:35:46.7512 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-04 22:35:46.7524 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-04 22:35:46.7524 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 22:35:46.7561 Info Torznab search in 1337x => Found 7 releases (from cache) [5ms]
+2024-01-04 22:35:46.7573 Info Torznab search in TheRARBG => Found 40 releases (from cache) [4ms]
+2024-01-04 22:35:46.7596 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-04 22:46:44.8408 Info Torznab search in 1337x => Found 20 releases (from cache) [1ms]
+2024-01-04 22:46:44.8431 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-04 22:46:44.8427 Info Torznab search in The Pirate Bay => Found 43 releases (from cache) [0ms]
+2024-01-04 22:46:44.8492 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) [7ms]
+2024-01-04 22:46:44.8492 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-04 22:46:44.8596 Info Torznab search in TheRARBG => Found 40 releases (from cache) [11ms]
+2024-01-04 22:51:17.0546 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-04 22:51:17.6981 Info Torznab search in TheRARBG => Found 40 releases [642ms]
+2024-01-04 22:51:17.9683 Info Torznab search in LimeTorrents clone => Found 20 releases [913ms]
+2024-01-04 22:51:18.3603 Info Torznab search in SkTorrent-org => Found 25 releases [1257ms]
+2024-01-04 22:51:18.4460 Info Torznab search in The Pirate Bay => Found 13 releases [1391ms]
+2024-01-04 22:51:25.0364 Info Torznab search in 1337x => Found 8 releases [7981ms]
+2024-01-04 22:51:52.3651 Info Torznab search in TorrentGalaxy => Found 50 releases [35304ms]
+2024-01-04 22:53:26.5741 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2024-01-04 22:53:27.5697 Info Jackett is already updated. Current version: v0.21.1491
+2024-01-05 07:53:00.3296 Info Starting Jackett v0.21.1491
+2024-01-05 07:53:02.8040 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-05 07:53:02.8142 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-05 07:53:02.8165 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-05 07:53:02.8185 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-05 07:53:02.8202 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-05 07:53:02.8225 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-05 07:53:02.8236 Info App config/log directory: /config/Jackett
+2024-01-05 07:53:02.8256 Info Using proxy: Disabled
+2024-01-05 07:53:02.8268 Info Using FlareSolverr: No
+2024-01-05 07:53:02.8299 Info Using HTTP Client: HttpWebClient2
+2024-01-05 07:53:02.8452 Info Loading Native indexers ...
+2024-01-05 07:53:02.9308 Info Loaded 73 Native indexers.
+2024-01-05 07:53:02.9404 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-05 07:53:08.0184 Info Loaded 533 Cardigann indexers.
+2024-01-05 07:53:08.0197 Info Loaded 606 indexers in total
+2024-01-05 07:53:08.0222 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-05 07:53:08.0310 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-05 07:53:08.0326 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-05 07:53:08.0408 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-05 07:53:08.2979 Info Jackett startup finished in 9.403 s
+2024-01-05 07:53:38.5982 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 07:53:38.7540 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-05 07:53:38.9658 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-05 07:53:39.1749 Info Torznab search in LimeTorrents clone => Found 20 releases [591ms]
+2024-01-05 07:53:39.1749 Info Torznab search in TheRARBG => Found 40 releases [579ms]
+2024-01-05 07:53:39.1749 Info Torznab search in TheRARBG => Found 40 releases [1654ms]
+2024-01-05 07:53:39.1917 Info Torznab search in LimeTorrents clone => Found 100 releases [1685ms]
+2024-01-05 07:53:39.2426 Info Torznab search in The Pirate Bay => Found 35 releases [1726ms]
+2024-01-05 07:53:39.5051 Info Torznab search in LimeTorrents clone => Found 0 releases [0ms]
+2024-01-05 07:53:39.8484 Info Torznab search in The Pirate Bay => Found 21 releases [1255ms]
+2024-01-05 07:53:39.9863 Info Torznab search in SkTorrent-org => Found 25 releases [2474ms]
+2024-01-05 07:53:40.1867 Info Torznab search in SkTorrent-org => Found 25 releases [1600ms]
+2024-01-05 07:53:40.3172 Info Torznab search in TorrentGalaxy => Found 50 releases [2792ms]
+2024-01-05 07:53:41.0518 Info Torznab search in TorrentGalaxy => Found 50 releases [2466ms]
+2024-01-05 07:53:45.8236 Info Torznab search in 1337x => Found 17 releases [8320ms]
+2024-01-05 07:53:46.3411 Info Torznab search in 1337x => Found 14 releases [7746ms]
+2024-01-05 08:09:08.8803 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 08:09:08.8817 Info Torznab search in The Pirate Bay => Found 21 releases (from cache) [1ms]
+2024-01-05 08:09:08.8820 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [1ms]
+2024-01-05 08:09:08.8835 Info Torznab search in TheRARBG => Found 40 releases (from cache) [3ms]
+2024-01-05 08:09:08.8861 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-05 08:09:08.8835 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [3ms]
+2024-01-05 08:09:08.8835 Info Torznab search in 1337x => Found 14 releases (from cache) [3ms]
+2024-01-05 08:24:07.5762 Info Torznab search in 1337x => Found 17 releases (from cache) [1ms]
+2024-01-05 08:24:07.5773 Info Torznab search in The Pirate Bay => Found 35 releases (from cache) [0ms]
+2024-01-05 08:24:07.5783 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) [3ms]
+2024-01-05 08:24:07.5783 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-05 08:24:07.5800 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-05 08:24:07.5813 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-05 08:24:38.9869 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 08:24:38.9872 Info Torznab search in The Pirate Bay => Found 21 releases (from cache) [0ms]
+2024-01-05 08:24:38.9872 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-05 08:24:38.9883 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-05 08:24:38.9897 Info Torznab search in TheRARBG => Found 40 releases (from cache) [3ms]
+2024-01-05 08:24:38.9897 Info Torznab search in 1337x => Found 14 releases (from cache) [3ms]
+2024-01-05 08:24:38.9965 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [3ms]
+2024-01-05 08:40:09.1056 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 08:40:09.9106 Info Torznab search in LimeTorrents clone => Found 20 releases [799ms]
+2024-01-05 08:40:09.9319 Info Torznab search in TheRARBG => Found 40 releases [778ms]
+2024-01-05 08:40:10.4918 Info Torznab search in The Pirate Bay => Found 19 releases [1380ms]
+2024-01-05 08:40:10.5988 Info Torznab search in SkTorrent-org => Found 25 releases [1493ms]
+2024-01-05 08:40:12.2996 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-05 08:40:13.2705 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-05 08:40:13.2778 Error Error on 20240105084013 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-05 08:40:13.2847 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1491.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 770
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 360
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 360
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 747
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 469
+
+2024-01-05 08:40:17.9699 Info Torznab search in 1337x => Found 13 releases [8864ms]
+2024-01-05 08:53:08.1647 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2024-01-05 08:53:09.0108 Info New release found. Current version: v0.21.1491 New version: v0.21.1501
+2024-01-05 08:53:09.0119 Info Downloading release v0.21.1501 It could take a while...
+2024-01-05 08:53:11.6405 Info Starting updater: /tmp/JackettUpdate-v0.21.1501-638400415902831139/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "162" --NoRestart
+2024-01-05 08:53:11.6498 Info Updater started process id: 305
+2024-01-05 08:53:15.3415 Info Starting Jackett v0.21.1501
+2024-01-05 08:53:15.9410 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-05 08:53:15.9488 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-05 08:53:15.9510 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-05 08:53:15.9520 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-05 08:53:15.9534 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-05 08:53:15.9553 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-05 08:53:15.9562 Info App config/log directory: /config/Jackett
+2024-01-05 08:53:15.9578 Info Using proxy: Disabled
+2024-01-05 08:53:15.9587 Info Using FlareSolverr: No
+2024-01-05 08:53:15.9615 Info Using HTTP Client: HttpWebClient2
+2024-01-05 08:53:15.9771 Info Loading Native indexers ...
+2024-01-05 08:53:16.0288 Info Loaded 73 Native indexers.
+2024-01-05 08:53:16.0329 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-05 08:53:17.4757 Info Loaded 533 Cardigann indexers.
+2024-01-05 08:53:17.4771 Info Loaded 606 indexers in total
+2024-01-05 08:53:17.4793 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-05 08:53:17.4861 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-05 08:53:17.4876 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-05 08:53:17.4945 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-05 08:53:17.5011 Info Deleting JackettUpdate temp files from /tmp/JackettUpdate-v0.21.1501-638400415902831139
+2024-01-05 08:53:17.6477 Info Jackett startup finished in 2.562 s
+2024-01-05 08:54:39.3204 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-05 08:54:39.3734 Info Torznab search in LimeTorrents clone => Found 100 releases [1339ms]
+2024-01-05 08:54:39.6105 Info Torznab search in TheRARBG => Found 40 releases [1578ms]
+2024-01-05 08:54:39.8047 Info Torznab search in The Pirate Bay => Found 35 releases [1772ms]
+2024-01-05 08:54:40.3384 Info Torznab search in SkTorrent-org => Found 25 releases [2306ms]
+2024-01-05 08:54:42.2627 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-05 08:54:43.9870 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-05 08:54:43.9929 Error Error on 20240105085443 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-05 08:54:44.0012 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1501.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 770
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 340
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 358
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 744
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-05 08:54:46.1446 Info Torznab search in 1337x => Found 18 releases [8112ms]
+2024-01-05 08:55:39.4151 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 08:55:39.7188 Info Torznab search in SkTorrent-org => Found 25 releases [305ms]
+2024-01-05 08:55:39.7983 Info Torznab search in TheRARBG => Found 40 releases [384ms]
+2024-01-05 08:55:39.8994 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-05 08:55:39.9309 Info Torznab search in LimeTorrents clone => Found 20 releases [517ms]
+2024-01-05 08:55:40.6427 Info Torznab search in The Pirate Bay => Found 19 releases [1229ms]
+2024-01-05 08:55:41.7033 Info Torznab search in TorrentGalaxy => Found 0 releases [2289ms]
+2024-01-05 08:55:47.1343 Info Torznab search in 1337x => Found 13 releases [7720ms]
+2024-01-05 09:11:09.5675 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 09:11:09.5675 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-05 09:11:09.5675 Info Torznab search in The Pirate Bay => Found 19 releases (from cache) [0ms]
+2024-01-05 09:11:09.5687 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-05 09:11:09.5728 Info Torznab search in TheRARBG => Found 40 releases (from cache) [5ms]
+2024-01-05 09:11:09.5732 Info Torznab search in 1337x => Found 13 releases (from cache) [5ms]
+2024-01-05 09:11:09.5757 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-05 09:25:08.1005 Info Torznab search in The Pirate Bay => Found 35 releases (from cache) [0ms]
+2024-01-05 09:25:08.1005 Info Torznab search in 1337x => Found 18 releases (from cache) [1ms]
+2024-01-05 09:25:08.1010 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-05 09:25:08.1056 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) [6ms]
+2024-01-05 09:25:08.1069 Info Torznab search in TheRARBG => Found 40 releases (from cache) [5ms]
+2024-01-05 09:25:09.4344 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-05 09:25:11.5765 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-05 09:25:11.5779 Error Error on 20240105092511 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-05 09:25:11.5795 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1501.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 770
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 340
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 358
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 744
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-05 09:26:39.7305 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 09:26:39.7356 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-05 09:26:39.7356 Info Torznab search in The Pirate Bay => Found 19 releases (from cache) [0ms]
+2024-01-05 09:26:39.7385 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [2ms]
+2024-01-05 09:26:39.7381 Info Torznab search in 1337x => Found 13 releases (from cache) [7ms]
+2024-01-05 09:26:39.7381 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [2ms]
+2024-01-05 09:26:39.7412 Info Torznab search in TheRARBG => Found 40 releases (from cache) [5ms]
+2024-01-05 09:42:09.8859 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 09:42:10.6658 Info Torznab search in TheRARBG => Found 40 releases [780ms]
+2024-01-05 09:42:10.7246 Info Torznab search in LimeTorrents clone => Found 20 releases [839ms]
+2024-01-05 09:42:11.2122 Info Torznab search in SkTorrent-org => Found 25 releases [1326ms]
+2024-01-05 09:42:11.3115 Info Torznab search in The Pirate Bay => Found 25 releases [1426ms]
+2024-01-05 09:42:18.1727 Info Torznab search in 1337x => Found 13 releases [8286ms]
+2024-01-05 09:42:18.4158 Info Torznab search in TorrentGalaxy => Found 50 releases [8530ms]
+2024-01-05 09:53:17.6537 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2024-01-05 09:53:17.9053 Info Jackett is already updated. Current version: v0.21.1501
+2024-01-05 09:55:38.9979 Info Torznab search in LimeTorrents clone => Found 100 releases [578ms]
+2024-01-05 09:55:39.3807 Info Torznab search in TheRARBG => Found 40 releases [962ms]
+2024-01-05 09:55:39.6034 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-05 09:55:39.6775 Info Torznab search in The Pirate Bay => Found 38 releases [1259ms]
+2024-01-05 09:55:40.5884 Info Torznab search in SkTorrent-org => Found 25 releases [2170ms]
+2024-01-05 09:55:46.2610 Info Torznab search in 1337x => Found 18 releases [7843ms]
+2024-01-05 09:55:48.2328 Info Torznab search in TorrentGalaxy => Found 50 releases [9224ms]
+2024-01-05 09:57:40.1859 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 09:57:40.1868 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-05 09:57:40.1878 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-05 09:57:40.1878 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-05 09:57:40.1878 Info Torznab search in 1337x => Found 13 releases (from cache) [2ms]
+2024-01-05 09:57:40.1894 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-05 09:57:40.1922 Info Torznab search in The Pirate Bay => Found 25 releases (from cache) [1ms]
+2024-01-05 10:13:10.2915 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 10:13:10.2922 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-05 10:13:10.2928 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-05 10:13:10.2928 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-05 10:13:10.2940 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-05 10:13:10.2940 Info Torznab search in 1337x => Found 13 releases (from cache) [2ms]
+2024-01-05 10:13:10.2988 Info Torznab search in The Pirate Bay => Found 25 releases (from cache) [0ms]
+2024-01-05 10:26:08.7595 Info Torznab search in 1337x => Found 18 releases (from cache) [1ms]
+2024-01-05 10:26:08.7621 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) [2ms]
+2024-01-05 10:26:08.7631 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-05 10:26:08.7715 Info Torznab search in The Pirate Bay => Found 38 releases (from cache) [1ms]
+2024-01-05 10:26:08.7722 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-05 10:26:08.7750 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-05 10:28:40.4643 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 10:28:41.1671 Info Torznab search in LimeTorrents clone => Found 20 releases [702ms]
+2024-01-05 10:28:41.5983 Info Torznab search in TheRARBG => Found 40 releases [1134ms]
+2024-01-05 10:28:41.8301 Info Torznab search in SkTorrent-org => Found 25 releases [1365ms]
+2024-01-05 10:28:42.0366 Info Torznab search in The Pirate Bay => Found 27 releases [1571ms]
+2024-01-05 10:28:48.6112 Info Torznab search in 1337x => Found 14 releases [8147ms]
+2024-01-05 10:28:50.7974 Info Torznab search in TorrentGalaxy => Found 50 releases [10217ms]
+2024-01-05 10:40:18.7994 Info Jackett stopped
+2024-01-05 16:08:51.3326 Info Starting Jackett v0.21.1501
+2024-01-05 16:08:52.5793 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-05 16:08:52.5915 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-05 16:08:52.5940 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-05 16:08:52.5960 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-05 16:08:52.5978 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-05 16:08:52.6002 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-05 16:08:52.6019 Info App config/log directory: /config/Jackett
+2024-01-05 16:08:52.6045 Info Using proxy: Disabled
+2024-01-05 16:08:52.6058 Info Using FlareSolverr: No
+2024-01-05 16:08:52.6084 Info Using HTTP Client: HttpWebClient2
+2024-01-05 16:08:52.6332 Info Loading Native indexers ...
+2024-01-05 16:08:52.7067 Info Loaded 73 Native indexers.
+2024-01-05 16:08:52.7138 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-05 16:08:55.4307 Info Loaded 533 Cardigann indexers.
+2024-01-05 16:08:55.4324 Info Loaded 606 indexers in total
+2024-01-05 16:08:55.4348 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-05 16:08:55.4471 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-05 16:08:55.4488 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-05 16:08:55.4570 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-05 16:08:55.6683 Info Jackett startup finished in 5.097 s
+2024-01-05 16:09:25.5491 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 16:09:25.9716 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-05 16:09:26.1566 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-05 16:09:26.3775 Info Torznab search in LimeTorrents clone => Found 20 releases [828ms]
+2024-01-05 16:09:26.3791 Info Torznab search in LimeTorrents clone => Found 100 releases [1688ms]
+2024-01-05 16:09:26.5509 Info Torznab search in TheRARBG => Found 40 releases [1844ms]
+2024-01-05 16:09:26.5513 Info Torznab search in TheRARBG => Found 40 releases [1014ms]
+2024-01-05 16:09:26.6896 Info Torznab search in LimeTorrents clone => Found 0 releases [0ms]
+2024-01-05 16:09:26.6896 Info Torznab search in The Pirate Bay => Found 15 releases [1143ms]
+2024-01-05 16:09:26.8029 Info Torznab search in The Pirate Bay => Found 38 releases [2100ms]
+2024-01-05 16:09:27.1966 Info Torznab search in SkTorrent-org => Found 25 releases [1659ms]
+2024-01-05 16:09:27.1966 Info Torznab search in SkTorrent-org => Found 25 releases [2499ms]
+2024-01-05 16:09:27.5022 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-05 16:09:27.9517 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-05 16:09:32.5086 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-05 16:09:32.5160 Error Error on 20240105160932 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-05 16:09:32.5241 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1501.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 770
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 340
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 358
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 744
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-05 16:09:32.8900 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-05 16:09:32.8913 Error Error on 20240105160932 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-05 16:09:32.8931 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1501.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 770
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 340
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 358
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 744
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-05 16:09:33.1191 Info Torznab search in 1337x => Found 20 releases [8431ms]
+2024-01-05 16:09:33.3213 Info Torznab search in 1337x => Found 2 releases [7775ms]
+2024-01-05 16:12:30.8435 Info Jackett stopped
+2024-01-05 16:12:57.9147 Info Starting Jackett v0.21.1298
+2024-01-05 16:12:58.6166 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-05 16:12:58.6253 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-05 16:12:58.6278 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-05 16:12:58.6291 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-05 16:12:58.6304 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-05 16:12:58.6324 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-05 16:12:58.6339 Info App config/log directory: /config/Jackett
+2024-01-05 16:12:58.6362 Info Using proxy: Disabled
+2024-01-05 16:12:58.6380 Info Using FlareSolverr: No
+2024-01-05 16:12:58.6409 Info Using HTTP Client: HttpWebClient2
+2024-01-05 16:12:58.6582 Info Loading Native indexers ...
+2024-01-05 16:12:58.7122 Info Loaded 73 Native indexers.
+2024-01-05 16:12:58.7169 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-05 16:13:00.3232 Info Loaded 532 Cardigann indexers.
+2024-01-05 16:13:00.3247 Info Loaded 605 indexers in total
+2024-01-05 16:13:00.3268 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-05 16:13:00.3342 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-05 16:13:00.3360 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-05 16:13:00.3430 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-05 16:13:00.4856 Info Jackett startup finished in 2.875 s
+2024-01-05 16:13:25.9961 Info Test search in TorrentGalaxy => Found 50 releases [3719ms]
+2024-01-05 16:24:59.5031 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 16:25:00.3035 Info Torznab search in LimeTorrents clone => Found 20 releases [806ms]
+2024-01-05 16:25:00.3042 Info Torznab search in TheRARBG => Found 40 releases [808ms]
+2024-01-05 16:25:00.6199 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-05 16:25:00.9765 Info Torznab search in The Pirate Bay => Found 12 releases [1481ms]
+2024-01-05 16:25:01.6294 Info Torznab search in SkTorrent-org => Found 25 releases [2068ms]
+2024-01-05 16:25:02.0737 Info Torznab search in TorrentGalaxy => Found 50 releases [2577ms]
+2024-01-05 16:25:07.6517 Info Torznab search in 1337x => Found 2 releases [8155ms]
+2024-01-05 16:39:58.8982 Info Torznab search in LimeTorrents clone => Found 100 releases [945ms]
+2024-01-05 16:39:59.1243 Info Torznab search in SkTorrent-org => Found 25 releases [1166ms]
+2024-01-05 16:39:59.1623 Info Torznab search in TheRARBG => Found 40 releases [1196ms]
+2024-01-05 16:39:59.1958 Info Torznab search in The Pirate Bay => Found 38 releases [1233ms]
+2024-01-05 16:39:59.9504 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-05 16:40:05.8660 Info Torznab search in 1337x => Found 19 releases [7923ms]
+2024-01-05 16:40:08.7420 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-05 16:40:08.7472 Error Error on 20240105164008 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-05 16:40:08.7536 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 339
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 357
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 733
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-05 16:40:29.5716 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 16:40:29.5732 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-05 16:40:29.5732 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [1ms]
+2024-01-05 16:40:29.5732 Info Torznab search in The Pirate Bay => Found 12 releases (from cache) [0ms]
+2024-01-05 16:40:29.5742 Info Torznab search in 1337x => Found 2 releases (from cache) [6ms]
+2024-01-05 16:40:29.5762 Info Torznab search in TheRARBG => Found 40 releases (from cache) [3ms]
+2024-01-05 16:40:29.5785 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [0ms]
+2024-01-05 16:55:59.7100 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 16:55:59.7139 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-05 16:55:59.7139 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [4ms]
+2024-01-05 16:55:59.7153 Info Torznab search in 1337x => Found 2 releases (from cache) [5ms]
+2024-01-05 16:55:59.7153 Info Torznab search in TheRARBG => Found 40 releases (from cache) [5ms]
+2024-01-05 16:55:59.7188 Info Torznab search in The Pirate Bay => Found 12 releases (from cache) [0ms]
+2024-01-05 16:55:59.7199 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-05 17:10:28.2238 Info Torznab search in The Pirate Bay => Found 38 releases (from cache) [0ms]
+2024-01-05 17:10:28.2238 Info Torznab search in 1337x => Found 19 releases (from cache) [5ms]
+2024-01-05 17:10:28.2238 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [4ms]
+2024-01-05 17:10:28.2263 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) [7ms]
+2024-01-05 17:10:28.2269 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-05 17:10:32.8690 Info Torznab search in TorrentGalaxy => Found 50 releases [4644ms]
+2024-01-05 17:11:29.9646 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 17:11:30.4313 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-05 17:11:30.5737 Info Torznab search in LimeTorrents clone => Found 20 releases [609ms]
+2024-01-05 17:11:30.9496 Info Torznab search in TheRARBG => Found 40 releases [985ms]
+2024-01-05 17:11:31.2088 Info Torznab search in The Pirate Bay => Found 13 releases [1243ms]
+2024-01-05 17:11:31.3653 Info Torznab search in SkTorrent-org => Found 25 releases [1394ms]
+2024-01-05 17:11:32.2071 Info Torznab search in TorrentGalaxy => Found 0 releases [2217ms]
+2024-01-05 17:11:37.8943 Info Torznab search in 1337x => Found 7 releases [7929ms]
+2024-01-05 17:13:00.4513 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2024-01-05 17:13:01.2084 Info New release found. Current version: v0.21.1298 New version: v0.21.1501
+2024-01-05 17:13:01.2103 Info Downloading release v0.21.1501 It could take a while...
+2024-01-05 17:13:05.1729 Info Starting updater: /tmp/JackettUpdate-v0.21.1501-638400715830059219/Jackett/JackettUpdater --Path "/app/Jackett" --Type "Console" --Args " --NoRestart" --KillPids "162" --NoRestart
+2024-01-05 17:13:05.1847 Info Updater started process id: 310
+2024-01-05 17:13:10.0156 Info Starting Jackett v0.21.1501
+2024-01-05 17:13:11.8908 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-05 17:13:11.9249 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-05 17:13:11.9304 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-05 17:13:11.9323 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-05 17:13:11.9343 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-05 17:13:11.9413 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-05 17:13:11.9475 Info App config/log directory: /config/Jackett
+2024-01-05 17:13:11.9515 Info Using proxy: Disabled
+2024-01-05 17:13:11.9533 Info Using FlareSolverr: No
+2024-01-05 17:13:11.9588 Info Using HTTP Client: HttpWebClient2
+2024-01-05 17:13:11.9884 Info Loading Native indexers ...
+2024-01-05 17:13:12.0633 Info Loaded 73 Native indexers.
+2024-01-05 17:13:12.0697 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-05 17:13:14.7065 Info Loaded 533 Cardigann indexers.
+2024-01-05 17:13:14.7079 Info Loaded 606 indexers in total
+2024-01-05 17:13:14.7096 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-05 17:13:14.7162 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-05 17:13:14.7180 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-05 17:13:14.7256 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-05 17:13:14.7328 Info Deleting JackettUpdate temp files from /tmp/JackettUpdate-v0.21.1501-638400715830059219
+2024-01-05 17:13:15.1222 Info Jackett startup finished in 5.745 s
+2024-01-05 17:27:00.6114 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 17:27:02.3723 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-05 17:27:02.8165 Info Torznab search in The Pirate Bay => Found 13 releases [2214ms]
+2024-01-05 17:27:02.8165 Info Torznab search in TorrentGalaxy => Found 50 releases [1916ms]
+2024-01-05 17:27:02.8165 Info Torznab search in LimeTorrents clone => Found 20 releases [2209ms]
+2024-01-05 17:27:02.8189 Info Torznab search in TheRARBG => Found 40 releases [2217ms]
+2024-01-05 17:27:03.4395 Info Torznab search in SkTorrent-org => Found 25 releases [2841ms]
+2024-01-05 17:27:09.2261 Info Torznab search in 1337x => Found 10 releases [8627ms]
+2024-01-05 17:40:59.2360 Info Torznab search in LimeTorrents clone => Found 100 releases [781ms]
+2024-01-05 17:40:59.5508 Info Torznab search in TheRARBG => Found 40 releases [1096ms]
+2024-01-05 17:40:59.6184 Info Torznab search in SkTorrent-org => Found 25 releases [1163ms]
+2024-01-05 17:40:59.8831 Info Torznab search in The Pirate Bay => Found 38 releases [1428ms]
+2024-01-05 17:41:02.4530 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-05 17:41:05.3700 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-05 17:41:05.3755 Error Error on 20240105174105 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-05 17:41:05.3820 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1501.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 770
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 340
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 358
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 744
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-05 17:41:06.5430 Info Torznab search in 1337x => Found 19 releases [8088ms]
+2024-01-05 17:42:30.2612 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 17:42:30.2629 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-05 17:42:30.2624 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-05 17:42:30.2624 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-05 17:42:30.2629 Info Torznab search in 1337x => Found 10 releases (from cache) [2ms]
+2024-01-05 17:42:30.2645 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-05 17:42:30.2694 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-05 17:58:00.5353 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 17:58:00.5353 Info Torznab search in The Pirate Bay => Found 13 releases (from cache) [0ms]
+2024-01-05 17:58:00.5407 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-05 17:58:00.5407 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-05 17:58:00.5407 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [1ms]
+2024-01-05 17:58:00.5419 Info Torznab search in 1337x => Found 10 releases (from cache) [6ms]
+2024-01-05 17:58:00.5464 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-05 18:11:28.7799 Info Torznab search in 1337x => Found 19 releases (from cache) [4ms]
+2024-01-05 18:11:28.7799 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [5ms]
+2024-01-05 18:11:28.7823 Info Torznab search in LimeTorrents clone => Found 100 releases (from cache) [7ms]
+2024-01-05 18:11:28.7842 Info Torznab search in The Pirate Bay => Found 38 releases (from cache) [8ms]
+2024-01-05 18:11:28.7868 Info Torznab search in TheRARBG => Found 40 releases (from cache) [2ms]
+2024-01-05 18:11:30.0510 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-05 18:11:31.8932 Info Torznab search in TorrentGalaxy => Found 0 releases [3092ms]
+2024-01-05 18:13:15.0284 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64
+2024-01-05 18:13:15.4759 Info Jackett is already updated. Current version: v0.21.1501
+2024-01-05 18:13:30.9871 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 18:13:31.9570 Info Torznab search in TheRARBG => Found 40 releases [959ms]
+2024-01-05 18:13:32.1395 Info Torznab search in LimeTorrents clone => Found 20 releases [1146ms]
+2024-01-05 18:13:32.2166 Info Torznab search in The Pirate Bay => Found 18 releases [1224ms]
+2024-01-05 18:13:32.2653 Info Torznab search in SkTorrent-org => Found 25 releases [1278ms]
+2024-01-05 18:13:33.8637 Info Torznab search in TorrentGalaxy => Found 50 releases [2873ms]
+2024-01-05 18:13:39.2289 Info Torznab search in 1337x => Found 9 releases [8241ms]
+2024-01-05 18:29:01.1175 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-05 18:29:01.1265 Info Torznab search in 1337x => Found 9 releases (from cache) [9ms]
+2024-01-05 18:29:01.1195 Info Torznab search in LimeTorrents clone => Found 20 releases (from cache) [0ms]
+2024-01-05 18:29:01.1208 Info Torznab search in TorrentGalaxy => Found 50 releases (from cache) [0ms]
+2024-01-05 18:29:01.1222 Info Torznab search in SkTorrent-org => Found 25 releases (from cache) [2ms]
+2024-01-05 18:29:01.1175 Info Torznab search in The Pirate Bay => Found 18 releases (from cache) [0ms]
+2024-01-05 18:29:01.1360 Info Torznab search in TheRARBG => Found 40 releases (from cache) [4ms]
+2024-01-05 18:41:59.1167 Info Torznab search in TorrentGalaxy => Found 0 releases (from cache) [0ms]
+2024-01-05 18:41:59.8844 Info Torznab search in LimeTorrents clone => Found 100 releases [777ms]
+2024-01-05 18:42:00.3614 Info Torznab search in SkTorrent-org => Found 25 releases [1253ms]
+2024-01-05 18:42:00.4309 Info Torznab search in TheRARBG => Found 40 releases [1317ms]
+2024-01-05 18:42:00.4573 Info Torznab search in The Pirate Bay => Found 43 releases [1347ms]
+2024-01-05 18:42:07.8136 Info Torznab search in 1337x => Found 19 releases [8706ms]
+2024-01-05 18:42:58.7144 Info Jackett stopped
+2024-01-06 22:18:31.4319 Info Starting Jackett v0.21.1298
+2024-01-06 22:18:32.2406 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-06 22:18:32.2489 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-06 22:18:32.2509 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-06 22:18:32.2525 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-06 22:18:32.2540 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-06 22:18:32.2559 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-06 22:18:32.2570 Info App config/log directory: /config/Jackett
+2024-01-06 22:18:32.2587 Info Using proxy: Disabled
+2024-01-06 22:18:32.2599 Info Using FlareSolverr: No
+2024-01-06 22:18:32.2637 Info Using HTTP Client: HttpWebClient2
+2024-01-06 22:18:32.2807 Info Loading Native indexers ...
+2024-01-06 22:18:32.3418 Info Loaded 73 Native indexers.
+2024-01-06 22:18:32.3468 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-06 22:18:33.9808 Info Loaded 532 Cardigann indexers.
+2024-01-06 22:18:33.9821 Info Loaded 605 indexers in total
+2024-01-06 22:18:33.9840 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-06 22:18:33.9910 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-06 22:18:33.9926 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-06 22:18:33.9996 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-06 22:18:34.1346 Info Jackett startup finished in 3.083 s
+2024-01-06 23:13:57.4343 Info Jackett stopped
+2024-01-06 23:24:54.5241 Info Starting Jackett v0.21.1298
+2024-01-06 23:24:55.3116 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-06 23:24:55.3216 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-06 23:24:55.3236 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-06 23:24:55.3247 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-06 23:24:55.3259 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-06 23:24:55.3284 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-06 23:24:55.3300 Info App config/log directory: /config/Jackett
+2024-01-06 23:24:55.3332 Info Using proxy: Disabled
+2024-01-06 23:24:55.3344 Info Using FlareSolverr: No
+2024-01-06 23:24:55.3370 Info Using HTTP Client: HttpWebClient2
+2024-01-06 23:24:55.3538 Info Loading Native indexers ...
+2024-01-06 23:24:55.4099 Info Loaded 73 Native indexers.
+2024-01-06 23:24:55.4162 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-06 23:24:57.0105 Info Loaded 532 Cardigann indexers.
+2024-01-06 23:24:57.0122 Info Loaded 605 indexers in total
+2024-01-06 23:24:57.0143 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-06 23:24:57.0216 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-06 23:24:57.0232 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-06 23:24:57.0304 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-06 23:24:57.1672 Info Jackett startup finished in 2.956 s
+2024-01-06 23:25:26.3042 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-06 23:25:26.3094 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-06 23:25:26.5230 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-06 23:25:26.6290 Info Torznab search in LimeTorrents clone => Found 100 releases [1636ms]
+2024-01-06 23:25:26.7006 Info Torznab search in TheRARBG => Found 40 releases [1689ms]
+2024-01-06 23:25:26.7277 Info Torznab search in LimeTorrents clone => Found 20 releases [419ms]
+2024-01-06 23:25:26.8820 Info Torznab search in The Pirate Bay => Found 48 releases [1876ms]
+2024-01-06 23:25:26.9915 Info Torznab search in LimeTorrents clone => Found 0 releases [0ms]
+2024-01-06 23:25:27.3028 Info Torznab search in TheRARBG => Found 40 releases [999ms]
+2024-01-06 23:25:27.5684 Info Torznab search in The Pirate Bay => Found 37 releases [1263ms]
+2024-01-06 23:25:27.7024 Info Torznab search in SkTorrent-org => Found 25 releases [2705ms]
+2024-01-06 23:25:27.7166 Info Torznab search in SkTorrent-org => Found 25 releases [1405ms]
+2024-01-06 23:25:30.3488 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-06 23:25:30.7900 Info CardigannIndexer(torrentgalaxy): Relogin required
+2024-01-06 23:25:32.2100 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-06 23:25:32.2158 Error Error on 20240106232532 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-06 23:25:32.2227 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 339
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 357
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 733
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-06 23:25:32.2879 Error CardigannIndexer (torrentgalaxy): Found captcha during automatic login, aborting
+2024-01-06 23:25:32.2892 Error Error on 20240106232532 for TorrentGalaxy.txtSystem.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+
+
+
+
+
+2024-01-06 23:25:32.2907 Error Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+
+[v0.21.1298.0] Jackett.Common.IndexerException: Exception (torrentgalaxy): Relogin failed
+ ---> System.Exception: Parse error
+ ---> System.Exception: Relogin failed
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1719
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 759
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1878
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 339
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 357
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 733
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+2024-01-06 23:25:33.4358 Info Torznab search in 1337x => Found 19 releases [8448ms]
+2024-01-06 23:25:33.6250 Info Torznab search in 1337x => Found 12 releases [7319ms]
+2024-01-06 23:28:31.8376 Info Jackett stopped
+2024-01-06 23:28:42.5347 Info Starting Jackett v0.21.1298
+2024-01-06 23:28:43.3477 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-06 23:28:43.3571 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-06 23:28:43.3588 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-06 23:28:43.3598 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-06 23:28:43.3608 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-06 23:28:43.3628 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-06 23:28:43.3639 Info App config/log directory: /config/Jackett
+2024-01-06 23:28:43.3654 Info Using proxy: Disabled
+2024-01-06 23:28:43.3654 Info Using FlareSolverr: No
+2024-01-06 23:28:43.3692 Info Using HTTP Client: HttpWebClient2
+2024-01-06 23:28:43.3841 Info Loading Native indexers ...
+2024-01-06 23:28:43.4431 Info Loaded 73 Native indexers.
+2024-01-06 23:28:43.4479 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-06 23:28:45.1491 Info Loaded 532 Cardigann indexers.
+2024-01-06 23:28:45.1507 Info Loaded 605 indexers in total
+2024-01-06 23:28:45.1528 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-06 23:28:45.1603 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-06 23:28:45.1626 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-06 23:28:45.1699 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-06 23:28:45.4043 Info Jackett startup finished in 3.230 s
+2024-01-06 23:36:07.0719 Info Jackett stopped
+2024-01-06 23:37:26.6412 Info Starting Jackett v0.21.1298
+2024-01-06 23:37:27.3911 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-06 23:37:27.3998 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-06 23:37:27.4018 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-06 23:37:27.4031 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-06 23:37:27.4044 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-06 23:37:27.4068 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-06 23:37:27.4082 Info App config/log directory: /config/Jackett
+2024-01-06 23:37:27.4105 Info Using proxy: Disabled
+2024-01-06 23:37:27.4119 Info Using FlareSolverr: No
+2024-01-06 23:37:27.4145 Info Using HTTP Client: HttpWebClient2
+2024-01-06 23:37:27.4305 Info Loading Native indexers ...
+2024-01-06 23:37:27.4846 Info Loaded 73 Native indexers.
+2024-01-06 23:37:27.4902 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-06 23:37:29.2569 Info Loaded 532 Cardigann indexers.
+2024-01-06 23:37:29.2582 Info Loaded 605 indexers in total
+2024-01-06 23:37:29.2607 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-06 23:37:29.2690 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-06 23:37:29.2711 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-06 23:37:29.2789 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-06 23:37:29.4400 Info Jackett startup finished in 3.093 s
+2024-01-06 23:40:59.0866 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-06 23:41:00.4101 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-06 23:41:00.4116 Info Torznab search in LimeTorrents clone => Found 20 releases [1346ms]
+2024-01-06 23:41:00.5354 Info Torznab search in TheRARBG => Found 40 releases [1472ms]
+2024-01-06 23:41:00.6504 Info Torznab search in The Pirate Bay => Found 39 releases [1584ms]
+2024-01-06 23:41:00.9980 Info Torznab search in TorrentGalaxy => Found 50 releases [1930ms]
+2024-01-06 23:41:01.5061 Info Torznab search in SkTorrent-org => Found 25 releases [2439ms]
+2024-01-06 23:41:07.6137 Info Torznab search in 1337x => Found 12 releases [8547ms]
+2024-01-06 23:42:38.2060 Info Jackett stopped
+2024-01-06 23:43:43.0793 Info Starting Jackett v0.21.1298
+2024-01-06 23:43:43.8028 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-06 23:43:43.8130 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-06 23:43:43.8151 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-06 23:43:43.8165 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-06 23:43:43.8178 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-06 23:43:43.8200 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-06 23:43:43.8214 Info App config/log directory: /config/Jackett
+2024-01-06 23:43:43.8235 Info Using proxy: Disabled
+2024-01-06 23:43:43.8250 Info Using FlareSolverr: No
+2024-01-06 23:43:43.8284 Info Using HTTP Client: HttpWebClient2
+2024-01-06 23:43:43.8451 Info Loading Native indexers ...
+2024-01-06 23:43:43.9070 Info Loaded 73 Native indexers.
+2024-01-06 23:43:43.9122 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-06 23:43:45.5526 Info Loaded 532 Cardigann indexers.
+2024-01-06 23:43:45.5541 Info Loaded 605 indexers in total
+2024-01-06 23:43:45.5565 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-06 23:43:45.5642 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-06 23:43:45.5664 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-06 23:43:45.5733 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-06 23:43:45.7281 Info Jackett startup finished in 2.932 s
+2024-01-06 23:48:13.1532 Info Jackett stopped
+2024-01-06 23:49:13.5528 Info Starting Jackett v0.21.1298
+2024-01-06 23:49:14.3433 Info Environment version: 6.0.25 (/app/Jackett/)
+2024-01-06 23:49:14.3549 Info OS version: Unix 6.4.16.0 (64bit OS) (64bit process)
+2024-01-06 23:49:14.3577 Info Jackett variant: CoreLinuxMuslAmdx64
+2024-01-06 23:49:14.3592 Info File /etc/issue: Welcome to Alpine Linux 3.18
+2024-01-06 23:49:14.3605 Info Running in Docker: Yes (image build: v0.21.1298-ls238)
+2024-01-06 23:49:14.3627 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads
+2024-01-06 23:49:14.3642 Info App config/log directory: /config/Jackett
+2024-01-06 23:49:14.3692 Info Using proxy: Disabled
+2024-01-06 23:49:14.3716 Info Using FlareSolverr: No
+2024-01-06 23:49:14.3744 Info Using HTTP Client: HttpWebClient2
+2024-01-06 23:49:14.3918 Info Loading Native indexers ...
+2024-01-06 23:49:14.4499 Info Loaded 73 Native indexers.
+2024-01-06 23:49:14.4540 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions
+2024-01-06 23:49:15.9507 Info Loaded 532 Cardigann indexers.
+2024-01-06 23:49:15.9524 Info Loaded 605 indexers in total
+2024-01-06 23:49:15.9544 Info Adding aggregate indexer ('all' indexer) ...
+2024-01-06 23:49:15.9619 Info Adding filter indexer ('type:public' indexer) ...
+2024-01-06 23:49:15.9638 Info Adding filter indexer ('type:private' indexer) ...
+2024-01-06 23:49:15.9712 Info Adding filter indexer ('type:semi-public' indexer) ...
+2024-01-06 23:49:16.1289 Info Jackett startup finished in 2.954 s
+2024-01-06 23:51:24.1204 Info Test search in TorrentGalaxy => Found 50 releases [2080ms]
+2024-01-06 23:51:27.4201 Info Test search in TheRARBG => Found 40 releases [410ms]
+2024-01-06 23:51:27.6482 Info Test search in LimeTorrents clone => Found 150 releases [644ms]
+2024-01-06 23:51:27.6779 Info Test search in TorrentGalaxy => Found 50 releases [664ms]
+2024-01-06 23:51:27.8051 Info CardigannIndexer(sktorrent-org): Relogin required
+2024-01-06 23:51:28.2695 Info Test search in The Pirate Bay => Found 50 releases [1261ms]
+2024-01-06 23:51:28.7957 Info Test search in SkTorrent-org => Found 25 releases [1789ms]
+2024-01-06 23:51:34.7674 Info Test search in 1337x => Found 80 releases [7763ms]
+2024-01-06 23:55:44.6852 Info Torznab search in TheRARBG => Found 40 releases [629ms]
+2024-01-06 23:55:44.6852 Info Torznab search in LimeTorrents clone => Found 100 releases [645ms]
+2024-01-06 23:55:45.1828 Info Torznab search in SkTorrent-org => Found 25 releases [1137ms]
+2024-01-06 23:55:45.2887 Info Torznab search in The Pirate Bay => Found 50 releases [1238ms]
+2024-01-06 23:55:45.7698 Info Torznab search in TorrentGalaxy => Found 50 releases [1710ms]
+2024-01-06 23:55:51.7734 Info Torznab search in 1337x => Found 20 releases [7742ms]
+2024-01-06 23:56:15.5406 Warn Some of the categories provided are unsupported in 1337x: 5045
+2024-01-06 23:56:15.9043 Info Torznab search in TheRARBG => Found 40 releases [365ms]
+2024-01-06 23:56:15.9191 Info Torznab search in SkTorrent-org => Found 25 releases [379ms]
+2024-01-06 23:56:15.9246 Info Torznab search in LimeTorrents clone => Found 20 releases [388ms]
+2024-01-06 23:56:16.5767 Info Torznab search in TorrentGalaxy => Found 50 releases [1037ms]
+2024-01-06 23:56:16.7484 Info Torznab search in The Pirate Bay => Found 39 releases [1209ms]
+2024-01-06 23:56:23.2555 Info Torznab search in 1337x => Found 12 releases [7716ms]
