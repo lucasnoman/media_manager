@@ -1,3 +1,4 @@
+name: media_server
 services:
   # Baixa séries
   sonarr:
@@ -11,6 +12,8 @@ services:
       - /Users/lucasnoman/Documents/Codes/Docker/Sonarr_Radarr/sonar_data:/config
       - /Users/lucasnoman/Movies/TV/Series:/tv #optional
       - /Users/lucasnoman/TorrentDownload:/downloads #optional
+    networks:
+      - gateway
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -27,6 +30,8 @@ services:
       - /Users/lucasnoman/Documents/Codes/Docker/Sonarr_Radarr/radarr_data:/config
       - /Users/lucasnoman/Movies/TV/Movies:/movies #optional
       - /Users/lucasnoman/TorrentDownload:/downloads #optional
+    networks:
+      - gateway
     ports:
       - 7878:7878
     restart: unless-stopped
@@ -43,6 +48,8 @@ services:
     volumes:
       - /Users/lucasnoman/Documents/Codes/Docker/Sonarr_Radarr/jackett_data:/config
       - /Users/lucasnoman/TorrentDownload:/downloads
+    networks:
+      - gateway
     ports:
       - 9117:9117
     restart: unless-stopped
@@ -59,6 +66,11 @@ services:
       - /Users/lucasnoman/Documents/Codes/Docker/Sonarr_Radarr/bazarr_data:/config
       - /Users/lucasnoman/Movies/TV/Movies:/movies #optional
       - /Users/lucasnoman/Movies/TV/Series:/tv #optional
+    networks:
+      - gateway
     ports:
       - 6767:6767
     restart: unless-stopped
+
+networks:
+  gateway: {}
