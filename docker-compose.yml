@@ -5,13 +5,13 @@ services:
     image: lscr.io/linuxserver/sonarr:latest
     container_name: sonarr
     environment:
-      - PUID=501
-      - PGID=20
-      - TZ=America/Sao_Paulo
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
     volumes:
-      - /Users/lucasnoman/Documents/Codes/Docker/Sonarr_Radarr/sonar_data:/config
-      - /Users/lucasnoman/Movies/TV/Series:/tv #optional
-      - /Users/lucasnoman/TorrentDownload:/downloads #optional
+      - ${CONFIG_PATH}/sonar_data:/config
+      - ${SERIES_PATH}:/tv #optional
+      - ${TORRENT_PATH}:/downloads #optional
     networks:
       - gateway
     ports:
@@ -23,13 +23,13 @@ services:
     image: lscr.io/linuxserver/radarr:latest
     container_name: radarr
     environment:
-      - PUID=501
-      - PGID=20
-      - TZ=America/Sao_Paulo
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
     volumes:
-      - /Users/lucasnoman/Documents/Codes/Docker/Sonarr_Radarr/radarr_data:/config
-      - /Users/lucasnoman/Movies/TV/Movies:/movies #optional
-      - /Users/lucasnoman/TorrentDownload:/downloads #optional
+      - ${CONFIG_PATH}/radarr_data:/config
+      - ${MOVIES_PATH}:/movies #optional
+      - ${TORRENT_PATH}:/downloads #optional
     networks:
       - gateway
     ports:
@@ -41,13 +41,13 @@ services:
     image: lscr.io/linuxserver/jackett:latest
     container_name: jackett
     environment:
-      - PUID=501
-      - PGID=20
-      - TZ=America/Sao_Paulo
-      - AUTO_UPDATE=true #optional
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - AUTO_UPDATE=true
     volumes:
-      - /Users/lucasnoman/Documents/Codes/Docker/Sonarr_Radarr/jackett_data:/config
-      - /Users/lucasnoman/TorrentDownload:/downloads
+      - ${CONFIG_PATH}/jackett_data:/config
+      - ${TORRENT_PATH}:/downloads
     networks:
       - gateway
     ports:
@@ -59,13 +59,13 @@ services:
     image: lscr.io/linuxserver/bazarr:latest
     container_name: bazarr
     environment:
-      - PUID=501
-      - PGID=20
-      - TZ=America/Sao_Paulo
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
     volumes:
-      - /Users/lucasnoman/Documents/Codes/Docker/Sonarr_Radarr/bazarr_data:/config
-      - /Users/lucasnoman/Movies/TV/Movies:/movies #optional
-      - /Users/lucasnoman/Movies/TV/Series:/tv #optional
+      - ${CONFIG_PATH}/bazarr_data:/config
+      - ${MOVIES_PATH}:/movies #optional
+      - ${SERIES_PATH}:/tv #optional
     networks:
       - gateway
     ports:
