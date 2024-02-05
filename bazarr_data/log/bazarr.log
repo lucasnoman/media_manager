@@ -1,5 +1,0 @@
-07/01/2024 00:01:20|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
-07/01/2024 00:01:20|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
-07/01/2024 00:01:28|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
-07/01/2024 00:03:00|INFO    |root                            |Throttling subf2m for 12 hours, until 24/01/07 12:03, because of: ConfigurationError. Exception info: "'User-agent config missing' ~ subf2m.py@159"|
-07/01/2024 00:03:23|INFO    |root                            |Throttling opensubtitles for 12 hours, until 24/01/07 12:03, because of: PaymentRequired. Exception info: "'' ~ opensubtitles.py@422"|
