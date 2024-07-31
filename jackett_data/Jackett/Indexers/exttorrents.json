@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://torrentgalaxy.to/"
+    "value": "https://ext.to/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": null
   },
   {
     "id": "lasterror",
@@ -18,21 +18,14 @@
     "value": null
   },
   {
-    "id": "excluderesultswhichincludeadvertisements",
-    "type": "inputbool",
-    "name": "Exclude results which include advertisements",
-    "value": false
-  },
-  {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "id",
+    "value": "age",
     "options": {
-      "id": "created",
-      "seeders": "seeders",
-      "size": "size",
-      "name": "title"
+      "age": "created",
+      "seed": "seeders",
+      "size": "size"
     }
   },
   {
@@ -44,12 +37,6 @@
       "desc": "desc",
       "asc": "asc"
     }
-  },
-  {
-    "id": "captchatext",
-    "type": "inputstring",
-    "name": "Captcha Text",
-    "value": null
   },
   {
     "id": "tags",

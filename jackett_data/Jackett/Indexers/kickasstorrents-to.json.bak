@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.to/"
+    "value": "https://kickasstorrents.to/"
   },
   {
     "id": "cookieheader",
@@ -15,27 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (1337x): Challenge detected but FlareSolverr is not configured: Challenge detected but FlareSolverr is not configured"
-  },
-  {
-    "id": "downloadlink",
-    "type": "inputselect",
-    "name": "Download link",
-    "value": "http://itorrents.org/",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
-    "id": "downloadlink(fallback)",
-    "type": "inputselect",
-    "name": "Download link (fallback)",
-    "value": "magnet:",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
+    "value": null
   },
   {
     "id": "sortrequestedfromsite",

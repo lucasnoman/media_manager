@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://www.limetorrents.to/"
+    "value": "https://bitsearch.to/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": null
   },
   {
     "id": "lasterror",
@@ -18,24 +18,10 @@
     "value": null
   },
   {
-    "id": "downloadlink",
-    "type": "inputselect",
-    "name": "Download link",
-    "value": "magnet:",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
-    "id": "downloadlink(fallback)",
-    "type": "inputselect",
-    "name": "Download link (fallback)",
-    "value": "http://itorrents.org/",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
+    "id": "prefermagnetlinks",
+    "type": "inputbool",
+    "name": "Prefer Magnet Links",
+    "value": false
   },
   {
     "id": "sortrequestedfromsite",
@@ -44,8 +30,18 @@
     "value": "date",
     "options": {
       "date": "created",
-      "seeds": "seeders",
+      "seeders": "seeders",
       "size": "size"
+    }
+  },
+  {
+    "id": "orderrequestedfromsite",
+    "type": "inputselect",
+    "name": "Order requested from site",
+    "value": "desc",
+    "options": {
+      "desc": "desc",
+      "asc": "asc"
     }
   },
   {
