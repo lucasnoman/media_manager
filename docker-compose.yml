@@ -9,9 +9,15 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - ${CONFIG_PATH}/sonar_data:/config
-      - ${SERIES_PATH}:/tv #optional
-      - ${TORRENT_PATH}:/downloads #optional
+      - type: bind
+        source: ${CONFIG_PATH}/sonar_data
+        target: /config
+      - type: bind # optional
+        source: ${SERIES_PATH}
+        target: /tv
+      - type: bind # optional
+        source: ${TORRENT_PATH}
+        target: /downloads
     networks:
       - gateway
     ports:
@@ -27,9 +33,15 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - ${CONFIG_PATH}/radarr_data:/config
-      - ${MOVIES_PATH}:/movies #optional
-      - ${TORRENT_PATH}:/downloads #optional
+      - type: bind
+        source: ${CONFIG_PATH}/radarr_data
+        target: /config
+      - type: bind #optional
+        source: ${MOVIES_PATH}
+        target: /movies
+      - type: bind #optional
+        source: ${TORRENT_PATH}
+        target: /downloads
     networks:
       - gateway
     ports:
@@ -46,8 +58,12 @@ services:
       - TZ=${TZ}
       - AUTO_UPDATE=true
     volumes:
-      - ${CONFIG_PATH}/jackett_data:/config
-      - ${TORRENT_PATH}:/downloads
+      - type: bind
+        source: ${CONFIG_PATH}/jackett_data
+        target: /config
+      - type: bind
+        source: ${TORRENT_PATH}
+        target: /downloads
     networks:
       - gateway
     ports:
@@ -63,9 +79,15 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - ${CONFIG_PATH}/bazarr_data:/config
-      - ${MOVIES_PATH}:/movies #optional
-      - ${SERIES_PATH}:/tv #optional
+      - type: bind
+        source: ${CONFIG_PATH}/bazarr_data
+        target: /config
+      - type: bind #optional
+        source: ${MOVIES_PATH}
+        target: /movies
+      - type: bind #optional
+        source: ${SERIES_PATH}
+        target: /tv
     networks:
       - gateway
     ports:

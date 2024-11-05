@@ -4,3 +4,4 @@
 *_data/MediaCover/*
 *_data/Jackett/log*
 *_data/Jackett/update*
+.env
