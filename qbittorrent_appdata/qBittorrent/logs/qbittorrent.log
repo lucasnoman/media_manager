@@ -1,0 +1,31 @@
+(N) 2024-11-04T20:25:45 - qBittorrent v5.0.1 started. Process ID: 148
+(N) 2024-11-04T20:25:45 - Using config directory: /config/qBittorrent
+(N) 2024-11-04T20:25:45 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2024-11-04T20:25:45 - Peer ID: "-qB5010-"
+(I) 2024-11-04T20:25:45 - HTTP User-Agent: "qBittorrent/5.0.1"
+(I) 2024-11-04T20:25:45 - Distributed Hash Table (DHT) support: ON
+(I) 2024-11-04T20:25:45 - Local Peer Discovery support: ON
+(I) 2024-11-04T20:25:45 - Peer Exchange (PeX) support: ON
+(I) 2024-11-04T20:25:45 - Anonymous mode: OFF
+(I) 2024-11-04T20:25:45 - Encryption support: ON
+(I) 2024-11-04T20:25:45 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2024-11-04T20:25:45 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2024-11-04T20:25:45 - Successfully listening on IP. IP: "172.20.0.2". Port: "TCP/6881"
+(I) 2024-11-04T20:25:45 - Successfully listening on IP. IP: "172.20.0.2". Port: "UTP/6881"
+(I) 2024-11-04T20:25:45 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2024-11-04T20:25:45 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2024-11-04T20:25:45 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2024-11-04T20:25:46 - Using built-in WebUI.
+(W) 2024-11-04T20:25:46 - Couldn't load WebUI translation for selected locale (C).
+(N) 2024-11-04T20:25:46 - WebUI: Now listening on IP: *, port: 8080
+(I) 2024-11-04T20:25:46 - Detected external IP. IP: "177.137.82.147"
+(I) 2024-11-04T20:25:49 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Oct 31 23:25:09 2024.
+(I) 2024-11-04T20:25:49 - Successfully updated IP geolocation database.
+(W) 2024-11-04T20:27:17 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:172.20.0.1, username: admin
+(W) 2024-11-04T20:27:22 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:172.20.0.1, username: root
+(W) 2024-11-04T20:27:36 - WebAPI login failure. Reason: invalid credentials, attempt count: 3, IP: ::ffff:172.20.0.1, username: admin
+(N) 2024-11-04T20:28:47 - WebAPI login success. IP: ::ffff:172.20.0.1
+(N) 2024-11-04T20:30:09 - WebUI translation for selected locale (en) has been successfully loaded.
+(W) 2024-11-04T20:45:42 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:172.20.0.1, username: admin
+(N) 2024-11-04T20:46:26 - WebAPI login success. IP: ::ffff:172.20.0.1
+(N) 2024-11-04T21:23:59 - System wake-up event detected. Re-announcing to all the trackers...
