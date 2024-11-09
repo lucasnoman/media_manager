@@ -29,3 +29,141 @@
 (W) 2024-11-04T20:45:42 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:172.20.0.1, username: admin
 (N) 2024-11-04T20:46:26 - WebAPI login success. IP: ::ffff:172.20.0.1
 (N) 2024-11-04T21:23:59 - System wake-up event detected. Re-announcing to all the trackers...
+(N) 2024-11-04T22:00:15 - qBittorrent termination initiated
+(N) 2024-11-04T22:00:15 - Saving resume data completed.
+(N) 2024-11-04T22:00:15 - BitTorrent session successfully finished.
+(N) 2024-11-04T22:00:15 - qBittorrent is now ready to exit
+(N) 2024-11-04T22:13:37 - qBittorrent v5.0.1 started. Process ID: 146
+(N) 2024-11-04T22:13:37 - Using config directory: /config/qBittorrent
+(N) 2024-11-04T22:13:37 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2024-11-04T22:13:37 - Peer ID: "-qB5010-"
+(I) 2024-11-04T22:13:37 - HTTP User-Agent: "qBittorrent/5.0.1"
+(I) 2024-11-04T22:13:37 - Distributed Hash Table (DHT) support: ON
+(I) 2024-11-04T22:13:37 - Local Peer Discovery support: ON
+(I) 2024-11-04T22:13:37 - Peer Exchange (PeX) support: ON
+(I) 2024-11-04T22:13:37 - Anonymous mode: OFF
+(I) 2024-11-04T22:13:37 - Encryption support: ON
+(I) 2024-11-04T22:13:37 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2024-11-04T22:13:37 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2024-11-04T22:13:37 - Successfully listening on IP. IP: "172.19.0.3". Port: "TCP/6881"
+(I) 2024-11-04T22:13:37 - Successfully listening on IP. IP: "172.19.0.3". Port: "UTP/6881"
+(I) 2024-11-04T22:13:37 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2024-11-04T22:13:37 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2024-11-04T22:13:37 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Oct 31 23:25:09 2024.
+(N) 2024-11-04T22:13:37 - Using built-in WebUI.
+(N) 2024-11-04T22:13:37 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2024-11-04T22:13:37 - WebUI: Now listening on IP: *, port: 8080
+(I) 2024-11-04T22:13:38 - Detected external IP. IP: "177.137.82.147"
+(N) 2024-11-04T22:13:55 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2024-11-04T22:34:13 - qBittorrent termination initiated
+(N) 2024-11-04T22:34:13 - Saving resume data completed.
+(N) 2024-11-04T22:34:13 - BitTorrent session successfully finished.
+(N) 2024-11-04T22:34:13 - qBittorrent is now ready to exit
+(N) 2024-11-09T07:06:49 - qBittorrent v5.0.1 started. Process ID: 145
+(N) 2024-11-09T07:06:49 - Using config directory: /config/qBittorrent
+(N) 2024-11-09T07:06:49 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2024-11-09T07:06:49 - Peer ID: "-qB5010-"
+(I) 2024-11-09T07:06:49 - HTTP User-Agent: "qBittorrent/5.0.1"
+(I) 2024-11-09T07:06:49 - Distributed Hash Table (DHT) support: ON
+(I) 2024-11-09T07:06:49 - Local Peer Discovery support: ON
+(I) 2024-11-09T07:06:49 - Peer Exchange (PeX) support: ON
+(I) 2024-11-09T07:06:49 - Anonymous mode: OFF
+(I) 2024-11-09T07:06:49 - Encryption support: ON
+(I) 2024-11-09T07:06:49 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2024-11-09T07:06:49 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2024-11-09T07:06:49 - Successfully listening on IP. IP: "172.19.0.3". Port: "TCP/6881"
+(I) 2024-11-09T07:06:49 - Successfully listening on IP. IP: "172.19.0.3". Port: "UTP/6881"
+(I) 2024-11-09T07:06:49 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2024-11-09T07:06:49 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2024-11-09T07:06:49 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Oct 31 23:25:09 2024.
+(N) 2024-11-09T07:06:49 - Using built-in WebUI.
+(N) 2024-11-09T07:06:49 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2024-11-09T07:06:49 - WebUI: Now listening on IP: *, port: 8080
+(I) 2024-11-09T07:06:50 - Detected external IP. IP: "177.137.82.147"
+(N) 2024-11-09T07:07:02 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2024-11-09T11:24:46 - System wake-up event detected. Re-announcing to all the trackers...
+(N) 2024-11-09T11:40:32 - qBittorrent termination initiated
+(N) 2024-11-09T11:40:33 - Saving resume data completed.
+(N) 2024-11-09T11:40:33 - BitTorrent session successfully finished.
+(N) 2024-11-09T11:40:33 - qBittorrent is now ready to exit
+(N) 2024-11-09T11:41:54 - qBittorrent v5.0.1 started. Process ID: 148
+(N) 2024-11-09T11:41:54 - Using config directory: /config/qBittorrent
+(N) 2024-11-09T11:41:54 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2024-11-09T11:41:54 - Peer ID: "-qB5010-"
+(I) 2024-11-09T11:41:54 - HTTP User-Agent: "qBittorrent/5.0.1"
+(I) 2024-11-09T11:41:54 - Distributed Hash Table (DHT) support: ON
+(I) 2024-11-09T11:41:54 - Local Peer Discovery support: ON
+(I) 2024-11-09T11:41:54 - Peer Exchange (PeX) support: ON
+(I) 2024-11-09T11:41:54 - Anonymous mode: OFF
+(I) 2024-11-09T11:41:54 - Encryption support: ON
+(I) 2024-11-09T11:41:54 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2024-11-09T11:41:54 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2024-11-09T11:41:54 - Successfully listening on IP. IP: "172.19.0.4". Port: "TCP/6881"
+(I) 2024-11-09T11:41:54 - Successfully listening on IP. IP: "172.19.0.4". Port: "UTP/6881"
+(I) 2024-11-09T11:41:54 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2024-11-09T11:41:54 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2024-11-09T11:41:54 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Oct 31 23:25:09 2024.
+(N) 2024-11-09T11:41:54 - Using built-in WebUI.
+(N) 2024-11-09T11:41:54 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2024-11-09T11:41:54 - WebUI: Now listening on IP: *, port: 8080
+(I) 2024-11-09T11:41:55 - Detected external IP. IP: "177.137.82.147"
+(N) 2024-11-09T11:42:10 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2024-11-09T12:06:26 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2024-11-09T12:07:28 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2024-11-09T12:09:19 - Added new torrent. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(W) 2024-11-09T12:09:35 - File error alert. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv". File: "/home/lucasnoman/Downloads/Torrent/Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv". Reason: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv file_open (/home/lucasnoman/Downloads/Torrent/Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv) error: Permission denied"
+(N) 2024-11-09T12:13:35 - Torrent removed. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T12:13:35 - Torrent content removed. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T12:15:00 - Added new torrent. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(W) 2024-11-09T12:15:03 - File error alert. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv". File: "/home/lucasnoman/Downloads/Torrent/Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv". Reason: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv file_open (/home/lucasnoman/Downloads/Torrent/Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv) error: Permission denied"
+(N) 2024-11-09T12:15:38 - Torrent removed. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T12:15:38 - Torrent content removed. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T12:21:25 - Added new torrent. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(W) 2024-11-09T12:21:34 - File error alert. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv". File: "/home/lucasnoman/Downloads/Torrent/Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv". Reason: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv file_open (/home/lucasnoman/Downloads/Torrent/Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv) error: Permission denied"
+(N) 2024-11-09T12:22:26 - Added new torrent. Torrent: "Star Wars 1977 D 77 v2 4 2160p UHD BluRay x265 HEVC DTS SARTRE"
+(W) 2024-11-09T12:22:31 - File error alert. Torrent: "Star Wars 1977 D 77 v2 4 2160p UHD BluRay x265 HEVC DTS SARTRE". File: "/home/lucasnoman/Downloads/Torrent/Star.Wars.1977.D+77.v2.4.2160p.UHD.BluRay.x265.HEVC.DTS-SARTRE/Star.Wars.1977.D+77.v2.4.2160p.UHD.BluRay.x265.HEVC.DTS-SARTRE.mkv". Reason: "Star.Wars.1977.D+77.v2.4.2160p.UHD.BluRay.x265.HEVC.DTS-SARTRE file_open (/home/lucasnoman/Downloads/Torrent/Star.Wars.1977.D+77.v2.4.2160p.UHD.BluRay.x265.HEVC.DTS-SARTRE/Star.Wars.1977.D+77.v2.4.2160p.UHD.BluRay.x265.HEVC.DTS-SARTRE.mkv) error: Permission denied"
+(W) 2024-11-09T12:31:45 - File error alert. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv". File: "/home/lucasnoman/Downloads/Torrent/Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv". Reason: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv file_open (/home/lucasnoman/Downloads/Torrent/Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv) error: Permission denied"
+(W) 2024-11-09T12:32:31 - File error alert. Torrent: "Star Wars 1977 D 77 v2 4 2160p UHD BluRay x265 HEVC DTS SARTRE". File: "/home/lucasnoman/Downloads/Torrent/Star.Wars.1977.D+77.v2.4.2160p.UHD.BluRay.x265.HEVC.DTS-SARTRE/Star.Wars.1977.D+77.v2.4.2160p.UHD.BluRay.x265.HEVC.DTS-SARTRE.mkv". Reason: "Star.Wars.1977.D+77.v2.4.2160p.UHD.BluRay.x265.HEVC.DTS-SARTRE file_open (/home/lucasnoman/Downloads/Torrent/Star.Wars.1977.D+77.v2.4.2160p.UHD.BluRay.x265.HEVC.DTS-SARTRE/Star.Wars.1977.D+77.v2.4.2160p.UHD.BluRay.x265.HEVC.DTS-SARTRE.mkv) error: Permission denied"
+(N) 2024-11-09T12:38:16 - Torrent removed. Torrent: "Star Wars 1977 D 77 v2 4 2160p UHD BluRay x265 HEVC DTS SARTRE"
+(N) 2024-11-09T12:38:16 - Torrent content removed. Torrent: "Star Wars 1977 D 77 v2 4 2160p UHD BluRay x265 HEVC DTS SARTRE"
+(N) 2024-11-09T12:38:16 - Torrent removed. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T12:38:16 - Torrent content removed. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T12:42:14 - Added new torrent. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T12:54:36 - Torrent removed. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T12:54:36 - Torrent content removed. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T13:01:30 - Added new torrent. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T13:02:40 - qBittorrent termination initiated
+(N) 2024-11-09T13:02:40 - Saving resume data completed.
+(N) 2024-11-09T13:02:40 - BitTorrent session successfully finished.
+(N) 2024-11-09T13:02:40 - qBittorrent is now ready to exit
+(N) 2024-11-09T13:02:53 - qBittorrent v5.0.1 started. Process ID: 146
+(N) 2024-11-09T13:02:53 - Using config directory: /config/qBittorrent
+(N) 2024-11-09T13:02:53 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2024-11-09T13:02:54 - Peer ID: "-qB5010-"
+(I) 2024-11-09T13:02:54 - HTTP User-Agent: "qBittorrent/5.0.1"
+(I) 2024-11-09T13:02:54 - Distributed Hash Table (DHT) support: ON
+(I) 2024-11-09T13:02:54 - Local Peer Discovery support: ON
+(I) 2024-11-09T13:02:54 - Peer Exchange (PeX) support: ON
+(I) 2024-11-09T13:02:54 - Anonymous mode: OFF
+(I) 2024-11-09T13:02:54 - Encryption support: ON
+(I) 2024-11-09T13:02:54 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2024-11-09T13:02:54 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2024-11-09T13:02:54 - Successfully listening on IP. IP: "172.19.0.5". Port: "TCP/6881"
+(I) 2024-11-09T13:02:54 - Successfully listening on IP. IP: "172.19.0.5". Port: "UTP/6881"
+(I) 2024-11-09T13:02:54 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2024-11-09T13:02:54 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2024-11-09T13:02:54 - Restored torrent. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(I) 2024-11-09T13:02:54 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Oct 31 23:25:09 2024.
+(N) 2024-11-09T13:02:54 - Using built-in WebUI.
+(N) 2024-11-09T13:02:54 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2024-11-09T13:02:54 - WebUI: Now listening on IP: *, port: 8080
+(W) 2024-11-09T13:02:54 - Couldn't download IP geolocation database file. Reason: An unknown network-related error was detected
+(N) 2024-11-09T13:03:15 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2024-11-09T13:03:16 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2024-11-09T13:03:26 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2024-11-09T13:03:35 - Torrent removed. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T13:03:35 - Torrent content removed. Torrent: "Godzilla.Minus.One.2023.Japanese.REPACK.2160p.Blu-Ray.REMUX.DD+5.1+TrueHD.7.1.Atmos.HDR.HEVC-TheBiscuitMan.mkv"
+(N) 2024-11-09T13:03:46 - qBittorrent termination initiated
+(N) 2024-11-09T13:03:46 - Saving resume data completed.
+(N) 2024-11-09T13:03:46 - BitTorrent session successfully finished.
+(N) 2024-11-09T13:03:46 - qBittorrent is now ready to exit
