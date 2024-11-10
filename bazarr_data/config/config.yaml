@@ -19,7 +19,7 @@ anticaptcha:
 assrt:
   token: ''
 auth:
-  apikey: c83c52af5973d87e050d2ed484b16492
+  apikey: 37011ebddc3277c96b4383d2536da689
   password: ''
   type: null
   username: ''
@@ -58,7 +58,7 @@ general:
   branch: master
   chmod: '0640'
   chmod_enabled: false
-  days_to_upgrade_subs: 7
+  days_to_upgrade_subs: 30
   debug: false
   default_und_audio_lang: ''
   default_und_embedded_subtitles_lang: ''
@@ -68,26 +68,26 @@ general:
   enabled_integrations: []
   enabled_providers:
   - opensubtitlescom
-  - podnapisi
-  - gestdown
+  - legendasnet
   - embeddedsubtitles
-  - supersubtitles
-  - yifysubtitles
-  - opensubtitles
-  - napiprojekt
+  - animetosho
+  - subdl
   - subf2m
+  - supersubtitles
+  - tvsubtitles
   - wizdom
-  flask_secret_key: 486c7ac0f5fe148b85c4259cdf663f66
+  - yifysubtitles
+  flask_secret_key: 3b307110773ccdbf73256361a84d6960
   hi_extension: hi
   ignore_ass_subs: false
   ignore_pgs_subs: false
   ignore_vobsub_subs: false
-  ip: 0.0.0.0
+  ip: '*'
   language_equals: []
   minimum_score: 90
   minimum_score_movie: 70
-  movie_default_enabled: false
-  movie_default_profile: ''
+  movie_default_enabled: true
+  movie_default_profile: 1
   movie_tag_enabled: false
   multithreading: true
   page_size: 25
@@ -99,8 +99,8 @@ general:
   postprocessing_threshold: 90
   postprocessing_threshold_movie: 70
   remove_profile_tags: []
-  serie_default_enabled: false
-  serie_default_profile: ''
+  serie_default_enabled: true
+  serie_default_profile: 1
   serie_tag_enabled: false
   single_language: false
   skip_hashing: false
@@ -109,7 +109,7 @@ general:
   subzero_mods: ''
   theme: auto
   upgrade_frequency: 12
-  upgrade_manual: true
+  upgrade_manual: false
   upgrade_subs: true
   use_embedded_subs: true
   use_postprocessing: false
@@ -142,8 +142,8 @@ legendasdivx:
   skip_wrong_fps: false
   username: ''
 legendasnet:
-  password: ''
-  username: ''
+  password: '%8y&$E@4R0p$85'
+  username: lucas_mcd2@hotmail.com
 log:
   exclude_filter: ''
   ignore_case: false
@@ -165,12 +165,12 @@ napisy24:
   password: ''
   username: ''
 opensubtitles:
-  password: Al4035908/240596
+  password: ''
   skip_wrong_fps: false
   ssl: false
   timeout: 15
   use_tag_search: false
-  username: lucasnoman
+  username: ''
   vip: false
 opensubtitlescom:
   include_ai_translated: false
@@ -204,7 +204,7 @@ radarr:
   full_update_day: 6
   full_update_hour: 4
   http_timeout: 60
-  ip: 192.168.1.100
+  ip: 192.168.2.173
   movies_sync: 60
   only_monitored: false
   port: 7878
@@ -228,7 +228,6 @@ sonarr:
   apikey: 9faba0ed88ee4093a0b6c7daccd6db20
   base_url: ''
   defer_search_signalr: false
-  episodes_sync: 15
   exclude_season_zero: false
   excluded_series_types: []
   excluded_tags: []
@@ -236,22 +235,19 @@ sonarr:
   full_update_day: 6
   full_update_hour: 4
   http_timeout: 60
-  ip: 192.168.1.100
+  ip: 192.168.2.173
   only_monitored: false
   port: 8989
-  series_sync: 15
+  series_sync: 60
   ssl: false
   sync_only_monitored_episodes: false
   sync_only_monitored_series: false
   use_ffprobe_cache: true
 subdl:
-  api_key: ''
+  api_key: ChWR5hpeSs-rDOdDL8XbTQjra5-0O3Sj
 subf2m:
   user_agent: ''
   verify_ssl: true
-subscene:
-  password: ''
-  username: ''
 subsync:
   checker:
     blacklisted_languages: []
@@ -263,9 +259,9 @@ subsync:
   no_fix_framerate: true
   subsync_movie_threshold: 70
   subsync_threshold: 90
-  use_subsync: false
-  use_subsync_movie_threshold: false
-  use_subsync_threshold: false
+  use_subsync: true
+  use_subsync_movie_threshold: true
+  use_subsync_threshold: true
 titlovi:
   password: ''
   username: ''

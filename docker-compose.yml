@@ -110,6 +110,21 @@ services:
       - 9696:9696
     restart: unless-stopped
 
+  # Solicitante de mídia
+  overseerr:
+    image: sctx/overseerr:latest
+    container_name: overseerr
+    environment:
+      - LOG_LEVEL=debug
+      - TZ=${TZ}
+    ports:
+      - 5055:5055
+    volumes:
+      - type: bind
+        source: ${CONFIG_PATH}/overseerr_data
+        target: /app/config
+    restart: unless-stopped
+
   # Servidor de torrent
   # qbittorrent:
   #   image: lscr.io/linuxserver/qbittorrent:latest
