@@ -15,4 +15,5 @@
   <AuthenticationRequired>DisabledForLocalAddresses</AuthenticationRequired>
   <SslCertPath></SslCertPath>
   <SslCertPassword></SslCertPassword>
+  <Theme>auto</Theme>
 </Config>

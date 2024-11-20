@@ -16,11 +16,11 @@
   "hideAvailable": false,
   "localLogin": true,
   "newPlexLogin": true,
-  "region": "",
+  "region": "BR",
   "originalLanguage": "",
   "trustProxy": false,
   "partialRequestsEnabled": true,
-  "locale": "en"
+  "locale": "pt-BR"
  },
  "plex": {
   "name": "lucas-aspiree5573",
@@ -33,21 +33,21 @@
     "name": "Filmes",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1731272400134
+    "lastScan": 1732141800314
    },
    {
     "id": "3",
     "name": "Animes",
     "enabled": true,
     "type": "show",
-    "lastScan": 1731272400186
+    "lastScan": 1732141800370
    },
    {
     "id": "2",
     "name": "Series",
     "enabled": true,
     "type": "show",
-    "lastScan": 1731272400240
+    "lastScan": 1732141800423
    }
   ],
   "machineId": "e4625190176b68b8e447bfb821deda2360a96a69"
