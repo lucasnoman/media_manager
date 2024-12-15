@@ -13,14 +13,17 @@ legacylinks:
 caps:
   categorymappings:
     - {id: 1, cat: Movies, desc: "Movie"}
+    - {id: 8, cat: Other, desc: "Other"}
     - {id: 2, cat: TV, desc: "TV Show"}
     - {id: 3, cat: Movies/Other, desc: "FANRES"}
     - {id: 5, cat: Movies/Other, desc: "Trailer"}
+    - {id: 9, cat: Audio/Video, desc: "Live Concert"}
 
   modes:
     search: [q]
     tv-search: [q, season, ep, imdbid, tvdbid, tmdbid]
     movie-search: [q, imdbid, tmdbid]
+    music-search: [q]
 
 settings:
   - name: apikey
@@ -62,7 +65,6 @@ settings:
 login:
   path: /api/torrents
   method: get
-  inputs: {} # TODO: remove in v10
   error:
     - selector: a[href*="/login"]
       message:
@@ -189,4 +191,4 @@ search:
     minimumseedtime:
       # 7 days (as seconds = 7 x 24 x 60 x 60)
       text: 604800
-# json UNIT3D 8.3.3
+# json UNIT3D 8.3.4
