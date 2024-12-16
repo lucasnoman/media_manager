@@ -33,21 +33,21 @@
     "name": "Filmes",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1734225300288
+    "lastScan": 1734308104367
    },
    {
     "id": "3",
     "name": "Animes",
     "enabled": true,
     "type": "show",
-    "lastScan": 1734225300353
+    "lastScan": 1734308104447
    },
    {
     "id": "2",
     "name": "Series",
     "enabled": true,
     "type": "show",
-    "lastScan": 1734225300404
+    "lastScan": 1734308104497
    }
   ],
   "machineId": "e4625190176b68b8e447bfb821deda2360a96a69"
@@ -80,14 +80,15 @@
    "port": 8989,
    "apiKey": "9faba0ed88ee4093a0b6c7daccd6db20",
    "useSsl": false,
+   "baseUrl": "",
    "activeProfileId": 5,
    "activeLanguageProfileId": 1,
    "activeProfileName": "Ultra-HD",
-   "activeDirectory": "/tv",
+   "activeDirectory": "/series",
    "activeAnimeProfileId": 4,
    "activeAnimeLanguageProfileId": 1,
    "activeAnimeProfileName": "HD-1080p",
-   "activeAnimeDirectory": "/tv",
+   "activeAnimeDirectory": "/animes",
    "tags": [],
    "animeTags": [],
    "is4k": true,
