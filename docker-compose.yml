@@ -14,7 +14,7 @@ services:
         target: /config
       - type: bind # optional
         source: ${SERIES_PATH}
-        target: /tv
+        target: /series
       - type: bind # optional
         source: ${ANIMES_PATH}
         target: /animes
@@ -68,7 +68,7 @@ services:
         target: /movies
       - type: bind # optional
         source: ${SERIES_PATH}
-        target: /tv
+        target: /series
       - type: bind # optional
         source: ${ANIMES_PATH}
         target: /animes
