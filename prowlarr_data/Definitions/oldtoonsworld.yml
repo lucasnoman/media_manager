@@ -1,6 +1,6 @@
 ---
 id: oldtoonsworld
-name: Oldtoons
+name: Oldtoons (API)
 description: "Oldtoons is a Private Torrent Tracker for Cartoon MOVIES / TV / GENERAL"
 language: en-US
 type: private
@@ -191,4 +191,4 @@ search:
     minimumseedtime:
       # 2 days (as seconds = 2 x 24 x 60 x 60)
       text: 172800
-# json UNIT3D 8.3.3
+# json UNIT3D 8.3.5

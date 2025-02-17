@@ -161,6 +161,9 @@ movie_scores:
   title: 60
   video_codec: 2
   year: 30
+napiprojekt:
+  only_authors: false
+  only_real_names: false
 napisy24:
   password: ''
   username: ''
@@ -204,7 +207,7 @@ radarr:
   full_update_day: 6
   full_update_hour: 4
   http_timeout: 60
-  ip: 192.168.2.173
+  ip: 192.168.0.100
   movies_sync: 60
   only_monitored: false
   port: 7878
@@ -235,7 +238,7 @@ sonarr:
   full_update_day: 6
   full_update_hour: 4
   http_timeout: 60
-  ip: 192.168.2.173
+  ip: 192.168.0.100
   only_monitored: false
   port: 8989
   series_sync: 60
@@ -246,7 +249,8 @@ sonarr:
 subdl:
   api_key: ChWR5hpeSs-rDOdDL8XbTQjra5-0O3Sj
 subf2m:
-  user_agent: ''
+  user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML,
+    like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.2903.86
   verify_ssl: true
 subsync:
   checker:
@@ -268,10 +272,12 @@ titlovi:
 titulky:
   approved_only: false
   password: ''
+  skip_wrong_fps: false
   username: ''
 whisperai:
   endpoint: http://127.0.0.1:9000
   loglevel: INFO
+  pass_video_name: false
   response: 5
   timeout: 3600
 xsubs:

@@ -4,16 +4,18 @@ name: SiamBIT
 description: "SiamBIT is a THAI Private Torrent Tracker for GENERAL"
 language: th-TH
 type: private
-encoding: tis-620
+encoding: UTF-8
 requestDelay: 2
 links:
-  - https://bearbit.co/
+  - https://bearbit.org/
 legacylinks:
   - https://www.siambit.me/
   - https://siambit.io/
   - https://thaibit.net/
+  - https://bearbit.co/
 
 caps:
+  # dont forget to update the path categories in the search block
   categorymappings:
     - {id: 1, cat: Other, desc: "@พระมหากษัตริย์ (@King)", default: true}
     - {id: 75, cat: PC/0day, desc: "OS วินโดว์/ออฟฟิศ (OS Windows/Office)", default: true}

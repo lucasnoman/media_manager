@@ -10,6 +10,7 @@ links:
   - https://infire.si/
 
 caps:
+  # dont forget to update the path categories in the search block
   categorymappings:
     # Filmi
     - {id: 14, cat: Movies/SD, desc: "XviD", default: true}
@@ -158,6 +159,9 @@ search:
     gold: "{{ if .Config.freeleech }}3{{ else }}0{{ end }}"
     order: "{{ .Config.sort }}"
     by: "{{ .Config.type }}"
+
+  headers:
+    Referer: ["{{ .Config.sitelink }}torrents.php"]
 
   rows:
     selector: table.mg-b-0 > tbody > tr:has(a[href^="download.php?id="])

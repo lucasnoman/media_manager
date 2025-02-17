@@ -24,39 +24,43 @@
  },
  "plex": {
   "name": "lucas-aspiree5573",
-  "ip": "192-168-2-173.9c14308fb41b41b68b8646206dbe6342.plex.direct",
+  "ip": "192.168.0.100",
   "port": 32400,
-  "useSsl": true,
+  "useSsl": false,
   "libraries": [
    {
     "id": "1",
     "name": "Filmes",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1734308104367
+    "lastScan": 1739792100052
    },
    {
     "id": "3",
     "name": "Animes",
     "enabled": true,
     "type": "show",
-    "lastScan": 1734308104447
+    "lastScan": 1739792100056
    },
    {
     "id": "2",
     "name": "Series",
     "enabled": true,
     "type": "show",
-    "lastScan": 1734308104497
+    "lastScan": 1739792100060
    }
   ],
   "machineId": "e4625190176b68b8e447bfb821deda2360a96a69"
  },
- "tautulli": {},
+ "tautulli": {
+  "hostname": "192.168.0.100",
+  "port": 8181,
+  "apiKey": "14a2a0dd238c41e19b39e0c02017dc85"
+ },
  "radarr": [
   {
    "name": "Radarr",
-   "hostname": "192.168.2.173",
+   "hostname": "192.168.0.100",
    "port": 7878,
    "apiKey": "b58f0f30e97a4e93bac6e2c5868d00ea",
    "useSsl": false,
@@ -76,11 +80,10 @@
  "sonarr": [
   {
    "name": "Sonarr",
-   "hostname": "192.168.2.173",
+   "hostname": "192.168.0.100",
    "port": 8989,
    "apiKey": "9faba0ed88ee4093a0b6c7daccd6db20",
    "useSsl": false,
-   "baseUrl": "",
    "activeProfileId": 5,
    "activeLanguageProfileId": 1,
    "activeProfileName": "Ultra-HD",

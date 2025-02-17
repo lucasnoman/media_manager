@@ -12,13 +12,16 @@ caps:
   categorymappings:
     - {id: 1, cat: Movies, desc: "Movies"}
     - {id: 2, cat: TV, desc: "TV"}
-    - {id: 8, cat: TV/Anime, desc: "Anime"}
-    - {id: 7, cat: Audio, desc: "Music"}
-    - {id: 4, cat: Console, desc: "Games"}
+    - {id: 3, cat: TV/Anime, desc: "Anime"}
+    - {id: 4, cat: Audio, desc: "Music"}
+    - {id: 5, cat: Console, desc: "Games"}
     - {id: 6, cat: PC, desc: "Apps"}
-    - {id: 9, cat: Books/Technical, desc: "Books/E-Learning"}
-    - {id: 10, cat: Books/Comics, desc: "Manga"}
-    - {id: 11, cat: XXX, desc: "XXX"}
+    - {id: 7, cat: Books/Technical, desc: "Books"}
+    - {id: 8, cat: Audio/Audiobook, desc: "Audiobook"}
+    - {id: 11, cat: Books/Comics, desc: "Comics"}
+    - {id: 12, cat: Books/Mags, desc: "Magazine"}
+    - {id: 9, cat: Books/Comics, desc: "Manga"}
+    - {id: 10, cat: XXX, desc: "XXX"}
 
   modes:
     search: [q]
@@ -59,6 +62,10 @@ settings:
     options:
       desc: desc
       asc: asc
+  - name: info_activity
+    type: info
+    label: Account Inactivity
+    default: "To not get disabled, you are required to login to the site at least once every 30 days or be actively seeding at least 2 torrent."
 
 login:
   path: /api/torrents
@@ -136,6 +143,8 @@ search:
       filters:
         - name: re_replace
           args: ["(?i)(Science Fiction)", "Science_Fiction"]
+        - name: re_replace
+          args: ["(?i)(TV Movie)", "TV_Movie"]
         - name: replace
           args: [" & ", "_&_"]
     description:
@@ -151,7 +160,7 @@ search:
       selector: created_at
       filters:
         - name: append
-          args: " -10:00" # HAST
+          args: " +00:00" # GMT
         - name: dateparse
           args: "MM/dd/yyyy HH:mm:ss zzz"
     size:
@@ -181,9 +190,7 @@ search:
         True: 2 # double
     uploadvolumefactor:
       text: "{{ if .Result._featured }}2{{ else }}{{ .Result.uploadvolumefactor_double_upload }}{{ end }}"
-    minimumratio:
-      text: 7.0
     minimumseedtime:
       # 7 days (as seconds = 7 x 24 x 60 x 60)
       text: 604800
-# json UNIT3D 8.3.4
+# json UNIT3D 8.3.6

@@ -1,6 +1,6 @@
 ---
 id: uploadcx
-name: upload.cx
+name: upload.cx (API)
 description: "upload.cx (ULCX) is a Private Torrent Tracker for MOVIES / TV"
 language: en-US
 type: private
@@ -185,4 +185,4 @@ search:
     minimumseedtime:
       # 2 days (as seconds = 2 x 24 x 60 x 60)
       text: 172800
-# json UNIT3D 8.3.3
+# json UNIT3D 8.3.6
