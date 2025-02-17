@@ -19,7 +19,7 @@ services:
         source: ${ANIMES_PATH}
         target: /animes
       - type: bind # optional
-        source: ${TORRENT_PATH}
+        source: ${TORRENT_PATH}/sonarr
         target: /downloads
     networks:
       - gateway
@@ -43,7 +43,7 @@ services:
         source: ${MOVIES_PATH}
         target: /movies
       - type: bind # optional
-        source: ${TORRENT_PATH}
+        source: ${TORRENT_PATH}/radarr
         target: /downloads
     networks:
       - gateway
