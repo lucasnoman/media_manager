@@ -92,8 +92,14 @@ general:
   multithreading: true
   page_size: 25
   parse_embedded_audio_track: false
-  path_mappings: []
-  path_mappings_movie: []
+  path_mappings:
+  - - /data/media/series/
+    - /series/
+  - - /data/media/animes/
+    - /animes/
+  path_mappings_movie:
+  - - /data/media/movies/
+    - /movies/
   port: 6767
   postprocessing_cmd: ''
   postprocessing_threshold: 90
