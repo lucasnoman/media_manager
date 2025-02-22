@@ -9,18 +9,9 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - type: bind
-        source: ${CONFIG_PATH}/sonar_data
-        target: /config
-      - type: bind # optional
-        source: ${SERIES_PATH}
-        target: /series
-      - type: bind # optional
-        source: ${ANIMES_PATH}
-        target: /animes
-      - type: bind # optional
-        source: ${TORRENT_PATH}/sonarr
-        target: /downloads
+      - ${CONFIG_PATH}/sonar_data:/config
+      - ${HOST_MEDIA_PATH}:${CONTAINER_MEDIA_PATH}
+      - ${HOST_TORRENT_PATH}:/data/torrents
     networks:
       - gateway
     ports:
@@ -36,15 +27,9 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - type: bind
-        source: ${CONFIG_PATH}/radarr_data
-        target: /config
-      - type: bind # optional
-        source: ${MOVIES_PATH}
-        target: /movies
-      - type: bind # optional
-        source: ${TORRENT_PATH}/radarr
-        target: /downloads
+      - ${CONFIG_PATH}/radarr_data:/config
+      - ${HOST_MEDIA_PATH}:${CONTAINER_MEDIA_PATH}
+      - ${HOST_TORRENT_PATH}:/data/torrents
     networks:
       - gateway
     ports:
@@ -60,18 +45,10 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - type: bind
-        source: ${CONFIG_PATH}/bazarr_data
-        target: /config
-      - type: bind # optional
-        source: ${MOVIES_PATH}
-        target: /movies
-      - type: bind # optional
-        source: ${SERIES_PATH}
-        target: /series
-      - type: bind # optional
-        source: ${ANIMES_PATH}
-        target: /animes
+      - ${CONFIG_PATH}/bazarr_data:/config
+      - ${HOST_MEDIA_PATH}/movies:/movies
+      - ${HOST_MEDIA_PATH}/series:/series
+      - ${HOST_MEDIA_PATH}/animes:/animes
     networks:
       - gateway
     ports:
@@ -87,15 +64,9 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - type: bind
-        source: ${CONFIG_PATH}/readarr_data
-        target: /config
-      - type: bind # optional
-        source: ${BOOKS_PATH}
-        target: /books
-      - type: bind # optional
-        source: ${TORRENT_PATH}
-        target: /downloads
+      - ${CONFIG_PATH}/readarr_data:/config
+      - ${HOST_MEDIA_PATH}/books:/books
+      - ${HOST_TORRENT_PATH}:/data/torrents
     ports:
       - 8787:8787
     restart: unless-stopped
@@ -109,9 +80,7 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     volumes:
-      - type: bind
-        source: ${CONFIG_PATH}/prowlarr_data
-        target: /config
+      - ${CONFIG_PATH}/prowlarr_data:/config
     ports:
       - 9696:9696
     restart: unless-stopped
@@ -126,9 +95,7 @@ services:
     ports:
       - 5055:5055
     volumes:
-      - type: bind
-        source: ${CONFIG_PATH}/overseerr_data
-        target: /app/config
+      - ${CONFIG_PATH}/overseerr_data:/app/config
     restart: unless-stopped
 
   # Resolve captchas da CloudFlare
