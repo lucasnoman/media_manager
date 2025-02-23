@@ -1,0 +1,40 @@
+name: media_server
+
+services:
+  sonarr:
+    extends:
+      file: compose.media.yml
+      service: sonarr
+  radarr:
+    extends:
+      file: compose.media.yml
+      service: radarr
+  bazarr:
+    extends:
+      file: compose.media.yml
+      service: bazarr
+  readarr:
+    extends:
+      file: compose.media.yml
+      service: readarr
+  prowlarr:
+    extends:
+      file: compose.index.yml
+      service: prowlarr
+  jellyseerr:
+    extends:
+      file: compose.index.yml
+      service: jellyseerr
+  flaresolverr:
+    extends:
+      file: compose.tools.yml
+      service: flaresolverr
+  emby:
+    extends:
+      file: compose.player.yml
+      service: emby
+
+# Define networks at the top level
+networks:
+  gateway:
+    external: false

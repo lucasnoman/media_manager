@@ -1,0 +1,10 @@
+services:
+  base:
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    restart: unless-stopped
+
+networks:
+  gateway: {}

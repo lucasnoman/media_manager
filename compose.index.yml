@@ -1,0 +1,24 @@
+services:
+  prowlarr:
+    extends:
+      file: compose.base.yml
+      service: base
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    volumes:
+      - ${CONFIG_PATH}/prowlarr_data:/config
+    ports:
+      - 9696:9696
+
+  jellyseerr:
+    extends:
+      file: compose.base.yml
+      service: base
+    image: fallenbagel/jellyseerr:latest
+    container_name: jellyseerr
+    environment:
+      - LOG_LEVEL=debug
+    ports:
+      - 5055:5055
+    volumes:
+      - ${CONFIG_PATH}/jellyseerr_data:/app/config

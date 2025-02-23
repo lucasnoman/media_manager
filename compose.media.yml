@@ -1,0 +1,59 @@
+services:
+  sonarr:
+    extends:
+      file: compose.base.yml
+      service: base
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    volumes:
+      - ${CONFIG_PATH}/sonar_data:/config
+      - ${HOST_MEDIA_PATH}:${CONTAINER_MEDIA_PATH}
+      - ${HOST_TORRENT_PATH}:/data/torrents
+    networks:
+      - gateway
+    ports:
+      - 8989:8989
+
+  radarr:
+    extends:
+      file: compose.base.yml
+      service: base
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    volumes:
+      - ${CONFIG_PATH}/radarr_data:/config
+      - ${HOST_MEDIA_PATH}:${CONTAINER_MEDIA_PATH}
+      - ${HOST_TORRENT_PATH}:/data/torrents
+    networks:
+      - gateway
+    ports:
+      - 7878:7878
+
+  bazarr:
+    extends:
+      file: compose.base.yml
+      service: base
+    image: lscr.io/linuxserver/bazarr:latest
+    container_name: bazarr
+    volumes:
+      - ${CONFIG_PATH}/bazarr_data:/config
+      - ${HOST_MEDIA_PATH}/movies:/movies
+      - ${HOST_MEDIA_PATH}/series:/series
+      - ${HOST_MEDIA_PATH}/animes:/animes
+    networks:
+      - gateway
+    ports:
+      - 6767:6767
+
+  readarr:
+    extends:
+      file: compose.base.yml
+      service: base
+    image: lscr.io/linuxserver/readarr:develop
+    container_name: readarr
+    volumes:
+      - ${CONFIG_PATH}/readarr_data:/config
+      - ${HOST_MEDIA_PATH}/books:/books
+      - ${HOST_TORRENT_PATH}:/data/torrents
+    ports:
+      - 8787:8787
