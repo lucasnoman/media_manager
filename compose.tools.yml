@@ -11,3 +11,16 @@ services:
       - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
     ports:
       - "${PORT:-8191}:8191"
+
+  tautulli:
+    image: ghcr.io/tautulli/tautulli
+    container_name: tautulli
+    restart: unless-stopped
+    volumes:
+      - ./tautulli_data:/config
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    ports:
+      - 8181:8181

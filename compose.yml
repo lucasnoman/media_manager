@@ -29,6 +29,10 @@ services:
     extends:
       file: compose.tools.yml
       service: flaresolverr
+  tautulli:
+    extends:
+      file: compose.tools.yml
+      service: tautulli
   emby:
     extends:
       file: compose.player.yml
