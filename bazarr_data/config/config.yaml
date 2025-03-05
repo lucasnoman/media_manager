@@ -54,7 +54,7 @@ general:
   adaptive_searching_delta: 1w
   anti_captcha_provider: null
   auto_update: true
-  base_url: ''
+  base_url: /bazarr
   branch: master
   chmod: '0640'
   chmod_enabled: false
@@ -206,7 +206,7 @@ proxy:
   username: ''
 radarr:
   apikey: b58f0f30e97a4e93bac6e2c5868d00ea
-  base_url: ''
+  base_url: /radarr
   defer_search_signalr: false
   excluded_tags: []
   full_update: Daily
@@ -235,7 +235,7 @@ series_scores:
   year: 90
 sonarr:
   apikey: 9faba0ed88ee4093a0b6c7daccd6db20
-  base_url: ''
+  base_url: /sonarr
   defer_search_signalr: false
   exclude_season_zero: false
   excluded_series_types: []
