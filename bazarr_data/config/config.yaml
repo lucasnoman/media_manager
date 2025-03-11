@@ -112,7 +112,7 @@ general:
   skip_hashing: false
   subfolder: current
   subfolder_custom: ''
-  subzero_mods: ''
+  subzero_mods: common,fix_uppercase
   theme: auto
   upgrade_frequency: 12
   upgrade_manual: false
