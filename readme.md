@@ -1,4 +1,4 @@
-# Configuração Sonarr e Jackett
+# Configuração Sonarr, Radarr e Prowlarr
 
 ### Sempre olhar os volumes do <u>docker compose</u>
 
@@ -6,8 +6,8 @@ Eu já tinha o qbittorrent instalado na máquina, então acessei a configuraçã
 
 Mas existe a **imagem** dele para container.
 
-### Sonarr
-Sistema de catálogo e automatizador de download de séries.
+### Sonarr e Radarr
+Sistema de catálogo e automatizador de download de séries e filmes respectivamente.
 
-### Jackett
-Sistema que centraliza indexadores torrents públicos, semi-privados e privados. É usado juntamente com o Sonarr.
+### Porwlarr
+Sistema que centraliza indexadores torrents públicos, semi-privados e privados. É usado juntamente com o Sonarr, Radarr, etc.

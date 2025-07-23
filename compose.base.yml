@@ -5,6 +5,3 @@ services:
       - PGID=${PGID}
       - TZ=${TZ}
     restart: unless-stopped
-
-networks:
-  gateway: {}

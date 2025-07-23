@@ -13,10 +13,6 @@ services:
     extends:
       file: compose.media.yml
       service: bazarr
-  readarr:
-    extends:
-      file: compose.media.yml
-      service: readarr
   prowlarr:
     extends:
       file: compose.index.yml
@@ -33,12 +29,3 @@ services:
     extends:
       file: compose.tools.yml
       service: tautulli
-  emby:
-    extends:
-      file: compose.player.yml
-      service: emby
-
-# Define networks at the top level
-networks:
-  gateway:
-    external: false
