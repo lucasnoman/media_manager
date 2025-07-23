@@ -6,6 +6,8 @@ language: de-DE
 type: private
 encoding: UTF-8
 links:
+  - https://rocket-hd.cc/
+legacylinks:
   - https://r0k3t.li/
 
 caps:
@@ -50,6 +52,10 @@ settings:
     options:
       desc: desc
       asc: asc
+  - name: info_activity
+    type: info
+    label: Account Inactivity
+    default: "If it has been 60 days since your last login, your account will be inactive. After another 30 days without logging in, your account will be Disabled!"
 
 login:
   path: /api/torrents
@@ -62,9 +68,9 @@ login:
 
 search:
   paths:
-    # https://github.com/HDInnovations/UNIT3D-Community-Edition/wiki/Torrent-API-(UNIT3D-v8.x.x)
-    # https://github.com/HDInnovations/UNIT3D-Community-Edition/blob/master/app/Http/Controllers/API/TorrentController.php#L476
-    - path: "/api/torrents/filter"
+    # https://hdinnovations.github.io/UNIT3D/torrent_api.html
+    # https://github.com/HDInnovations/UNIT3D/blob/master/app/Http/Controllers/API/TorrentController.php#L657
+    - path: api/torrents/filter
       response:
         type: json
 
@@ -175,4 +181,4 @@ search:
     minimumseedtime:
       # 2 days (as seconds = 2 x 24 x 60 x 60)
       text: 172800
-# json UNIT3D 8.3.6
+# json UNIT3D 9.1.0

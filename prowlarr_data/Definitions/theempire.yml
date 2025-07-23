@@ -5,6 +5,8 @@ description: "TheEmpire (TE) is a Private Torrent Tracker for COMMONWEALTH TV / 
 language: en-US
 type: private
 encoding: UTF-8
+certificates:
+  - 922b485175aeea4e956d03596eedebcd4a09fedc  # expired 23-May-2025
 links:
   - https://theempire.click/
 legacylinks:
@@ -109,6 +111,13 @@ search:
     sort: "{{ .Config.sort }}"
     d: "{{ .Config.type }}"
 
+  keywordsfilters:
+    # if searching for season packs switch S01 to Series 1
+    - name: re_replace
+      args: ["(?i)\\bS0(\\d{1,2})\\b", "Series $1"]
+    - name: re_replace
+      args: ["(?i)\\bS(\\d{1,3})\\b", "Series $1"]
+
   rows:
     selector: table[border="0"] > tbody > tr.ttable:has(a[href^="browse.php?cat="]):not(:has(font[color="blue"])):not(:contains("*TCG*"))
 
@@ -122,6 +131,9 @@ search:
     title:
       selector: a[href^="details.php?id="]
       attribute: title
+      filters:
+        - name: re_replace
+          args: ["(?i)\\bSeries[\\s]+(\\d+)\\b", "S$1"]
     details:
       selector: a[href^="details.php?id="]
       attribute: href

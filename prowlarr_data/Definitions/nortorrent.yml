@@ -4,13 +4,13 @@ replaces:
   - torrent9clone
   - torrent9-tel
 name: NorTorrent
-description: "NorTorrent is a FRENCH Public tracker for TV / MOVIES / GENERAL"
+description: "NorTorrent is a FRENCH Public tracker for MOVIES / TV / GENERAL"
 language: fr-FR
 type: public
 encoding: UTF-8
 # to fetch current domain use https://www.rantop.my/
 links:
-  - https://www.nortorrent2.com/
+  - https://www.nortorrent6.com/
 legacylinks:
   # latest domains list
   - https://www.rantop.my/
@@ -24,10 +24,6 @@ legacylinks:
   - https://www.torrent.onl/
   - https://www.rantop.org/
   # actual legacylinks
-  - https://www.torrent9-p2p.com/
-  - https://www.torrent9.pe/
-  - https://www.torrent9.gl/
-  - https://www.torrent9.cyou/
   - https://www.torrent9.gd/
   - https://www.torrent9.ing/
   - https://www.torrent9.run/
@@ -39,6 +35,10 @@ legacylinks:
   - https://www-torrent9.com/
   - https://www.nortorrent.com/
   - https://www.nortorrent1.com/
+  - https://www.nortorrent2.com/
+  - https://www.nortorrent3.com/
+  - https://www.nortorrent4.com/
+  - https://www.nortorrent5.com/
 
 caps:
   categorymappings:
@@ -120,7 +120,7 @@ search:
       selector: td:nth-child(1) a
       filters:
         - name: re_replace
-          args: ["(?i)\\b(FRENCH|MULTI|TRUEFRENCH|VOSTFR|SUBFRENCH)\\b(.+?)(\\b(19|20\\d{2})\\b)$", "$3 $1$2"]
+          args: ["(?i)\\b(FRENCH|MULTI|TRUEFRENCH|VOSTFR|SUBFRENCH)\\b(.+?)(\\b((19|20)\\d{2})\\b)$", "$3 $1$2"]
     title_vostfr:
       text: "{{ .Result.title_phase1 }}"
       filters:

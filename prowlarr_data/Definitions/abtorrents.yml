@@ -8,6 +8,8 @@ language: en-US
 type: private
 encoding: UTF-8
 links:
+  - https://abtorrents.xyz/
+legacylinks:
   - https://abtorrents.me/
 
 caps:
@@ -15,9 +17,9 @@ caps:
     - {id: 10, cat: Audio/Audiobook, desc: "Action/Adventure"}
     - {id: 80, cat: Audio/Audiobook, desc: "Adult/Erotica"}
     - {id: 20, cat: Audio/Audiobook, desc: "Biography/Memoirs"}
-    - {id: 30, cat: Audio/Audiobook, desc: "Business "}
+    - {id: 30, cat: Audio/Audiobook, desc: "Business"}
     - {id: 40, cat: Audio/Audiobook, desc: "Childrens"}
-    - {id: 70, cat: Audio/Audiobook, desc: "Computers "}
+    - {id: 70, cat: Audio/Audiobook, desc: "Computers"}
     - {id: 260, cat: Audio/Audiobook, desc: "Crime/Thriller"}
     - {id: 90, cat: Audio/Audiobook, desc: "Fantasy-General"}
     - {id: 100, cat: Audio/Audiobook, desc: "Fantasy-Youth"}
@@ -45,6 +47,7 @@ caps:
     - {id: 285, cat: Audio/Audiobook, desc: "Travel"}
     - {id: 290, cat: Audio/Audiobook, desc: "Urban Fantasy/Paranormal"}
     - {id: 300, cat: Audio/Audiobook, desc: "Western"}
+    - {id: 310, cat: Audio/Audiobook, desc: "Young Adult"}
     - {id: 400, cat: Books/EBook, desc: "[E] Action/Adventure"}
     - {id: 410, cat: Books/EBook, desc: "[E] Adult/Erotica"}
     - {id: 420, cat: Books/EBook, desc: "[E] Arts & Crafts (Hobbies)"}
@@ -118,12 +121,12 @@ search:
   inputs:
     $raw: "{{ range .Categories }}c{{.}}=1&{{end}}"
     search: "{{ .Keywords }}"
-    # title, descr
+    # title, descr, series, additional_info, author, author, uploader
     searchin: title
-    # 0 active, 1 incldead, 2 onlydead
+    # 0 active, 1 incldead, 2 onlydead, 3 My Unsatisfied Torrents, 4 My Watch List, 5 My Uploads
     incldead: 1
-    # 1 onlyfree, null all
-    only_free: "{{ if .Config.freeleech }}1{{ else }}{{ end }}"
+    # 0 All Torrents, 1 Only Free Torrents
+    only_free: "{{ if .Config.freeleech }}1{{ else }}0{{ end }}"
 
   rows:
     selector: table.table-striped > tbody > tr:has(a[href^="download.php?torrent="])
@@ -133,7 +136,8 @@ search:
       selector: div[data-tid] > img
       attribute: alt
     title:
-      selector: a[href^="details.php?id="] span[id^="torrent_title"]
+      selector: a[href^="details.php?id="]
+      remove: span.has-text-red
     details:
       selector: a[href^="details.php?id="]
       attribute: href

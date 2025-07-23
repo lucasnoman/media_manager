@@ -3,7 +3,7 @@ id: kickasstorrents-ws
 replaces:
   - kickasstorrent-kathow
 name: kickasstorrents.ws
-description: "kickasstorrents.ws is a Public KickAssTorrent clone for TV / MOVIES / GENERAL"
+description: "kickasstorrents.ws is a Public KickAssTorrent clone for MOVIES / TV / GENERAL"
 language: en-US
 type: public
 encoding: UTF-8
@@ -68,6 +68,9 @@ settings:
 search:
   paths:
     - path: "{{ if .Keywords }}usearch/{{ .Keywords }}/{{ else }}new/{{ end }}?field={{ .Config.sort }}&sorder={{ .Config.type }}"
+
+  headers:
+    User-Agent: ["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203"]
 
   rows:
     selector: table.data tr[id]:has(a[data-download])

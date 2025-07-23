@@ -1,14 +1,13 @@
 ---
 id: turkseed-api
 name: TurkSeed (API)
-description: "TurkSeed is a TURKISH Private Torrent Tracker for MOVIES / TV / GENERAL"
+description: "TurkSeed (Aturk) is a TURKISH Private Torrent Tracker for MOVIES / TV / GENERAL"
 language: tr-TR
 type: private
 encoding: UTF-8
-certificates:
-  - dbb741dab386cdc63ef4ad16bf2bc1ec96f830dc # CN=turkseed.com when using dot net domain
 links:
   - https://turkseed.com/
+legacylinks:
   - https://turkseed.net/
 
 caps:
@@ -80,9 +79,9 @@ login:
 
 search:
   paths:
-    # https://github.com/HDInnovations/UNIT3D-Community-Edition/wiki/Torrent-API-(UNIT3D-v8.x.x)
-    # https://github.com/HDInnovations/UNIT3D-Community-Edition/blob/master/app/Http/Controllers/API/TorrentController.php#L476
-    - path: "/api/torrents/filter"
+    # https://hdinnovations.github.io/UNIT3D/torrent_api.html
+    # https://github.com/HDInnovations/UNIT3D/blob/master/app/Http/Controllers/API/TorrentController.php#L657
+    - path: api/torrents/filter
       response:
         type: json
 
@@ -196,9 +195,10 @@ search:
         True: 2 # double
     uploadvolumefactor:
       text: "{{ if .Result._featured }}2{{ else }}{{ .Result.uploadvolumefactor_double_upload }}{{ end }}"
-    minimumratio:
-      text: 0.6
+# global MR is 0.6 but torrents must be seeded for 2 days regardless of ratio
+#    minimumratio:
+#      text: 0.6
     minimumseedtime:
       # 2 days (as seconds = 2 x 24 x 60 x 60)
       text: 172800
-# json UNIT3D 8.3.6
+# json UNIT3D 9.0.8

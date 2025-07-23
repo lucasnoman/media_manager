@@ -54,7 +54,7 @@ general:
   adaptive_searching_delta: 1w
   anti_captcha_provider: null
   auto_update: true
-  base_url: /bazarr
+  base_url: ''
   branch: master
   chmod: '0640'
   chmod_enabled: false
@@ -118,6 +118,7 @@ general:
   upgrade_manual: false
   upgrade_subs: true
   use_embedded_subs: true
+  use_plex: false
   use_postprocessing: false
   use_postprocessing_threshold: false
   use_postprocessing_threshold_movie: false
@@ -186,6 +187,17 @@ opensubtitlescom:
   password: Al4035908/240596
   use_hash: true
   username: lucasnoman
+plex:
+  apikey: ''
+  ip: 127.0.0.1
+  movie_library: ''
+  port: 32400
+  series_library: ''
+  set_episode_added: false
+  set_movie_added: false
+  ssl: false
+  update_movie_library: false
+  update_series_library: false
 podnapisi:
   verify_ssl: true
 postgresql:
@@ -206,7 +218,7 @@ proxy:
   username: ''
 radarr:
   apikey: b58f0f30e97a4e93bac6e2c5868d00ea
-  base_url: /radarr
+  base_url: ''
   defer_search_signalr: false
   excluded_tags: []
   full_update: Daily
@@ -235,7 +247,7 @@ series_scores:
   year: 90
 sonarr:
   apikey: 9faba0ed88ee4093a0b6c7daccd6db20
-  base_url: /sonarr
+  base_url: ''
   defer_search_signalr: false
   exclude_season_zero: false
   excluded_series_types: []
@@ -280,6 +292,9 @@ titulky:
   password: ''
   skip_wrong_fps: false
   username: ''
+turkcealtyaziorg:
+  cookies: ''
+  user_agent: ''
 whisperai:
   endpoint: http://127.0.0.1:9000
   loglevel: INFO

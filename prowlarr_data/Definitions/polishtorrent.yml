@@ -21,8 +21,8 @@ caps:
     - {id: 14, cat: Movies/3D, desc: "Filmy 3D"}
     - {id: 16, cat: Movies/SD, desc: "Filmy SD"}
     - {id: 17, cat: Movies/Other, desc: "Filmy inne"}
-    - {id: 5, cat: PC/Games, desc: "Gry pc"}
     - {id: 24, cat: PC/Games, desc: "Gry dodatki"}
+    - {id: 5, cat: PC/Games, desc: "Gry PC"}
     - {id: 10, cat: Console, desc: "Gry Konsole"}
     - {id: 18, cat: PC/Mobile-Android, desc: "Mobile"}
     - {id: 19, cat: Other, desc: "Inne"}
@@ -95,7 +95,7 @@ settings:
   - name: info_activity
     type: info
     label: Account Inactivity
-    default: "Accounts that are inactive for 3 months will be moved to the 'Disabled' group. Strict restrictions are imposed on this group. If the account is still inactive after being moved to this group, it will be permanently blocked without the possibility of unblocking. Simply logging in and browsing the site does not count as an active account. Required activity: downloading/uploading torrents, possibly activity on the forum."
+    default: "<ul><li>If a user has not logged in for 30 days, the account will be marked as inactive.</li><li>If the account remains inactive for an additional 120 days, it will be automatically deactivated (soft delete).</li><li>This means the user will lose access to the account, although the data will be retained for a specified period.</li><li>This policy applies to users in the following groups: User, PowerUser, SuperUser, and Leech.</li><li>How can you keep your account active?</li><li>Simply log in at least once every 30 days and stay active in downloads to maintain your status.</li></ul>"
 
 login:
   path: /api/torrents
@@ -109,9 +109,9 @@ login:
 
 search:
   paths:
-    # https://github.com/HDInnovations/UNIT3D-Community-Edition/wiki/Torrent-API-(UNIT3D-v8.x.x)
-    # https://github.com/HDInnovations/UNIT3D-Community-Edition/blob/master/app/Http/Controllers/API/TorrentController.php#L476
-    - path: "/api/torrents/filter"
+    # https://hdinnovations.github.io/UNIT3D/torrent_api.html
+    # https://github.com/HDInnovations/UNIT3D/blob/master/app/Http/Controllers/API/TorrentController.php#L657
+    - path: api/torrents/filter
       response:
         type: json
 
@@ -130,7 +130,7 @@ search:
     "free[]": "{{ if .Config.freeleech }}100{{ else }}{{ end }}"
     sortField: "{{ .Config.sort }}"
     sortDirection: "{{ .Config.type }}"
-    perPage: 50
+    perPage: 100
 
   keywordsfilters:
     - name: re_replace
@@ -230,10 +230,10 @@ search:
         True: 2 # double
     uploadvolumefactor:
       text: "{{ if .Result._featured }}2{{ else }}{{ .Result.uploadvolumefactor_double_upload }}{{ end }}"
-# global MR is 0.4 but torrents must be seeded for 2 days regardless of ratio
+# global MR is 0.7 but torrents must be seeded for 5 days regardless of ratio
 #    minimumratio:
-#      text: 0.4
+#      text: 0.7
     minimumseedtime:
-      # 2 days (as seconds = 2 x 24 x 60 x 60)
-      text: 172800
-# json UNIT3D 8.3.4 (custom)
+      # 5 days (as seconds = 5 x 24 x 60 x 60)
+      text: 432000
+# json UNIT3D 9.1.1 (custom)

@@ -13,6 +13,7 @@ legacylinks:
   - https://siambit.io/
   - https://thaibit.net/
   - https://bearbit.co/
+  - https://bearbit.cc/
 
 caps:
   # dont forget to update the path categories in the search block
@@ -103,6 +104,8 @@ settings:
     type: info
     label: Account Inactivity
     default: "Accounts can use the park system for up to 180 days."
+  - name: info_flaresolverr
+    type: info_flaresolverr
 
 login:
   path: takelogin.php

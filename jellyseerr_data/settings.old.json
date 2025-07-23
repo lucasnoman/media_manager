@@ -6,7 +6,6 @@
   "apiKey": "MTc0MDI0OTU4OTM4NTdjYmNiM2NlLTZlN2UtNGNkOC1hNjVhLWVmOWM3MjEwZGIxNA==",
   "applicationTitle": "Jellyseerr",
   "applicationUrl": "",
-  "csrfProtection": false,
   "cacheImages": false,
   "defaultPermissions": 32,
   "defaultQuotas": {
@@ -15,27 +14,16 @@
   },
   "hideAvailable": false,
   "localLogin": true,
+  "mediaServerLogin": true,
   "newPlexLogin": true,
   "discoverRegion": "",
   "streamingRegion": "BR",
   "originalLanguage": "",
-  "trustProxy": false,
   "mediaServerType": 1,
   "partialRequestsEnabled": true,
   "enableSpecialEpisodes": false,
-  "forceIpv4First": false,
-  "dnsServers": "",
   "locale": "en",
-  "proxy": {
-   "enabled": false,
-   "hostname": "",
-   "port": 8080,
-   "useSsl": false,
-   "user": "",
-   "password": "",
-   "bypassFilter": "",
-   "bypassLocalAddresses": true
-  }
+  "dnsServers": ""
  },
  "plex": {
   "name": "lucas-server",
@@ -48,21 +36,21 @@
     "name": "Movies",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1740312300058
+    "lastScan": 1746237900034
    },
    {
     "id": "3",
     "name": "Animes",
     "enabled": true,
     "type": "show",
-    "lastScan": 1740312300067
+    "lastScan": 1746237900052
    },
    {
     "id": "2",
     "name": "Series",
     "enabled": true,
     "type": "show",
-    "lastScan": 1740312300076
+    "lastScan": 1746237900065
    }
   ],
   "machineId": "6a3d5811c9c034619c080c03f6cb3fb0d19e5505"
@@ -257,6 +245,21 @@
   },
   "image-cache-cleanup": {
    "schedule": "0 0 5 * * *"
+  }
+ },
+ "network": {
+  "csrfProtection": false,
+  "trustProxy": false,
+  "forceIpv4First": false,
+  "proxy": {
+   "enabled": false,
+   "hostname": "",
+   "port": 8080,
+   "useSsl": false,
+   "user": "",
+   "password": "",
+   "bypassFilter": "",
+   "bypassLocalAddresses": true
   }
  }
 }

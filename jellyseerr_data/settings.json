@@ -6,7 +6,6 @@
   "apiKey": "MTc0MDI0OTU4OTM4NTdjYmNiM2NlLTZlN2UtNGNkOC1hNjVhLWVmOWM3MjEwZGIxNA==",
   "applicationTitle": "Jellyseerr",
   "applicationUrl": "",
-  "csrfProtection": false,
   "cacheImages": false,
   "defaultPermissions": 32,
   "defaultQuotas": {
@@ -14,28 +13,21 @@
    "tv": {}
   },
   "hideAvailable": false,
+  "hideBlacklisted": false,
   "localLogin": true,
+  "mediaServerLogin": true,
   "newPlexLogin": true,
   "discoverRegion": "",
   "streamingRegion": "BR",
   "originalLanguage": "",
-  "trustProxy": false,
+  "blacklistedTags": "",
+  "blacklistedTagsLimit": 50,
   "mediaServerType": 1,
   "partialRequestsEnabled": true,
   "enableSpecialEpisodes": false,
-  "forceIpv4First": false,
-  "dnsServers": "",
   "locale": "en",
-  "proxy": {
-   "enabled": false,
-   "hostname": "",
-   "port": 8080,
-   "useSsl": false,
-   "user": "",
-   "password": "",
-   "bypassFilter": "",
-   "bypassLocalAddresses": true
-  }
+  "youtubeUrl": "",
+  "dnsServers": ""
  },
  "plex": {
   "name": "lucas-server",
@@ -48,21 +40,21 @@
     "name": "Movies",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1741653600058
+    "lastScan": 1753304100050
    },
    {
     "id": "3",
     "name": "Animes",
     "enabled": true,
     "type": "show",
-    "lastScan": 1741653600070
+    "lastScan": 1753304100061
    },
    {
     "id": "2",
     "name": "Series",
     "enabled": true,
     "type": "show",
-    "lastScan": 1741653600092
+    "lastScan": 1753304100071
    }
   ],
   "machineId": "6a3d5811c9c034619c080c03f6cb3fb0d19e5505"
@@ -159,13 +151,6 @@
      "enableMentions": true
     }
    },
-   "lunasea": {
-    "enabled": false,
-    "types": 0,
-    "options": {
-     "webhookUrl": ""
-    }
-   },
    "slack": {
     "enabled": false,
     "types": 0,
@@ -216,7 +201,16 @@
     "types": 0,
     "options": {
      "url": "",
-     "token": ""
+     "token": "",
+     "priority": 0
+    }
+   },
+   "ntfy": {
+    "enabled": false,
+    "types": 0,
+    "options": {
+     "url": "",
+     "topic": ""
     }
    }
   }
@@ -257,6 +251,24 @@
   },
   "image-cache-cleanup": {
    "schedule": "0 0 5 * * *"
+  },
+  "process-blacklisted-tags": {
+   "schedule": "0 30 1 */7 * *"
+  }
+ },
+ "network": {
+  "csrfProtection": false,
+  "forceIpv4First": false,
+  "trustProxy": false,
+  "proxy": {
+   "enabled": false,
+   "hostname": "",
+   "port": 8080,
+   "useSsl": false,
+   "user": "",
+   "password": "",
+   "bypassFilter": "",
+   "bypassLocalAddresses": true
   }
  }
 }

@@ -11,7 +11,7 @@
   <LogLevel>info</LogLevel>
   <SslCertPath></SslCertPath>
   <SslCertPassword></SslCertPassword>
-  <UrlBase>/radarr</UrlBase>
+  <UrlBase></UrlBase>
   <InstanceName>Radarr</InstanceName>
   <UpdateMechanism>Docker</UpdateMechanism>
 </Config>
