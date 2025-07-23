@@ -1,20 +1,16 @@
-services:
-  emby:
-    extends:
-      file: compose.base.yml
-      service: base
-    image: emby/embyserver
-    container_name: embyserver
-    network_mode: host
-    environment:
-      - UID=${PUID}
-      - GID=100
-      - GIDLIST=100
-    volumes:
-      - ${CONFIG_PATH}/emby_data:/config
-      - ${HOST_MEDIA_PATH}/series:/mnt/series
-      - ${HOST_MEDIA_PATH}/animes:/mnt/animes
-      - ${HOST_MEDIA_PATH}/movies:/mnt/movies
-    ports:
-      - 8096:8096
-    restart: on-failure
+# services:
+  # plex:
+  #   image: lscr.io/linuxserver/plex:latest
+  #   container_name: plex
+  #   environment:
+  #     - PUID=${PUID}
+  #     - PGID=${PGID}
+  #     - TZ=${TZ}
+  #     - VERSION=docker
+  #   volumes:
+  #     - ${CONFIG_PATH}/plex_data:/config
+  #     - ${HOST_MEDIA_PATH}/series:/tv
+  #     - ${HOST_MEDIA_PATH}/animes:/tv
+  #     - ${HOST_MEDIA_PATH}/movies:/movies
+  #   network_mode: host
+  #   restart: unless-stopped
