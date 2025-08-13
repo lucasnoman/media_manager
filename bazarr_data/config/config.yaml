@@ -77,6 +77,8 @@ general:
   - tvsubtitles
   - wizdom
   - yifysubtitles
+  - gestdown
+  - podnapisi
   flask_secret_key: 3b307110773ccdbf73256361a84d6960
   hi_extension: hi
   ignore_ass_subs: false
@@ -87,7 +89,7 @@ general:
   minimum_score: 90
   minimum_score_movie: 70
   movie_default_enabled: true
-  movie_default_profile: 1
+  movie_default_profile: 2
   movie_tag_enabled: false
   multithreading: true
   page_size: 25
@@ -106,7 +108,7 @@ general:
   postprocessing_threshold_movie: 70
   remove_profile_tags: []
   serie_default_enabled: true
-  serie_default_profile: 1
+  serie_default_profile: 2
   serie_tag_enabled: false
   single_language: false
   skip_hashing: false
@@ -188,16 +190,16 @@ opensubtitlescom:
   use_hash: true
   username: lucasnoman
 plex:
-  apikey: ''
-  ip: 127.0.0.1
+  apikey: n8ACXxji9yakRshgxshS
+  ip: 192.168.0.100
   movie_library: ''
   port: 32400
   series_library: ''
   set_episode_added: false
   set_movie_added: false
   ssl: false
-  update_movie_library: false
-  update_series_library: false
+  update_movie_library: true
+  update_series_library: true
 podnapisi:
   verify_ssl: true
 postgresql:
@@ -225,7 +227,7 @@ radarr:
   full_update_day: 6
   full_update_hour: 4
   http_timeout: 60
-  ip: 192.168.0.100
+  ip: radarr
   movies_sync: 60
   only_monitored: false
   port: 7878
@@ -256,7 +258,7 @@ sonarr:
   full_update_day: 6
   full_update_hour: 4
   http_timeout: 60
-  ip: 192.168.0.100
+  ip: sonarr
   only_monitored: false
   port: 8989
   series_sync: 60
