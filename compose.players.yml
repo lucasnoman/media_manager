@@ -1,0 +1,33 @@
+services:
+  # plex:
+  #   image: lscr.io/linuxserver/plex:latest
+  #   container_name: plex
+  #   extends:
+  #     file: compose.base-config.yml
+  #     service: base
+  #   environment:
+  #     - VERSION=docker
+  #   volumes:
+  #     - ${CONFIG_PATH}/plex_data:/config
+  #     - ${HOST_MEDIA_PATH}/series:/tv
+  #     - ${HOST_MEDIA_PATH}/animes:/tv
+  #     - ${HOST_MEDIA_PATH}/movies:/movies
+  #   network_mode: host
+  #   restart: unless-stopped
+
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    extends:
+      file: compose.base-config.yml
+      service: base
+    volumes:
+      - ${CONFIG_PATH}/jellyfin_data/library:/config
+      - ${HOST_MEDIA_PATH}/series:/data/tvshows
+      - ${HOST_MEDIA_PATH}/movies:/data/movies
+      - ${HOST_MEDIA_PATH}/animes:/data/animes
+    ports:
+      - 8096:8096
+      - 7359:7359/udp #optional
+      - 1900:1900/udp #optional
+    restart: unless-stopped

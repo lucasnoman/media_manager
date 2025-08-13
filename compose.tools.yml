@@ -1,37 +1,49 @@
 services:
   flaresolverr:
-    extends:
-      file: compose.base.yml
-      service: base
     image: ghcr.io/flaresolverr/flaresolverr:latest
     container_name: flaresolverr
+    extends:
+      file: compose.base-config.yml
+      service: base
     environment:
       - LOG_LEVEL=${LOG_LEVEL:-info}
       - LOG_HTML=${LOG_HTML:-false}
       - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
     ports:
-      - "${PORT:-8191}:8191"
+      - '${PORT:-8191}:8191'
+
+  jellyseerr:
+    image: fallenbagel/jellyseerr:latest
+    container_name: jellyseerr
+    extends:
+      file: compose.base-config.yml
+      service: base
+    environment:
+      - LOG_LEVEL=debug
+    ports:
+      - 5055:5055
+    volumes:
+      - ${CONFIG_PATH}/jellyseerr_data:/app/config
 
   tautulli:
     image: ghcr.io/tautulli/tautulli
     container_name: tautulli
+    extends:
+      file: compose.base-config.yml
+      service: base
     restart: unless-stopped
     volumes:
       - ./tautulli_data:/config
-    environment:
-      - PUID=${PUID}
-      - PGID=${PGID}
-      - TZ=${TZ}
     ports:
       - 8181:8181
 
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest
     container_name: qbittorrent
+    extends:
+      file: compose.base-config.yml
+      service: base
     environment:
-      - PUID=${PUID}
-      - PGID=${PGID}
-      - TZ=${TZ}
       - WEBUI_PORT=8080
       - TORRENTING_PORT=6881
     volumes:

@@ -1,0 +1,11 @@
+services:
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    extends:
+      file: compose.base-config.yml
+      service: base
+    volumes:
+      - ${CONFIG_PATH}/prowlarr_data:/config
+    ports:
+      - 9696:9696

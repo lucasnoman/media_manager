@@ -1,0 +1,40 @@
+services:
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    extends:
+      file: compose.base-config.yml
+      service: base
+    volumes:
+      - ${CONFIG_PATH}/sonar_data:/config
+      - ${HOST_MEDIA_PATH}:${CONTAINER_MEDIA_PATH}
+      - ${HOST_TORRENT_PATH}:/data/torrents
+    ports:
+      - 8989:8989
+
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    extends:
+      file: compose.base-config.yml
+      service: base
+    volumes:
+      - ${CONFIG_PATH}/radarr_data:/config
+      - ${HOST_MEDIA_PATH}:${CONTAINER_MEDIA_PATH}
+      - ${HOST_TORRENT_PATH}:/data/torrents
+    ports:
+      - 7878:7878
+
+  bazarr:
+    image: lscr.io/linuxserver/bazarr:latest
+    container_name: bazarr
+    extends:
+      file: compose.base-config.yml
+      service: base
+    volumes:
+      - ${CONFIG_PATH}/bazarr_data:/config
+      - ${HOST_MEDIA_PATH}/movies:/movies
+      - ${HOST_MEDIA_PATH}/series:/series
+      - ${HOST_MEDIA_PATH}/animes:/animes
+    ports:
+      - 6767:6767
