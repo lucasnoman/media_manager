@@ -1,0 +1,14 @@
+{
+    "animes": {
+        "save_path": ""
+    },
+    "movies": {
+        "save_path": ""
+    },
+    "prowlarr": {
+        "save_path": ""
+    },
+    "series": {
+        "save_path": ""
+    }
+}
