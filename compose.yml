@@ -29,10 +29,6 @@ services:
     extends:
       file: compose.tools.yml
       service: jellyseerr
-  tautulli:
-    extends:
-      file: compose.tools.yml
-      service: tautulli
   qbittorrent:
     extends:
       file: compose.tools.yml

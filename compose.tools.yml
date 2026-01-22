@@ -25,18 +25,6 @@ services:
     volumes:
       - ${CONFIG_PATH}/jellyseerr_data:/app/config
 
-  tautulli:
-    image: ghcr.io/tautulli/tautulli
-    container_name: tautulli
-    extends:
-      file: compose.base-config.yml
-      service: base
-    restart: unless-stopped
-    volumes:
-      - ./tautulli_data:/config
-    ports:
-      - 8181:8181
-
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest
     container_name: qbittorrent
