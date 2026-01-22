@@ -1,0 +1,6 @@
+Jan 22, 2026 17:07:53.963 [135943952624384] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 22, 2026 17:07:53.963 [135943952624384] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 22, 2026 17:07:53.963 [135943952624384] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 22, 2026 17:07:53.963 [135943952624384] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 1 --content-type=application/json
+Jan 22, 2026 17:07:53.964 [135943953133312] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 22, 2026 17:07:54.055 [135943953133312] DEBUG - Matcher: found 0 auxiliary files for Tulsa King

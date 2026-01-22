@@ -1,0 +1,1089 @@
+Jan 22, 2026 17:20:41.286 [129681656900408] INFO - Plex Media Server v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 debian - GMT 00:00
+Jan 22, 2026 17:20:41.286 [129681656900408] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 22, 2026 17:20:41.286 [129681656900408] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 22, 2026 17:20:41.286 [129681656900408] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
+Jan 22, 2026 17:20:41.286 [129681656900408] INFO - /usr/lib/plexmediaserver/Plex Media Server
+Jan 22, 2026 17:20:41.286 [129681659443856] DEBUG - BPQ: [Idle] -> [Starting]
+Jan 22, 2026 17:20:41.287 [129681659443856] DEBUG - FeatureManager: Using cached data for features list
+Jan 22, 2026 17:20:41.293 [129681659443856] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jan 22, 2026 17:20:41.293 [129681659443856] DEBUG - Relay: read 0 cached entries from hosts file
+Jan 22, 2026 17:20:41.294 [129681659443856] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 22, 2026 17:20:41.395 [129681659443856] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/features
+Jan 22, 2026 17:20:41.458 [129681659443856] DEBUG - [CERT] Subject name is /CN=*.1bac40021f47432f9c1841e656677f93.plex.direct
+Jan 22, 2026 17:20:41.458 [129681659443856] DEBUG - [CERT] Installed certificate with fingerprint 4c:ca:3d:be:ac:56:02:2f:38:79:61:b6:fd:57:74:d5:c9:c9:0b:e0.
+Jan 22, 2026 17:20:41.458 [129681659443856] DEBUG - [CERT/OCSP] no URL available
+Jan 22, 2026 17:20:41.458 [129681659443856] WARN - [CERT/OCSP] getCertInfo failed; skipping stapling
+Jan 22, 2026 17:20:41.458 [129681659443856] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+Jan 22, 2026 17:20:41.458 [129681659443856] DEBUG - HttpServer: Listening on port 32400.
+Jan 22, 2026 17:20:41.459 [129681659443856] DEBUG - HttpServer: Listening on port 32401.
+Jan 22, 2026 17:20:41.459 [129681659443856] DEBUG - Running server...
+Jan 22, 2026 17:20:41.459 [129681638988600] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+Jan 22, 2026 17:20:41.459 [129681659443856] INFO - Running migrations. (EPG 0)
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 0.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 1.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 2.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 3.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 4.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 5.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 6.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 7.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 8.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 9.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 10.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 11.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 12.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 13.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 14.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 15.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 16.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 17.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 18.
+Jan 22, 2026 17:20:41.461 [129681659443856] DEBUG - Captured session 19.
+Jan 22, 2026 17:20:41.468 [129681659443856] DEBUG - ChangestampAllocator: initialized to 1049
+Jan 22, 2026 17:20:41.468 [129681659443856] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.39.4, threadsafe=1
+Jan 22, 2026 17:20:41.478 [129681659443856] INFO - Running migrations. (EPG 0)
+Jan 22, 2026 17:20:41.478 [129681659443856] DEBUG - Captured session 0.
+Jan 22, 2026 17:20:41.478 [129681659443856] DEBUG - Captured session 1.
+Jan 22, 2026 17:20:41.550 [129681652149048] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jan 22, 2026 17:20:41.551 [129681659443856] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+Jan 22, 2026 17:20:41.551 [129681659443856] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jan 22, 2026 17:20:41.551 [129681659443856] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:41.555 [129681659443856] DEBUG - MyPlex: updating with 7 access tokens
+Jan 22, 2026 17:20:41.556 [129681659443856] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:41.556 [129681659443856] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:41.556 [129681659443856] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:41.557 [129681652149048] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jan 22, 2026 17:20:41.557 [129681652149048] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jan 22, 2026 17:20:41.557 [129681652149048] DEBUG - [HCl#1] HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:41.558 [129681659443856] DEBUG - Opening 1 database sessions to library (), SQLite 3.39.4, threadsafe=1
+Jan 22, 2026 17:20:41.568 [129681626778424] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c" changed: -1 => 2026-01-19 09:43:43 (1768815823).
+Jan 22, 2026 17:20:41.568 [129681626778424] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2026-01-20 16:30:31 (1768926631).
+Jan 22, 2026 17:20:41.568 [129681626778424] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c"
+Jan 22, 2026 17:20:41.576 [129681626778424] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Jan 22, 2026 17:20:41.576 [129681626778424] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Jan 22, 2026 17:20:41.576 [129681626778424] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/System.bundle.
+Jan 22, 2026 17:20:41.577 [129681626778424] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+Jan 22, 2026 17:20:41.578 [129681626778424] DEBUG - Starting file watcher for com.plexapp.system
+Jan 22, 2026 17:20:41.578 [129681626778424] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Jan 22, 2026 17:20:41.578 [129681626778424] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Jan 22, 2026 17:20:41.587 [129681626778424] DEBUG - Spawned plug-in com.plexapp.system with PID 201
+Jan 22, 2026 17:20:41.587 [129681626778424] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Jan 22, 2026 17:20:42.185 [129681631161144] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.6s) 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:42.206 [129681652149048] DEBUG - MyPlex: updating with 7 access tokens
+Jan 22, 2026 17:20:42.207 [129681652149048] DEBUG - [HCl#2] HTTP requesting GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:42.300 [129681644333880] DEBUG - Request: didn't get any data from [::ffff:127.0.0.1]:52438: End of file
+Jan 22, 2026 17:20:42.378 [129681631161144] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:20:42.384 [129681622526776] DEBUG - [HCl#3] HTTP requesting GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:42.573 [129681631161144] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:20:42.574 [129681622526776] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:43.305 [129681652149048] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.42.2.10156-f737b826c" --version=1.42.2.10156-f737b826c --platform=Linux --platformVersion=6.8.0-90-generic --serverUuid=5e7f690a5d7aaebc45f52729540aadee813dd9f4 --userId=lucas.noman7@gmail.com --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container (LinuxServer.io)"
+Jan 22, 2026 17:20:43.311 [129681652149048] DEBUG - [JobRunner] Jobs: Starting child process with pid 221
+Jan 22, 2026 17:20:43.409 [129681654700856] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 221 is 0 (success)
+Jan 22, 2026 17:20:45.208 [129681652149048] DEBUG - [MediaProviderManager] Refreshing media providers
+Jan 22, 2026 17:20:45.208 [129681652149048] DEBUG - [MediaProviderManager/Response::fetch/HCl#4] HTTP requesting GET https://plex.tv/media/providers
+Jan 22, 2026 17:20:45.372 [129681631161144] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/media/providers (reused)
+Jan 22, 2026 17:20:45.390 [129681652149048] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & Shows)
+Jan 22, 2026 17:20:45.390 [129681652149048] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Jan 22, 2026 17:20:45.390 [129681652149048] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 0)
+Jan 22, 2026 17:20:45.397 [129681633270584] DEBUG - [MediaProviderManager/HCl#6] HTTP requesting GET https://vod.provider.plex.tv?includePreferences=1
+Jan 22, 2026 17:20:46.069 [129681652149048] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & Shows) (alive: 0)
+Jan 22, 2026 17:20:46.069 [129681652149048] DEBUG - [MediaProviderManager/HCl#8] HTTP requesting GET https://vod.provider.plex.tv?includePreferences=1
+Jan 22, 2026 17:20:46.309 [129681631161144] DEBUG - [HttpClient/HCl#6] HTTP/2.0 (0.9s) 200 response from GET https://vod.provider.plex.tv?includePreferences=1
+Jan 22, 2026 17:20:46.372 [129681631161144] DEBUG - [HttpClient/HCl#8] HTTP/2.0 (0.3s) 200 response from GET https://vod.provider.plex.tv?includePreferences=1
+Jan 22, 2026 17:20:46.375 [129681652149048] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 2
+Jan 22, 2026 17:20:46.378 [129681652149048] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Jan 22, 2026 17:20:46.378 [129681652149048] DEBUG - [MediaProviderManager] cloud provider (Movies & Shows) is online and available
+Jan 22, 2026 17:20:46.378 [129681652149048] DEBUG - [MediaProviderManager/MetadataAgentManager] attempted to online our built-in agents but we're not yet signed in
+Jan 22, 2026 17:20:46.378 [129681652149048] DEBUG - [MediaProviderManager] Media provider refresh complete
+Jan 22, 2026 17:20:48.278 [129681615518520] DEBUG - Request: [127.0.0.1:52446 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #3 GZIP Token ()
+Jan 22, 2026 17:20:48.287 [129681644333880] DEBUG - Completed: [127.0.0.1:52446] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #3 GZIP 11ms 436 bytes
+Jan 22, 2026 17:20:48.391 [129681615518520] DEBUG - Request: [127.0.0.1:52450 (Loopback)] GET / (3 live) #4 GZIP Token ()
+Jan 22, 2026 17:20:48.391 [129681642224440] DEBUG - Completed: [127.0.0.1:52450] 503 GET / (4 live) #4 GZIP 0ms 436 bytes
+Jan 22, 2026 17:20:51.564 [129681620417336] DEBUG - Grabber: Plex Tuner Service not running; retrying in 10 seconds.
+Jan 22, 2026 17:20:51.564 [129681620417336] DEBUG - [HCl#9] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:52.382 [129681631161144] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.8s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:52.397 [129681620417336] DEBUG - [HCl#a] HTTP requesting GET https://plex.tv/api/v2/server/users/features
+Jan 22, 2026 17:20:52.573 [129681631161144] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/features (reused)
+Jan 22, 2026 17:20:54.413 [129681615518520] DEBUG - Request: [127.0.0.1:52352 (Loopback)] GET /servers (3 live) #5 GZIP Token ()
+Jan 22, 2026 17:20:54.415 [129681644333880] DEBUG - Completed: [127.0.0.1:52352] 503 GET /servers (3 live) #5 GZIP 1ms 436 bytes
+Jan 22, 2026 17:20:54.536 [129681626778424] DEBUG - Reading 486 bytes in the body, code is 200
+Jan 22, 2026 17:20:54.536 [129681626778424] DEBUG - [com.plexapp.system] Plug-in running on port 43483.
+Jan 22, 2026 17:20:54.537 [129681626778424] DEBUG -  * Plug-in handles prefix: /system
+Jan 22, 2026 17:20:54.537 [129681626778424] DEBUG -  * Plug-in handles prefix: /player
+Jan 22, 2026 17:20:54.537 [129681626778424] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Jan 22, 2026 17:20:54.537 [129681626778424] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+Jan 22, 2026 17:20:54.537 [129681626778424] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Jan 22, 2026 17:20:54.537 [129681626778424] DEBUG - Updating the list of agents known by the system.
+Jan 22, 2026 17:20:54.537 [129681626778424] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Jan 22, 2026 17:20:54.537 [129681626778424] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:43483/system/agents
+Jan 22, 2026 17:20:54.541 [129681659443856] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+Jan 22, 2026 17:20:54.541 [129681659443856] DEBUG - Transcoder: Cleaning old transcode directories.
+Jan 22, 2026 17:20:54.542 [129681659443856] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:54.547 [129681659443856] DEBUG - MyPlex: updating with 7 access tokens
+Jan 22, 2026 17:20:54.547 [129681659443856] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:54.547 [129681659443856] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:54.551 [129681659443856] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:54.552 [129681659443856] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Jan 22, 2026 17:20:54.571 [129681659443856] DEBUG - MyPlex: username is lucascnoman, login is lucas.noman7@gmail.com, home is 0, no pin
+Jan 22, 2026 17:20:54.580 [129681659443856] DEBUG - MyPlex: start public ip check and mapping - current mapped state: 'Unknown'.
+Jan 22, 2026 17:20:54.580 [129681659443856] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Jan 22, 2026 17:20:54.580 [129681659443856] DEBUG - PublicAddressManager: Starting.
+Jan 22, 2026 17:20:54.580 [129681659443856] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Jan 22, 2026 17:20:54.580 [129681652149048] DEBUG - PublicAddressManager: Obtaining public IP.
+Jan 22, 2026 17:20:54.580 [129681652149048] DEBUG - [HCl#c] HTTP requesting GET https://v4.plex.tv/pms/:/ip
+Jan 22, 2026 17:20:54.580 [129681633270584] DEBUG - NAT: UPnP, attempting port mapping.
+Jan 22, 2026 17:20:54.587 [129681611168568] DEBUG - [HCl#d] HTTP requesting GET https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Jan 22, 2026 17:20:54.589 [129681659443856] DEBUG - NetworkInterface: Starting watch thread.
+Jan 22, 2026 17:20:54.589 [129681659443856] DEBUG - Network change.
+Jan 22, 2026 17:20:54.589 [129681659443856] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - Detected primary interface: 192.168.1.100
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - Network interfaces:
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG -  * 2 enp2s0 (192.168.1.100) (1C-39-47-53-92-F0) (loopback: 0)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG -  * 4 docker0 (172.17.0.1) (02-F4-98-61-20-33) (loopback: 0)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG -  * 10 br-d1e1660fecf4 (172.18.0.1) (E2-C9-0B-6C-7B-CC) (loopback: 0)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG -  * 12 br-4cd93d6bfdff (172.19.0.1) (56-76-58-77-BB-96) (loopback: 0)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG -  * 26 br-eb849aa15abb (172.20.0.1) (7E-7D-A0-0D-B8-85) (loopback: 0)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG -  * 2 enp2s0 (2804:98c:7032:d400:1e39:47ff:fe53:92f0) (1C-39-47-53-92-F0) (loopback: 0)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - Creating NetworkServices singleton.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkServices: Initializing...
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Creating new service.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Creating new service.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Creating new service.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Creating new service.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Creating new service.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 22, 2026 17:20:54.590 [129681659443856] DEBUG - NetworkService: Creating new service.
+Jan 22, 2026 17:20:54.596 [129681606949688] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+Jan 22, 2026 17:20:54.596 [129681604840248] DEBUG - Network change for advertiser.
+Jan 22, 2026 17:20:54.596 [129681604840248] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - Network change for advertiser.
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - Network change for advertiser.
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 192.168.1.100 on broadcast address 192.168.1.255 (index: 1)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.17.0.1 on broadcast address 172.17.255.255 (index: 2)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 3)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 172.19.255.255 (index: 4)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 5)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 192.168.1.100 on broadcast address 192.168.1.255 (index: 1)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.17.0.1 on broadcast address 172.17.255.255 (index: 2)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 3)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 172.19.255.255 (index: 4)
+Jan 22, 2026 17:20:54.597 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 5)
+Jan 22, 2026 17:20:54.604 [129681659443856] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Jan 22, 2026 17:20:54.604 [129681659443856] DEBUG - NetworkService: Quick dispatch of network change.
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - NetworkService: Browsing on interface 192.168.1.100 on broadcast address 239.255.255.250 (index: 0)
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.17.0.1 on broadcast address 239.255.255.250 (index: 1)
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 2)
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.19.0.1 on broadcast address 239.255.255.250 (index: 3)
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 239.255.255.250 (index: 4)
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - [NSB] NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (lcn-home-server)
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - [NSB] Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - [NSB] [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Jan 22, 2026 17:20:54.610 [129681604840248] DEBUG - [NSB/HCl#e] HTTP requesting GET http://127.0.0.1:43483/system/notify/serverUpdated?host=127.0.0.1
+Jan 22, 2026 17:20:54.625 [129681620417336] DEBUG - [HCl#f] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:54.627 [129681602730808] DEBUG - [DatabaseFixups] Running fix-ups.
+Jan 22, 2026 17:20:54.627 [129681602730808] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupRetroGames] Executing fixup
+Jan 22, 2026 17:20:54.627 [129681602730808] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupRetroGames] Fixup completed
+Jan 22, 2026 17:20:54.627 [129681602730808] DEBUG - [DatabaseFixups/39DatabaseFixupsEnsureLibrarySectionUuids] Executing fixup
+Jan 22, 2026 17:20:54.627 [129681602730808] DEBUG - [DatabaseFixups/39DatabaseFixupsEnsureLibrarySectionUuids] Fixup completed
+Jan 22, 2026 17:20:54.627 [129681602730808] DEBUG - [DatabaseFixups/38DatabaseFixupsEnsureMetadataItemHashes] Executing fixup
+Jan 22, 2026 17:20:54.628 [129681602730808] DEBUG - [DatabaseFixups/38DatabaseFixupsEnsureMetadataItemHashes] Fixup completed
+Jan 22, 2026 17:20:54.628 [129681602730808] DEBUG - [DatabaseFixups/39DatabaseFixupsSetDefaultAccountLanguage] Executing fixup
+Jan 22, 2026 17:20:54.628 [129681602730808] DEBUG - [DatabaseFixups/39DatabaseFixupsSetDefaultAccountLanguage] Fixup completed
+Jan 22, 2026 17:20:54.628 [129681602730808] DEBUG - [DatabaseFixups/52DatabaseFixupsCreateDefaultMediaProcessingTargetTags] Executing fixup
+Jan 22, 2026 17:20:54.630 [129681600621368] DEBUG - [HCl#10] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:54.632 [129681659443856] DEBUG - Waiting for server condition to be signaled.
+Jan 22, 2026 17:20:54.633 [129681594293048] DEBUG - [HCl#11] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:54.641 [129681598511928] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
+Jan 22, 2026 17:20:54.641 [129681598511928] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.42.2.10156-f737b826c 32600
+Jan 22, 2026 17:20:54.642 [129681602730808] DEBUG - [DatabaseFixups/52DatabaseFixupsCreateDefaultMediaProcessingTargetTags] Fixup completed
+Jan 22, 2026 17:20:54.642 [129681602730808] DEBUG - [DatabaseFixups/43DatabaseFixupsUpdateAutomaticLibraryFolders] Executing fixup
+Jan 22, 2026 17:20:54.642 [129681602730808] DEBUG - [DatabaseFixups/43DatabaseFixupsUpdateAutomaticLibraryFolders] Fixup completed
+Jan 22, 2026 17:20:54.642 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Executing fixup
+Jan 22, 2026 17:20:54.642 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 1.
+Jan 22, 2026 17:20:54.642 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Jan 22, 2026 17:20:54.642 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 1 in 0ms.
+Jan 22, 2026 17:20:54.646 [129681590074168] DEBUG - DVR: Starting up.
+Jan 22, 2026 17:20:54.659 [129681598511928] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 278
+Jan 22, 2026 17:20:54.662 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 1 in 19ms.
+Jan 22, 2026 17:20:54.669 [129681590074168] DEBUG - Activity: registered new activity bb916e2c-bdfe-4a35-99f2-6f99dd3d601b - "Processing subscriptions"
+Jan 22, 2026 17:20:54.678 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 1 in 0ms.
+Jan 22, 2026 17:20:54.679 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 2.
+Jan 22, 2026 17:20:54.679 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Jan 22, 2026 17:20:54.679 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 2 in 0ms.
+Jan 22, 2026 17:20:54.679 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 2.
+Jan 22, 2026 17:20:54.679 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Jan 22, 2026 17:20:54.679 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 2 in 0ms.
+Jan 22, 2026 17:20:54.680 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 2.
+Jan 22, 2026 17:20:54.680 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Jan 22, 2026 17:20:54.680 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 2 in 0ms.
+Jan 22, 2026 17:20:54.708 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 2 in 28ms.
+Jan 22, 2026 17:20:54.711 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 2 in 0ms.
+Jan 22, 2026 17:20:54.711 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 3.
+Jan 22, 2026 17:20:54.711 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Jan 22, 2026 17:20:54.711 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 3 in 0ms.
+Jan 22, 2026 17:20:54.711 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 3.
+Jan 22, 2026 17:20:54.711 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Jan 22, 2026 17:20:54.711 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 3 in 0ms.
+Jan 22, 2026 17:20:54.711 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Found 0 collections tags in section 3.
+Jan 22, 2026 17:20:54.712 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: We had 0 collections in the library already.
+Jan 22, 2026 17:20:54.712 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Synced tags in section 3 in 0ms.
+Jan 22, 2026 17:20:54.741 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collections: Refreshed attributes for 0 collections in section 3 in 29ms.
+Jan 22, 2026 17:20:54.746 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Collection: Refreshed visibility in section 3 in 1ms.
+Jan 22, 2026 17:20:54.746 [129681602730808] DEBUG - [DatabaseFixups/29DatabaseFixupsSyncCollections] Fixup completed
+Jan 22, 2026 17:20:54.746 [129681602730808] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupActivities] Executing fixup
+Jan 22, 2026 17:20:54.746 [129681602730808] DEBUG - [DatabaseFixups/31DatabaseFixupsCleanupActivities] Fixup completed
+Jan 22, 2026 17:20:54.746 [129681602730808] DEBUG - [DatabaseFixups/35DatabaseFixupsConsolidatePeopleTags] Executing fixup
+Jan 22, 2026 17:20:54.767 [129681602730808] DEBUG - [DatabaseFixups/35DatabaseFixupsConsolidatePeopleTags] Fixup completed
+Jan 22, 2026 17:20:54.767 [129681602730808] DEBUG - [DatabaseFixups/54DatabaseFixupsGarbageCollectTransientMetadataRelations] Executing fixup
+Jan 22, 2026 17:20:54.767 [129681602730808] DEBUG - [DatabaseFixups/54DatabaseFixupsGarbageCollectTransientMetadataRelations] Fixup completed
+Jan 22, 2026 17:20:54.767 [129681602730808] DEBUG - [DatabaseFixups/48DatabaseFixupsResetCorruptedMetadataItemClusters] Executing fixup
+Jan 22, 2026 17:20:54.777 [129681602730808] DEBUG - [DatabaseFixups/48DatabaseFixupsResetCorruptedMetadataItemClusters] Fixup completed
+Jan 22, 2026 17:20:54.777 [129681602730808] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.0 seconds.
+Jan 22, 2026 17:20:55.030 [129681596402488] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Jan 22, 2026 17:20:55.770 [129681615518520] DEBUG - Request: [127.0.0.1:52356 (Loopback)] GET /servers (3 live) #9 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:20:55.771 [129681615518520] DEBUG - Translator: Found locale uk
+Jan 22, 2026 17:20:55.774 [129681615518520] DEBUG - Translator: Found locale he
+Jan 22, 2026 17:20:55.774 [129681615518520] DEBUG - Translator: Found locale lt
+Jan 22, 2026 17:20:55.774 [129681615518520] DEBUG - Translator: Found locale pt
+Jan 22, 2026 17:20:55.775 [129681615518520] DEBUG - Translator: Found locale cs_CZ
+Jan 22, 2026 17:20:55.775 [129681615518520] DEBUG - Translator: Found locale hu
+Jan 22, 2026 17:20:55.775 [129681615518520] DEBUG - Translator: Found locale ro
+Jan 22, 2026 17:20:55.782 [129681615518520] DEBUG - Translator: Found locale af
+Jan 22, 2026 17:20:55.783 [129681615518520] DEBUG - Translator: Found locale no
+Jan 22, 2026 17:20:55.783 [129681615518520] DEBUG - Translator: Found locale es
+Jan 22, 2026 17:20:55.783 [129681615518520] DEBUG - Translator: Found locale de
+Jan 22, 2026 17:20:55.783 [129681615518520] DEBUG - Translator: Found locale en
+Jan 22, 2026 17:20:55.784 [129681615518520] DEBUG - Translator: Found locale ar
+Jan 22, 2026 17:20:55.784 [129681615518520] DEBUG - Translator: Found locale ko
+Jan 22, 2026 17:20:55.784 [129681615518520] DEBUG - Translator: Found locale hr_HR
+Jan 22, 2026 17:20:55.784 [129681615518520] DEBUG - Translator: Found locale zh_CN
+Jan 22, 2026 17:20:55.785 [129681615518520] DEBUG - Translator: Found locale it
+Jan 22, 2026 17:20:55.785 [129681615518520] DEBUG - Translator: Found locale sv
+Jan 22, 2026 17:20:55.785 [129681615518520] DEBUG - Translator: Found locale fi
+Jan 22, 2026 17:20:55.785 [129681615518520] DEBUG - Translator: Found locale ja_JP
+Jan 22, 2026 17:20:55.786 [129681615518520] DEBUG - Translator: Found locale nl_BE
+Jan 22, 2026 17:20:55.786 [129681615518520] DEBUG - Translator: Found locale hu_HU
+Jan 22, 2026 17:20:55.786 [129681615518520] DEBUG - Translator: Found locale sr
+Jan 22, 2026 17:20:55.786 [129681615518520] DEBUG - Translator: Found locale sk
+Jan 22, 2026 17:20:55.786 [129681615518520] DEBUG - Translator: Found locale pt_BR
+Jan 22, 2026 17:20:55.787 [129681615518520] DEBUG - Translator: Found locale nl
+Jan 22, 2026 17:20:55.787 [129681615518520] DEBUG - Translator: Found locale et_EE
+Jan 22, 2026 17:20:55.787 [129681615518520] DEBUG - Translator: Found locale fr
+Jan 22, 2026 17:20:55.789 [129681615518520] DEBUG - Translator: Found locale sl
+Jan 22, 2026 17:20:55.789 [129681615518520] DEBUG - Translator: Found locale ru
+Jan 22, 2026 17:20:55.789 [129681615518520] DEBUG - Translator: Found locale da
+Jan 22, 2026 17:20:55.789 [129681615518520] DEBUG - Translator: Found locale pl
+Jan 22, 2026 17:20:55.824 [129681642224440] DEBUG - Completed: [127.0.0.1:52356] 200 GET /servers (3 live) #9 GZIP 54ms 496 bytes
+Jan 22, 2026 17:20:55.845 [129681631161144] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.6s) 200 response from GET https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1 (reused)
+Jan 22, 2026 17:20:55.856 [129681622526776] DEBUG - MyPlex: username is lucascnoman, login is lucas.noman7@gmail.com, home is 0, no pin
+Jan 22, 2026 17:20:55.866 [129681611168568] DEBUG - [HCl#12] HTTP requesting GET https://plex.tv/api/v2/geoip
+Jan 22, 2026 17:20:55.884 [129681631161144] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (1.3s) 200 response from GET http://127.0.0.1:43483/system/agents
+Jan 22, 2026 17:20:55.885 [129681626778424] DEBUG - [com.plexapp.system] HTTP reply status 200, with 8986 bytes of content.
+Jan 22, 2026 17:20:55.906 [129681626778424] DEBUG - The system knows about 12 agents.
+Jan 22, 2026 17:20:55.907 [129681626778424] DEBUG - Waiting for 16 plug-ins to finish starting.
+Jan 22, 2026 17:20:55.908 [129681581857592] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/LyricFind.bundle.
+Jan 22, 2026 17:20:55.909 [129681581857592] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+Jan 22, 2026 17:20:55.909 [129681581857592] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Media-Flags.bundle.
+Jan 22, 2026 17:20:55.910 [129681581857592] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Musicbrainz.bundle.
+Jan 22, 2026 17:20:55.912 [129681579748152] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/PlexThemeMusic.bundle.
+Jan 22, 2026 17:20:55.914 [129681579748152] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+Jan 22, 2026 17:20:55.914 [129681579748152] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/HTbackdrops.bundle.
+Jan 22, 2026 17:20:55.915 [129681579748152] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+Jan 22, 2026 17:20:55.915 [129681579748152] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/PersonalMedia.bundle.
+Jan 22, 2026 17:20:55.915 [129681577638712] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/TheTVDBv4.bundle.
+Jan 22, 2026 17:20:55.923 [129681577638712] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+Jan 22, 2026 17:20:55.923 [129681577638712] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/WebClient.bundle.
+Jan 22, 2026 17:20:55.929 [129681577638712] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/PlexMovie.bundle.
+Jan 22, 2026 17:20:55.934 [129681577638712] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+Jan 22, 2026 17:20:55.935 [129681577638712] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Scanners.bundle.
+Jan 22, 2026 17:20:55.936 [129681577638712] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/LastFM.bundle.
+Jan 22, 2026 17:20:55.937 [129681577638712] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+Jan 22, 2026 17:20:55.942 [129681581857592] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+Jan 22, 2026 17:20:55.957 [129681581857592] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/LocalMedia.bundle.
+Jan 22, 2026 17:20:55.958 [129681581857592] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+Jan 22, 2026 17:20:55.949 [129681579748152] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+Jan 22, 2026 17:20:55.965 [129681579748152] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/MoviePosterDB.bundle.
+Jan 22, 2026 17:20:55.966 [129681579748152] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+Jan 22, 2026 17:20:55.966 [129681579748152] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Framework.bundle.
+Jan 22, 2026 17:20:55.954 [129681577638712] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/TheMovieDB.bundle.
+Jan 22, 2026 17:20:55.978 [129681577638712] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+Jan 22, 2026 17:20:55.978 [129681577638712] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-f737b826c/Fanart-TV.bundle.
+Jan 22, 2026 17:20:56.010 [129681631161144] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (1.4s) 200 response from GET https://v4.plex.tv/pms/:/ip
+Jan 22, 2026 17:20:56.015 [129681652149048] DEBUG - PublicAddressManager: Got public IP from v4.plex.tv: 143.137.156.89
+Jan 22, 2026 17:20:56.026 [129681577638712] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+Jan 22, 2026 17:20:56.033 [129681631161144] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (1.4s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:56.033 [129681631161144] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (1.4s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:56.064 [129681631161144] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/geoip (reused)
+Jan 22, 2026 17:20:56.076 [129681585855288] DEBUG - [HCl#13] HTTP requesting GET https://plex.tv/api/v2/server/webhooks?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:56.077 [129681644333880] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] Resolving 172.104.216.125 port 443
+Jan 22, 2026 17:20:56.082 [129681644333880] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] Resolved 172.104.216.125 to 172.104.216.125:443
+Jan 22, 2026 17:20:56.083 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.083 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=72, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.083 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.083 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.100 [129681611168568] DEBUG - [HCl#14] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:56.109 [129681626778424] DEBUG - Starting scheduled updates, every 3600 seconds
+Jan 22, 2026 17:20:56.109 [129681626778424] INFO - LibraryUpdateManager path watching is disabled
+Jan 22, 2026 17:20:56.109 [129681626778424] DEBUG - Done waiting for all plug-ins to start.
+Jan 22, 2026 17:20:56.110 [129681626778424] DEBUG - PluginRepository::setStartState: 3, complete
+Jan 22, 2026 17:20:56.110 [129681600621368] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Jan 22, 2026 17:20:56.112 [129681600621368] DEBUG - [Req#d] Starting file watcher for com.plexapp.agents.imdb
+Jan 22, 2026 17:20:56.112 [129681600621368] DEBUG - [Req#d] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Jan 22, 2026 17:20:56.112 [129681600621368] DEBUG - [Req#d] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Jan 22, 2026 17:20:56.113 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.113 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.113 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=75, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.113 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.113 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.128 [129681631161144] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (1.5s) 200 response from GET http://127.0.0.1:43483/system/notify/serverUpdated?host=127.0.0.1
+Jan 22, 2026 17:20:56.131 [129681604840248] DEBUG - [NSB] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Jan 22, 2026 17:20:56.152 [129681600621368] DEBUG - [Req#d] Spawned plug-in com.plexapp.agents.imdb with PID 305
+Jan 22, 2026 17:20:56.152 [129681600621368] DEBUG - [Req#d] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+Jan 22, 2026 17:20:56.153 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.153 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.153 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=78, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.153 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.153 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.159 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.159 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.159 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=74, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.159 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.159 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.176 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.176 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.176 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=77, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.176 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.176 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.177 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.177 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.177 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=76, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.177 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.177 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.194 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.194 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.194 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=73, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.194 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.194 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.195 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.195 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.195 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=71, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.195 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.195 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.211 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.388 [129681620417336] DEBUG - [MediaProviderManager/MetadataAgentManager] attempted to online our built-in agents but we're not yet signed in
+Jan 22, 2026 17:20:56.512 [129681644333880] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] Connected in 430 ms.
+Jan 22, 2026 17:20:56.513 [129681644333880] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] Wrote data, reading reply.
+Jan 22, 2026 17:20:56.531 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.531 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=80, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.531 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.531 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.532 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.532 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.532 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=81, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.532 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.532 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.533 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.533 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:20:56.533 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=79, flags=0x11043, change=0x0
+Jan 22, 2026 17:20:56.533 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:20:56.533 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:20:56.534 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:20:56.591 [129681631161144] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (1.9s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:56.591 [129681631161144] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.5s) 200 response from GET https://plex.tv/api/v2/server/webhooks?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:20:56.591 [129681631161144] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.5s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:20:56.598 [129681594293048] DEBUG - [HCl#16] HTTP requesting GET https://plex.tv/api/v2/server/users/features
+Jan 22, 2026 17:20:56.619 [129681611168568] DEBUG - [HCl#17] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:56.678 [129681642224440] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] Read HTTP reply header.
+Jan 22, 2026 17:20:56.679 [129681642224440] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] MyPlex: We appear to have regained Internet connectivity.
+Jan 22, 2026 17:20:56.693 [129681642224440] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] PublicAddressManager: Obtaining public address and mapping port.
+Jan 22, 2026 17:20:56.693 [129681642224440] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Jan 22, 2026 17:20:56.693 [129681642224440] WARN - [EventSourceClient/pubsub/172.104.216.125:443] MyPlex: attempted a reachability check but we're not yet mapped.
+Jan 22, 2026 17:20:56.693 [129681642224440] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] Successfully connected to 172.104.216.125.
+Jan 22, 2026 17:20:56.791 [129681631161144] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/features (reused)
+Jan 22, 2026 17:20:56.791 [129681631161144] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:20:56.792 [129681611168568] DEBUG - [HCl#18] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:57.017 [129681631161144] DEBUG - [HttpClient/HCl#18] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:20:57.030 [129681611168568] DEBUG - [HCl#19] HTTP requesting GET https://plex.tv/api/v2/server/users/features
+Jan 22, 2026 17:20:57.200 [129681631161144] DEBUG - [HttpClient/HCl#19] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/features (reused)
+Jan 22, 2026 17:20:57.278 [129681611168568] DEBUG - CERT: Certificate will not expire soon; we'll check again in a week.
+Jan 22, 2026 17:20:57.279 [129681579674424] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Jan 22, 2026 17:20:57.279 [129681579674424] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jan 22, 2026 17:20:57.285 [129681579674424] DEBUG - MyPlex: Sending Server Info to myPlex (user=lucas.noman7@gmail.com, ip=, port=0)
+Jan 22, 2026 17:20:57.285 [129681579674424] DEBUG - [HCl#1a] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:57.287 [129681611168568] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Jan 22, 2026 17:20:57.287 [129681611168568] DEBUG - [HCl#1b] HTTP requesting PUT https://plex.tv/devices/5e7f690a5d7aaebc45f52729540aadee813dd9f4?Connection[][uri]=http://192.168.1.100:32400&Connection[][uri]=http://172.17.0.1:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400&Connection[][uri]=http://172.20.0.1:32400&Connection[][uri]=http://[2804:98c:7032:d400:1e39:47ff:fe53:92f0]:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:57.463 [129681631161144] DEBUG - [HttpClient/HCl#1a] HTTP/1.1 (0.2s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:20:57.464 [129681579674424] DEBUG - MyPlex: Published Mapping State response was 422
+Jan 22, 2026 17:20:57.464 [129681579674424] DEBUG - MyPlex: Got response for 5e7f690a5d7aaebc45f52729540aadee813dd9f4 ~ registered :0
+Jan 22, 2026 17:20:57.464 [129681579674424] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Jan 22, 2026 17:20:57.464 [129681579674424] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Jan 22, 2026 17:20:57.465 [129681631161144] DEBUG - [HttpClient/HCl#1b] HTTP/1.1 (0.2s) 200 response from PUT https://plex.tv/devices/5e7f690a5d7aaebc45f52729540aadee813dd9f4?Connection[][uri]=http://192.168.1.100:32400&Connection[][uri]=http://172.17.0.1:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400&Connection[][uri]=http://172.20.0.1:32400&Connection[][uri]=http://[2804:98c:7032:d400:1e39:47ff:fe53:92f0]:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:20:57.941 [129681633270584] DEBUG - NAT: UPnP, found device <http://192.168.1.1:38400/description.xml> with private address <192.168.1.100>
+Jan 22, 2026 17:20:58.126 [129681633270584] DEBUG - NAT: UPnP, usable device <http://192.168.1.1:38400/description.xml> with private address <192.168.1.100>.
+Jan 22, 2026 17:20:58.206 [129681633270584] DEBUG - NAT: UPnP, mapped port 16043 to 192.168.1.100:32400.
+Jan 22, 2026 17:20:58.206 [129681633270584] DEBUG - PublicAddressManager: Mapping succeeded for 192.168.1.100:16043.
+Jan 22, 2026 17:20:58.207 [129681633270584] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Jan 22, 2026 17:20:58.208 [129681633270584] DEBUG - [HCl#1c] HTTP requesting PUT https://plex.tv/devices/5e7f690a5d7aaebc45f52729540aadee813dd9f4?Connection[][uri]=http://192.168.1.100:32400&Connection[][uri]=http://172.17.0.1:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400&Connection[][uri]=http://172.20.0.1:32400&Connection[][uri]=http://[2804:98c:7032:d400:1e39:47ff:fe53:92f0]:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:20:58.386 [129681631161144] DEBUG - [HttpClient/HCl#1c] HTTP/1.1 (0.2s) 200 response from PUT https://plex.tv/devices/5e7f690a5d7aaebc45f52729540aadee813dd9f4?Connection[][uri]=http://192.168.1.100:32400&Connection[][uri]=http://172.17.0.1:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400&Connection[][uri]=http://172.20.0.1:32400&Connection[][uri]=http://[2804:98c:7032:d400:1e39:47ff:fe53:92f0]:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:20:59.068 [129681590074168] DEBUG - [MediaProviderManager] Refreshing media providers
+Jan 22, 2026 17:20:59.069 [129681590074168] DEBUG - [MediaProviderManager/Response::fetch/HCl#1f] HTTP requesting GET https://plex.tv/media/providers
+Jan 22, 2026 17:20:59.180 [129681652149048] DEBUG - NAT: UPnP, found device <http://192.168.1.1:38400/description.xml> with private address <192.168.1.100>
+Jan 22, 2026 17:20:59.235 [129681631161144] DEBUG - [HttpClient/HCl#1f] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/media/providers (reused)
+Jan 22, 2026 17:20:59.238 [129681590074168] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & Shows)
+Jan 22, 2026 17:20:59.238 [129681590074168] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Jan 22, 2026 17:20:59.238 [129681590074168] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 1)
+Jan 22, 2026 17:20:59.238 [129681590074168] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & Shows) (alive: 1)
+Jan 22, 2026 17:20:59.238 [129681590074168] DEBUG - [MediaProviderManager] we had 2 cloud providers online, we now have 2
+Jan 22, 2026 17:20:59.238 [129681590074168] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Jan 22, 2026 17:20:59.238 [129681590074168] DEBUG - [MediaProviderManager] cloud provider (Movies & Shows) is online and available
+Jan 22, 2026 17:20:59.238 [129681590074168] DEBUG - [MediaProviderManager] Media provider refresh complete
+Jan 22, 2026 17:20:59.356 [129681652149048] DEBUG - NAT: UPnP, usable device <http://192.168.1.1:38400/description.xml> with private address <192.168.1.100>.
+Jan 22, 2026 17:20:59.435 [129681652149048] DEBUG - NAT: UPnP, public address is 100.68.11.135
+Jan 22, 2026 17:20:59.435 [129681652149048] DEBUG - PublicAddressManager: got WAN IP 100.68.11.135 from router
+Jan 22, 2026 17:20:59.435 [129681652149048] WARN - PublicAddressManager: WAN IP on router does not match public IP from plex.tv
+Jan 22, 2026 17:20:59.447 [129681652149048] DEBUG - [HCl#20] HTTP requesting GET https://143-137-156-89.1bac40021f47432f9c1841e656677f93.plex.direct:16043/identity
+Jan 22, 2026 17:21:01.070 [129681571236664] DEBUG - [PubsubServerManager/process/HCl#21] HTTP requesting GET https://plex.tv/services/pubsub/servers
+Jan 22, 2026 17:21:01.165 [129681615518520] DEBUG - Request: [127.0.0.1:60580 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #b GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:21:01.165 [129681615518520] DEBUG - [Req#b] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+Jan 22, 2026 17:21:01.165 [129681615518520] DEBUG - [Req#b/HCl#22] HTTP requesting GET http://127.0.0.1:43483/system/messaging/clear_events/com.plexapp.agents.imdb
+Jan 22, 2026 17:21:01.212 [129681631161144] DEBUG - [HttpClient/HCl#22] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:43483/system/messaging/clear_events/com.plexapp.agents.imdb (reused)
+Jan 22, 2026 17:21:01.217 [129681615518520] DEBUG - [Req#b] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Jan 22, 2026 17:21:01.218 [129681642224440] DEBUG - Completed: [127.0.0.1:60580] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #b GZIP 52ms 280 bytes
+Jan 22, 2026 17:21:01.231 [129681631161144] DEBUG - [HttpClient/HCl#21] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/services/pubsub/servers (reused)
+Jan 22, 2026 17:21:01.565 [129681573346104] DEBUG - DVR:Device: Discovering and refreshing all devices.
+Jan 22, 2026 17:21:01.566 [129681573346104] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+Jan 22, 2026 17:21:01.566 [129681573346104] DEBUG - [HCl#23] HTTP requesting POST http://127.0.0.1:32600/devices/discover
+Jan 22, 2026 17:21:01.673 [129681615518520] DEBUG - Request: [127.0.0.1:60582 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (2 live) #18 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:21:01.673 [129681615518520] DEBUG - [Req#18] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+Jan 22, 2026 17:21:01.673 [129681615518520] DEBUG - [Req#18/HCl#24] HTTP requesting GET http://127.0.0.1:43483/:/plugins/com.plexapp.system/resourceHashes
+Jan 22, 2026 17:21:02.249 [129681631161144] DEBUG - [HttpClient/HCl#24] HTTP/1.1 (0.6s) 404 response from GET http://127.0.0.1:43483/:/plugins/com.plexapp.system/resourceHashes
+Jan 22, 2026 17:21:02.249 [129681615518520] DEBUG - [Req#18] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
+Jan 22, 2026 17:21:02.249 [129681644333880] DEBUG - Completed: [127.0.0.1:60582] 404 GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #18 GZIP 576ms 261 bytes
+Jan 22, 2026 17:21:02.336 [129681615518520] DEBUG - Request: [127.0.0.1:60596 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (1 live) #1a GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:21:02.336 [129681615518520] DEBUG - [Req#1a] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jan 22, 2026 17:21:02.336 [129681615518520] DEBUG - [Req#1a/HCl#25] HTTP requesting GET http://127.0.0.1:43483/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jan 22, 2026 17:21:02.376 [129681611168568] DEBUG - Request: [127.0.0.1:60612 (Loopback)] GET / (3 live) #1d GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:21:02.408 [129681571236664] DEBUG - [PubsubServerManager/process] Time to connect to 172.104.217.190 was 386 ms.
+Jan 22, 2026 17:21:02.408 [129681571236664] DEBUG - [PubsubServerManager/process] Time to connect to 172.104.216.125 was 397 ms.
+Jan 22, 2026 17:21:02.408 [129681571236664] DEBUG - [PubsubServerManager/process] Time to connect to 45.79.211.188 was 402 ms.
+Jan 22, 2026 17:21:02.408 [129681571236664] DEBUG - [PubsubServerManager/process] Time to connect to 172.105.99.32 was 439 ms.
+Jan 22, 2026 17:21:02.408 [129681571236664] DEBUG - [PubsubServerManager/process] Time to connect to 72.14.179.64 was 453 ms.
+Jan 22, 2026 17:21:02.408 [129681571236664] DEBUG - [PubsubServerManager/process] Time to connect to 45.33.110.53 was 606 ms.
+Jan 22, 2026 17:21:02.408 [129681571236664] DEBUG - [PubsubServerManager/process] Time to connect to 178.79.145.139 was 621 ms.
+Jan 22, 2026 17:21:02.408 [129681571236664] DEBUG - [PubsubServerManager/process] Time to connect to 172.104.145.70 was 639 ms.
+Jan 22, 2026 17:21:02.408 [129681571236664] DEBUG - [PubsubServerManager/process] Time to connect to 139.162.75.196 was 889 ms.
+Jan 22, 2026 17:21:02.408 [129681571236664] DEBUG - [PubsubServerManager/process] Time to connect to 139.162.20.120 was 1173 ms.
+Jan 22, 2026 17:21:02.409 [129681571236664] DEBUG - [PubsubServerManager/process] Updating best ping time for 172.104.216.125 to 397 ms.
+Jan 22, 2026 17:21:02.452 [129681631161144] DEBUG - [HttpClient/HCl#20] HTTP simulating 408 after curl timeout
+Jan 22, 2026 17:21:02.458 [129681652149048] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published'.
+Jan 22, 2026 17:21:02.458 [129681652149048] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Mapped - Not Published'.
+Jan 22, 2026 17:21:02.458 [129681652149048] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Jan 22, 2026 17:21:02.466 [129681642224440] DEBUG - Completed: [127.0.0.1:60612] 200 GET / (3 live) #1d GZIP 90ms 3958 bytes
+Jan 22, 2026 17:21:02.481 [129681652149048] DEBUG - MyPlex: Sending Server Info to myPlex (user=lucas.noman7@gmail.com, ip=143.137.156.89, port=16043)
+Jan 22, 2026 17:21:02.481 [129681652149048] DEBUG - [HCl#26] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:21:02.525 [129681631161144] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (0.2s) 200 response from GET http://127.0.0.1:43483/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Jan 22, 2026 17:21:02.528 [129681615518520] DEBUG - [Req#1a] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
+Jan 22, 2026 17:21:02.531 [129681642224440] DEBUG - Completed: [127.0.0.1:60596] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (2 live) #1a GZIP 195ms 746 bytes
+Jan 22, 2026 17:21:02.677 [129681631161144] DEBUG - [HttpClient/HCl#26] HTTP/1.1 (0.2s) 201 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:21:02.677 [129681652149048] DEBUG - MyPlex: Published Mapping State response was 201
+Jan 22, 2026 17:21:02.677 [129681652149048] DEBUG - MyPlex: Got response for 5e7f690a5d7aaebc45f52729540aadee813dd9f4 ~ registered 143.137.156.89:16043
+Jan 22, 2026 17:21:02.677 [129681652149048] DEBUG - MyPlex: updating mapped state - current state: 'Mapped - Not Published'
+Jan 22, 2026 17:21:02.677 [129681652149048] DEBUG - MyPlex: mapping state set to 'Mapped - Publishing'.
+Jan 22, 2026 17:21:02.677 [129681652149048] DEBUG - MyPlex: async reachability check - current mapped state: 'Mapped - Publishing'.
+Jan 22, 2026 17:21:02.677 [129681652149048] DEBUG - MyPlex: Requesting reachability check.
+Jan 22, 2026 17:21:02.677 [129681652149048] DEBUG - [HCl#27] HTTP requesting PUT https://plex.tv/api/servers/5e7f690a5d7aaebc45f52729540aadee813dd9f4/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=419c3c3a-2652-465f-9f0e-3e82e981918a
+Jan 22, 2026 17:21:02.837 [129681631161144] DEBUG - [HttpClient/HCl#27] HTTP/1.1 (0.2s) 200 response from PUT https://plex.tv/api/servers/5e7f690a5d7aaebc45f52729540aadee813dd9f4/connectivity?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx&asyncIdentifier=419c3c3a-2652-465f-9f0e-3e82e981918a (reused)
+Jan 22, 2026 17:21:02.841 [129681652149048] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Jan 22, 2026 17:21:02.841 [129681652149048] DEBUG - [HCl#28] HTTP requesting PUT https://plex.tv/devices/5e7f690a5d7aaebc45f52729540aadee813dd9f4?Connection[][uri]=http://143.137.156.89:16043&Connection[][uri]=http://192.168.1.100:32400&Connection[][uri]=http://172.17.0.1:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400&Connection[][uri]=http://172.20.0.1:32400&Connection[][uri]=http://[2804:98c:7032:d400:1e39:47ff:fe53:92f0]:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:21:03.021 [129681631161144] DEBUG - [HttpClient/HCl#28] HTTP/1.1 (0.2s) 200 response from PUT https://plex.tv/devices/5e7f690a5d7aaebc45f52729540aadee813dd9f4?Connection[][uri]=http://143.137.156.89:16043&Connection[][uri]=http://192.168.1.100:32400&Connection[][uri]=http://172.17.0.1:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.19.0.1:32400&Connection[][uri]=http://172.20.0.1:32400&Connection[][uri]=http://[2804:98c:7032:d400:1e39:47ff:fe53:92f0]:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:21:04.051 [129681631161144] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (2.5s) 200 response from POST http://127.0.0.1:32600/devices/discover
+Jan 22, 2026 17:21:04.671 [129681652149048] DEBUG - Grabber: Cleaning up orphaned grabs.
+Jan 22, 2026 17:21:04.671 [129681652149048] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Jan 22, 2026 17:21:04.672 [129681652149048] DEBUG - Activity: registered new activity 43d66dad-46b7-4ab8-afa4-f7c98585244c - "Processing subscriptions"
+Jan 22, 2026 17:21:04.672 [129681652149048] DEBUG - Subscription: Scheduling subscriptions.
+Jan 22, 2026 17:21:04.673 [129681652149048] DEBUG - Subscription: Initialized 0 schedulers.
+Jan 22, 2026 17:21:04.675 [129681652149048] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Jan 22, 2026 17:21:04.675 [129681652149048] DEBUG - Subscription: Scheduled all subscriptions in 2 ms.
+Jan 22, 2026 17:21:04.675 [129681652149048] DEBUG - Activity: Ended activity 43d66dad-46b7-4ab8-afa4-f7c98585244c.
+Jan 22, 2026 17:21:04.676 [129681652149048] DEBUG - Subscription: There are 0 active grabs at the end.
+Jan 22, 2026 17:21:04.676 [129681652149048] DEBUG - Activity: Ended activity bb916e2c-bdfe-4a35-99f2-6f99dd3d601b.
+Jan 22, 2026 17:21:04.676 [129681652149048] DEBUG - Subscription: Refreshed all content in 5 ms.
+Jan 22, 2026 17:21:05.473 [129681615518520] DEBUG - Request: [127.0.0.1:60618 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (2 live) #1e GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:21:05.474 [129681615518520] DEBUG - [Req#1e] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jan 22, 2026 17:21:05.475 [129681615518520] DEBUG - [Req#1e/HCl#29] HTTP requesting GET http://127.0.0.1:43483/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jan 22, 2026 17:21:05.562 [129681631161144] DEBUG - [HttpClient/HCl#29] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:43483/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Jan 22, 2026 17:21:05.564 [129681615518520] DEBUG - [Req#1e] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+Jan 22, 2026 17:21:05.566 [129681644333880] DEBUG - Completed: [127.0.0.1:60618] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (2 live) #1e GZIP 92ms 415 bytes
+Jan 22, 2026 17:21:05.588 [129681600621368] DEBUG - [Req#d] Reading 148 bytes in the body, code is 200
+Jan 22, 2026 17:21:05.588 [129681600621368] DEBUG - [Req#d] [com.plexapp.agents.imdb] Plug-in running on port 37779.
+Jan 22, 2026 17:21:05.588 [129681600621368] DEBUG - [Req#d] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+Jan 22, 2026 17:21:05.588 [129681600621368] DEBUG - [Req#d] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Jan 22, 2026 17:21:05.588 [129681600621368] DEBUG - [Req#d/HCl#2a] HTTP requesting GET http://127.0.0.1:37779/:/plugins/com.plexapp.agents.imdb/prefs
+Jan 22, 2026 17:21:05.663 [129681604840248] DEBUG - [NSB/SSDP] Parsing SSDP schema for http://192.168.1.1:38400/description.xml
+Jan 22, 2026 17:21:05.678 [129681631161144] DEBUG - [HttpClient/HCl#2b] HTTP/1.1 (0.0s) 200 response from GET http://192.168.1.1:38400/description.xml
+Jan 22, 2026 17:21:05.680 [129681604840248] DEBUG - [NSB/SSDP] found 3 SSDP devices via http://192.168.1.1:38400/description.xml
+Jan 22, 2026 17:21:05.684 [129681604840248] DEBUG - [NSB/SSDP] SSDP arrived: 192.168.1.1 (PX3321-T1)
+Jan 22, 2026 17:21:05.685 [129681604840248] DEBUG - [NSB/SSDP] SSDP arrived: 192.168.1.1 (WANDevice.1)
+Jan 22, 2026 17:21:05.685 [129681604840248] DEBUG - [NSB/SSDP] SSDP arrived: 192.168.1.1 (WANConnectionDevice.1)
+Jan 22, 2026 17:21:05.699 [129681631161144] DEBUG - [HttpClient/HCl#2a] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:37779/:/plugins/com.plexapp.agents.imdb/prefs
+Jan 22, 2026 17:21:05.703 [129681600621368] DEBUG - [Req#d] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Jan 22, 2026 17:21:05.704 [129681600621368] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 1fcb45a086d6881486788c844374be8994726fc5
+Jan 22, 2026 17:21:05.705 [129681600621368] DEBUG - IVA: Downloading trailer lists.
+Jan 22, 2026 17:21:05.939 [129681600621368] DEBUG - IVA: Downloaded 8 trailers for source 1.
+Jan 22, 2026 17:21:06.000 [129681600621368] DEBUG - IVA: Downloaded 28 trailers for source 2.
+Jan 22, 2026 17:21:06.069 [129681633270584] DEBUG - [HCl#2e] HTTP requesting GET https://plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:21:06.392 [129681571236664] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.movie' with source URI 'provider://tv.plex.provider.metadata'
+Jan 22, 2026 17:21:06.392 [129681571236664] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.series' with source URI 'provider://tv.plex.provider.metadata'
+Jan 22, 2026 17:21:06.393 [129681571236664] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'tv.plex.agents.music' with source URI 'provider://tv.plex.provider.metadata'
+Jan 22, 2026 17:21:06.393 [129681571236664] DEBUG - [MediaProviderManager/MetadataAgentManager] Found media provider for agent provider 'org.musicbrainz.agents.music' with source URI 'provider://tv.plex.provider.metadata'
+Jan 22, 2026 17:21:06.736 [129681631161144] DEBUG - [HttpClient/HCl#2e] HTTP/1.1 (0.7s) 200 response from GET https://plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:21:06.737 [129681633270584] DEBUG - Connection Tester: Testing the server Storage with 2 URLs.
+Jan 22, 2026 17:21:06.737 [129681633270584] DEBUG - [HCl#2f] HTTP requesting GET https://192-168-1-100.00615f9ab6a041afb0fb5234cb9b7bad.plex.direct:32400
+Jan 22, 2026 17:21:06.750 [129681633270584] DEBUG - [HCl#30] HTTP requesting GET https://186-195-143-131.00615f9ab6a041afb0fb5234cb9b7bad.plex.direct:26619
+Jan 22, 2026 17:21:06.869 [129681642224440] WARN - [CERT] TLS connection from [::ffff:192.168.1.100]:47252 came in with unrecognized plex.direct SNI name '192-168-1-100.00615f9ab6a041afb0fb5234cb9b7bad.plex.direct'; using installed plex.direct cert
+Jan 22, 2026 17:21:06.903 [129681631161144] WARN - [HttpClient/HCl#2f] HTTP error requesting GET https://192-168-1-100.00615f9ab6a041afb0fb5234cb9b7bad.plex.direct:32400 (60, SSL peer certificate or SSH remote key was not OK) (SSL: no alternative certificate subject name matches target host name '192-168-1-100.00615f9ab6a041afb0fb5234cb9b7bad.plex.direct')
+Jan 22, 2026 17:21:07.903 [129681644333880] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] EventSource: Got event [data] '<Message address="143.137.156.89" port="16043" asyncIdentifier="419c3c3a-2652-465f-9f0e-3e82e981918a" connectivity="0" command="notifyConnectivity"/>'
+Jan 22, 2026 17:21:07.903 [129681644333880] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] PubSub: Got notified of reachability for async identifier 419c3c3a-2652-465f-9f0e-3e82e981918a: 0 for 143.137.156.89:16043 (responded in 5064 ms)
+Jan 22, 2026 17:21:07.903 [129681644333880] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] MyPlex: reachability check - current mapping state: 'Mapped - Publishing'.
+Jan 22, 2026 17:21:07.903 [129681644333880] ERROR - [EventSourceClient/pubsub/172.104.216.125:443] MyPlex: mapping failed due to potential double NAT configuration
+Jan 22, 2026 17:21:07.903 [129681644333880] DEBUG - [EventSourceClient/pubsub/172.104.216.125:443] MyPlex: mapping state set to 'Mapped - Not Published (Double NAT)'.
+Jan 22, 2026 17:21:09.894 [129681631161144] WARN - [HttpClient/HCl#30] HTTP error requesting GET https://186-195-143-131.00615f9ab6a041afb0fb5234cb9b7bad.plex.direct:26619 (7, Couldn't connect to server) (Failed to connect to 186-195-143-131.00615f9ab6a041afb0fb5234cb9b7bad.plex.direct port 26619 after 3024 ms: Couldn't connect to server)
+Jan 22, 2026 17:21:09.894 [129681600621368] WARN - Connection Tester: Error testing media server Storage in 3157 ms.
+Jan 22, 2026 17:21:09.894 [129681600621368] DEBUG - PromiseQueue: promise resolved (queued: 0, active: 0)
+Jan 22, 2026 17:21:09.896 [129681633270584] DEBUG - Media Server: Tested all servers in 3.2 seconds.
+Jan 22, 2026 17:21:09.896 [129681633270584] DEBUG - [HCl#31] HTTP requesting GET /media/providers?includePreferences=1
+Jan 22, 2026 17:21:09.896 [129681631161144] WARN - [HttpClient/HCl#31] HTTP error requesting GET /media/providers?includePreferences=1 (3, URL using bad/illegal format or missing URL) (URL rejected: No host part in the URL)
+Jan 22, 2026 17:21:11.494 [129681620417336] DEBUG - [HCl#32] HTTP requesting GET https://plex.tv/api/v2/shared_sources/owned?machineIdentifier=5e7f690a5d7aaebc45f52729540aadee813dd9f4
+Jan 22, 2026 17:21:11.659 [129681631161144] DEBUG - [HttpClient/HCl#32] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/shared_sources/owned?machineIdentifier=5e7f690a5d7aaebc45f52729540aadee813dd9f4 (reused)
+Jan 22, 2026 17:21:11.661 [129681620417336] DEBUG - [HCl#33] HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:21:11.869 [129681631161144] DEBUG - [HttpClient/HCl#33] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:21:11.870 [129681620417336] DEBUG - MyPlex: updating with 7 access tokens
+Jan 22, 2026 17:21:11.870 [129681620417336] DEBUG - [HCl#34] HTTP requesting GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:21:12.046 [129681631161144] DEBUG - [HttpClient/HCl#34] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:21:12.047 [129681566972728] DEBUG - [HCl#35] HTTP requesting GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:21:12.210 [129681631161144] DEBUG - [HttpClient/HCl#35] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:21:12.211 [129681622526776] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:21:14.871 [129681600621368] DEBUG - [MediaProviderManager] Refreshing media providers
+Jan 22, 2026 17:21:14.871 [129681600621368] DEBUG - [MediaProviderManager/Response::fetch/HCl#36] HTTP requesting GET https://plex.tv/media/providers
+Jan 22, 2026 17:21:15.036 [129681631161144] DEBUG - [HttpClient/HCl#36] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/media/providers (reused)
+Jan 22, 2026 17:21:15.036 [129681600621368] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & Shows)
+Jan 22, 2026 17:21:15.036 [129681600621368] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Jan 22, 2026 17:21:15.036 [129681600621368] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 1)
+Jan 22, 2026 17:21:15.036 [129681600621368] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & Shows) (alive: 1)
+Jan 22, 2026 17:21:15.036 [129681600621368] DEBUG - [MediaProviderManager] we had 2 cloud providers online, we now have 2
+Jan 22, 2026 17:21:15.036 [129681600621368] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Jan 22, 2026 17:21:15.036 [129681600621368] DEBUG - [MediaProviderManager] cloud provider (Movies & Shows) is online and available
+Jan 22, 2026 17:21:15.036 [129681600621368] DEBUG - [MediaProviderManager] Media provider refresh complete
+Jan 22, 2026 17:22:05.460 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:22:05.460 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=74, flags=0x1003, change=0x0
+Jan 22, 2026 17:22:05.460 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:22:05.460 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:22:05.464 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:22:05.464 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:22:05.464 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=74, flags=0x1003, change=0x0
+Jan 22, 2026 17:22:05.464 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:22:05.464 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:22:05.470 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:22:05.471 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=1464, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:22:05.471 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=82, flags=0x1002, change=0xffffffff
+Jan 22, 2026 17:22:05.471 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:22:05.471 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:22:05.471 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:22:05.481 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=1820, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:22:05.481 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=74, flags=0x1002, change=0x41
+Jan 22, 2026 17:22:05.481 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:22:05.481 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:22:05.489 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:22:05.489 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:22:05.489 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=74, flags=0x1002, change=0x0
+Jan 22, 2026 17:22:05.489 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:22:05.489 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:22:05.490 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:22:05.490 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+Jan 22, 2026 17:22:05.490 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=82, flags=0x1002, change=0xffffffff
+Jan 22, 2026 17:22:05.490 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:22:05.490 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=74, flags=0x1002, change=0x0
+Jan 22, 2026 17:22:05.490 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:22:05.490 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:22:05.491 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:22:05.492 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+Jan 22, 2026 17:22:05.492 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=74, flags=0x1002, change=0x0
+Jan 22, 2026 17:22:05.492 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=656, type=RTM_DELLINK, flags=0x0
+Jan 22, 2026 17:22:05.492 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=74, flags=0x1002, change=0xffffffff
+Jan 22, 2026 17:22:41.287 [129681622526776] DEBUG - BPQ: [Starting] -> [Processing]
+Jan 22, 2026 17:22:41.290 [129681622526776] DEBUG - BPQ: generating queue items from 0 generator(s)
+Jan 22, 2026 17:22:41.290 [129681622526776] DEBUG - BPQ: generated 0 item(s) for queue
+Jan 22, 2026 17:22:41.293 [129681622526776] DEBUG - BPQ: [Processing] -> [Idle]
+Jan 22, 2026 17:22:54.395 [129681615518520] DEBUG - Request: [127.0.0.1:45522 (Loopback)] GET /servers (2 live) #2a GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:22:54.396 [129681644333880] DEBUG - Completed: [127.0.0.1:45522] 200 GET /servers (2 live) #2a GZIP 1ms 496 bytes
+Jan 22, 2026 17:22:54.403 [129681615518520] DEBUG - Request: [127.0.0.1:45526 (Loopback)] GET / (2 live) #2c GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:22:54.406 [129681644333880] DEBUG - Completed: [127.0.0.1:45526] 200 GET / (2 live) #2c GZIP 3ms 3956 bytes
+Jan 22, 2026 17:22:54.414 [129681615518520] DEBUG - Request: [127.0.0.1:45530 (Loopback)] GET /library/sections (2 live) #2e GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:22:54.420 [129681644333880] DEBUG - Completed: [127.0.0.1:45530] 200 GET /library/sections (2 live) #2e GZIP 5ms 775 bytes
+Jan 22, 2026 17:22:54.425 [129681615518520] DEBUG - Request: [127.0.0.1:45544 (Loopback)] GET /channels/all (2 live) #30 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:22:54.426 [129681644333880] DEBUG - Completed: [127.0.0.1:45544] 200 GET /channels/all (2 live) #30 GZIP 1ms 387 bytes
+Jan 22, 2026 17:22:54.432 [129681615518520] DEBUG - Request: [127.0.0.1:45556 (Loopback)] GET /library/sections (2 live) #32 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:22:54.433 [129681642224440] DEBUG - Completed: [127.0.0.1:45556] 200 GET /library/sections (2 live) #32 GZIP 0ms 775 bytes
+Jan 22, 2026 17:22:54.435 [129681615518520] DEBUG - Request: [127.0.0.1:45568 (Loopback)] GET /channels/all (2 live) #34 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:22:54.435 [129681642224440] DEBUG - Completed: [127.0.0.1:45568] 200 GET /channels/all (2 live) #34 GZIP 0ms 387 bytes
+Jan 22, 2026 17:23:32.523 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=1472, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:32.523 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=83, flags=0x1002, change=0xffffffff
+Jan 22, 2026 17:23:32.523 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:32.523 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:32.524 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:23:32.524 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=1472, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:32.524 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=83, flags=0x1002, change=0x0
+Jan 22, 2026 17:23:32.524 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:32.524 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:32.524 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:23:32.528 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:32.528 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=83, flags=0x1002, change=0x0
+Jan 22, 2026 17:23:32.528 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:32.528 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:32.530 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:23:32.530 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:32.530 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=83, flags=0x1002, change=0x100
+Jan 22, 2026 17:23:32.530 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:32.530 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:32.532 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:23:32.533 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:32.533 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=83, flags=0x1002, change=0x0
+Jan 22, 2026 17:23:32.533 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:32.533 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:32.534 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:23:32.540 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:32.540 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=83, flags=0x1003, change=0x1
+Jan 22, 2026 17:23:32.540 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:32.540 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:32.541 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:23:32.541 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:32.541 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=83, flags=0x1003, change=0x0
+Jan 22, 2026 17:23:32.541 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:32.541 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:32.542 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:23:32.571 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:32.571 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=83, flags=0x11043, change=0x0
+Jan 22, 2026 17:23:32.571 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:32.571 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:32.572 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:23:32.572 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:32.572 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=83, flags=0x11043, change=0x0
+Jan 22, 2026 17:23:32.572 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:32.572 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:32.573 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:23:32.573 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=1828, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:32.573 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=83, flags=0x11043, change=0x0
+Jan 22, 2026 17:23:32.573 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:32.573 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:32.574 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:23:48.048 [129681606949688] DEBUG - NetworkInterface: received Netlink message len=440, type=RTM_NEWLINK, flags=0x0
+Jan 22, 2026 17:23:48.048 [129681606949688] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=83, flags=0x11043, change=0x0
+Jan 22, 2026 17:23:48.048 [129681606949688] DEBUG - Network change.
+Jan 22, 2026 17:23:48.048 [129681606949688] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Jan 22, 2026 17:23:48.050 [129681606949688] DEBUG - Network change notification but nothing changed.
+Jan 22, 2026 17:24:55.915 [129681615518520] DEBUG - Request: [172.20.0.2:52762 (WAN)] GET /status/sessions (2 live) #36 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:24:55.916 [129681615518520] DEBUG - [Req#36] [Now] Adding 0 sessions.
+Jan 22, 2026 17:24:55.916 [129681615518520] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:24:55.917 [129681642224440] DEBUG - Completed: [172.20.0.2:52762] 200 GET /status/sessions (2 live) #36 Page 0-499 3ms 348 bytes
+Jan 22, 2026 17:24:56.269 [129681615518520] DEBUG - Request: [172.20.0.2:52766 (WAN)] GET /library/sections (2 live) #38 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:24:56.269 [129681615518520] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:24:56.270 [129681642224440] DEBUG - Completed: [172.20.0.2:52766] 200 GET /library/sections (2 live) #38 Page 0-499 1ms 1617 bytes
+Jan 22, 2026 17:24:56.286 [129681620417336] DEBUG - Request: [172.20.0.2:52782 (WAN)] GET /library/sections/3/all (4 live) #3c Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:24:56.286 [129681615518520] DEBUG - Request: [172.20.0.2:52780 (WAN)] GET /library/sections/1/all (4 live) #3a Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:24:56.287 [129681622526776] DEBUG - Request: [172.20.0.2:52792 (WAN)] GET /library/sections/2/all (4 live) #3d Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:24:56.292 [129681620417336] DEBUG - [Req#3c] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:24:56.292 [129681622526776] DEBUG - [Req#3d] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:24:56.293 [129681615518520] DEBUG - [Req#3a] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:24:56.299 [129681644333880] DEBUG - Completed: [172.20.0.2:52780] 200 GET /library/sections/1/all (4 live) #3a Page 0-499 13ms 723 bytes
+Jan 22, 2026 17:24:56.300 [129681622526776] DEBUG - MetadataCounterCache: rebuilding full counter cache for totals
+Jan 22, 2026 17:24:56.301 [129681620417336] DEBUG - MetadataCounterCache: rebuilding full counter cache for views
+Jan 22, 2026 17:24:56.303 [129681644333880] DEBUG - Completed: [172.20.0.2:52782] 200 GET /library/sections/3/all (3 live) #3c Page 0-499 18ms 2198 bytes
+Jan 22, 2026 17:24:56.306 [129681644333880] DEBUG - Completed: [172.20.0.2:52792] 200 GET /library/sections/2/all (2 live) #3d Page 0-499 21ms 2435 bytes
+Jan 22, 2026 17:24:56.975 [129681615518520] DEBUG - Request: [172.20.0.2:52802 (WAN)] GET /status/sessions (2 live) #3e Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:24:56.975 [129681615518520] DEBUG - [Req#3e] [Now] Adding 0 sessions.
+Jan 22, 2026 17:24:56.975 [129681615518520] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:24:56.976 [129681642224440] DEBUG - Completed: [172.20.0.2:52802] 200 GET /status/sessions (2 live) #3e Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:25:01.980 [129681620417336] DEBUG - Request: [172.20.0.2:39294 (WAN)] GET /status/sessions (2 live) #42 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:25:01.980 [129681620417336] DEBUG - [Req#42] [Now] Adding 0 sessions.
+Jan 22, 2026 17:25:01.980 [129681620417336] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:25:01.980 [129681642224440] DEBUG - Completed: [172.20.0.2:39294] 200 GET /status/sessions (2 live) #42 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:25:07.013 [129681620417336] DEBUG - Request: [172.20.0.2:39308 (WAN)] GET /status/sessions (2 live) #44 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:25:07.013 [129681620417336] DEBUG - [Req#44] [Now] Adding 0 sessions.
+Jan 22, 2026 17:25:07.014 [129681620417336] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:25:07.014 [129681642224440] DEBUG - Completed: [172.20.0.2:39308] 200 GET /status/sessions (2 live) #44 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:25:47.069 [129681600621368] DEBUG - [ViewStateSync] Starting
+Jan 22, 2026 17:25:47.069 [129681600621368] DEBUG - [ViewStateSync] Fetching user tokens
+Jan 22, 2026 17:25:47.069 [129681600621368] DEBUG - [ViewStateSync/HCl#37] HTTP requesting GET https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:25:47.612 [129681631161144] DEBUG - [HttpClient/HCl#37] HTTP/1.1 (0.5s) 200 response from GET https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:25:47.614 [129681622526776] DEBUG - [ViewStateSync] Got token for user 1 (lucascnoman)
+Jan 22, 2026 17:25:47.615 [129681622526776] DEBUG - [ViewStateSync/HCl#38] HTTP requesting GET https://plex.tv/api/v2/server/users/227321076/view_state_sync
+Jan 22, 2026 17:25:47.778 [129681631161144] DEBUG - [HttpClient/HCl#38] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/227321076/view_state_sync (reused)
+Jan 22, 2026 17:25:47.778 [129681622526776] DEBUG - [ViewStateSync] Starting for user 1
+Jan 22, 2026 17:25:47.778 [129681622526776] DEBUG - [ViewStateSync] Sending state
+Jan 22, 2026 17:25:47.781 [129681622526776] DEBUG - [ViewStateSync] Sending state
+Jan 22, 2026 17:25:47.783 [129681622526776] DEBUG - [ViewStateSync] Sending state
+Jan 22, 2026 17:25:47.786 [129681622526776] DEBUG - [ViewStateSync] Sending state
+Jan 22, 2026 17:25:47.788 [129681622526776] DEBUG - [ViewStateSync] Sending state
+Jan 22, 2026 17:25:47.790 [129681622526776] DEBUG - [ViewStateSync] Sending state
+Jan 22, 2026 17:25:47.792 [129681622526776] DEBUG - [ViewStateSync] Sending state
+Jan 22, 2026 17:25:47.795 [129681622526776] DEBUG - [ViewStateSync] Sending state
+Jan 22, 2026 17:25:47.796 [129681622526776] DEBUG - [ViewStateSync] Sending state
+Jan 22, 2026 17:25:47.796 [129681622526776] DEBUG - [ViewStateSync] All state sent
+Jan 22, 2026 17:25:47.796 [129681622526776] DEBUG - [ViewStateSync] Getting state
+Jan 22, 2026 17:25:47.796 [129681622526776] DEBUG - [ViewStateSync/HCl#39] HTTP requesting GET https://scrobbles.plex.tv/state/227321076?after=MTc2MjgyMjg0ODA1My02OTEyOGFjMGY5NzBkNjdkMDgxN2IzODg%3D&count=100
+Jan 22, 2026 17:25:48.090 [129681631161144] DEBUG - [HttpClient/HCl#39] HTTP/2.0 (0.3s) 200 response from GET https://scrobbles.plex.tv/state/227321076?after=MTc2MjgyMjg0ODA1My02OTEyOGFjMGY5NzBkNjdkMDgxN2IzODg%3D&count=100
+Jan 22, 2026 17:25:48.090 [129681622526776] DEBUG - [ViewStateSync] Reading 0 states
+Jan 22, 2026 17:25:48.090 [129681622526776] DEBUG - [ViewStateSync] Done getting states
+Jan 22, 2026 17:25:48.090 [129681622526776] DEBUG - [ViewStateSync] Finished
+Jan 22, 2026 17:26:15.442 [129681644333880] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Jan 22, 2026 17:26:15.442 [129681644333880] DEBUG - [HCl#3a] HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&unknownToken=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:26:16.021 [129681631161144] DEBUG - [HttpClient/HCl#3a] HTTP/1.1 (0.6s) 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx&unknownToken=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:26:16.022 [129681644333880] DEBUG - MyPlex: updating with 8 access tokens
+Jan 22, 2026 17:26:16.022 [129681644333880] DEBUG - [HCl#3b] HTTP requesting GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:26:16.183 [129681631161144] DEBUG - [HttpClient/HCl#3b] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:26:16.183 [129681615518520] DEBUG - [HCl#3c] HTTP requesting GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:26:16.341 [129681631161144] DEBUG - [HttpClient/HCl#3c] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:26:16.342 [129681615518520] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:26:16.343 [129681644333880] DEBUG - Auth: authenticated user 1 as lucascnoman
+Jan 22, 2026 17:26:16.343 [129681642224440] DEBUG - Auth: authenticated user 1 as lucascnoman
+Jan 22, 2026 17:26:16.343 [129681620417336] DEBUG - Request: [172.19.0.10:43032 (WAN)] GET / (6 live) #46 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:26:16.344 [129681611168568] DEBUG - Request: [172.19.0.10:59700 (WAN)] GET / (7 live) #48 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:26:16.344 [129681602730808] DEBUG - Request: [172.19.0.10:32880 (WAN)] GET / (7 live) #49 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:26:16.344 [129681596402488] DEBUG - Request: [172.19.0.10:49324 (Subnet)] GET / (7 live) #4a GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:26:16.344 [129681594293048] DEBUG - Request: [172.19.0.10:40686 (WAN)] GET / (8 live) #4b GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:26:16.345 [129681594293048] DEBUG - [Req#4b] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:26:16.345 [129681620417336] DEBUG - [Req#46] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:26:16.345 [129681602730808] DEBUG - [Req#49] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:26:16.346 [129681611168568] DEBUG - [Req#48] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:26:16.347 [129681596402488] DEBUG - [Req#4a] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:26:16.348 [129681642224440] DEBUG - Completed: [172.19.0.10:32880] 200 GET / (8 live) #49 GZIP 4ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:26:16.348 [129681642224440] DEBUG - Completed: [172.19.0.10:59700] 200 GET / (8 live) #48 GZIP 5ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:26:16.349 [129681642224440] DEBUG - Completed: [172.19.0.10:40686] 200 GET / (8 live) #4b GZIP 5ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:26:16.349 [129681642224440] DEBUG - Completed: [172.19.0.10:43032] 200 GET / (8 live) #46 GZIP 5ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:26:16.350 [129681642224440] DEBUG - Completed: [172.19.0.10:49324] 200 GET / (8 live) #4a GZIP 5ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:26:16.354 [129681602730808] DEBUG - Request: [172.19.0.10:43046 (WAN)] GET / (8 live) #4c TLS GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:26:16.354 [129681602730808] DEBUG - [Req#4c] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:26:16.355 [129681642224440] DEBUG - Completed: [172.19.0.10:43046] 200 GET / (8 live) #4c TLS GZIP 1ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:26:16.360 [129681594293048] DEBUG - Request: [172.19.0.10:59710 (WAN)] GET / (8 live) #4d TLS GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:26:16.360 [129681594293048] DEBUG - [Req#4d] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:26:16.361 [129681644333880] DEBUG - Completed: [172.19.0.10:59710] 200 GET / (8 live) #4d TLS GZIP 1ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:26:16.849 [129681620417336] DEBUG - Request: [172.19.0.10:32890 (WAN)] GET / (9 live) #4e TLS GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:26:16.850 [129681620417336] DEBUG - [Req#4e] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:26:16.852 [129681644333880] DEBUG - Completed: [172.19.0.10:32890] 200 GET / (9 live) #4e TLS GZIP 2ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:26:18.403 [129681620417336] DEBUG - Request: [172.19.0.10:49336 (Subnet)] GET / (10 live) #56 TLS GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:26:18.404 [129681620417336] DEBUG - [Req#56] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:26:18.406 [129681642224440] DEBUG - Completed: [172.19.0.10:49336] 200 GET / (10 live) #56 TLS GZIP 3ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:26:19.023 [129681590074168] DEBUG - [MediaProviderManager] Refreshing media providers
+Jan 22, 2026 17:26:19.023 [129681590074168] DEBUG - [MediaProviderManager/Response::fetch/HCl#3d] HTTP requesting GET https://plex.tv/media/providers
+Jan 22, 2026 17:26:19.184 [129681631161144] DEBUG - [HttpClient/HCl#3d] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/media/providers (reused)
+Jan 22, 2026 17:26:19.184 [129681590074168] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & Shows)
+Jan 22, 2026 17:26:19.184 [129681590074168] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Jan 22, 2026 17:26:19.184 [129681590074168] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 1)
+Jan 22, 2026 17:26:19.184 [129681590074168] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & Shows) (alive: 1)
+Jan 22, 2026 17:26:19.184 [129681590074168] DEBUG - [MediaProviderManager] we had 2 cloud providers online, we now have 2
+Jan 22, 2026 17:26:19.184 [129681590074168] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Jan 22, 2026 17:26:19.184 [129681590074168] DEBUG - [MediaProviderManager] cloud provider (Movies & Shows) is online and available
+Jan 22, 2026 17:26:19.184 [129681590074168] DEBUG - [MediaProviderManager] Media provider refresh complete
+Jan 22, 2026 17:26:19.726 [129681596402488] DEBUG - Request: [172.19.0.10:40696 (WAN)] GET / (11 live) #58 TLS GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:26:19.726 [129681596402488] DEBUG - [Req#58] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:26:19.729 [129681642224440] DEBUG - Completed: [172.19.0.10:40696] 200 GET / (11 live) #58 TLS GZIP 3ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:26:26.023 [129681652149048] DEBUG - [HCl#3e] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Jan 22, 2026 17:26:26.260 [129681631161144] DEBUG - [HttpClient/HCl#3e] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Jan 22, 2026 17:26:26.261 [129681652149048] DEBUG - [HCl#3f] HTTP requesting GET https://plex.tv/api/v2/server/users/features
+Jan 22, 2026 17:26:26.509 [129681631161144] DEBUG - [HttpClient/HCl#3f] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/features (reused)
+Jan 22, 2026 17:27:27.106 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET / (2 live) #5a GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:27.107 [129681596402488] DEBUG - [Req#5a] (Capabilities) Platform 'Jellyseerr' not matched by plugin platform requirements
+Jan 22, 2026 17:27:27.108 [129681642224440] DEBUG - Completed: [172.19.0.10:33282] 200 GET / (2 live) #5a GZIP 3ms 3962 bytes (pipelined: 1)
+Jan 22, 2026 17:27:27.156 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/sections (2 live) #67 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:27.157 [129681642224440] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/sections (2 live) #67 GZIP 1ms 786 bytes (pipelined: 2)
+Jan 22, 2026 17:27:28.687 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/sections (2 live) #68 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:28.689 [129681642224440] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/sections (2 live) #68 GZIP 1ms 786 bytes (pipelined: 3)
+Jan 22, 2026 17:27:32.367 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/sections (2 live) #69 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:32.369 [129681642224440] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/sections (2 live) #69 GZIP 1ms 786 bytes (pipelined: 4)
+Jan 22, 2026 17:27:37.366 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/sections (2 live) #6a GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:37.367 [129681644333880] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/sections (2 live) #6a GZIP 0ms 786 bytes (pipelined: 5)
+Jan 22, 2026 17:27:37.370 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/sections/1/all?includeGuids=1 (2 live) #6b Page 0-49 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:37.370 [129681596402488] DEBUG - [Req#6b] Setting container serialization range to [0, 49] (total=-1)
+Jan 22, 2026 17:27:37.373 [129681642224440] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/sections/1/all?includeGuids=1 (2 live) #6b GZIP Page 0-49 3ms 662 bytes (pipelined: 6)
+Jan 22, 2026 17:27:37.380 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/sections/3/all?includeGuids=1 (2 live) #6c Page 0-49 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:37.380 [129681596402488] DEBUG - [Req#6c] Setting container serialization range to [0, 49] (total=-1)
+Jan 22, 2026 17:27:37.383 [129681644333880] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/sections/3/all?includeGuids=1 (2 live) #6c GZIP Page 0-49 3ms 1389 bytes (pipelined: 7)
+Jan 22, 2026 17:27:37.386 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/metadata/20?includeChildren=1 (2 live) #6d GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:37.391 [129681596402488] DEBUG - [Req#6d] It took 0.000000 ms to retrieve 236 items.
+Jan 22, 2026 17:27:37.394 [129681596402488] DEBUG - There were 1 top-level paths for Attack on Titan.
+Jan 22, 2026 17:27:37.399 [129681642224440] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/metadata/20?includeChildren=1 (2 live) #6d GZIP 13ms 14168 bytes (pipelined: 8)
+Jan 22, 2026 17:27:38.051 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/metadata/21/children (2 live) #70 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:38.084 [129681642224440] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/metadata/21/children (2 live) #70 GZIP 33ms 9906 bytes (pipelined: 9)
+Jan 22, 2026 17:27:38.087 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/metadata/47/children (2 live) #75 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:38.097 [129681644333880] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/metadata/47/children (2 live) #75 GZIP 9ms 4915 bytes (pipelined: 10)
+Jan 22, 2026 17:27:38.113 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/sections/2/all?includeGuids=1 (2 live) #7a Page 0-49 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:38.113 [129681596402488] DEBUG - [Req#7a] Setting container serialization range to [0, 49] (total=-1)
+Jan 22, 2026 17:27:38.115 [129681642224440] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/sections/2/all?includeGuids=1 (2 live) #7a GZIP Page 0-49 2ms 1517 bytes (pipelined: 11)
+Jan 22, 2026 17:27:38.116 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/metadata/1?includeChildren=1 (2 live) #7b GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:38.120 [129681596402488] DEBUG - [Req#7b] It took 10.000000 ms to retrieve 228 items.
+Jan 22, 2026 17:27:38.122 [129681596402488] DEBUG - There were 1 top-level paths for Tulsa King.
+Jan 22, 2026 17:27:38.126 [129681644333880] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/metadata/1?includeChildren=1 (2 live) #7b GZIP 9ms 13794 bytes (pipelined: 12)
+Jan 22, 2026 17:27:38.310 [129681596402488] DEBUG - Request: [172.19.0.10:33282 (WAN)] GET /library/metadata/2/children (2 live) #7e GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:27:38.328 [129681642224440] DEBUG - Completed: [172.19.0.10:33282] 200 GET /library/metadata/2/children (2 live) #7e GZIP 18ms 3352 bytes (pipelined: 13)
+Jan 22, 2026 17:29:39.033 [129681596402488] DEBUG - Request: [172.20.0.2:50922 (WAN)] GET /status/sessions (2 live) #66 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:29:39.033 [129681596402488] DEBUG - [Req#66] [Now] Adding 0 sessions.
+Jan 22, 2026 17:29:39.033 [129681596402488] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:29:39.034 [129681642224440] DEBUG - Completed: [172.20.0.2:50922] 200 GET /status/sessions (2 live) #66 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:30:00.073 [129681596402488] DEBUG - Request: [172.19.0.10:57410 (WAN)] GET /library/sections (2 live) #85 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:30:00.074 [129681642224440] DEBUG - Completed: [172.19.0.10:57410] 200 GET /library/sections (2 live) #85 GZIP 0ms 786 bytes (pipelined: 1)
+Jan 22, 2026 17:30:00.078 [129681596402488] DEBUG - Request: [172.19.0.10:57410 (WAN)] GET /library/sections/1/all?type=1&sort=addedAt%3Adesc&addedAt%3E%3E=1769099400 (2 live) #88 Page 0-499 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:30:00.078 [129681596402488] DEBUG - [Req#88] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:30:00.080 [129681644333880] DEBUG - Completed: [172.19.0.10:57410] 200 GET /library/sections/1/all?type=1&sort=addedAt%3Adesc&addedAt%3E%3E=1769099400 (2 live) #88 GZIP Page 0-499 1ms 662 bytes (pipelined: 2)
+Jan 22, 2026 17:30:00.083 [129681596402488] DEBUG - Request: [172.19.0.10:57410 (WAN)] GET /library/sections/3/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769099400 (2 live) #89 Page 0-499 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:30:00.084 [129681596402488] DEBUG - [Req#89] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:30:00.085 [129681642224440] DEBUG - Completed: [172.19.0.10:57410] 200 GET /library/sections/3/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769099400 (2 live) #89 GZIP Page 0-499 2ms 672 bytes (pipelined: 3)
+Jan 22, 2026 17:30:00.088 [129681596402488] DEBUG - Request: [172.19.0.10:57410 (WAN)] GET /library/sections/2/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769099400 (2 live) #8a Page 0-499 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:30:00.088 [129681596402488] DEBUG - [Req#8a] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:30:00.090 [129681644333880] DEBUG - Completed: [172.19.0.10:57410] 200 GET /library/sections/2/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769099400 (2 live) #8a GZIP Page 0-499 2ms 671 bytes (pipelined: 4)
+Jan 22, 2026 17:30:17.641 [129681596402488] DEBUG - Request: [172.20.0.2:59554 (WAN)] GET /status/sessions (2 live) #87 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:30:17.641 [129681596402488] DEBUG - [Req#87] [Now] Adding 0 sessions.
+Jan 22, 2026 17:30:17.641 [129681596402488] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:30:17.641 [129681644333880] DEBUG - Completed: [172.20.0.2:59554] 200 GET /status/sessions (2 live) #87 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:30:23.220 [129681596402488] DEBUG - Request: [172.20.0.2:46076 (WAN)] GET /status/sessions (2 live) #8d Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:30:23.220 [129681596402488] DEBUG - [Req#8d] [Now] Adding 0 sessions.
+Jan 22, 2026 17:30:23.220 [129681596402488] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:30:23.221 [129681642224440] DEBUG - Completed: [172.20.0.2:46076] 200 GET /status/sessions (2 live) #8d Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:33:56.742 [129681596402488] DEBUG - Request: [172.20.0.2:50008 (WAN)] GET /status/sessions (2 live) #8f Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:33:56.742 [129681596402488] DEBUG - [Req#8f] [Now] Adding 0 sessions.
+Jan 22, 2026 17:33:56.742 [129681596402488] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:33:56.742 [129681644333880] DEBUG - Completed: [172.20.0.2:50008] 200 GET /status/sessions (2 live) #8f Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:00.062 [129681596402488] DEBUG - Request: [172.19.0.10:38288 (WAN)] GET /library/sections (2 live) #91 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:00.063 [129681644333880] DEBUG - Completed: [172.19.0.10:38288] 200 GET /library/sections (2 live) #91 GZIP 2ms 786 bytes (pipelined: 1)
+Jan 22, 2026 17:35:00.073 [129681596402488] DEBUG - Request: [172.19.0.10:38288 (WAN)] GET /library/sections/1/all?type=1&sort=addedAt%3Adesc&addedAt%3E%3E=1769102400 (2 live) #94 Page 0-499 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:00.074 [129681596402488] DEBUG - [Req#94] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:00.077 [129681644333880] DEBUG - Completed: [172.19.0.10:38288] 200 GET /library/sections/1/all?type=1&sort=addedAt%3Adesc&addedAt%3E%3E=1769102400 (2 live) #94 GZIP Page 0-499 5ms 662 bytes (pipelined: 2)
+Jan 22, 2026 17:35:00.095 [129681596402488] DEBUG - Request: [172.19.0.10:38288 (WAN)] GET /library/sections/3/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769102400 (2 live) #95 Page 0-499 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:00.096 [129681596402488] DEBUG - [Req#95] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:00.100 [129681644333880] DEBUG - Completed: [172.19.0.10:38288] 200 GET /library/sections/3/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769102400 (2 live) #95 GZIP Page 0-499 5ms 672 bytes (pipelined: 3)
+Jan 22, 2026 17:35:00.107 [129681596402488] DEBUG - Request: [172.19.0.10:38288 (WAN)] GET /library/sections/2/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769102400 (2 live) #96 Page 0-499 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:00.108 [129681596402488] DEBUG - [Req#96] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:00.110 [129681644333880] DEBUG - Completed: [172.19.0.10:38288] 200 GET /library/sections/2/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769102400 (2 live) #96 GZIP Page 0-499 3ms 671 bytes (pipelined: 4)
+Jan 22, 2026 17:35:04.586 [129681596402488] DEBUG - Request: [172.20.0.2:52770 (WAN)] GET /status/sessions (3 live) #93 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:04.586 [129681596402488] DEBUG - [Req#93] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:04.586 [129681596402488] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:04.587 [129681642224440] DEBUG - Completed: [172.20.0.2:52770] 200 GET /status/sessions (3 live) #93 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:04.593 [129681596402488] DEBUG - Request: [172.20.0.2:52784 (WAN)] GET /library/sections/1/all (5 live) #98 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:04.593 [129681596402488] DEBUG - [Req#98] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:04.594 [129681621494584] DEBUG - Request: [172.20.0.2:52790 (WAN)] GET /library/sections/3/all (5 live) #9a Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:04.594 [129681621494584] DEBUG - [Req#9a] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:04.595 [129681615518520] DEBUG - Request: [172.20.0.2:52794 (WAN)] GET /library/sections/2/all (5 live) #9b Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:04.595 [129681615518520] DEBUG - [Req#9b] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:04.604 [129681644333880] DEBUG - Completed: [172.20.0.2:52794] 200 GET /library/sections/2/all (5 live) #9b Page 0-499 9ms 2435 bytes
+Jan 22, 2026 17:35:04.604 [129681644333880] DEBUG - Completed: [172.20.0.2:52790] 200 GET /library/sections/3/all (5 live) #9a Page 0-499 10ms 2198 bytes
+Jan 22, 2026 17:35:04.604 [129681644333880] DEBUG - Completed: [172.20.0.2:52784] 200 GET /library/sections/1/all (5 live) #98 Page 0-499 10ms 723 bytes
+Jan 22, 2026 17:35:07.238 [129681615518520] DEBUG - Request: [172.20.0.2:52804 (WAN)] GET /status/sessions (2 live) #9c Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:07.238 [129681615518520] DEBUG - [Req#9c] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:07.238 [129681615518520] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:07.239 [129681642224440] DEBUG - Completed: [172.20.0.2:52804] 200 GET /status/sessions (2 live) #9c Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:12.264 [129681621494584] DEBUG - Request: [172.20.0.2:50540 (WAN)] GET /status/sessions (2 live) #a1 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:12.264 [129681621494584] DEBUG - [Req#a1] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:12.264 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:12.266 [129681644333880] DEBUG - Completed: [172.20.0.2:50540] 200 GET /status/sessions (2 live) #a1 Page 0-499 1ms 348 bytes
+Jan 22, 2026 17:35:17.280 [129681621494584] DEBUG - Request: [172.20.0.2:50554 (WAN)] GET /status/sessions (2 live) #a3 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:17.280 [129681621494584] DEBUG - [Req#a3] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:17.280 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:17.280 [129681642224440] DEBUG - Completed: [172.20.0.2:50554] 200 GET /status/sessions (2 live) #a3 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:22.353 [129681621494584] DEBUG - Request: [172.20.0.2:36802 (WAN)] GET /status/sessions (2 live) #a5 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:22.353 [129681621494584] DEBUG - [Req#a5] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:22.353 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:22.353 [129681642224440] DEBUG - Completed: [172.20.0.2:36802] 200 GET /status/sessions (2 live) #a5 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:27.373 [129681621494584] DEBUG - Request: [172.20.0.2:36812 (WAN)] GET /status/sessions (2 live) #a7 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:27.373 [129681621494584] DEBUG - [Req#a7] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:27.373 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:27.374 [129681642224440] DEBUG - Completed: [172.20.0.2:36812] 200 GET /status/sessions (2 live) #a7 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:32.390 [129681621494584] DEBUG - Request: [172.20.0.2:57310 (WAN)] GET /status/sessions (2 live) #a9 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:32.390 [129681621494584] DEBUG - [Req#a9] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:32.390 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:32.390 [129681644333880] DEBUG - Completed: [172.20.0.2:57310] 200 GET /status/sessions (2 live) #a9 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:37.425 [129681621494584] DEBUG - Request: [172.20.0.2:57316 (WAN)] GET /status/sessions (2 live) #ab Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:37.425 [129681621494584] DEBUG - [Req#ab] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:37.425 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:37.425 [129681644333880] DEBUG - Completed: [172.20.0.2:57316] 200 GET /status/sessions (2 live) #ab Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:42.445 [129681621494584] DEBUG - Request: [172.20.0.2:48454 (WAN)] GET /status/sessions (2 live) #ad Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:42.445 [129681621494584] DEBUG - [Req#ad] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:42.445 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:42.446 [129681644333880] DEBUG - Completed: [172.20.0.2:48454] 200 GET /status/sessions (2 live) #ad Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:47.511 [129681621494584] DEBUG - Request: [172.20.0.2:48456 (WAN)] GET /status/sessions (2 live) #af Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:47.511 [129681621494584] DEBUG - [Req#af] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:47.511 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:47.512 [129681644333880] DEBUG - Completed: [172.20.0.2:48456] 200 GET /status/sessions (2 live) #af Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:52.531 [129681621494584] DEBUG - Request: [172.20.0.2:54656 (WAN)] GET /status/sessions (2 live) #b1 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:52.531 [129681621494584] DEBUG - [Req#b1] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:52.531 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:52.532 [129681644333880] DEBUG - Completed: [172.20.0.2:54656] 200 GET /status/sessions (2 live) #b1 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:35:57.549 [129681621494584] DEBUG - Request: [172.20.0.2:54658 (WAN)] GET /status/sessions (2 live) #b3 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:35:57.549 [129681621494584] DEBUG - [Req#b3] [Now] Adding 0 sessions.
+Jan 22, 2026 17:35:57.549 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:35:57.549 [129681644333880] DEBUG - Completed: [172.20.0.2:54658] 200 GET /status/sessions (2 live) #b3 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:02.573 [129681621494584] DEBUG - Request: [172.20.0.2:35338 (WAN)] GET /status/sessions (2 live) #b5 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:02.573 [129681621494584] DEBUG - [Req#b5] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:02.573 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:02.574 [129681642224440] DEBUG - Completed: [172.20.0.2:35338] 200 GET /status/sessions (2 live) #b5 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:07.604 [129681621494584] DEBUG - Request: [172.20.0.2:35340 (WAN)] GET /status/sessions (2 live) #b7 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:07.604 [129681621494584] DEBUG - [Req#b7] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:07.604 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:07.604 [129681644333880] DEBUG - Completed: [172.20.0.2:35340] 200 GET /status/sessions (2 live) #b7 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:12.688 [129681621494584] DEBUG - Request: [172.20.0.2:57396 (WAN)] GET /status/sessions (2 live) #b9 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:12.688 [129681621494584] DEBUG - [Req#b9] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:12.688 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:12.688 [129681642224440] DEBUG - Completed: [172.20.0.2:57396] 200 GET /status/sessions (2 live) #b9 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:17.712 [129681621494584] DEBUG - Request: [172.20.0.2:57402 (WAN)] GET /status/sessions (2 live) #bb Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:17.712 [129681621494584] DEBUG - [Req#bb] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:17.712 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:17.712 [129681642224440] DEBUG - Completed: [172.20.0.2:57402] 200 GET /status/sessions (2 live) #bb Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:22.731 [129681621494584] DEBUG - Request: [172.20.0.2:44246 (WAN)] GET /status/sessions (2 live) #bd Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:22.731 [129681621494584] DEBUG - [Req#bd] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:22.731 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:22.731 [129681642224440] DEBUG - Completed: [172.20.0.2:44246] 200 GET /status/sessions (2 live) #bd Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:27.747 [129681621494584] DEBUG - Request: [172.20.0.2:44256 (WAN)] GET /status/sessions (2 live) #bf Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:27.748 [129681621494584] DEBUG - [Req#bf] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:27.748 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:27.748 [129681642224440] DEBUG - Completed: [172.20.0.2:44256] 200 GET /status/sessions (2 live) #bf Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:32.774 [129681621494584] DEBUG - Request: [172.20.0.2:38224 (WAN)] GET /status/sessions (2 live) #c1 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:32.774 [129681621494584] DEBUG - [Req#c1] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:32.774 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:32.774 [129681642224440] DEBUG - Completed: [172.20.0.2:38224] 200 GET /status/sessions (2 live) #c1 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:37.842 [129681621494584] DEBUG - Request: [172.20.0.2:38230 (WAN)] GET /status/sessions (2 live) #c3 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:37.842 [129681621494584] DEBUG - [Req#c3] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:37.842 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:37.842 [129681642224440] DEBUG - Completed: [172.20.0.2:38230] 200 GET /status/sessions (2 live) #c3 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:42.862 [129681621494584] DEBUG - Request: [172.20.0.2:36052 (WAN)] GET /status/sessions (2 live) #c5 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:42.862 [129681621494584] DEBUG - [Req#c5] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:42.862 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:42.862 [129681644333880] DEBUG - Completed: [172.20.0.2:36052] 200 GET /status/sessions (2 live) #c5 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:47.894 [129681621494584] DEBUG - Request: [172.20.0.2:36054 (WAN)] GET /status/sessions (2 live) #c7 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:47.894 [129681621494584] DEBUG - [Req#c7] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:47.894 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:47.894 [129681644333880] DEBUG - Completed: [172.20.0.2:36054] 200 GET /status/sessions (2 live) #c7 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:36:52.915 [129681621494584] DEBUG - Request: [172.20.0.2:53544 (WAN)] GET /status/sessions (2 live) #c9 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:52.915 [129681621494584] DEBUG - [Req#c9] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:52.915 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:52.918 [129681644333880] DEBUG - Completed: [172.20.0.2:53544] 200 GET /status/sessions (2 live) #c9 Page 0-499 3ms 348 bytes
+Jan 22, 2026 17:36:57.976 [129681621494584] DEBUG - Request: [172.20.0.2:53550 (WAN)] GET /status/sessions (2 live) #cb Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:36:57.976 [129681621494584] DEBUG - [Req#cb] [Now] Adding 0 sessions.
+Jan 22, 2026 17:36:57.976 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:36:57.976 [129681642224440] DEBUG - Completed: [172.20.0.2:53550] 200 GET /status/sessions (2 live) #cb Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:37:03.011 [129681621494584] DEBUG - Request: [172.20.0.2:42806 (WAN)] GET /status/sessions (2 live) #cd Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:03.011 [129681621494584] DEBUG - [Req#cd] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:03.011 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:03.011 [129681642224440] DEBUG - Completed: [172.20.0.2:42806] 200 GET /status/sessions (2 live) #cd Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:37:08.043 [129681621494584] DEBUG - Request: [172.20.0.2:42812 (WAN)] GET /status/sessions (2 live) #cf Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:08.043 [129681621494584] DEBUG - [Req#cf] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:08.043 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:08.043 [129681642224440] DEBUG - Completed: [172.20.0.2:42812] 200 GET /status/sessions (2 live) #cf Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:37:13.063 [129681621494584] DEBUG - Request: [172.20.0.2:44562 (WAN)] GET /status/sessions (2 live) #d1 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:13.063 [129681621494584] DEBUG - [Req#d1] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:13.063 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:13.064 [129681644333880] DEBUG - Completed: [172.20.0.2:44562] 200 GET /status/sessions (2 live) #d1 Page 0-499 1ms 348 bytes
+Jan 22, 2026 17:37:18.089 [129681621494584] DEBUG - Request: [172.20.0.2:44572 (WAN)] GET /status/sessions (2 live) #d3 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:18.089 [129681621494584] DEBUG - [Req#d3] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:18.090 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:18.090 [129681642224440] DEBUG - Completed: [172.20.0.2:44572] 200 GET /status/sessions (2 live) #d3 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:37:23.122 [129681621494584] DEBUG - Request: [172.20.0.2:51980 (WAN)] GET /status/sessions (2 live) #d5 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:23.122 [129681621494584] DEBUG - [Req#d5] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:23.122 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:23.122 [129681642224440] DEBUG - Completed: [172.20.0.2:51980] 200 GET /status/sessions (2 live) #d5 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:37:28.186 [129681621494584] DEBUG - Request: [172.20.0.2:51990 (WAN)] GET /status/sessions (2 live) #d7 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:28.186 [129681621494584] DEBUG - [Req#d7] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:28.186 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:28.186 [129681642224440] DEBUG - Completed: [172.20.0.2:51990] 200 GET /status/sessions (2 live) #d7 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:37:33.207 [129681621494584] DEBUG - Request: [172.20.0.2:38484 (WAN)] GET /status/sessions (2 live) #d9 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:33.207 [129681621494584] DEBUG - [Req#d9] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:33.207 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:33.209 [129681644333880] DEBUG - Completed: [172.20.0.2:38484] 200 GET /status/sessions (2 live) #d9 Page 0-499 2ms 348 bytes
+Jan 22, 2026 17:37:38.233 [129681621494584] DEBUG - Request: [172.20.0.2:38498 (WAN)] GET /status/sessions (2 live) #db Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:38.233 [129681621494584] DEBUG - [Req#db] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:38.233 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:38.233 [129681642224440] DEBUG - Completed: [172.20.0.2:38498] 200 GET /status/sessions (2 live) #db Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:37:43.253 [129681621494584] DEBUG - Request: [172.20.0.2:39222 (WAN)] GET /status/sessions (2 live) #dd Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:43.253 [129681621494584] DEBUG - [Req#dd] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:43.253 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:43.253 [129681642224440] DEBUG - Completed: [172.20.0.2:39222] 200 GET /status/sessions (2 live) #dd Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:37:48.277 [129681621494584] DEBUG - Request: [172.20.0.2:39228 (WAN)] GET /status/sessions (2 live) #df Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:48.277 [129681621494584] DEBUG - [Req#df] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:48.277 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:48.277 [129681644333880] DEBUG - Completed: [172.20.0.2:39228] 200 GET /status/sessions (2 live) #df Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:37:53.347 [129681621494584] DEBUG - Request: [172.20.0.2:54824 (WAN)] GET /status/sessions (2 live) #e1 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:53.347 [129681621494584] DEBUG - [Req#e1] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:53.347 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:53.347 [129681642224440] DEBUG - Completed: [172.20.0.2:54824] 200 GET /status/sessions (2 live) #e1 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:37:58.374 [129681621494584] DEBUG - Request: [172.20.0.2:54834 (WAN)] GET /status/sessions (2 live) #e3 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:37:58.374 [129681621494584] DEBUG - [Req#e3] [Now] Adding 0 sessions.
+Jan 22, 2026 17:37:58.374 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:37:58.375 [129681644333880] DEBUG - Completed: [172.20.0.2:54834] 200 GET /status/sessions (2 live) #e3 Page 0-499 1ms 348 bytes
+Jan 22, 2026 17:38:03.397 [129681621494584] DEBUG - Request: [172.20.0.2:56536 (WAN)] GET /status/sessions (2 live) #e5 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:38:03.397 [129681621494584] DEBUG - [Req#e5] [Now] Adding 0 sessions.
+Jan 22, 2026 17:38:03.397 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:38:03.397 [129681644333880] DEBUG - Completed: [172.20.0.2:56536] 200 GET /status/sessions (2 live) #e5 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:38:08.414 [129681621494584] DEBUG - Request: [172.20.0.2:56544 (WAN)] GET /status/sessions (2 live) #e7 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:38:08.414 [129681621494584] DEBUG - [Req#e7] [Now] Adding 0 sessions.
+Jan 22, 2026 17:38:08.414 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:38:08.414 [129681642224440] DEBUG - Completed: [172.20.0.2:56544] 200 GET /status/sessions (2 live) #e7 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:38:13.473 [129681621494584] DEBUG - Request: [172.20.0.2:60752 (WAN)] GET /status/sessions (2 live) #e9 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:38:13.473 [129681621494584] DEBUG - [Req#e9] [Now] Adding 0 sessions.
+Jan 22, 2026 17:38:13.473 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:38:13.474 [129681642224440] DEBUG - Completed: [172.20.0.2:60752] 200 GET /status/sessions (2 live) #e9 Page 0-499 1ms 348 bytes
+Jan 22, 2026 17:38:18.519 [129681621494584] DEBUG - Request: [172.20.0.2:60762 (WAN)] GET /status/sessions (2 live) #eb Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:38:18.520 [129681621494584] DEBUG - [Req#eb] [Now] Adding 0 sessions.
+Jan 22, 2026 17:38:18.520 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:38:18.520 [129681644333880] DEBUG - Completed: [172.20.0.2:60762] 200 GET /status/sessions (2 live) #eb Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:38:23.543 [129681621494584] DEBUG - Request: [172.20.0.2:43444 (WAN)] GET /status/sessions (2 live) #ed Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:38:23.543 [129681621494584] DEBUG - [Req#ed] [Now] Adding 0 sessions.
+Jan 22, 2026 17:38:23.543 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:38:23.543 [129681644333880] DEBUG - Completed: [172.20.0.2:43444] 200 GET /status/sessions (2 live) #ed Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:38:28.568 [129681621494584] DEBUG - Request: [172.20.0.2:43452 (WAN)] GET /status/sessions (2 live) #ef Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:38:28.568 [129681621494584] DEBUG - [Req#ef] [Now] Adding 0 sessions.
+Jan 22, 2026 17:38:28.568 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:38:28.569 [129681644333880] DEBUG - Completed: [172.20.0.2:43452] 200 GET /status/sessions (2 live) #ef Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:38:33.604 [129681621494584] DEBUG - Request: [172.20.0.2:54578 (WAN)] GET /status/sessions (2 live) #f1 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:38:33.604 [129681621494584] DEBUG - [Req#f1] [Now] Adding 0 sessions.
+Jan 22, 2026 17:38:33.604 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:38:33.606 [129681644333880] DEBUG - Completed: [172.20.0.2:54578] 200 GET /status/sessions (2 live) #f1 Page 0-499 2ms 348 bytes
+Jan 22, 2026 17:38:38.634 [129681621494584] DEBUG - Request: [172.20.0.2:54582 (WAN)] GET /status/sessions (2 live) #f3 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:38:38.634 [129681621494584] DEBUG - [Req#f3] [Now] Adding 0 sessions.
+Jan 22, 2026 17:38:38.634 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:38:38.634 [129681644333880] DEBUG - Completed: [172.20.0.2:54582] 200 GET /status/sessions (2 live) #f3 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:38:41.348 [129681621494584] DEBUG - Request: [172.20.0.2:57492 (WAN)] GET /status/sessions (2 live) #f5 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:38:41.348 [129681621494584] DEBUG - [Req#f5] [Now] Adding 0 sessions.
+Jan 22, 2026 17:38:41.348 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:38:41.349 [129681644333880] DEBUG - Completed: [172.20.0.2:57492] 200 GET /status/sessions (2 live) #f5 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:38:43.684 [129681621494584] DEBUG - Request: [172.20.0.2:57504 (WAN)] GET /status/sessions (2 live) #f7 Page 0-499 Signed-in Token (lucascnoman)
+Jan 22, 2026 17:38:43.684 [129681621494584] DEBUG - [Req#f7] [Now] Adding 0 sessions.
+Jan 22, 2026 17:38:43.684 [129681621494584] DEBUG - Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:38:43.685 [129681642224440] DEBUG - Completed: [172.20.0.2:57504] 200 GET /status/sessions (2 live) #f7 Page 0-499 0ms 348 bytes
+Jan 22, 2026 17:40:00.049 [129681621494584] DEBUG - Request: [172.19.0.10:49024 (WAN)] GET /library/sections (2 live) #f9 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:40:00.050 [129681644333880] DEBUG - Completed: [172.19.0.10:49024] 200 GET /library/sections (2 live) #f9 GZIP 0ms 786 bytes (pipelined: 1)
+Jan 22, 2026 17:40:00.057 [129681621494584] DEBUG - Request: [172.19.0.10:49024 (WAN)] GET /library/sections/1/all?type=1&sort=addedAt%3Adesc&addedAt%3E%3E=1769102700 (2 live) #fc Page 0-499 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:40:00.058 [129681621494584] DEBUG - [Req#fc] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:40:00.062 [129681644333880] DEBUG - Completed: [172.19.0.10:49024] 200 GET /library/sections/1/all?type=1&sort=addedAt%3Adesc&addedAt%3E%3E=1769102700 (2 live) #fc GZIP Page 0-499 5ms 662 bytes (pipelined: 2)
+Jan 22, 2026 17:40:00.067 [129681621494584] DEBUG - Request: [172.19.0.10:49024 (WAN)] GET /library/sections/3/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769102700 (2 live) #fd Page 0-499 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:40:00.068 [129681621494584] DEBUG - [Req#fd] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:40:00.075 [129681642224440] DEBUG - Completed: [172.19.0.10:49024] 200 GET /library/sections/3/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769102700 (2 live) #fd GZIP Page 0-499 7ms 672 bytes (pipelined: 3)
+Jan 22, 2026 17:40:00.081 [129681621494584] DEBUG - Request: [172.19.0.10:49024 (WAN)] GET /library/sections/2/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769102700 (2 live) #fe Page 0-499 GZIP Signed-in Token (lucascnoman)
+Jan 22, 2026 17:40:00.082 [129681621494584] DEBUG - [Req#fe] Setting container serialization range to [0, 499] (total=-1)
+Jan 22, 2026 17:40:00.086 [129681642224440] DEBUG - Completed: [172.19.0.10:49024] 200 GET /library/sections/2/all?type=4&sort=addedAt%3Adesc&addedAt%3E%3E=1769102700 (2 live) #fe GZIP Page 0-499 5ms 671 bytes (pipelined: 4)

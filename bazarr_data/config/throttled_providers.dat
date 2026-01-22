@@ -1,1 +1,1 @@
-{'podnapisi': ('TooManyRequests', datetime.datetime(2025, 8, 13, 11, 25, 7, 576025), '1 hour')}
+{'podnapisi': ('ConnectionError', datetime.datetime(2026, 1, 22, 14, 32, 29, 968688), '10 minutes')}

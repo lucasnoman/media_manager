@@ -1,0 +1,119 @@
+x-base-config: &base_config
+  environment:
+    - PUID=${PUID}
+    - PGID=${PGID}
+    - TZ=${TZ}
+  restart: unless-stopped
+
+services:
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    <<: *base_config
+    volumes:
+      - ${CONFIG_PATH}/prowlarr_data:/config
+    ports:
+      - 9696:9696
+
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    <<: *base_config
+    environment:
+      - VERSION=docker
+      - PLEX_CLAIM=claim-2edyZyZYoTaxx-9fukyx
+    volumes:
+      - ${CONFIG_PATH}/plex_data:/config
+      - ${HOST_MEDIA_PATH}/series:/tv
+      - ${HOST_MEDIA_PATH}/animes:/animes
+      - ${HOST_MEDIA_PATH}/movies:/movies
+    network_mode: host
+    restart: unless-stopped
+
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    <<: *base_config
+    volumes:
+      - ${CONFIG_PATH}/jellyfin_data/library:/config
+      - ${HOST_MEDIA_PATH}/series:/data/tvshows
+      - ${HOST_MEDIA_PATH}/movies:/data/movies
+      - ${HOST_MEDIA_PATH}/animes:/data/animes
+    ports:
+      - 8096:8096
+      - 7359:7359/udp #optional
+      # - 1900:1900/udp #optional
+    restart: unless-stopped
+
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    <<: *base_config
+    volumes:
+      - ${CONFIG_PATH}/sonar_data:/config
+      - ${HOST_MEDIA_PATH}:${CONTAINER_MEDIA_PATH}
+      - ${HOST_TORRENT_PATH}:/data/torrents
+    ports:
+      - 8989:8989
+
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    <<: *base_config
+    volumes:
+      - ${CONFIG_PATH}/radarr_data:/config
+      - ${HOST_MEDIA_PATH}:${CONTAINER_MEDIA_PATH}
+      - ${HOST_TORRENT_PATH}:/data/torrents
+    ports:
+      - 7878:7878
+
+  bazarr:
+    image: lscr.io/linuxserver/bazarr:latest
+    container_name: bazarr
+    <<: *base_config
+    volumes:
+      - ${CONFIG_PATH}/bazarr_data:/config
+      - ${HOST_MEDIA_PATH}/movies:${CONTAINER_MEDIA_PATH}/movies
+      - ${HOST_MEDIA_PATH}/series:${CONTAINER_MEDIA_PATH}/series
+      - ${HOST_MEDIA_PATH}/animes:${CONTAINER_MEDIA_PATH}/animes
+    ports:
+      - 6767:6767
+
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    <<: *base_config
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+      - LOG_HTML=${LOG_HTML:-false}
+      - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
+    ports:
+      - '${PORT:-8191}:8191'
+
+  jellyseerr:
+    image: fallenbagel/jellyseerr:latest
+    container_name: jellyseerr
+    <<: *base_config
+    environment:
+      - LOG_LEVEL=debug
+    ports:
+      - 5055:5055
+    volumes:
+      - ${CONFIG_PATH}/jellyseerr_data:/app/config
+
+
+
+  qbittorrent:
+    image: lscr.io/linuxserver/qbittorrent:latest
+    container_name: qbittorrent
+    <<: *base_config
+    environment:
+      - WEBUI_PORT=8080
+      - TORRENTING_PORT=6881
+    volumes:
+      - ${CONFIG_PATH}/qbittorrent_data:/config
+      - ${HOST_TORRENT_PATH}:${CONTAINER_TORRENT_PATH}
+    ports:
+      - 8080:8080
+      - 6881:6881
+      - 6881:6881/udp

@@ -6,6 +6,8 @@ language: ru-RU
 type: public
 encoding: UTF-8
 links:
+  - https://catorrent.net/
+legacylinks:
   - https://catorrent.org/
 
 caps:
@@ -57,6 +59,8 @@ search:
   fields:
     category:
       selector: div.icon_default
+      optional: true
+      default: PS1
     title:
       selector: div.short_game_title
     details:

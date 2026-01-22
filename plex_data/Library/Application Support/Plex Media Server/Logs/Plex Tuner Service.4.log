@@ -1,0 +1,27 @@
+Jan 22, 2026 17:01:45.120 [0x749bd82b0b38] INFO - Plex Tuner Service v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: 
+Jan 22, 2026 17:01:45.120 [0x749bd82b0b38] INFO - Linux version: 6.8.0-90-generic (#91-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 18 14:14:30 UTC 2025), language: en-US
+Jan 22, 2026 17:01:45.120 [0x749bd82b0b38] INFO - Processor Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 22, 2026 17:01:45.120 [0x749bd82b0b38] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.42.2.10156-f737b826c 32600
+Jan 22, 2026 17:01:45.119 [0x749bd9e21808] INFO - [I] broker_t::start...
+Jan 22, 2026 17:01:45.122 [0x749bd9e21808] INFO - [I] device_manager_t::init.
+Jan 22, 2026 17:01:45.122 [0x749bd9e21808] INFO - [I] device_manager_t::init. Initialize provider manager
+Jan 22, 2026 17:01:45.122 [0x749bd9e21808] INFO - [I] device_manager_t::init. Initialize all device auxes
+Jan 22, 2026 17:01:45.122 [0x749bd9e21808] INFO - [I] dvb_device_factory_t::get_aux_list
+Jan 22, 2026 17:01:45.122 [0x749bd9e21808] INFO - [I] tvbutler_aux_t::init
+Jan 22, 2026 17:01:45.127 [0x749bd9e21808] INFO - [I] web_server_t::start. Starting web server on port 32600
+Jan 22, 2026 17:01:53.340 [0x749bd8024b38] INFO - [I] web_service_t::process_device_discovery
+Jan 22, 2026 17:01:53.340 [0x749bd8024b38] INFO - [I] device_reactor_t::get_device_list ()
+Jan 22, 2026 17:01:55.345 [0x749bd8024b38] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
+Jan 22, 2026 17:01:55.766 [0x749bd8024b38] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
+Jan 22, 2026 17:01:55.773 [0x749bd8024b38] INFO - [I] onetv_factory::DeviceGetListEx >>
+Jan 22, 2026 17:01:55.774 [0x749bd8024b38] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99
+Jan 22, 2026 17:02:40.399 [0x749bd9e21808] INFO - Received SIGINT: Interrupt from keyboard.
+Jan 22, 2026 17:02:40.439 [0x749bd9e21808] INFO - [I] device_manager_t::term
+Jan 22, 2026 17:02:40.440 [0x749bd9e21808] INFO - [I] device_manager_t::term. Stop all devices
+Jan 22, 2026 17:02:40.440 [0x749bd9e21808] INFO - [I] device_manager_t::term. Shut down all device auxes
+Jan 22, 2026 17:02:40.440 [0x749bd9e21808] INFO - [I] tvbutler_aux_t::term
+Jan 22, 2026 17:02:40.442 [0x749bd9e21808] INFO - [I] web_server_t::stop. Web server is stopped
+Jan 22, 2026 17:02:40.442 [0x749bd9e21808] INFO - [I] device_manager_t::term
+Jan 22, 2026 17:02:40.442 [0x749bd9e21808] INFO - [I] device_manager_t::term. Stop all devices
+Jan 22, 2026 17:02:40.442 [0x749bd9e21808] INFO - [I] device_manager_t::term. Shut down all device auxes
+Jan 22, 2026 17:02:40.442 [0x749bd9e21808] INFO - [I] broker_t::shutdown. Shutdown is completed.

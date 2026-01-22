@@ -30,8 +30,8 @@
   "dnsServers": ""
  },
  "plex": {
-  "name": "lucas-server",
-  "ip": "192.168.0.100",
+  "name": "lcn-home-server",
+  "ip": "192.168.1.100",
   "port": 32400,
   "useSsl": false,
   "libraries": [
@@ -40,24 +40,24 @@
     "name": "Movies",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1755092400030
+    "lastScan": 1769103600061
    },
    {
     "id": "3",
     "name": "Animes",
     "enabled": true,
     "type": "show",
-    "lastScan": 1755092400035
+    "lastScan": 1769103600076
    },
    {
     "id": "2",
     "name": "Series",
     "enabled": true,
     "type": "show",
-    "lastScan": 1755092400042
+    "lastScan": 1769103600089
    }
   ],
-  "machineId": "6a3d5811c9c034619c080c03f6cb3fb0d19e5505"
+  "machineId": "5e7f690a5d7aaebc45f52729540aadee813dd9f4"
  },
  "jellyfin": {
   "name": "",
@@ -72,18 +72,17 @@
   "apiKey": ""
  },
  "tautulli": {
-  "hostname": "192.168.0.100",
-  "port": 8181,
-  "apiKey": "fff75aa498ac4df1b4d1122be0ab6af5"
+  "hostname": "",
+  "port": 0,
+  "apiKey": ""
  },
  "radarr": [
   {
    "name": "Radarr",
-   "hostname": "192.168.0.100",
+   "hostname": "192.168.1.100",
    "port": 7878,
    "apiKey": "b58f0f30e97a4e93bac6e2c5868d00ea",
    "useSsl": false,
-   "baseUrl": "",
    "activeProfileId": 5,
    "activeProfileName": "Ultra-HD",
    "activeDirectory": "/data/media/movies",
@@ -100,11 +99,10 @@
  "sonarr": [
   {
    "name": "Sonarr",
-   "hostname": "192.168.0.100",
+   "hostname": "192.168.1.100",
    "port": 8989,
    "apiKey": "9faba0ed88ee4093a0b6c7daccd6db20",
    "useSsl": false,
-   "baseUrl": "",
    "activeProfileId": 5,
    "activeProfileName": "Ultra-HD",
    "activeDirectory": "/data/media/series",

@@ -9,13 +9,13 @@ type: public
 encoding: UTF-8
 links:
   - https://bitsearch.to/
-  - https://solidtorrents.to/
+  - https://solidtorrents.eu/
 legacylinks:
   - https://bitsearch.nocensor.cloud/
   - https://bitsearch.mrunblock.bond/
   - https://solidtorrents.net/
   - https://solidtorrents.nocensor.cloud/
-  - https://solidtorrents.eu/
+  - https://solidtorrents.to/
 
 caps:
   categories:
@@ -23,6 +23,7 @@ caps:
     Anime/Dub/Dual Audio: TV/Anime
     Anime/Raw: TV/Anime
     Anime/Subbed: TV/Anime
+    AudioBook: Audio/Audiobook
     Books: Books
     Books/Academic: Books/EBook
     Books/Comics: Books/Comics
@@ -41,6 +42,7 @@ caps:
     Music/Album: Audio
     Music/Discography: Audio
     Music/FLAC: Audio/Lossless
+    Music/Lossless: Audio/Lossless
     Music/MP3: Audio/MP3
     Music/Single: Audio
     Other: Other

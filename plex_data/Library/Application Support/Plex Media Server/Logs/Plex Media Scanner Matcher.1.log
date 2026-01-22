@@ -1,0 +1,9 @@
+Jan 22, 2026 17:08:22.932 [134458598669056] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 22, 2026 17:08:22.932 [134458598669056] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 22, 2026 17:08:22.933 [134458598669056] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 22, 2026 17:08:22.933 [134458598669056] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 47 --content-type=application/json
+Jan 22, 2026 17:08:22.933 [134458599177984] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 22, 2026 17:08:23.091 [134458599177984] DEBUG - Matcher: found 0 auxiliary files for Season 2
+Jan 22, 2026 17:08:23.100 [134458599177984] DEBUG - Matcher: no sidecar subtitle files found for /animes/Attack on Titan (2013)/Season 2/Attack on Titan - S02E01 - Beast Titan - Bluray-1080p.mkv
+Jan 22, 2026 17:08:23.100 [134458599177984] DEBUG - Matcher: no sidecar subtitle files found for /animes/Attack on Titan (2013)/Season 2/Attack on Titan - S02E02 - I'm Home - Bluray-1080p.mkv
+Jan 22, 2026 17:08:23.100 [134458599177984] DEBUG - Matcher: no sidecar subtitle files found for /animes/Attack on Titan (2013)/Season 2/Attack on Titan - S02E03 - Southwestward - Bluray-1080p.mkv
