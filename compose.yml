@@ -1,6 +1,14 @@
 name: media_server
 
 services:
+  plex:
+    extends:
+      file: compose.players.yml
+      service: plex
+  seanime:
+    extends:
+      file: compose.players.yml
+      service: seanime
   jellyfin:
     extends:
       file: compose.players.yml

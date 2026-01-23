@@ -32,3 +32,19 @@ services:
       - 7359:7359/udp #optional
       # - 1900:1900/udp #optional
     restart: unless-stopped
+
+  seanime:
+    image: umagistr/seanime:latest
+    container_name: seanime
+    extends:
+      file: compose.base-config.yml
+      service: base
+    environment:
+      - SEANIME_SERVER_HOST=0.0.0.0
+    volumes:
+      - ${CONFIG_PATH}/seanime_data:/root/.config/Seanime
+      - ${HOST_MEDIA_PATH}/animes:/anime
+      - ${HOST_TORRENT_PATH}:/downloads
+    ports:
+      - 3211:43211
+    restart: unless-stopped

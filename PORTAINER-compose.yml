@@ -30,6 +30,21 @@ services:
     network_mode: host
     restart: unless-stopped
 
+  seanime:
+    image: umagistr/seanime:latest
+    container_name: seanime
+    <<: *base_config
+    environment:
+      - SEANIME_SERVER_HOST=0.0.0.0
+    volumes:
+      - ${CONFIG_PATH}/seanime_data:/root/.config/Seanime
+      - ${HOST_MEDIA_PATH}/animes:/anime
+      - ${HOST_MEDIA_PATH}/mangas:/manga
+      - ${HOST_TORRENT_PATH}:/downloads
+    ports:
+      - 3211:43211
+    restart: unless-stopped
+
   jellyfin:
     image: lscr.io/linuxserver/jellyfin:latest
     container_name: jellyfin
@@ -100,8 +115,6 @@ services:
       - 5055:5055
     volumes:
       - ${CONFIG_PATH}/jellyseerr_data:/app/config
-
-
 
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest
