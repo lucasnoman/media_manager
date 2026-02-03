@@ -41,3 +41,10 @@ services:
       - 8080:8080
       - 6881:6881
       - 6881:6881/udp
+
+  profilarr:
+    image: santiagosayshey/profilarr:latest
+    container_name: profilarr
+    user: ${PUID}:${PUID}
+    volumes:
+      - ${CONFIG_PATH}/profilarr_data:/config

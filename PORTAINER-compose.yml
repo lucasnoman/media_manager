@@ -28,7 +28,6 @@ services:
       - ${HOST_MEDIA_PATH}/animes:/animes
       - ${HOST_MEDIA_PATH}/movies:/movies
     network_mode: host
-    restart: unless-stopped
 
   seanime:
     image: umagistr/seanime:latest
@@ -43,7 +42,6 @@ services:
       - ${HOST_TORRENT_PATH}:/downloads
     ports:
       - 3211:43211
-    restart: unless-stopped
 
   jellyfin:
     image: lscr.io/linuxserver/jellyfin:latest
@@ -58,7 +56,6 @@ services:
       - 8096:8096
       - 7359:7359/udp #optional
       # - 1900:1900/udp #optional
-    restart: unless-stopped
 
   sonarr:
     image: lscr.io/linuxserver/sonarr:latest
@@ -130,3 +127,12 @@ services:
       - 8080:8080
       - 6881:6881
       - 6881:6881/udp
+
+  profilarr:
+    image: santiagosayshey/profilarr:latest
+    container_name: profilarr
+    <<: *base_config
+    ports:
+      - 6868:6868
+    volumes:
+      - ${CONFIG_PATH}/profilarr_data:/config

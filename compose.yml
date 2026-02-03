@@ -41,3 +41,7 @@ services:
     extends:
       file: compose.tools.yml
       service: qbittorrent
+  profilarr:
+    extends:
+      file: compose.tools.yml
+      service: profilarr
