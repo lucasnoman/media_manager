@@ -1,0 +1,618 @@
+Jan 26, 2026 02:03:54.904 [138804791479040] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 26, 2026 02:03:54.905 [138804791479040] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 26, 2026 02:03:54.905 [138804791479040] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 26, 2026 02:03:54.905 [138804791479040] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --item 134,135,133 --log-file-suffix  Analysis
+Jan 26, 2026 02:03:54.906 [138804791987968] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 26, 2026 02:03:55.000 [138804791987968] DEBUG - Analyzing media parts for item 134 (Braemar): 197
+Jan 26, 2026 02:03:55.001 [138804791987968] DEBUG - [ID 197] Media part analysis: /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-1080p.mkv
+Jan 26, 2026 02:03:55.002 [138804791987968] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-1080p.mkv"
+Jan 26, 2026 02:03:55.005 [138804791987968] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-1080p.mkv' for reading
+Jan 26, 2026 02:03:55.006 [138804791987968] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4387
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4459
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4525
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4580
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4648
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 5953
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6000
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6049
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6096
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6145
+Jan 26, 2026 02:03:55.013 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6199
+Jan 26, 2026 02:03:55.015 [138804791987968] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.015 [138804791987968] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.015 [138804791987968] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.015 [138804791987968] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.015 [138804791987968] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.015 [138804791987968] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6311 bytes read:34137 seeks:2 nb_streams:5
+Jan 26, 2026 02:03:55.020 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.020 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.020 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.021 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.021 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.021 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:55.025 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:55.028 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.030 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:55.033 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.037 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:55.042 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:55.048 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.054 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.060 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:55.068 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:55.075 [138804791987968] DEBUG - [FFMPEG] - All info found
+Jan 26, 2026 02:03:55.076 [138804791987968] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 187442 bytes read:230745 seeks:2 frames:25
+Jan 26, 2026 02:03:55.100 [138804791987968] DEBUG - [MI]  * 92f18d5ba84838c1107cbbb7df7e593b6dbc4643 [mkv h264/eac3] Duration: 3504793ms, 1920x1080 (1.777778) 23.976fps, bitrate=10261kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-1080p.mkv")
+Jan 26, 2026 02:03:55.100 [138804791987968] DEBUG - [MI] Importing 6 media chapters.
+Jan 26, 2026 02:03:55.100 [138804791987968] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-1080p.mkv"
+Jan 26, 2026 02:03:55.101 [138804791987968] DEBUG - Streams didn't change in analysis, not saving.
+Jan 26, 2026 02:03:55.102 [138804791987968] DEBUG - Updating media item 197, size=4495545574, metadata_item_id=134
+Jan 26, 2026 02:03:55.102 [138804791987968] DEBUG - Updating part with ID=197 [/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-1080p.mkv]
+Jan 26, 2026 02:03:55.103 [138804791987968] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-1080p.mkv"
+Jan 26, 2026 02:03:55.103 [138804791987968] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-1080p.mkv' for reading
+Jan 26, 2026 02:03:55.103 [138804791987968] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 26, 2026 02:03:55.103 [138804773370624] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 26, 2026 02:03:55.103 [138804791987968] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 26, 2026 02:03:55.103 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4387
+Jan 26, 2026 02:03:55.103 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4459
+Jan 26, 2026 02:03:55.103 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4525
+Jan 26, 2026 02:03:55.103 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4580
+Jan 26, 2026 02:03:55.103 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4648
+Jan 26, 2026 02:03:55.103 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 5953
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6000
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6049
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6096
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6145
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6199
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.104 [138804791987968] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6311 bytes read:34137 seeks:2 nb_streams:5
+Jan 26, 2026 02:03:55.104 [138804773223168] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 26, 2026 02:03:55.104 [138804773370624] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+Jan 26, 2026 02:03:55.105 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.105 [138804773223168] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+Jan 26, 2026 02:03:55.105 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.105 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.105 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.105 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.105 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:55.108 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:55.110 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.112 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:55.115 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.119 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:55.124 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:55.130 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.136 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.142 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:55.150 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:55.157 [138804791987968] DEBUG - [FFMPEG] - All info found
+Jan 26, 2026 02:03:55.158 [138804791987968] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 187442 bytes read:230745 seeks:2 frames:25
+Jan 26, 2026 02:03:55.158 [138804791987968] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/9/2f18d5ba84838c1107cbbb7df7e593b6dbc4643.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+Jan 26, 2026 02:03:55.159 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.159 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.182 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.182 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.183 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.183 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:55.186 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:55.218 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.221 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:55.236 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.386 [138804791987968] DEBUG - Loaded memory image of size 1920x1080.
+Jan 26, 2026 02:03:55.418 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.418 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.425 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.425 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.426 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.426 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:55.429 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:55.457 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.459 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:55.471 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.617 [138804791987968] DEBUG - Loaded memory image of size 1920x1080.
+Jan 26, 2026 02:03:55.648 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.648 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.658 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.658 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.659 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 26, 2026 02:03:55.659 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:55.662 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:55.697 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.699 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:55.716 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:55.868 [138804791987968] DEBUG - Loaded memory image of size 1920x1080.
+Jan 26, 2026 02:03:55.900 [138804791987968] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-1080p.mkv"
+Jan 26, 2026 02:03:55.901 [138804791987968] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 26, 2026 02:03:55.901 [138804791987968] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 26, 2026 02:03:55.901 [138804773223168] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 26, 2026 02:03:55.902 [138804791987968] DEBUG - Updating metadata item (save) (Braemar) with ID 134
+Jan 26, 2026 02:03:55.903 [138804773370624] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122
+Jan 26, 2026 02:03:55.903 [138804773223168] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122 (reused)
+Jan 26, 2026 02:03:55.904 [138804773370624] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jan 26, 2026 02:03:55.904 [138804773223168] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jan 26, 2026 02:03:55.911 [138804791987968] DEBUG - Analyzing media parts for item 135 (The G and the OG): 198
+Jan 26, 2026 02:03:55.956 [138804791987968] DEBUG - [ID 198] Media part analysis: /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E03 - The G and the OG - WEBDL-2160p.mkv
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E03 - The G and the OG - WEBDL-2160p.mkv"
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E03 - The G and the OG - WEBDL-2160p.mkv' for reading
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4444
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4544
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4599
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4669
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4732
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4779
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4830
+Jan 26, 2026 02:03:55.957 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6160
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6209
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6258
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6307
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6356
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6405
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6454
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6503
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6552
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6602
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6652
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6702
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6752
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6802
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6852
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6902
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6952
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7002
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7053
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7104
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7155
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7206
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7257
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7308
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7359
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7410
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7461
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7512
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7563
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7614
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7665
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7716
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7767
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7818
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7869
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7920
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7971
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8022
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8073
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8124
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8175
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8226
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8277
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8328
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8379
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8430
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8481
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.958 [138804791987968] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 8593 bytes read:34987 seeks:2 nb_streams:7
+Jan 26, 2026 02:03:55.959 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.959 [138804791987968] DEBUG - [FFMPEG] - Decoding VPS
+Jan 26, 2026 02:03:55.959 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:55.959 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.959 [138804791987968] DEBUG - [FFMPEG] - Decoding SPS
+Jan 26, 2026 02:03:55.959 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:55.959 [138804791987968] DEBUG - [FFMPEG] - Decoding VUI
+Jan 26, 2026 02:03:55.959 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.959 [138804791987968] DEBUG - [FFMPEG] - Decoding PPS
+Jan 26, 2026 02:03:55.959 [138804791987968] DEBUG - [FFMPEG] - All info found
+Jan 26, 2026 02:03:55.960 [138804791987968] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 52123 bytes read:100523 seeks:2 frames:17
+Jan 26, 2026 02:03:55.960 [138804791987968] DEBUG - [MI]  * ff53d0622a35e79f22bfed26dd52d76b09b686df [mkv hevc/eac3] Duration: 2875748ms, 3840x2160 (1.777778) 23.976fps, bitrate=15907kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E03 - The G and the OG - WEBDL-2160p.mkv")
+Jan 26, 2026 02:03:55.960 [138804791987968] DEBUG - [MI] Importing 47 media chapters.
+Jan 26, 2026 02:03:55.960 [138804791987968] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E03 - The G and the OG - WEBDL-2160p.mkv"
+Jan 26, 2026 02:03:55.961 [138804791987968] DEBUG - Streams didn't change in analysis, not saving.
+Jan 26, 2026 02:03:55.961 [138804791987968] DEBUG - Updating media item 198, size=5718231264, metadata_item_id=135
+Jan 26, 2026 02:03:55.961 [138804791987968] DEBUG - Updating part with ID=198 [/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E03 - The G and the OG - WEBDL-2160p.mkv]
+Jan 26, 2026 02:03:55.962 [138804773370624] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=135&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 26, 2026 02:03:55.962 [138804791987968] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E03 - The G and the OG - WEBDL-2160p.mkv"
+Jan 26, 2026 02:03:55.962 [138804791987968] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E03 - The G and the OG - WEBDL-2160p.mkv' for reading
+Jan 26, 2026 02:03:55.962 [138804791987968] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 26, 2026 02:03:55.962 [138804773223168] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=135&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jan 26, 2026 02:03:55.962 [138804791987968] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 26, 2026 02:03:55.963 [138804773370624] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=135&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4444
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4544
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4599
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4669
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4732
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4779
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4830
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6160
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6209
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6258
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6307
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6356
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6405
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6454
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6503
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6552
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6602
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6652
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6702
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6752
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6802
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6852
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6902
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6952
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7002
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7053
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7104
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7155
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7206
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7257
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7308
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7359
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7410
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7461
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7512
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7563
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7614
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7665
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7716
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7767
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7818
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7869
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7920
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 7971
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8022
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8073
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8124
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8175
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8226
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8277
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8328
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8379
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8430
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8481
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:55.963 [138804773223168] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=135&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+Jan 26, 2026 02:03:55.963 [138804791987968] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 8593 bytes read:34987 seeks:2 nb_streams:7
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - Decoding VPS
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - Decoding SPS
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - Decoding VUI
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - Decoding PPS
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - All info found
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 52123 bytes read:100523 seeks:2 frames:17
+Jan 26, 2026 02:03:55.964 [138804791987968] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/f/f53d0622a35e79f22bfed26dd52d76b09b686df.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+Jan 26, 2026 02:03:55.965 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.965 [138804791987968] DEBUG - [FFMPEG] - Decoding VPS
+Jan 26, 2026 02:03:55.965 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:55.965 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.965 [138804791987968] DEBUG - [FFMPEG] - Decoding SPS
+Jan 26, 2026 02:03:55.965 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:55.965 [138804791987968] DEBUG - [FFMPEG] - Decoding VUI
+Jan 26, 2026 02:03:55.965 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.965 [138804791987968] DEBUG - [FFMPEG] - Decoding PPS
+Jan 26, 2026 02:03:55.981 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.981 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.981 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.981 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:55.981 [138804791987968] DEBUG - [FFMPEG] - Decoding VPS
+Jan 26, 2026 02:03:55.981 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:55.981 [138804791987968] DEBUG - [FFMPEG] - Decoding SPS
+Jan 26, 2026 02:03:55.981 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:55.981 [138804791987968] DEBUG - [FFMPEG] - Decoding VUI
+Jan 26, 2026 02:03:55.981 [138804791987968] DEBUG - [FFMPEG] - Decoding PPS
+Jan 26, 2026 02:03:55.983 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:56.098 [138804791987968] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jan 26, 2026 02:03:56.099 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:56.173 [138804791987968] DEBUG - [FFMPEG] - Decoded frame with POC 4.
+Jan 26, 2026 02:03:56.173 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:56.184 [138804791987968] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jan 26, 2026 02:03:56.254 [138804791987968] DEBUG - [FFMPEG] - Decoded frame with POC 2.
+Jan 26, 2026 02:03:56.785 [138804791987968] DEBUG - Loaded memory image of size 3840x2160.
+Jan 26, 2026 02:03:56.859 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:56.859 [138804791987968] DEBUG - [FFMPEG] - Decoding VPS
+Jan 26, 2026 02:03:56.859 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:56.859 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:56.859 [138804791987968] DEBUG - [FFMPEG] - Decoding SPS
+Jan 26, 2026 02:03:56.859 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:56.859 [138804791987968] DEBUG - [FFMPEG] - Decoding VUI
+Jan 26, 2026 02:03:56.859 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:56.859 [138804791987968] DEBUG - [FFMPEG] - Decoding PPS
+Jan 26, 2026 02:03:56.874 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:56.874 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:56.874 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:56.874 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:56.874 [138804791987968] DEBUG - [FFMPEG] - Decoding VPS
+Jan 26, 2026 02:03:56.874 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:56.874 [138804791987968] DEBUG - [FFMPEG] - Decoding SPS
+Jan 26, 2026 02:03:56.874 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:56.874 [138804791987968] DEBUG - [FFMPEG] - Decoding VUI
+Jan 26, 2026 02:03:56.874 [138804791987968] DEBUG - [FFMPEG] - Decoding PPS
+Jan 26, 2026 02:03:56.875 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:57.001 [138804791987968] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jan 26, 2026 02:03:57.002 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.086 [138804791987968] DEBUG - [FFMPEG] - Decoded frame with POC 4.
+Jan 26, 2026 02:03:57.086 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.096 [138804791987968] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jan 26, 2026 02:03:57.176 [138804791987968] DEBUG - [FFMPEG] - Decoded frame with POC 2.
+Jan 26, 2026 02:03:57.700 [138804791987968] DEBUG - Loaded memory image of size 3840x2160.
+Jan 26, 2026 02:03:57.775 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.775 [138804791987968] DEBUG - [FFMPEG] - Decoding VPS
+Jan 26, 2026 02:03:57.775 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:57.775 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.775 [138804791987968] DEBUG - [FFMPEG] - Decoding SPS
+Jan 26, 2026 02:03:57.775 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:57.775 [138804791987968] DEBUG - [FFMPEG] - Decoding VUI
+Jan 26, 2026 02:03:57.775 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.775 [138804791987968] DEBUG - [FFMPEG] - Decoding PPS
+Jan 26, 2026 02:03:57.780 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.780 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.780 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.781 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.781 [138804791987968] DEBUG - [FFMPEG] - Decoding VPS
+Jan 26, 2026 02:03:57.781 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:57.781 [138804791987968] DEBUG - [FFMPEG] - Decoding SPS
+Jan 26, 2026 02:03:57.781 [138804791987968] DEBUG - [FFMPEG] - Main profile bitstream
+Jan 26, 2026 02:03:57.781 [138804791987968] DEBUG - [FFMPEG] - Decoding VUI
+Jan 26, 2026 02:03:57.781 [138804791987968] DEBUG - [FFMPEG] - Decoding PPS
+Jan 26, 2026 02:03:57.782 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:57.895 [138804791987968] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jan 26, 2026 02:03:57.895 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.962 [138804791987968] DEBUG - [FFMPEG] - Decoded frame with POC 4.
+Jan 26, 2026 02:03:57.963 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 26, 2026 02:03:57.973 [138804791987968] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jan 26, 2026 02:03:58.049 [138804791987968] DEBUG - [FFMPEG] - Decoded frame with POC 2.
+Jan 26, 2026 02:03:58.574 [138804791987968] DEBUG - Loaded memory image of size 3840x2160.
+Jan 26, 2026 02:03:58.648 [138804791987968] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E03 - The G and the OG - WEBDL-2160p.mkv"
+Jan 26, 2026 02:03:58.649 [138804791987968] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 26, 2026 02:03:58.649 [138804791987968] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 26, 2026 02:03:58.649 [138804773223168] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 26, 2026 02:03:58.649 [138804791987968] DEBUG - Updating metadata item (save) (The G and the OG) with ID 135
+Jan 26, 2026 02:03:58.650 [138804773370624] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
+Jan 26, 2026 02:03:58.650 [138804773223168] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jan 26, 2026 02:03:58.651 [138804773370624] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=135&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jan 26, 2026 02:03:58.651 [138804773223168] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=135&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jan 26, 2026 02:03:58.658 [138804791987968] DEBUG - Analyzing media parts for item 133 (Luceo Non Uro): 196
+Jan 26, 2026 02:03:58.699 [138804791987968] DEBUG - [ID 196] Media part analysis: /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E07 - Luceo Non Uro - WEBDL-1080p.mkv
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E07 - Luceo Non Uro - WEBDL-1080p.mkv"
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E07 - Luceo Non Uro - WEBDL-1080p.mkv' for reading
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4387
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4475
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4555
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4628
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4717
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4797
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6128
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6177
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6224
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6273
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6323
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.701 [138804791987968] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6435 bytes read:34345 seeks:2 nb_streams:6
+Jan 26, 2026 02:03:58.702 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.702 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.702 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.702 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.702 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.703 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.703 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.703 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.703 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:58.706 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.706 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:58.708 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.708 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.708 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:58.710 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.710 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:58.711 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.711 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.711 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:58.714 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.716 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.716 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.716 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.718 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.721 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.721 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.721 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.723 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.726 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.726 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.726 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:58.726 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.727 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.727 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.727 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:58.727 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.729 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.730 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.730 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.730 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.732 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.732 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.732 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.732 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.734 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.734 [138804791987968] DEBUG - [FFMPEG] - All info found
+Jan 26, 2026 02:03:58.736 [138804791987968] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 40540 bytes read:99881 seeks:2 frames:40
+Jan 26, 2026 02:03:58.737 [138804791987968] DEBUG - [MI]  * a2f71f127b2f13e91568a5cdff074afabf789fc7 [mkv h264/eac3] Duration: 3530144ms, 1920x1080 (1.777778) 23.976fps, bitrate=5234kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E07 - Luceo Non Uro - WEBDL-1080p.mkv")
+Jan 26, 2026 02:03:58.737 [138804791987968] DEBUG - [MI] Importing 5 media chapters.
+Jan 26, 2026 02:03:58.737 [138804791987968] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E07 - Luceo Non Uro - WEBDL-1080p.mkv"
+Jan 26, 2026 02:03:58.737 [138804791987968] DEBUG - Streams didn't change in analysis, not saving.
+Jan 26, 2026 02:03:58.737 [138804791987968] DEBUG - Updating media item 196, size=2309912822, metadata_item_id=133
+Jan 26, 2026 02:03:58.737 [138804791987968] DEBUG - Updating part with ID=196 [/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E07 - Luceo Non Uro - WEBDL-1080p.mkv]
+Jan 26, 2026 02:03:58.738 [138804773370624] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=133&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 26, 2026 02:03:58.738 [138804791987968] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E07 - Luceo Non Uro - WEBDL-1080p.mkv"
+Jan 26, 2026 02:03:58.738 [138804791987968] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E07 - Luceo Non Uro - WEBDL-1080p.mkv' for reading
+Jan 26, 2026 02:03:58.738 [138804791987968] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 26, 2026 02:03:58.738 [138804773223168] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=133&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jan 26, 2026 02:03:58.738 [138804791987968] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 26, 2026 02:03:58.738 [138804773370624] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=133&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+Jan 26, 2026 02:03:58.738 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4387
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4475
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4555
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4628
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4717
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4797
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6128
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6177
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6224
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6273
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6323
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6435 bytes read:34345 seeks:2 nb_streams:6
+Jan 26, 2026 02:03:58.739 [138804773223168] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=133&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.739 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.740 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.740 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.740 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.740 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.740 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.740 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.740 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:58.743 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.743 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:58.745 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.745 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.745 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:58.747 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.747 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:58.748 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.748 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.748 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:58.751 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.753 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.753 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.753 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.755 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.758 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.758 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.758 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.760 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.763 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.763 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.763 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:58.763 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.764 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.764 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.764 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:58.764 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.767 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.767 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.767 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.767 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.769 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.769 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.769 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.769 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.771 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.772 [138804791987968] DEBUG - [FFMPEG] - All info found
+Jan 26, 2026 02:03:58.773 [138804791987968] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 40540 bytes read:99881 seeks:2 frames:40
+Jan 26, 2026 02:03:58.773 [138804791987968] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/a/2f71f127b2f13e91568a5cdff074afabf789fc7.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+Jan 26, 2026 02:03:58.774 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.774 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.792 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.792 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.792 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.793 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.793 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.793 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 26, 2026 02:03:58.793 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:58.796 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.796 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:58.826 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.827 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.827 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:58.829 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.829 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:58.843 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.843 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:58.843 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:58.845 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:58.987 [138804791987968] DEBUG - Loaded memory image of size 1920x1080.
+Jan 26, 2026 02:03:59.019 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:59.019 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:59.023 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:59.023 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:59.024 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.024 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:59.024 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:59.024 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 26, 2026 02:03:59.024 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:59.027 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.027 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:59.041 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.041 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:59.042 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:59.044 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.044 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:59.052 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.052 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:59.052 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:59.054 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.194 [138804791987968] DEBUG - Loaded memory image of size 1920x1080.
+Jan 26, 2026 02:03:59.226 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:59.226 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:59.236 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:59.236 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 26, 2026 02:03:59.236 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.236 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:59.236 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:59.237 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 26, 2026 02:03:59.237 [138804791987968] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 26, 2026 02:03:59.239 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.239 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:59.261 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.261 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:59.261 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:59.264 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.264 [138804791987968] DEBUG - [FFMPEG] - no picture 
+Jan 26, 2026 02:03:59.275 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.275 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 26, 2026 02:03:59.275 [138804791987968] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 26, 2026 02:03:59.277 [138804791987968] DEBUG - [FFMPEG] - ct_type:1 pic_struct:0
+Jan 26, 2026 02:03:59.419 [138804791987968] DEBUG - Loaded memory image of size 1920x1080.
+Jan 26, 2026 02:03:59.450 [138804791987968] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E07 - Luceo Non Uro - WEBDL-1080p.mkv"
+Jan 26, 2026 02:03:59.451 [138804791987968] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 26, 2026 02:03:59.451 [138804791987968] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 26, 2026 02:03:59.451 [138804773223168] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 26, 2026 02:03:59.451 [138804791987968] DEBUG - Updating metadata item (save) (Luceo Non Uro) with ID 133
+Jan 26, 2026 02:03:59.452 [138804773370624] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122
+Jan 26, 2026 02:03:59.453 [138804773223168] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122 (reused)
+Jan 26, 2026 02:03:59.453 [138804773370624] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=133&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jan 26, 2026 02:03:59.453 [138804773223168] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=133&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)

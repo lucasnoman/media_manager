@@ -319,3 +319,334 @@
 (N) 2026-01-22T17:21:01 - WebAPI login success. IP: ::ffff:172.19.0.7
 (N) 2026-01-22T17:21:05 - WebAPI login success. IP: ::ffff:172.19.0.6
 (N) 2026-01-22T17:24:56 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-23T13:27:49 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-23T13:32:45 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-23T13:32:59 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-23T13:34:02 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-23T22:32:47 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-23T22:34:44 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-23T22:38:41 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-23T22:42:03 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-23T22:49:24 - Added new torrent. Torrent: "9251b421b5c5bd525e3a5f624d471bedc2923456"
+(N) 2026-01-23T22:49:49 - Added new torrent. Torrent: "Ford.v.Ferrari.2019.UHD.BluRay.2160p.TrueHD.Atmos.7.1.HEVC.REMUX"
+(N) 2026-01-23T22:49:53 - Added new torrent. Torrent: "Severance S02 Hybrid MULTI 2160p WEB DL DV HDR H265 AOC"
+(N) 2026-01-23T23:00:21 - Torrent download finished. Torrent: "Severance (2022) Season 1 S01 (2160p ATVP WEB-DL x265 HEVC 10bit DDP 5.1 Vyndros)"
+(N) 2026-01-23T23:33:23 - Torrent download finished. Torrent: "Ford.v.Ferrari.2019.UHD.BluRay.2160p.TrueHD.Atmos.7.1.HEVC.REMUX"
+(N) 2026-01-24T00:29:54 - Torrent download finished. Torrent: "Severance S02 Hybrid MULTI 2160p WEB DL DV HDR H265 AOC"
+(N) 2026-01-24T03:29:52 - Torrent stopped. Torrent: "Severance (2022) Season 1 S01 (2160p ATVP WEB-DL x265 HEVC 10bit DDP 5.1 Vyndros)"
+(N) 2026-01-24T03:29:52 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Severance (2022) Season 1 S01 (2160p ATVP WEB-DL x265 HEVC 10bit DDP 5.1 Vyndros)".
+(N) 2026-01-24T03:30:00 - Torrent removed. Torrent: "Severance (2022) Season 1 S01 (2160p ATVP WEB-DL x265 HEVC 10bit DDP 5.1 Vyndros)"
+(N) 2026-01-24T03:30:00 - Torrent content removed. Torrent: "Severance (2022) Season 1 S01 (2160p ATVP WEB-DL x265 HEVC 10bit DDP 5.1 Vyndros)"
+(N) 2026-01-24T11:33:32 - Torrent stopped. Torrent: "Ford.v.Ferrari.2019.UHD.BluRay.2160p.TrueHD.Atmos.7.1.HEVC.REMUX"
+(N) 2026-01-24T11:33:32 - Torrent reached the seeding time limit. Torrent stopped. Torrent: "Ford.v.Ferrari.2019.UHD.BluRay.2160p.TrueHD.Atmos.7.1.HEVC.REMUX".
+(N) 2026-01-24T11:34:00 - Torrent removed. Torrent: "Ford.v.Ferrari.2019.UHD.BluRay.2160p.TrueHD.Atmos.7.1.HEVC.REMUX"
+(N) 2026-01-24T11:34:01 - Torrent content removed. Torrent: "Ford.v.Ferrari.2019.UHD.BluRay.2160p.TrueHD.Atmos.7.1.HEVC.REMUX"
+(N) 2026-01-24T12:30:02 - Torrent stopped. Torrent: "Severance S02 Hybrid MULTI 2160p WEB DL DV HDR H265 AOC"
+(N) 2026-01-24T12:30:02 - Torrent reached the seeding time limit. Torrent stopped. Torrent: "Severance S02 Hybrid MULTI 2160p WEB DL DV HDR H265 AOC".
+(N) 2026-01-24T12:31:00 - Torrent removed. Torrent: "Severance S02 Hybrid MULTI 2160p WEB DL DV HDR H265 AOC"
+(N) 2026-01-24T12:31:02 - Torrent content removed. Torrent: "Severance S02 Hybrid MULTI 2160p WEB DL DV HDR H265 AOC"
+(N) 2026-01-24T12:53:42 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-24T13:14:06 - qBittorrent termination initiated
+(N) 2026-01-24T13:14:06 - Saving resume data completed.
+(N) 2026-01-24T13:14:06 - BitTorrent session successfully finished.
+(N) 2026-01-24T13:14:06 - qBittorrent is now ready to exit
+(N) 2026-01-24T13:18:46 - qBittorrent v5.1.4 started. Process ID: 150
+(N) 2026-01-24T13:18:46 - Using config directory: /config/qBittorrent
+(N) 2026-01-24T13:18:46 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-01-24T13:18:46 - Peer ID: "-qB5140-"
+(I) 2026-01-24T13:18:46 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2026-01-24T13:18:46 - Distributed Hash Table (DHT) support: ON
+(I) 2026-01-24T13:18:46 - Local Peer Discovery support: ON
+(I) 2026-01-24T13:18:46 - Peer Exchange (PeX) support: ON
+(I) 2026-01-24T13:18:46 - Anonymous mode: OFF
+(I) 2026-01-24T13:18:46 - Encryption support: ON
+(I) 2026-01-24T13:18:46 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-01-24T13:18:46 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-01-24T13:18:46 - Successfully listening on IP. IP: "172.19.0.10". Port: "TCP/6881"
+(I) 2026-01-24T13:18:46 - Successfully listening on IP. IP: "172.19.0.10". Port: "UTP/6881"
+(I) 2026-01-24T13:18:46 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-01-24T13:18:46 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2026-01-24T13:18:46 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Jan 1 02:26:44 2026.
+(N) 2026-01-24T13:18:46 - Using built-in WebUI.
+(N) 2026-01-24T13:18:46 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2026-01-24T13:18:46 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-01-24T13:18:46 - Detected external IP. IP: "143.137.156.89"
+(N) 2026-01-24T13:18:57 - WebAPI login success. IP: ::ffff:172.19.0.5
+(N) 2026-01-24T13:18:59 - WebAPI login success. IP: ::ffff:172.19.0.11
+(N) 2026-01-24T13:21:11 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-25T13:29:52 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-25T13:31:14 - Added new torrent. Torrent: "Outlander Blood of My Blood S01E07 1080p DSNP WEB-DL DDP5 1 H 264 DUAL-BiOMA[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:31:16 - Added new torrent. Torrent: "Outlander Blood of my Blood S01E09 Braemar 1080p AMZN WEB-DL DDP5 1 H 264-F"
+(N) 2026-01-25T13:31:18 - Added new torrent. Torrent: "Outlander.Blood.of.My.Blood.S01E08.1080p.WEB.h264-ETHEL[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:31:20 - Added new torrent. Torrent: "Outlander.Blood.of.My.Blood.S01E10.1080p.WEB.h264-ETHEL"
+(N) 2026-01-25T13:31:22 - Added new torrent. Torrent: "Outlander Blood of My Blood S01E01 Providence 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:31:24 - Added new torrent. Torrent: "Outlander Blood of My Blood S01E02 S W A K 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:31:26 - Added new torrent. Torrent: "Outlander Blood Of My Blood S01E03 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:31:28 - Added new torrent. Torrent: "Outlander Blood Of My Blood S01E04 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:31:30 - Added new torrent. Torrent: "Outlander Blood Of My Blood S01E05 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:31:32 - Added new torrent. Torrent: "Outlander Blood Of My Blood S01E06 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:33:55 - Torrent download finished. Torrent: "Outlander.Blood.of.My.Blood.S01E10.1080p.WEB.h264-ETHEL"
+(N) 2026-01-25T13:41:19 - Torrent download finished. Torrent: "Outlander.Blood.of.My.Blood.S01E08.1080p.WEB.h264-ETHEL[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:41:31 - Torrent download finished. Torrent: "Outlander Blood of My Blood S01E02 S W A K 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:44:42 - Torrent download finished. Torrent: "Outlander Blood of My Blood S01E01 Providence 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T13:59:04 - Added new torrent. Torrent: "60a2dc26073fe50df85bb644f3748611a4d2c06b"
+(N) 2026-01-25T14:01:17 - Trying to listen on the following list of IP addresses: "0.0.0.0:7423,[::]:7423"
+(I) 2026-01-25T14:01:17 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/7423"
+(I) 2026-01-25T14:01:17 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/7423"
+(I) 2026-01-25T14:01:17 - Successfully listening on IP. IP: "172.19.0.10". Port: "TCP/7423"
+(I) 2026-01-25T14:01:17 - Successfully listening on IP. IP: "172.19.0.10". Port: "UTP/7423"
+(I) 2026-01-25T14:01:17 - Successfully listening on IP. IP: "::1". Port: "TCP/7423"
+(I) 2026-01-25T14:01:17 - Successfully listening on IP. IP: "::1". Port: "UTP/7423"
+(I) 2026-01-25T14:01:18 - Detected external IP. IP: "143.137.156.89"
+(N) 2026-01-25T15:28:16 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-25T15:29:22 - Torrent removed. Torrent: "60a2dc26073fe50df85bb644f3748611a4d2c06b"
+(N) 2026-01-25T15:29:22 - Torrent removed. Torrent: "Outlander Blood Of My Blood S01E03 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(I) 2026-01-25T15:30:02 - Found Python executable. Name: "python3". Version: "3.12.12"
+(I) 2026-01-25T15:30:15 - Plugin "eztv" is outdated, updating to version 1.23
+(I) 2026-01-25T15:30:15 - Plugin "jackett" is outdated, updating to version 4.9
+(I) 2026-01-25T15:30:15 - Plugin "limetorrents" is outdated, updating to version 4.14
+(I) 2026-01-25T15:30:15 - Plugin "piratebay" is outdated, updating to version 3.9
+(I) 2026-01-25T15:30:15 - Plugin "solidtorrents" is outdated, updating to version 2.8
+(I) 2026-01-25T15:30:15 - Plugin "torlock" is outdated, updating to version 2.28
+(I) 2026-01-25T15:30:15 - Plugin "torrentproject" is outdated, updating to version 1.91
+(I) 2026-01-25T15:30:15 - Plugin "torrentscsv" is outdated, updating to version 1.8
+(I) 2026-01-25T15:30:15 - Updating 8 plugins
+(I) 2026-01-25T15:30:15 - Updating plugin solidtorrents
+(I) 2026-01-25T15:30:15 - Updating plugin piratebay
+(I) 2026-01-25T15:30:15 - Updating plugin torrentproject
+(I) 2026-01-25T15:30:15 - Updating plugin jackett
+(I) 2026-01-25T15:30:15 - Updating plugin eztv
+(I) 2026-01-25T15:30:15 - Updating plugin limetorrents
+(I) 2026-01-25T15:30:15 - Updating plugin torlock
+(I) 2026-01-25T15:30:15 - Updating plugin torrentscsv
+(N) 2026-01-25T15:32:28 - Trying to listen on the following list of IP addresses: "0.0.0.0:65332,[::]:65332"
+(I) 2026-01-25T15:32:28 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/65332"
+(I) 2026-01-25T15:32:28 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/65332"
+(I) 2026-01-25T15:32:28 - Successfully listening on IP. IP: "172.19.0.10". Port: "TCP/65332"
+(I) 2026-01-25T15:32:28 - Successfully listening on IP. IP: "172.19.0.10". Port: "UTP/65332"
+(I) 2026-01-25T15:32:28 - Successfully listening on IP. IP: "::1". Port: "TCP/65332"
+(I) 2026-01-25T15:32:28 - Successfully listening on IP. IP: "::1". Port: "UTP/65332"
+(I) 2026-01-25T15:32:37 - Detected external IP. IP: "143.137.156.89"
+(N) 2026-01-25T15:32:40 - qBittorrent termination initiated
+(N) 2026-01-25T15:32:40 - Saving resume data completed.
+(N) 2026-01-25T15:32:42 - BitTorrent session successfully finished.
+(N) 2026-01-25T15:32:42 - qBittorrent is now ready to exit
+(N) 2026-01-25T15:32:47 - qBittorrent v5.1.4 started. Process ID: 144
+(N) 2026-01-25T15:32:47 - Using config directory: /config/qBittorrent
+(N) 2026-01-25T15:32:47 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-01-25T15:32:47 - Peer ID: "-qB5140-"
+(I) 2026-01-25T15:32:47 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2026-01-25T15:32:47 - Distributed Hash Table (DHT) support: ON
+(I) 2026-01-25T15:32:47 - Local Peer Discovery support: ON
+(I) 2026-01-25T15:32:47 - Peer Exchange (PeX) support: ON
+(I) 2026-01-25T15:32:47 - Anonymous mode: OFF
+(I) 2026-01-25T15:32:47 - Encryption support: ON
+(I) 2026-01-25T15:32:47 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-01-25T15:32:47 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-01-25T15:32:47 - Successfully listening on IP. IP: "172.19.0.10". Port: "TCP/6881"
+(I) 2026-01-25T15:32:47 - Successfully listening on IP. IP: "172.19.0.10". Port: "UTP/6881"
+(I) 2026-01-25T15:32:47 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-01-25T15:32:47 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2026-01-25T15:32:47 - Restored torrent. Torrent: "Outlander Blood of My Blood S01E07 1080p DSNP WEB-DL DDP5 1 H 264 DUAL-BiOMA[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T15:32:47 - Restored torrent. Torrent: "Outlander Blood of my Blood S01E09 Braemar 1080p AMZN WEB-DL DDP5 1 H 264-F"
+(N) 2026-01-25T15:32:47 - Restored torrent. Torrent: "Outlander Blood Of My Blood S01E04 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T15:32:47 - Restored torrent. Torrent: "Outlander Blood Of My Blood S01E05 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T15:32:47 - Restored torrent. Torrent: "Outlander Blood Of My Blood S01E06 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T15:32:47 - Restored torrent. Torrent: "Outlander Blood of My Blood S01E02 S W A K 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T15:32:47 - Restored torrent. Torrent: "Outlander.Blood.of.My.Blood.S01E10.1080p.WEB.h264-ETHEL"
+(N) 2026-01-25T15:32:47 - Restored torrent. Torrent: "Outlander Blood of My Blood S01E01 Providence 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T15:32:47 - Restored torrent. Torrent: "Outlander.Blood.of.My.Blood.S01E08.1080p.WEB.h264-ETHEL[EZTVx.to].mkv[eztvx.to]"
+(I) 2026-01-25T15:32:47 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Jan 1 02:26:44 2026.
+(N) 2026-01-25T15:32:47 - Using built-in WebUI.
+(N) 2026-01-25T15:32:47 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2026-01-25T15:32:47 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-01-25T15:32:47 - Detected external IP. IP: "143.137.156.89"
+(N) 2026-01-25T15:33:00 - WebAPI login success. IP: ::ffff:172.19.0.11
+(N) 2026-01-25T15:33:00 - WebAPI login success. IP: ::ffff:172.19.0.5
+(N) 2026-01-25T15:33:59 - Added new torrent. Torrent: "d8d9e78c27d84011461909b6ab90ecf579dc04d7"
+(N) 2026-01-25T15:35:54 - Torrent download finished. Torrent: "Outlander Blood Of My Blood S01E06 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T15:38:39 - Torrent download finished. Torrent: "Outlander Blood of My Blood S01E07 1080p DSNP WEB-DL DDP5 1 H 264 DUAL-BiOMA[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T15:39:34 - Added new torrent. Torrent: "Tulsa.King.S03E03.G.di.Gangster.ITA.ENG.2160p.AMZN.WEB-DL.DDP5.1...."
+(N) 2026-01-25T15:41:59 - Added new torrent. Torrent: "770de9a16fe074c70d4b58602c651981644dc48c"
+(N) 2026-01-25T15:44:15 - Torrent download finished. Torrent: "Outlander.Blood.of.My.Blood.S01E03.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv"
+(N) 2026-01-25T15:44:43 - Added new torrent. Torrent: "7a2db1ffed8ce26cde3a9901065d7d3e77986999"
+(N) 2026-01-25T15:52:15 - Torrent download finished. Torrent: "Tulsa.King.S03E03.G.di.Gangster.ITA.ENG.2160p.AMZN.WEB-DL.DDP5.1...."
+(N) 2026-01-25T15:55:41 - Torrent download finished. Torrent: "Outlander Blood of my Blood S01E09 Braemar 1080p AMZN WEB-DL DDP5 1 H 264-F"
+(N) 2026-01-25T16:33:57 - Torrent stopped. Torrent: "Outlander.Blood.of.My.Blood.S01E10.1080p.WEB.h264-ETHEL"
+(N) 2026-01-25T16:33:57 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander.Blood.of.My.Blood.S01E10.1080p.WEB.h264-ETHEL".
+(N) 2026-01-25T16:34:00 - Torrent removed. Torrent: "Outlander.Blood.of.My.Blood.S01E10.1080p.WEB.h264-ETHEL"
+(N) 2026-01-25T16:34:00 - Torrent content removed. Torrent: "Outlander.Blood.of.My.Blood.S01E10.1080p.WEB.h264-ETHEL"
+(N) 2026-01-25T16:41:27 - Torrent stopped. Torrent: "Outlander.Blood.of.My.Blood.S01E08.1080p.WEB.h264-ETHEL[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T16:41:27 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander.Blood.of.My.Blood.S01E08.1080p.WEB.h264-ETHEL[EZTVx.to].mkv[eztvx.to]".
+(N) 2026-01-25T16:41:37 - Torrent stopped. Torrent: "Outlander Blood of My Blood S01E02 S W A K 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T16:41:37 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander Blood of My Blood S01E02 S W A K 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]".
+(N) 2026-01-25T16:42:00 - Torrent removed. Torrent: "Outlander.Blood.of.My.Blood.S01E08.1080p.WEB.h264-ETHEL[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T16:42:00 - Torrent removed. Torrent: "Outlander Blood of My Blood S01E02 S W A K 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T16:42:00 - Torrent content removed. Torrent: "Outlander.Blood.of.My.Blood.S01E08.1080p.WEB.h264-ETHEL[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T16:42:00 - Torrent content removed. Torrent: "Outlander Blood of My Blood S01E02 S W A K 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T16:44:47 - Torrent stopped. Torrent: "Outlander Blood of My Blood S01E01 Providence 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T16:44:47 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander Blood of My Blood S01E01 Providence 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]".
+(N) 2026-01-25T16:45:00 - Torrent removed. Torrent: "Outlander Blood of My Blood S01E01 Providence 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T16:45:00 - Torrent content removed. Torrent: "Outlander Blood of My Blood S01E01 Providence 720p AMZN WEB-DL DDP5 1 H 264-NTb[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T18:35:57 - Torrent stopped. Torrent: "Outlander Blood Of My Blood S01E06 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T18:35:57 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander Blood Of My Blood S01E06 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]".
+(N) 2026-01-25T18:36:00 - Torrent removed. Torrent: "Outlander Blood Of My Blood S01E06 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T18:36:00 - Torrent content removed. Torrent: "Outlander Blood Of My Blood S01E06 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T18:38:47 - Torrent stopped. Torrent: "Outlander Blood of My Blood S01E07 1080p DSNP WEB-DL DDP5 1 H 264 DUAL-BiOMA[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T18:38:47 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander Blood of My Blood S01E07 1080p DSNP WEB-DL DDP5 1 H 264 DUAL-BiOMA[EZTVx.to].mkv[eztvx.to]".
+(N) 2026-01-25T18:39:00 - Torrent removed. Torrent: "Outlander Blood of My Blood S01E07 1080p DSNP WEB-DL DDP5 1 H 264 DUAL-BiOMA[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T18:39:00 - Torrent content removed. Torrent: "Outlander Blood of My Blood S01E07 1080p DSNP WEB-DL DDP5 1 H 264 DUAL-BiOMA[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T18:44:17 - Torrent stopped. Torrent: "Outlander.Blood.of.My.Blood.S01E03.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv"
+(N) 2026-01-25T18:44:17 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander.Blood.of.My.Blood.S01E03.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv".
+(N) 2026-01-25T18:45:00 - Torrent removed. Torrent: "Outlander.Blood.of.My.Blood.S01E03.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv"
+(N) 2026-01-25T18:45:00 - Torrent content removed. Torrent: "Outlander.Blood.of.My.Blood.S01E03.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv"
+(N) 2026-01-25T18:52:17 - Torrent stopped. Torrent: "Tulsa.King.S03E03.G.di.Gangster.ITA.ENG.2160p.AMZN.WEB-DL.DDP5.1...."
+(N) 2026-01-25T18:52:17 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Tulsa.King.S03E03.G.di.Gangster.ITA.ENG.2160p.AMZN.WEB-DL.DDP5.1....".
+(N) 2026-01-25T18:53:00 - Torrent removed. Torrent: "Tulsa.King.S03E03.G.di.Gangster.ITA.ENG.2160p.AMZN.WEB-DL.DDP5.1...."
+(N) 2026-01-25T18:53:00 - Torrent content removed. Torrent: "Tulsa.King.S03E03.G.di.Gangster.ITA.ENG.2160p.AMZN.WEB-DL.DDP5.1...."
+(N) 2026-01-25T18:55:47 - Torrent stopped. Torrent: "Outlander Blood of my Blood S01E09 Braemar 1080p AMZN WEB-DL DDP5 1 H 264-F"
+(N) 2026-01-25T18:55:47 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander Blood of my Blood S01E09 Braemar 1080p AMZN WEB-DL DDP5 1 H 264-F".
+(N) 2026-01-25T18:56:00 - Torrent removed. Torrent: "Outlander Blood of my Blood S01E09 Braemar 1080p AMZN WEB-DL DDP5 1 H 264-F"
+(N) 2026-01-25T18:56:00 - Torrent content removed. Torrent: "Outlander Blood of my Blood S01E09 Braemar 1080p AMZN WEB-DL DDP5 1 H 264-F"
+(N) 2026-01-25T19:01:24 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-25T19:35:42 - Torrent removed. Torrent: "d8d9e78c27d84011461909b6ab90ecf579dc04d7"
+(N) 2026-01-25T19:35:42 - Torrent removed. Torrent: "www.UIndex.org    -    Outlander Blood of My Blood S01E03 School of the Moon 2160p MAX WEB-DL DDP5 1 x265-NTb"
+(N) 2026-01-25T19:35:43 - Torrent content removed. Torrent: "www.UIndex.org    -    Outlander Blood of My Blood S01E03 School of the Moon 2160p MAX WEB-DL DDP5 1 x265-NTb"
+(N) 2026-01-25T19:35:48 - Torrent removed. Torrent: "Outlander Blood Of My Blood S01E05 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T19:35:48 - Torrent removed. Torrent: "Outlander Blood Of My Blood S01E04 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T19:35:48 - Torrent content removed. Torrent: "Outlander Blood Of My Blood S01E05 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T19:35:49 - Torrent content removed. Torrent: "Outlander Blood Of My Blood S01E04 720p WEB H264-JFF[EZTVx.to].mkv[eztvx.to]"
+(N) 2026-01-25T19:36:40 - Added new torrent. Torrent: "bdd1bb6db55236a3065b3ad2a23ea16e026f768c"
+(N) 2026-01-25T20:10:28 - Added new torrent. Torrent: "Outlander Blood of My Blood S01E05 Needfire 2160p MAX WEB-DL DDP5 1 x265-NT"
+(N) 2026-01-25T23:23:55 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-25T23:25:04 - Added new torrent. Torrent: "81641ba7b8e5405b5e571f5ee38298ebd58f12fe"
+(N) 2026-01-25T23:25:54 - Added new torrent. Torrent: "7190a87454c7dcdf2cb3714be648479869811784"
+(N) 2026-01-25T23:26:05 - Torrent download finished. Torrent: "Outlander.Blood.of.My.Blood.S01E04.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv"
+(N) 2026-01-25T23:27:52 - Added new torrent. Torrent: "a7263b71387b89dee050df9ceec6e35cf4f8c082"
+(N) 2026-01-25T23:46:44 - Torrent download finished. Torrent: "Outlander Blood Of My Blood S01E05 1080p 10bit WEBRip 6CH X265 HEVC-PSA[EZTVx.to].mkv"
+(N) 2026-01-25T23:57:14 - Torrent download finished. Torrent: "Outlander Blood Of My Blood S01E04 1080p 10bit WEBRip 6CH X265 HEVC-PSA[EZTVx.to].mkv"
+(N) 2026-01-26T01:13:47 - Torrent download finished. Torrent: "Outlander Blood of My Blood S01E05 Needfire 2160p MAX WEB-DL DDP5 1 x265-NT"
+(I) 2026-01-26T02:01:04 - Detected external IP. IP: "186.225.181.86"
+(N) 2026-01-26T02:26:07 - Torrent stopped. Torrent: "Outlander.Blood.of.My.Blood.S01E04.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv"
+(N) 2026-01-26T02:26:07 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander.Blood.of.My.Blood.S01E04.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv".
+(N) 2026-01-26T02:27:00 - Torrent removed. Torrent: "Outlander.Blood.of.My.Blood.S01E04.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv"
+(N) 2026-01-26T02:27:00 - Torrent content removed. Torrent: "Outlander.Blood.of.My.Blood.S01E04.1080p.HEVC.x265-MeGusta[EZTVx.to].mkv"
+(N) 2026-01-26T02:46:47 - Torrent stopped. Torrent: "Outlander Blood Of My Blood S01E05 1080p 10bit WEBRip 6CH X265 HEVC-PSA[EZTVx.to].mkv"
+(N) 2026-01-26T02:46:47 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander Blood Of My Blood S01E05 1080p 10bit WEBRip 6CH X265 HEVC-PSA[EZTVx.to].mkv".
+(N) 2026-01-26T02:47:00 - Torrent removed. Torrent: "Outlander Blood Of My Blood S01E05 1080p 10bit WEBRip 6CH X265 HEVC-PSA[EZTVx.to].mkv"
+(N) 2026-01-26T02:47:00 - Torrent content removed. Torrent: "Outlander Blood Of My Blood S01E05 1080p 10bit WEBRip 6CH X265 HEVC-PSA[EZTVx.to].mkv"
+(N) 2026-01-26T02:57:17 - Torrent stopped. Torrent: "Outlander Blood Of My Blood S01E04 1080p 10bit WEBRip 6CH X265 HEVC-PSA[EZTVx.to].mkv"
+(N) 2026-01-26T02:57:17 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander Blood Of My Blood S01E04 1080p 10bit WEBRip 6CH X265 HEVC-PSA[EZTVx.to].mkv".
+(N) 2026-01-26T02:58:00 - Torrent removed. Torrent: "Outlander Blood Of My Blood S01E04 1080p 10bit WEBRip 6CH X265 HEVC-PSA[EZTVx.to].mkv"
+(N) 2026-01-26T02:58:00 - Torrent content removed. Torrent: "Outlander Blood Of My Blood S01E04 1080p 10bit WEBRip 6CH X265 HEVC-PSA[EZTVx.to].mkv"
+(I) 2026-01-26T03:28:02 - Detected external IP. IP: "143.137.156.229"
+(N) 2026-01-26T04:13:47 - Torrent stopped. Torrent: "Outlander Blood of My Blood S01E05 Needfire 2160p MAX WEB-DL DDP5 1 x265-NT"
+(N) 2026-01-26T04:13:47 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander Blood of My Blood S01E05 Needfire 2160p MAX WEB-DL DDP5 1 x265-NT".
+(N) 2026-01-26T04:14:00 - Torrent removed. Torrent: "Outlander Blood of My Blood S01E05 Needfire 2160p MAX WEB-DL DDP5 1 x265-NT"
+(N) 2026-01-26T04:14:00 - Torrent content removed. Torrent: "Outlander Blood of My Blood S01E05 Needfire 2160p MAX WEB-DL DDP5 1 x265-NT"
+(I) 2026-01-26T08:41:47 - Detected external IP. IP: "143.137.156.113"
+(I) 2026-01-26T11:55:24 - Detected external IP. IP: "186.225.181.41"
+(I) 2026-01-26T18:01:27 - Detected external IP. IP: "186.225.181.86"
+(N) 2026-01-27T14:13:04 - qBittorrent termination initiated
+(N) 2026-01-27T14:13:04 - Saving resume data completed.
+(N) 2026-01-27T14:13:06 - BitTorrent session successfully finished.
+(N) 2026-01-27T14:13:06 - qBittorrent is now ready to exit
+(N) 2026-01-27T14:14:00 - qBittorrent v5.1.4 started. Process ID: 145
+(N) 2026-01-27T14:14:00 - Using config directory: /config/qBittorrent
+(N) 2026-01-27T14:14:00 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-01-27T14:14:00 - Peer ID: "-qB5140-"
+(I) 2026-01-27T14:14:00 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2026-01-27T14:14:00 - Distributed Hash Table (DHT) support: ON
+(I) 2026-01-27T14:14:00 - Local Peer Discovery support: ON
+(I) 2026-01-27T14:14:00 - Peer Exchange (PeX) support: ON
+(I) 2026-01-27T14:14:00 - Anonymous mode: OFF
+(I) 2026-01-27T14:14:00 - Encryption support: ON
+(I) 2026-01-27T14:14:00 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-01-27T14:14:00 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-01-27T14:14:00 - Successfully listening on IP. IP: "172.19.0.9". Port: "TCP/6881"
+(I) 2026-01-27T14:14:00 - Successfully listening on IP. IP: "172.19.0.9". Port: "UTP/6881"
+(I) 2026-01-27T14:14:00 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-01-27T14:14:00 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(N) 2026-01-27T14:14:00 - Restored torrent. Torrent: "www.UIndex.org    -    Outlander Blood of My Blood S01E04 A Soldiers Heart 2160p MAX WEB-DL DDP5 1 x265-NTb"
+(I) 2026-01-27T14:14:00 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Jan 1 02:26:44 2026.
+(N) 2026-01-27T14:14:00 - Using built-in WebUI.
+(N) 2026-01-27T14:14:00 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2026-01-27T14:14:00 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-01-27T14:14:00 - Detected external IP. IP: "186.225.181.86"
+(N) 2026-01-27T14:14:14 - WebAPI login success. IP: ::ffff:172.19.0.3
+(N) 2026-01-27T14:14:15 - WebAPI login success. IP: ::ffff:172.19.0.7
+(N) 2026-01-27T22:11:55 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-27T22:13:04 - Added new torrent. Torrent: "5e96eb959a217e645168e13f6d1ec669d7c226d7"
+(N) 2026-01-27T22:13:53 - Added new torrent. Torrent: "Outlander.Blood.Of.My.Blood.S01E08-09.2160p.STAN.WEB-DL.ITA-ENG.DD5.1.HDR.H.265-G66"
+(N) 2026-01-27T22:13:55 - Added new torrent. Torrent: "Outlander Blood of My Blood S01E09 Braemar 2160p HMAX WEB-DL DD 5 1 H 265-p"
+(N) 2026-01-27T22:13:58 - Added new torrent. Torrent: "Outlander.Blood.of.my.Blood.S01E10.Something.Borrowed.2160p.STAN.WEB-DL.DD5.1.HDR.H.265-G66.mkv"
+(N) 2026-01-27T22:45:24 - Torrent download finished. Torrent: "Outlander.Blood.Of.My.Blood.S01E08-09.2160p.STAN.WEB-DL.ITA-ENG.DD5.1.HDR.H.265-G66"
+(N) 2026-01-28T00:11:16 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-28T01:45:30 - Torrent stopped. Torrent: "Outlander.Blood.Of.My.Blood.S01E08-09.2160p.STAN.WEB-DL.ITA-ENG.DD5.1.HDR.H.265-G66"
+(N) 2026-01-28T01:45:30 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander.Blood.Of.My.Blood.S01E08-09.2160p.STAN.WEB-DL.ITA-ENG.DD5.1.HDR.H.265-G66".
+(N) 2026-01-28T01:46:00 - Torrent removed. Torrent: "Outlander.Blood.Of.My.Blood.S01E08-09.2160p.STAN.WEB-DL.ITA-ENG.DD5.1.HDR.H.265-G66"
+(N) 2026-01-28T01:46:01 - Torrent content removed. Torrent: "Outlander.Blood.Of.My.Blood.S01E08-09.2160p.STAN.WEB-DL.ITA-ENG.DD5.1.HDR.H.265-G66"
+(N) 2026-01-28T04:02:17 - Torrent download finished. Torrent: "www.UIndex.org    -    Outlander Blood of My Blood S01E06 Birthright 2160p REPACK MAX WEB-DL DDP5 1 x265-NTb"
+(N) 2026-01-28T07:02:20 - Torrent stopped. Torrent: "www.UIndex.org    -    Outlander Blood of My Blood S01E06 Birthright 2160p REPACK MAX WEB-DL DDP5 1 x265-NTb"
+(N) 2026-01-28T07:02:20 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "www.UIndex.org    -    Outlander Blood of My Blood S01E06 Birthright 2160p REPACK MAX WEB-DL DDP5 1 x265-NTb".
+(N) 2026-01-28T07:03:00 - Torrent removed. Torrent: "www.UIndex.org    -    Outlander Blood of My Blood S01E06 Birthright 2160p REPACK MAX WEB-DL DDP5 1 x265-NTb"
+(N) 2026-01-28T07:03:00 - Torrent content removed. Torrent: "www.UIndex.org    -    Outlander Blood of My Blood S01E06 Birthright 2160p REPACK MAX WEB-DL DDP5 1 x265-NTb"
+(N) 2026-01-28T15:42:04 - Torrent removed. Torrent: "www.UIndex.org    -    Outlander Blood of My Blood S01E04 A Soldiers Heart 2160p MAX WEB-DL DDP5 1 x265-NTb"
+(N) 2026-01-28T15:42:04 - Torrent content removed. Torrent: "www.UIndex.org    -    Outlander Blood of My Blood S01E04 A Soldiers Heart 2160p MAX WEB-DL DDP5 1 x265-NTb"
+(N) 2026-01-28T15:42:56 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-28T15:45:22 - Torrent removed. Torrent: "Outlander.Blood.of.my.Blood.S01E10.Something.Borrowed.2160p.STAN.WEB-DL.DD5.1.HDR.H.265-G66.mkv"
+(N) 2026-01-28T15:45:22 - Torrent removed. Torrent: "Outlander Blood of My Blood S01E09 Braemar 2160p HMAX WEB-DL DD 5 1 H 265-p"
+(N) 2026-01-28T15:45:22 - Torrent content removed. Torrent: "Outlander.Blood.of.my.Blood.S01E10.Something.Borrowed.2160p.STAN.WEB-DL.DD5.1.HDR.H.265-G66.mkv"
+(N) 2026-01-28T15:46:27 - Added new torrent. Torrent: "Outlander.Blood.of.my.Blood.S01E10.Something.Borrowed.2160p.STAN.WEB-DL.DD5.1.HDR.H.265-G66.mkv"
+(N) 2026-01-28T21:44:25 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-28T22:16:14 - Torrent download finished. Torrent: "Outlander.Blood.of.my.Blood.S01E10.Something.Borrowed.2160p.STAN.WEB-DL.DD5.1.HDR.H.265-G66.mkv"
+(N) 2026-01-29T01:16:20 - Torrent stopped. Torrent: "Outlander.Blood.of.my.Blood.S01E10.Something.Borrowed.2160p.STAN.WEB-DL.DD5.1.HDR.H.265-G66.mkv"
+(N) 2026-01-29T01:16:20 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Outlander.Blood.of.my.Blood.S01E10.Something.Borrowed.2160p.STAN.WEB-DL.DD5.1.HDR.H.265-G66.mkv".
+(N) 2026-01-29T01:17:00 - Torrent removed. Torrent: "Outlander.Blood.of.my.Blood.S01E10.Something.Borrowed.2160p.STAN.WEB-DL.DD5.1.HDR.H.265-G66.mkv"
+(N) 2026-01-29T01:17:00 - Torrent content removed. Torrent: "Outlander.Blood.of.my.Blood.S01E10.Something.Borrowed.2160p.STAN.WEB-DL.DD5.1.HDR.H.265-G66.mkv"
+(N) 2026-01-29T12:00:21 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-29T13:16:04 - Added new torrent. Torrent: "Senna.S01.COMPLETE.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-FLUX[TGx]"
+(N) 2026-01-29T13:20:14 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-29T14:18:00 - Torrent download finished. Torrent: "Senna.S01.COMPLETE.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-FLUX[TGx]"
+(N) 2026-01-29T14:44:46 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-01-29T17:18:00 - Torrent stopped. Torrent: "Senna.S01.COMPLETE.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-FLUX[TGx]"
+(N) 2026-01-29T17:18:00 - Torrent reached the inactive seeding time limit. Torrent stopped. Torrent: "Senna.S01.COMPLETE.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-FLUX[TGx]".
+(N) 2026-01-29T17:19:00 - Torrent removed. Torrent: "Senna.S01.COMPLETE.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-FLUX[TGx]"
+(N) 2026-01-29T17:19:00 - Torrent content removed. Torrent: "Senna.S01.COMPLETE.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-FLUX[TGx]"
+(N) 2026-01-29T23:06:08 - WebAPI login success. IP: ::ffff:172.19.0.1
+(I) 2026-01-30T16:44:33 - Detected external IP. IP: "143.137.156.138"
+(I) 2026-02-01T01:40:37 - Detected external IP. IP: "186.225.181.67"
+(N) 2026-02-01T21:09:28 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-02-01T22:37:14 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-02-02T17:32:25 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-02-02T19:03:56 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-02-03T14:14:14 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-02-03T14:17:42 - qBittorrent termination initiated
+(N) 2026-02-03T14:17:42 - Saving resume data completed.
+(N) 2026-02-03T14:17:42 - BitTorrent session successfully finished.
+(N) 2026-02-03T14:17:42 - qBittorrent is now ready to exit
+(N) 2026-02-03T14:17:48 - qBittorrent v5.1.4 started. Process ID: 146
+(N) 2026-02-03T14:17:48 - Using config directory: /config/qBittorrent
+(N) 2026-02-03T14:17:48 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-02-03T14:17:48 - Peer ID: "-qB5140-"
+(I) 2026-02-03T14:17:48 - HTTP User-Agent: "qBittorrent/5.1.4"
+(I) 2026-02-03T14:17:48 - Distributed Hash Table (DHT) support: ON
+(I) 2026-02-03T14:17:48 - Local Peer Discovery support: ON
+(I) 2026-02-03T14:17:48 - Peer Exchange (PeX) support: ON
+(I) 2026-02-03T14:17:48 - Anonymous mode: OFF
+(I) 2026-02-03T14:17:48 - Encryption support: ON
+(I) 2026-02-03T14:17:48 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-02-03T14:17:48 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-02-03T14:17:48 - Successfully listening on IP. IP: "172.19.0.6". Port: "TCP/6881"
+(I) 2026-02-03T14:17:48 - Successfully listening on IP. IP: "172.19.0.6". Port: "UTP/6881"
+(I) 2026-02-03T14:17:48 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-02-03T14:17:48 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2026-02-03T14:17:48 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Jan 1 02:26:44 2026.
+(N) 2026-02-03T14:17:48 - Using built-in WebUI.
+(N) 2026-02-03T14:17:48 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2026-02-03T14:17:48 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-02-03T14:17:48 - Detected external IP. IP: "186.225.181.67"
+(I) 2026-02-03T14:17:48 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Feb 1 02:48:55 2026.
+(I) 2026-02-03T14:17:48 - Successfully updated IP geolocation database.
+(N) 2026-02-03T14:17:58 - WebAPI login success. IP: ::ffff:172.19.0.11
+(N) 2026-02-03T14:18:00 - WebAPI login success. IP: ::ffff:172.19.0.7

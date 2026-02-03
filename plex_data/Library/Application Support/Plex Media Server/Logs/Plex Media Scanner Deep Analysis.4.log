@@ -1,0 +1,203 @@
+Jan 30, 2026 02:07:14.064 [135410178222848] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 30, 2026 02:07:14.064 [135410178222848] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 30, 2026 02:07:14.065 [135410178222848] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 30, 2026 02:07:14.065 [135410178222848] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 152 --log-file-suffix  Deep Analysis
+Jan 30, 2026 02:07:14.065 [135410178731776] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 30, 2026 02:07:14.161 [135410178731776] DEBUG - [MI] Opening input file: "/tv/Senna (2024)/Season 1/Senna - S01E04 - Passion - WEBDL-1080p.mkv"
+Jan 30, 2026 02:07:14.161 [135410178731776] DEBUG - [FFMPEG] - Opening '/tv/Senna (2024)/Season 1/Senna - S01E04 - Passion - WEBDL-1080p.mkv' for reading
+Jan 30, 2026 02:07:14.161 [135410178731776] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4386
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4465
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4543
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4614
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4697
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4771
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4844
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4896
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4954
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5025
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5084
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5143
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5202
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5261
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5320
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5379
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5459
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5521
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5580
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5639
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5699
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5758
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5817
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5876
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5935
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5994
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6053
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6112
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6171
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6230
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6289
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6348
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6407
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6466
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6525
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6584
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6643
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6702
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6761
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6820
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6879
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6956
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8968
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 9015
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 9064
+Jan 30, 2026 02:07:14.162 [135410178731776] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 9114
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:36 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:37 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:38 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:39 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:40 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - st:41 removing common factor 1000000 from timebase
+Jan 30, 2026 02:07:14.163 [135410178731776] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 9226 bytes read:43932 seeks:2 nb_streams:42
+Jan 30, 2026 02:07:14.164 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 30, 2026 02:07:14.164 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 30, 2026 02:07:14.165 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Jan 30, 2026 02:07:14.165 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Jan 30, 2026 02:07:14.165 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.165 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.165 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.165 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Jan 30, 2026 02:07:14.165 [135410178731776] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Jan 30, 2026 02:07:14.168 [135410178731776] DEBUG - [FFMPEG] - no picture 
+Jan 30, 2026 02:07:14.170 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.170 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 30, 2026 02:07:14.174 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.174 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.179 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.179 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.184 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.184 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 30, 2026 02:07:14.185 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.185 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.188 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.188 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.193 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Jan 30, 2026 02:07:14.193 [135410178731776] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Jan 30, 2026 02:07:14.194 [135410178731776] DEBUG - [FFMPEG] - All info found
+Jan 30, 2026 02:07:14.196 [135410178731776] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 109535 bytes read:175004 seeks:2 frames:39
+Jan 30, 2026 02:07:15.443 [135410178731776] DEBUG - Deep Analysis: Read 10000 packets at 104.224000
+Jan 30, 2026 02:07:16.792 [135410178731776] DEBUG - Deep Analysis: Read 20000 packets at 215.042000
+Jan 30, 2026 02:07:18.000 [135410178731776] DEBUG - Deep Analysis: Read 30000 packets at 322.944000
+Jan 30, 2026 02:07:19.222 [135410178731776] DEBUG - Deep Analysis: Read 40000 packets at 428.704000
+Jan 30, 2026 02:07:20.352 [135410178731776] DEBUG - Deep Analysis: Read 50000 packets at 530.416000
+Jan 30, 2026 02:07:21.525 [135410178731776] DEBUG - Deep Analysis: Read 60000 packets at 632.224000
+Jan 30, 2026 02:07:22.601 [135410178731776] DEBUG - Deep Analysis: Read 70000 packets at 736.208000
+Jan 30, 2026 02:07:23.727 [135410178731776] DEBUG - Deep Analysis: Read 80000 packets at 839.000000
+Jan 30, 2026 02:07:24.959 [135410178731776] DEBUG - Deep Analysis: Read 90000 packets at 952.160000
+Jan 30, 2026 02:07:26.225 [135410178731776] DEBUG - Deep Analysis: Read 100000 packets at 1061.984000
+Jan 30, 2026 02:07:27.310 [135410178731776] DEBUG - Deep Analysis: Read 110000 packets at 1164.542000
+Jan 30, 2026 02:07:28.395 [135410178731776] DEBUG - Deep Analysis: Read 120000 packets at 1265.280000
+Jan 30, 2026 02:07:29.566 [135410178731776] DEBUG - Deep Analysis: Read 130000 packets at 1370.176000
+Jan 30, 2026 02:07:30.649 [135410178731776] DEBUG - Deep Analysis: Read 140000 packets at 1474.791000
+Jan 30, 2026 02:07:31.793 [135410178731776] DEBUG - Deep Analysis: Read 150000 packets at 1579.500000
+Jan 30, 2026 02:07:33.000 [135410178731776] DEBUG - Deep Analysis: Read 160000 packets at 1683.584000
+Jan 30, 2026 02:07:34.086 [135410178731776] DEBUG - Deep Analysis: Read 170000 packets at 1788.032000
+Jan 30, 2026 02:07:35.263 [135410178731776] DEBUG - Deep Analysis: Read 180000 packets at 1895.008000
+Jan 30, 2026 02:07:36.409 [135410178731776] DEBUG - Deep Analysis: Read 190000 packets at 2000.704000
+Jan 30, 2026 02:07:37.484 [135410178731776] DEBUG - Deep Analysis: Read 200000 packets at 2102.080000
+Jan 30, 2026 02:07:38.662 [135410178731776] DEBUG - Deep Analysis: Read 210000 packets at 2205.760000
+Jan 30, 2026 02:07:39.837 [135410178731776] DEBUG - Deep Analysis: Read 220000 packets at 2311.200000
+Jan 30, 2026 02:07:41.019 [135410178731776] DEBUG - Deep Analysis: Read 230000 packets at 2420.167000
+Jan 30, 2026 02:07:41.708 [135410178731776] DEBUG - Deep Analysis: Read 240000 packets at 2532.333000
+Jan 30, 2026 02:07:42.182 [135410178731776] DEBUG - Deep Analysis: Read 250000 packets at 2648.096000
+Jan 30, 2026 02:07:42.772 [135410178731776] DEBUG - Deep Analysis: Read 260000 packets at 2763.712000
+Jan 30, 2026 02:07:43.363 [135410178731776] DEBUG - Deep Analysis: Read 270000 packets at 2879.200000
+Jan 30, 2026 02:07:43.923 [135410178731776] DEBUG - Deep Analysis: Read 280000 packets at 2994.708000
+Jan 30, 2026 02:07:44.456 [135410178731776] DEBUG - Deep Analysis: Read 290000 packets at 3109.750000
+Jan 30, 2026 02:07:44.729 [135410178731776] DEBUG - Deep Analysis: Sorting packets
+Jan 30, 2026 02:07:44.745 [135410178731776] DEBUG - Deep Analysis: Performing file bitrate analysis
+Jan 30, 2026 02:07:44.788 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+Jan 30, 2026 02:07:44.800 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+Jan 30, 2026 02:07:44.808 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 2
+Jan 30, 2026 02:07:44.816 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 3
+Jan 30, 2026 02:07:44.817 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 4
+Jan 30, 2026 02:07:44.817 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 5
+Jan 30, 2026 02:07:44.818 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 6
+Jan 30, 2026 02:07:44.818 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 7
+Jan 30, 2026 02:07:44.819 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 8
+Jan 30, 2026 02:07:44.819 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 9
+Jan 30, 2026 02:07:44.819 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 10
+Jan 30, 2026 02:07:44.820 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 11
+Jan 30, 2026 02:07:44.820 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 12
+Jan 30, 2026 02:07:44.821 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 13
+Jan 30, 2026 02:07:44.821 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 14
+Jan 30, 2026 02:07:44.821 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 15
+Jan 30, 2026 02:07:44.822 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 16
+Jan 30, 2026 02:07:44.822 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 17
+Jan 30, 2026 02:07:44.823 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 18
+Jan 30, 2026 02:07:44.823 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 19
+Jan 30, 2026 02:07:44.823 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 20
+Jan 30, 2026 02:07:44.824 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 21
+Jan 30, 2026 02:07:44.824 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 22
+Jan 30, 2026 02:07:44.824 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 23
+Jan 30, 2026 02:07:44.825 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 24
+Jan 30, 2026 02:07:44.825 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 25
+Jan 30, 2026 02:07:44.826 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 26
+Jan 30, 2026 02:07:44.826 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 27
+Jan 30, 2026 02:07:44.826 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 28
+Jan 30, 2026 02:07:44.827 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 29
+Jan 30, 2026 02:07:44.827 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 30
+Jan 30, 2026 02:07:44.827 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 31
+Jan 30, 2026 02:07:44.828 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 32
+Jan 30, 2026 02:07:44.828 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 33
+Jan 30, 2026 02:07:44.829 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 34
+Jan 30, 2026 02:07:44.829 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 35
+Jan 30, 2026 02:07:44.829 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 36
+Jan 30, 2026 02:07:44.830 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 37
+Jan 30, 2026 02:07:44.830 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 38
+Jan 30, 2026 02:07:44.831 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 39
+Jan 30, 2026 02:07:44.831 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 40
+Jan 30, 2026 02:07:44.831 [135410178731776] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 41
+Jan 30, 2026 02:07:44.832 [135410178731776] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
+Jan 30, 2026 02:07:44.835 [135410178731776] DEBUG - Deep Analysis: Saving bitrate analysis
+Jan 30, 2026 02:07:44.835 [135410178731776] DEBUG - Updating part with ID=219 [/tv/Senna (2024)/Season 1/Senna - S01E04 - Passion - WEBDL-1080p.mkv]
+Jan 30, 2026 02:07:44.897 [135410178731776] DEBUG - [MI] Closing input file: "/tv/Senna (2024)/Season 1/Senna - S01E04 - Passion - WEBDL-1080p.mkv"
+Jan 30, 2026 02:07:44.898 [135410178731776] DEBUG - Updating media item 219, size=2250463772, metadata_item_id=152
+Jan 30, 2026 02:07:44.898 [135410178731776] DEBUG - Updating part with ID=219 [/tv/Senna (2024)/Season 1/Senna - S01E04 - Passion - WEBDL-1080p.mkv]

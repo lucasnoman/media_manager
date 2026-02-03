@@ -1,0 +1,89 @@
+<SessionReport version="2" startTime="0" startTimestamp="Feb 01, 2026 23:02:52.553" key="/library/metadata/141" session="g7y6q7u3e8b70zvytuy5br4a" transcode="q3f3hik913o3sosexb5lnohl">
+<User id="1" thumb="https://plex.tv/users/6b97dc8f2d923781/avatar?c=1769886346" title="lucascnoman" />
+<Player address="192.168.1.19" device="OSX" machineIdentifier="ckp1c2d9bc6i7mmq4v4jckdz" model="bundled" platform="Microsoft Edge" platformVersion="144.0" playbackId="d729696b-65fc-46c7-8a07-9f4fe0c288c1" playbackSessionId="5cf46dcc-ec77-4a33-8ce4-6be0b1037eaf" product="Plex Web" remotePublicAddress="186.225.181.67" title="Microsoft Edge" version="4.147.1" local="1" relayed="0" secure="1" userID="1" />
+<Variants>
+<Variant id="5680d362-d370-4ec2-b5a8-43da1b154c55" targetBitrate="20135" context="streaming" sourceVideoCodec="hevc" sourceAudioCodec="eac3" videoDecision="copy" audioDecision="transcode" subtitleDecision="transcode" protocol="dash" container="mp4" videoCodec="hevc" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media id="206" videoProfile="main 10" audioChannels="2" audioCodec="aac" bitrate="18619" container="mp4" duration="3632576" height="2160" optimizedForStreaming="1" protocol="dash" videoCodec="hevc" videoFrameRate="24p" videoResolution="4K" width="3840" selected="1">
+<Part deepAnalysisVersion="6" id="206" requiredBandwidths="19767,19756,19724,19669,19615,19560,19495,19495" videoProfile="main 10" bitrate="18619" container="mp4" duration="3632576" height="2160" optimizedForStreaming="1" protocol="dash" width="3840" decision="transcode" selected="1">
+<Stream bitDepth="10" bitrate="18363" chromaLocation="left" chromaSubsampling="4:2:0" codec="hevc" codedHeight="2160" codedWidth="3840" colorPrimaries="bt709" colorRange="tv" colorSpace="bt709" colorTrc="bt709" default="1" displayTitle="4K" extendedDisplayTitle="4K (HEVC Main 10)" frameRate="23.975999832153320" height="2160" id="1011" level="153" profile="main 10" refFrames="1" requiredBandwidths="19127,19116,19083,19028,18974,18919,18856,18856" streamType="1" width="3840" decision="copy" location="segments-video" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" default="1" displayTitle="English (EAC3 5.1)" extendedDisplayTitle="English (EAC3 5.1)" id="1012" language="English" languageCode="eng" languageTag="en" requiredBandwidths="640,640,640,640,640,640,640,640" selected="1" streamType="2" decision="transcode" location="segments-audio" />
+<Stream codec="ass" container="ass" displayTitle="Portugu&#234;s" extendedDisplayTitle="Portugu&#234;s (SRT External)" file="/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E05 - Needfire - WEBDL-2160p.pt-BR.srt" format="ass" id="1038" key="/library/streams/1038" language="Portugu&#234;s" languageCode="por" languageTag="pt-BR" selected="1" streamType="3" decision="transcode" location="segments-subs" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList>
+<Segment duration="0" startOffset="200" endOffset="200">
+<File name="sub-chunk-00000" type="subs">
+<FileVariant size="79" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</File>
+<File name="chunk-stream0-00001.m4s" type="video">
+<FileVariant size="20484118" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</File>
+<File name="chunk-stream1-00001.m4s" type="audio">
+<FileVariant size="252615" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</File>
+<Timelines>
+<Transcode startTime="22" endTime="114" complete="1" fileType="subs" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+<Transcode startTime="22" endTime="482" complete="1" fileType="video" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+<Transcode startTime="22" endTime="482" complete="1" fileType="audio" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</Timelines>
+</Segment>
+<Segment duration="0" startOffset="1280" endOffset="1280">
+<File name="sub-chunk-00001" type="subs">
+<FileVariant size="115" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</File>
+<File name="chunk-stream0-00002.m4s" type="video">
+<FileVariant size="9734027" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</File>
+<File name="chunk-stream1-00002.m4s" type="audio">
+<FileVariant size="129810" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</File>
+<Timelines>
+<Transcode startTime="114" endTime="115" complete="1" fileType="subs" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+<Transcode startTime="482" endTime="682" complete="1" fileType="video" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+<Transcode startTime="482" endTime="682" complete="1" fileType="audio" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</Timelines>
+</Segment>
+<Segment duration="0" startOffset="4280" endOffset="4280">
+<File name="sub-chunk-00002" type="subs">
+<FileVariant size="74" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</File>
+<Timelines>
+<Transcode startTime="115" endTime="175" complete="1" fileType="subs" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</Timelines>
+</Segment>
+<Segment duration="0" startOffset="5870" endOffset="5870">
+<File name="sub-chunk-00003" type="subs">
+<FileVariant size="115" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</File>
+<Timelines>
+<Transcode startTime="175" endTime="302" complete="1" fileType="subs" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</Timelines>
+</Segment>
+<Segment duration="0" startOffset="9540" endOffset="9540">
+<File name="sub-chunk-00004" type="subs">
+<FileVariant size="114" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</File>
+<Timelines>
+<Transcode startTime="302" endTime="363" complete="1" fileType="subs" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</Timelines>
+</Segment>
+<Segment duration="0" startOffset="12330" endOffset="12330">
+<File name="sub-chunk-00005" type="subs">
+<FileVariant size="89" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</File>
+<Timelines>
+<Transcode startTime="363" endTime="573" complete="1" fileType="subs" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</Timelines>
+</Segment>
+<Segment duration="0" startOffset="-1" endOffset="-1">
+<Timelines>
+<Download startTime="691" fileType="video" variant="5680d362-d370-4ec2-b5a8-43da1b154c55" />
+</Timelines>
+</Segment>
+</SegmentList>
+<PlaybackReports />
+<StateReports />
+<StateReports />
+</SessionReport>

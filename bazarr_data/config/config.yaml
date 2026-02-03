@@ -58,6 +58,7 @@ general:
   branch: master
   chmod: '0640'
   chmod_enabled: false
+  concurrent_jobs: 4
   days_to_upgrade_subs: 30
   debug: false
   default_und_audio_lang: ''
@@ -93,7 +94,7 @@ general:
   minimum_score: 90
   minimum_score_movie: 70
   movie_default_enabled: true
-  movie_default_profile: 2
+  movie_default_profile: 1
   movie_tag_enabled: false
   multithreading: true
   page_size: 25
@@ -110,7 +111,7 @@ general:
   postprocessing_threshold_movie: 70
   remove_profile_tags: []
   serie_default_enabled: true
-  serie_default_profile: 2
+  serie_default_profile: 1
   serie_tag_enabled: false
   single_language: false
   skip_hashing: false
@@ -123,7 +124,7 @@ general:
   upgrade_subs: true
   use_embedded_subs: true
   use_external_webhook: false
-  use_plex: false
+  use_plex: true
   use_postprocessing: false
   use_postprocessing_threshold: false
   use_postprocessing_threshold_movie: false
@@ -189,37 +190,45 @@ opensubtitles:
   vip: false
 opensubtitlescom:
   include_ai_translated: false
+  include_machine_translated: false
   password: Al4035908/240596
   use_hash: true
   username: lucasnoman
 plex:
-  apikey: n8ACXxji9yakRshgxshS
-  auth_method: apikey
-  client_identifier: ''
+  apikey: ''
+  apikey_encrypted: true
+  auth_method: oauth
+  client_identifier: a3c34171-69fe-479c-9943-2966365b015c
   disable_auto_migration: false
-  email: ''
+  email: lucas.noman7@gmail.com
   encryption_key: 3ovXGvGEt8CnQrJAXNYxSFQ7O4jT2_ShY64txLf_PT4
-  ip: 192.168.0.100
+  ip: ''
   migration_attempted: false
   migration_successful: false
   migration_timestamp: ''
-  movie_library: []
-  movie_library_ids: []
+  movie_library:
+  - Movies
+  movie_library_ids:
+  - '1'
   port: 32400
-  series_library: []
-  series_library_ids: []
-  server_local: false
-  server_machine_id: ''
-  server_name: ''
-  server_url: ''
+  series_library:
+  - Series
+  - Animes
+  series_library_ids:
+  - '3'
+  - '2'
+  server_local: true
+  server_machine_id: 5e7f690a5d7aaebc45f52729540aadee813dd9f4
+  server_name: lcn-home-server
+  server_url: https://172-19-0-1.1bac40021f47432f9c1841e656677f93.plex.direct:32400
   set_episode_added: false
   set_movie_added: false
   ssl: false
-  token: ''
+  token: eyJ0b2tlbiI6IkZQQnNrdHgyOXlFQlNLQlBRVlBhIiwic2FsdCI6ImY5NDAwYWNlZTBmOTlmMjYwMjRiYmU1NDQ0MTRhNmIzIiwidGltZXN0YW1wIjoxNzY5MjU5NTAzfQ.4zseX8NYpcAz_hUqF3et_FJGJFs
   update_movie_library: true
   update_series_library: true
-  user_id: ''
-  username: ''
+  user_id: '227321076'
+  username: lucascnoman
 podnapisi:
   verify_ssl: true
 postgresql:

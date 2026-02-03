@@ -1,5 +1,5 @@
-Jan 22, 2026 17:10:28.629 [132954679577400] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1769101490 Duration: 338 UserId: lucas.noman7@gmail.com Version: 1.42.2.10156-f737b826c
-Jan 22, 2026 17:10:28.623 [132954707499016] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Jan 22, 2026 17:10:28.863 [132954679339832] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.2s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Jan 22, 2026 17:10:28.863 [132954707499016] INFO - Successfully reported session health
-Jan 22, 2026 17:10:28.863 [132954707499016] INFO - Crash Uploader - Processing Complete.
+Jan 27, 2026 14:13:04.210 [136261195258680] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1769260724 Duration: 262460 UserId: lucas.noman7@gmail.com Version: 1.42.2.10156-f737b826c
+Jan 27, 2026 14:13:04.211 [136261223180296] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Jan 27, 2026 14:13:04.478 [136261195012920] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.3s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Jan 27, 2026 14:13:04.479 [136261223180296] INFO - Successfully reported session health
+Jan 27, 2026 14:13:04.479 [136261223180296] INFO - Crash Uploader - Processing Complete.

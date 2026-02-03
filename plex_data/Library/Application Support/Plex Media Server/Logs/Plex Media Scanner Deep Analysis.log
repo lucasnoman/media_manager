@@ -1,0 +1,92 @@
+Jan 30, 2026 02:11:21.078 [129259299388160] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 30, 2026 02:11:21.078 [129259299388160] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 30, 2026 02:11:21.078 [129259299388160] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 30, 2026 02:11:21.078 [129259299388160] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 131 --log-file-suffix  Deep Analysis
+Jan 30, 2026 02:11:21.079 [129259299897088] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv"
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv' for reading
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4447
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4540
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4588
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4635
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4679
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4723
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4770
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4814
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4858
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4902
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4946
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4990
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6390
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6442
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6495
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6549
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6603
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6657
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6709
+Jan 30, 2026 02:11:21.175 [129259299897088] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6763
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6876 bytes read:35805 seeks:2 nb_streams:12
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - Decoding VPS
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - Decoding SPS
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - Decoding VUI
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 30, 2026 02:11:21.176 [129259299897088] DEBUG - [FFMPEG] - Decoding PPS
+Jan 30, 2026 02:11:21.177 [129259299897088] DEBUG - [FFMPEG] - All info found
+Jan 30, 2026 02:11:21.177 [129259299897088] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 32698 bytes read:68573 seeks:2 frames:20
+Jan 30, 2026 02:11:26.547 [129259299897088] DEBUG - Deep Analysis: Read 10000 packets at 174.257000
+Jan 30, 2026 02:11:31.232 [129259299897088] DEBUG - Deep Analysis: Read 20000 packets at 350.058000
+Jan 30, 2026 02:11:36.234 [129259299897088] DEBUG - Deep Analysis: Read 30000 packets at 524.032000
+Jan 30, 2026 02:11:41.794 [129259299897088] DEBUG - Deep Analysis: Read 40000 packets at 700.533000
+Jan 30, 2026 02:11:47.331 [129259299897088] DEBUG - Deep Analysis: Read 50000 packets at 877.280000
+Jan 30, 2026 02:11:52.739 [129259299897088] DEBUG - Deep Analysis: Read 60000 packets at 1049.504000
+Jan 30, 2026 02:11:58.093 [129259299897088] DEBUG - Deep Analysis: Read 70000 packets at 1222.805000
+Jan 30, 2026 02:12:03.465 [129259299897088] DEBUG - Deep Analysis: Read 80000 packets at 1395.712000
+Jan 30, 2026 02:12:08.827 [129259299897088] DEBUG - Deep Analysis: Read 90000 packets at 1568.859000
+Jan 30, 2026 02:12:14.242 [129259299897088] DEBUG - Deep Analysis: Read 100000 packets at 1741.073000
+Jan 30, 2026 02:12:19.668 [129259299897088] DEBUG - Deep Analysis: Read 110000 packets at 1914.912000
+Jan 30, 2026 02:12:25.089 [129259299897088] DEBUG - Deep Analysis: Read 120000 packets at 2088.003000
+Jan 30, 2026 02:12:30.445 [129259299897088] DEBUG - Deep Analysis: Read 130000 packets at 2260.550000
+Jan 30, 2026 02:12:35.881 [129259299897088] DEBUG - Deep Analysis: Read 140000 packets at 2433.473000
+Jan 30, 2026 02:12:41.334 [129259299897088] DEBUG - Deep Analysis: Read 150000 packets at 2608.416000
+Jan 30, 2026 02:12:46.901 [129259299897088] DEBUG - Deep Analysis: Read 160000 packets at 2787.868000
+Jan 30, 2026 02:12:52.321 [129259299897088] DEBUG - Deep Analysis: Read 170000 packets at 2964.503000
+Jan 30, 2026 02:12:57.992 [129259299897088] DEBUG - Deep Analysis: Read 180000 packets at 3144.416000
+Jan 30, 2026 02:13:03.411 [129259299897088] DEBUG - Deep Analysis: Read 190000 packets at 3317.888000
+Jan 30, 2026 02:13:06.329 [129259299897088] DEBUG - Deep Analysis: Sorting packets
+Jan 30, 2026 02:13:06.338 [129259299897088] DEBUG - Deep Analysis: Performing file bitrate analysis
+Jan 30, 2026 02:13:06.384 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+Jan 30, 2026 02:13:06.403 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+Jan 30, 2026 02:13:06.412 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 2
+Jan 30, 2026 02:13:06.413 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 3
+Jan 30, 2026 02:13:06.413 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 4
+Jan 30, 2026 02:13:06.413 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 5
+Jan 30, 2026 02:13:06.413 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 6
+Jan 30, 2026 02:13:06.414 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 7
+Jan 30, 2026 02:13:06.414 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 8
+Jan 30, 2026 02:13:06.414 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 9
+Jan 30, 2026 02:13:06.414 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 10
+Jan 30, 2026 02:13:06.415 [129259299897088] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 11
+Jan 30, 2026 02:13:06.415 [129259299897088] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
+Jan 30, 2026 02:13:06.416 [129259299897088] DEBUG - Deep Analysis: Saving bitrate analysis
+Jan 30, 2026 02:13:06.416 [129259299897088] DEBUG - Updating part with ID=214 [/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv]
+Jan 30, 2026 02:13:06.418 [129259299897088] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv"
+Jan 30, 2026 02:13:06.418 [129259299897088] DEBUG - Updating media item 214, size=8322546753, metadata_item_id=131
+Jan 30, 2026 02:13:06.418 [129259299897088] DEBUG - Updating part with ID=214 [/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv]

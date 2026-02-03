@@ -1,0 +1,10 @@
+Jan 31, 2026 02:04:12.650 [134204472535808] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 31, 2026 02:04:12.650 [134204472535808] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 31, 2026 02:04:12.650 [134204472535808] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 31, 2026 02:04:12.650 [134204472535808] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 132 --content-type=application/json --match-tag-mode=all
+Jan 31, 2026 02:04:12.651 [134204473044736] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 31, 2026 02:04:12.745 [134204473044736] DEBUG - Matcher: found 18 auxiliary files for School of the Moon
+Jan 31, 2026 02:04:12.745 [134204473044736] DEBUG - Scanner: found local sidecar subtitle "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E03 - School of the Moon - HDTV-1080p.pt-BR.srt"
+Jan 31, 2026 02:04:12.745 [134204473044736] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E03 - School of the Moon - HDTV-1080p.pt-BR.srt' for reading
+Jan 31, 2026 02:04:12.745 [134204473044736] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 31, 2026 02:04:12.755 [134204473044736] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100

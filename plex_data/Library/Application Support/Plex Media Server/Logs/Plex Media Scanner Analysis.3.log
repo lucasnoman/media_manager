@@ -1,0 +1,365 @@
+Jan 28, 2026 02:04:45.837 [130927009426176] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 28, 2026 02:04:45.837 [130927009426176] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 28, 2026 02:04:45.837 [130927009426176] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 28, 2026 02:04:45.837 [130927009426176] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --item 126,134 --log-file-suffix  Analysis
+Jan 28, 2026 02:04:45.837 [130927009935104] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 28, 2026 02:04:45.932 [130927009935104] DEBUG - Analyzing media parts for item 126 (A Virtuous Woman): 207
+Jan 28, 2026 02:04:45.942 [130927009935104] DEBUG - [ID 207] Media part analysis: /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E08 - A Virtuous Woman - WEBDL-2160p.mkv
+Jan 28, 2026 02:04:45.942 [130927009935104] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E08 - A Virtuous Woman - WEBDL-2160p.mkv"
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E08 - A Virtuous Woman - WEBDL-2160p.mkv' for reading
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4449
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4551
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4622
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4684
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4732
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4769
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6161
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6213
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6261
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6314
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6366
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.943 [130927009935104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6479 bytes read:34690 seeks:2 nb_streams:6
+Jan 28, 2026 02:04:45.944 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:45.944 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:45.944 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:45.944 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:45.944 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:45.944 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:45.944 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:45.944 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:45.944 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:45.957 [130927009935104] DEBUG - [FFMPEG] - All info found
+Jan 28, 2026 02:04:45.957 [130927009935104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 53049 bytes read:100226 seeks:2 frames:17
+Jan 28, 2026 02:04:45.973 [130927009935104] DEBUG - [MI]  * cff536fd7e8ae60cfbef2f632f89d01c7cd2777d [mkv hevc/ac3] Duration: 3408068ms, 3840x2160 (1.777778) 23.976fps, bitrate=18854kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E08 - A Virtuous Woman - WEBDL-2160p.mkv")
+Jan 28, 2026 02:04:45.973 [130927009935104] DEBUG - [MI] Importing 5 media chapters.
+Jan 28, 2026 02:04:45.974 [130927009935104] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E08 - A Virtuous Woman - WEBDL-2160p.mkv"
+Jan 28, 2026 02:04:45.974 [130927009935104] DEBUG - Streams didn't change in analysis, not saving.
+Jan 28, 2026 02:04:45.974 [130927009935104] DEBUG - Updating media item 207, size=8032318484, metadata_item_id=126
+Jan 28, 2026 02:04:45.974 [130927009935104] DEBUG - Updating part with ID=207 [/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E08 - A Virtuous Woman - WEBDL-2160p.mkv]
+Jan 28, 2026 02:04:45.975 [130926990445312] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=126&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E08 - A Virtuous Woman - WEBDL-2160p.mkv"
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E08 - A Virtuous Woman - WEBDL-2160p.mkv' for reading
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4449
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4551
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4622
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4684
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4732
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4769
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6161
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6213
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6261
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6314
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6366
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.976 [130927009935104] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:45.977 [130927009935104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6479 bytes read:34690 seeks:2 nb_streams:6
+Jan 28, 2026 02:04:45.977 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:45.977 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:45.977 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:45.977 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:45.977 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:45.977 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:45.977 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:45.977 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:45.977 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:45.978 [130927009935104] DEBUG - [FFMPEG] - All info found
+Jan 28, 2026 02:04:45.978 [130927009935104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 53049 bytes read:100226 seeks:2 frames:17
+Jan 28, 2026 02:04:45.978 [130927009935104] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/c/ff536fd7e8ae60cfbef2f632f89d01c7cd2777d.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+Jan 28, 2026 02:04:45.978 [130926990297856] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=126&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 28, 2026 02:04:45.978 [130926990445312] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=126&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+Jan 28, 2026 02:04:45.979 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:45.979 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:45.979 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:45.979 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:45.979 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:45.979 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:45.979 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:45.979 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:45.979 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:45.979 [130926990297856] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=126&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - Decoding SEI
+Jan 28, 2026 02:04:46.007 [130927009935104] DEBUG - [FFMPEG] - Decoding SEI
+Jan 28, 2026 02:04:46.008 [130927009935104] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jan 28, 2026 02:04:46.025 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:46.025 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:46.025 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:46.025 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:46.025 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=264, MaxFALL=57
+Jan 28, 2026 02:04:46.110 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jan 28, 2026 02:04:46.110 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.127 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:46.127 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:46.127 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:46.127 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:46.127 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=264, MaxFALL=57
+Jan 28, 2026 02:04:46.198 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Jan 28, 2026 02:04:46.198 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.214 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:46.214 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:46.214 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:46.214 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:46.214 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=264, MaxFALL=57
+Jan 28, 2026 02:04:46.214 [130927009935104] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jan 28, 2026 02:04:46.285 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 3.
+Jan 28, 2026 02:04:46.869 [130927009935104] DEBUG - Loaded memory image of size 3840x2160.
+Jan 28, 2026 02:04:46.945 [130927009935104] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E08 - A Virtuous Woman - WEBDL-2160p.mkv"
+Jan 28, 2026 02:04:46.945 [130927009935104] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 28, 2026 02:04:46.945 [130927009935104] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 28, 2026 02:04:46.946 [130926990297856] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 28, 2026 02:04:46.947 [130927009935104] DEBUG - Updating metadata item (save) (A Virtuous Woman) with ID 126
+Jan 28, 2026 02:04:46.948 [130926990445312] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122
+Jan 28, 2026 02:04:46.948 [130926990297856] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122 (reused)
+Jan 28, 2026 02:04:46.949 [130926990445312] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=126&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jan 28, 2026 02:04:46.950 [130926990297856] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=126&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jan 28, 2026 02:04:46.955 [130927009935104] DEBUG - Analyzing media parts for item 134 (Braemar): 208
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [ID 208] Media part analysis: /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.mkv
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.mkv"
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.mkv' for reading
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4449
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4551
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4622
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4684
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4732
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4769
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6161
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6213
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6261
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6314
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6366
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.968 [130927009935104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6479 bytes read:34690 seeks:2 nb_streams:6
+Jan 28, 2026 02:04:46.969 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.969 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:46.969 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:46.969 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.969 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:46.969 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:46.969 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:46.969 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.969 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:46.985 [130927009935104] DEBUG - [FFMPEG] - All info found
+Jan 28, 2026 02:04:46.986 [130927009935104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 53049 bytes read:100226 seeks:2 frames:17
+Jan 28, 2026 02:04:46.986 [130927009935104] DEBUG - [MI]  * f82db34da0de7e3fce988c727d8de2efde90c861 [mkv hevc/ac3] Duration: 3490788ms, 3840x2160 (1.777778) 23.976fps, bitrate=18669kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.mkv")
+Jan 28, 2026 02:04:46.986 [130927009935104] DEBUG - [MI] Importing 5 media chapters.
+Jan 28, 2026 02:04:46.986 [130927009935104] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.mkv"
+Jan 28, 2026 02:04:46.986 [130927009935104] DEBUG - Streams didn't change in analysis, not saving.
+Jan 28, 2026 02:04:46.987 [130927009935104] DEBUG - Updating media item 208, size=8146394338, metadata_item_id=134
+Jan 28, 2026 02:04:46.987 [130927009935104] DEBUG - Updating part with ID=208 [/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.mkv]
+Jan 28, 2026 02:04:46.987 [130926990445312] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 28, 2026 02:04:46.988 [130927009935104] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.mkv"
+Jan 28, 2026 02:04:46.988 [130927009935104] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.mkv' for reading
+Jan 28, 2026 02:04:46.988 [130927009935104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 28, 2026 02:04:46.988 [130926990297856] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jan 28, 2026 02:04:46.988 [130927009935104] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 28, 2026 02:04:46.988 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4449
+Jan 28, 2026 02:04:46.988 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4551
+Jan 28, 2026 02:04:46.988 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4622
+Jan 28, 2026 02:04:46.988 [130926990445312] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4684
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4732
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4769
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6161
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6213
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6261
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6314
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6366
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6479 bytes read:34690 seeks:2 nb_streams:6
+Jan 28, 2026 02:04:46.989 [130926990297856] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.989 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:46.990 [130927009935104] DEBUG - [FFMPEG] - All info found
+Jan 28, 2026 02:04:46.990 [130927009935104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 53049 bytes read:100226 seeks:2 frames:17
+Jan 28, 2026 02:04:46.990 [130927009935104] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/f/82db34da0de7e3fce988c727d8de2efde90c861.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+Jan 28, 2026 02:04:46.990 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.990 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:46.990 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:46.990 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.991 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:46.991 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:46.991 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:46.991 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:46.991 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:47.019 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:47.020 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:47.020 [130927009935104] DEBUG - [FFMPEG] - Decoding SEI
+Jan 28, 2026 02:04:47.020 [130927009935104] DEBUG - [FFMPEG] - Decoding SEI
+Jan 28, 2026 02:04:47.021 [130927009935104] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jan 28, 2026 02:04:47.043 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:47.043 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:47.043 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:47.043 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:47.043 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=350, MaxFALL=84
+Jan 28, 2026 02:04:47.124 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jan 28, 2026 02:04:47.125 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.141 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:47.141 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:47.141 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:47.141 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:47.141 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=350, MaxFALL=84
+Jan 28, 2026 02:04:47.223 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Jan 28, 2026 02:04:47.224 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.240 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:47.240 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:47.240 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:47.240 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:47.240 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=350, MaxFALL=84
+Jan 28, 2026 02:04:47.240 [130927009935104] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jan 28, 2026 02:04:47.318 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 3.
+Jan 28, 2026 02:04:47.901 [130927009935104] DEBUG - Loaded memory image of size 3840x2160.
+Jan 28, 2026 02:04:47.977 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.977 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:47.977 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:47.977 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.977 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:47.977 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:47.977 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:47.977 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.977 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - Decoding SEI
+Jan 28, 2026 02:04:47.992 [130927009935104] DEBUG - [FFMPEG] - Decoding SEI
+Jan 28, 2026 02:04:47.993 [130927009935104] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jan 28, 2026 02:04:48.010 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:48.010 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:48.010 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:48.010 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:48.010 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=350, MaxFALL=84
+Jan 28, 2026 02:04:48.080 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jan 28, 2026 02:04:48.081 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.097 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:48.097 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:48.097 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:48.097 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:48.098 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=350, MaxFALL=84
+Jan 28, 2026 02:04:48.174 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Jan 28, 2026 02:04:48.174 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.190 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:48.190 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:48.190 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:48.190 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:48.190 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=350, MaxFALL=84
+Jan 28, 2026 02:04:48.190 [130927009935104] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jan 28, 2026 02:04:48.272 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 3.
+Jan 28, 2026 02:04:48.858 [130927009935104] DEBUG - Loaded memory image of size 3840x2160.
+Jan 28, 2026 02:04:48.932 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.932 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:48.932 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:48.932 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.932 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:48.932 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:48.932 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:48.932 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.932 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:48.946 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.946 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.946 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.946 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.946 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.947 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:48.947 [130927009935104] DEBUG - [FFMPEG] - Decoding VPS
+Jan 28, 2026 02:04:48.947 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:48.947 [130927009935104] DEBUG - [FFMPEG] - Decoding SPS
+Jan 28, 2026 02:04:48.947 [130927009935104] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 28, 2026 02:04:48.947 [130927009935104] DEBUG - [FFMPEG] - Decoding VUI
+Jan 28, 2026 02:04:48.947 [130927009935104] DEBUG - [FFMPEG] - Decoding PPS
+Jan 28, 2026 02:04:48.947 [130927009935104] DEBUG - [FFMPEG] - Decoding SEI
+Jan 28, 2026 02:04:48.947 [130927009935104] DEBUG - [FFMPEG] - Decoding SEI
+Jan 28, 2026 02:04:48.948 [130927009935104] DEBUG - [FFMPEG] - Format yuv420p10le chosen by get_format().
+Jan 28, 2026 02:04:48.965 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:48.965 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:48.965 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:48.965 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:48.965 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=350, MaxFALL=84
+Jan 28, 2026 02:04:49.054 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Jan 28, 2026 02:04:49.054 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:49.070 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:49.070 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:49.070 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:49.070 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:49.070 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=350, MaxFALL=84
+Jan 28, 2026 02:04:49.148 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Jan 28, 2026 02:04:49.149 [130927009935104] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Jan 28, 2026 02:04:49.165 [130927009935104] DEBUG - [FFMPEG] - Mastering Display Metadata:
+Jan 28, 2026 02:04:49.165 [130927009935104] DEBUG - [FFMPEG] - r(0.6800,0.3200) g(0.2650,0.6900) b(0.1500 0.0600) wp(0.3127, 0.3290)
+Jan 28, 2026 02:04:49.165 [130927009935104] DEBUG - [FFMPEG] - min_luminance=0.000100, max_luminance=1000.000000
+Jan 28, 2026 02:04:49.165 [130927009935104] DEBUG - [FFMPEG] - Content Light Level Metadata:
+Jan 28, 2026 02:04:49.165 [130927009935104] DEBUG - [FFMPEG] - MaxCLL=350, MaxFALL=84
+Jan 28, 2026 02:04:49.165 [130927009935104] DEBUG - [FFMPEG] - Output frame with POC 0.
+Jan 28, 2026 02:04:49.239 [130927009935104] DEBUG - [FFMPEG] - Decoded frame with POC 3.
+Jan 28, 2026 02:04:49.821 [130927009935104] DEBUG - Loaded memory image of size 3840x2160.
+Jan 28, 2026 02:04:49.895 [130927009935104] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.mkv"
+Jan 28, 2026 02:04:49.896 [130927009935104] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 28, 2026 02:04:49.896 [130927009935104] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 28, 2026 02:04:49.897 [130926990297856] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 28, 2026 02:04:49.897 [130927009935104] DEBUG - Updating metadata item (save) (Braemar) with ID 134
+Jan 28, 2026 02:04:49.897 [130926990445312] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122
+Jan 28, 2026 02:04:49.898 [130926990297856] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122 (reused)
+Jan 28, 2026 02:04:49.899 [130926990445312] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jan 28, 2026 02:04:49.899 [130926990297856] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=134&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)

@@ -1,15 +1,10 @@
-Jan 22, 2026 17:07:56.939 [127930164206336] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-Jan 22, 2026 17:07:56.939 [127930164206336] INFO - Linux version: 6.8.0-90-generic, language: en-US
-Jan 22, 2026 17:07:56.940 [127930164206336] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
-Jan 22, 2026 17:07:56.940 [127930164206336] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 2 --content-type=application/json
-Jan 22, 2026 17:07:56.940 [127930164715264] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jan 22, 2026 17:07:57.072 [127930164715264] DEBUG - Matcher: found 0 auxiliary files for Season 3
-Jan 22, 2026 17:07:57.075 [127930164715264] DEBUG - Matcher: no sidecar subtitle files found for /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E01 - Blood and Bourbon - HDTV-2160p.mkv
-Jan 22, 2026 17:07:57.075 [127930164715264] DEBUG - Matcher: no sidecar subtitle files found for /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E02 - The Fifty - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:57.075 [127930164715264] DEBUG - Matcher: no sidecar subtitle files found for /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E04 - Staring Down the Barrel - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:57.075 [127930164715264] DEBUG - Matcher: no sidecar subtitle files found for /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E05 - On the Rocks - HDTV-2160p.mkv
-Jan 22, 2026 17:07:57.075 [127930164715264] DEBUG - Matcher: no sidecar subtitle files found for /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E06 - Bubbles - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:57.075 [127930164715264] DEBUG - Matcher: no sidecar subtitle files found for /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E07 - Art of War - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:57.075 [127930164715264] DEBUG - Matcher: no sidecar subtitle files found for /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E08 - Nothing Is Over - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:57.075 [127930164715264] DEBUG - Matcher: no sidecar subtitle files found for /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E09 - Dead Weight - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:57.075 [127930164715264] DEBUG - Matcher: no sidecar subtitle files found for /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E10 - Out of Adventure - WEBDL-2160p.mkv
+Jan 31, 2026 02:04:12.923 [124059101346560] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 31, 2026 02:04:12.923 [124059101346560] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 31, 2026 02:04:12.923 [124059101346560] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 31, 2026 02:04:12.923 [124059101346560] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 134 --content-type=application/json --match-tag-mode=all
+Jan 31, 2026 02:04:12.924 [124059101855488] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 31, 2026 02:04:13.018 [124059101855488] DEBUG - Matcher: found 18 auxiliary files for Braemar
+Jan 31, 2026 02:04:13.018 [124059101855488] DEBUG - Scanner: found local sidecar subtitle "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.pt-BR.srt"
+Jan 31, 2026 02:04:13.018 [124059101855488] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E09 - Braemar - WEBDL-2160p.pt-BR.srt' for reading
+Jan 31, 2026 02:04:13.018 [124059101855488] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 31, 2026 02:04:13.028 [124059101855488] DEBUG - [FFMPEG] - Format srt probed with size=2048 and score=100

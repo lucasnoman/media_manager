@@ -1,0 +1,101 @@
+Jan 30, 2026 02:09:01.809 [128466740513536] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 30, 2026 02:09:01.810 [128466740513536] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 30, 2026 02:09:01.810 [128466740513536] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 30, 2026 02:09:01.810 [128466740513536] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 127 --log-file-suffix  Deep Analysis
+Jan 30, 2026 02:09:01.810 [128466741022464] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 30, 2026 02:09:01.907 [128466741022464] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv"
+Jan 30, 2026 02:09:01.907 [128466741022464] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv' for reading
+Jan 30, 2026 02:09:01.907 [128466741022464] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 30, 2026 02:09:01.907 [128466741022464] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 30, 2026 02:09:01.907 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4471
+Jan 30, 2026 02:09:01.907 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4543
+Jan 30, 2026 02:09:01.907 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4614
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4687
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4742
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4797
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4865
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6313
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6360
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6409
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6456
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6505
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6559
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6671 bytes read:35030 seeks:2 nb_streams:7
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Decoding VPS
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Decoding SPS
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Decoding VUI
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 30, 2026 02:09:01.908 [128466741022464] DEBUG - [FFMPEG] - Decoding PPS
+Jan 30, 2026 02:09:01.909 [128466741022464] DEBUG - [FFMPEG] - All info found
+Jan 30, 2026 02:09:01.909 [128466741022464] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 50563 bytes read:100566 seeks:2 frames:17
+Jan 30, 2026 02:09:04.749 [128466741022464] DEBUG - Deep Analysis: Read 10000 packets at 113.449000
+Jan 30, 2026 02:09:07.937 [128466741022464] DEBUG - Deep Analysis: Read 20000 packets at 227.853000
+Jan 30, 2026 02:09:11.052 [128466741022464] DEBUG - Deep Analysis: Read 30000 packets at 342.801000
+Jan 30, 2026 02:09:14.105 [128466741022464] DEBUG - Deep Analysis: Read 40000 packets at 456.998000
+Jan 30, 2026 02:09:17.050 [128466741022464] DEBUG - Deep Analysis: Read 50000 packets at 571.738000
+Jan 30, 2026 02:09:20.176 [128466741022464] DEBUG - Deep Analysis: Read 60000 packets at 685.643000
+Jan 30, 2026 02:09:23.270 [128466741022464] DEBUG - Deep Analysis: Read 70000 packets at 800.041000
+Jan 30, 2026 02:09:26.420 [128466741022464] DEBUG - Deep Analysis: Read 80000 packets at 914.247000
+Jan 30, 2026 02:09:29.557 [128466741022464] DEBUG - Deep Analysis: Read 90000 packets at 1028.740000
+Jan 30, 2026 02:09:32.700 [128466741022464] DEBUG - Deep Analysis: Read 100000 packets at 1143.017000
+Jan 30, 2026 02:09:35.787 [128466741022464] DEBUG - Deep Analysis: Read 110000 packets at 1256.797000
+Jan 30, 2026 02:09:38.857 [128466741022464] DEBUG - Deep Analysis: Read 120000 packets at 1370.661000
+Jan 30, 2026 02:09:41.900 [128466741022464] DEBUG - Deep Analysis: Read 130000 packets at 1485.673000
+Jan 30, 2026 02:09:44.990 [128466741022464] DEBUG - Deep Analysis: Read 140000 packets at 1600.164000
+Jan 30, 2026 02:09:48.141 [128466741022464] DEBUG - Deep Analysis: Read 150000 packets at 1714.379000
+Jan 30, 2026 02:09:51.271 [128466741022464] DEBUG - Deep Analysis: Read 160000 packets at 1828.740000
+Jan 30, 2026 02:09:54.399 [128466741022464] DEBUG - Deep Analysis: Read 170000 packets at 1942.691000
+Jan 30, 2026 02:09:57.520 [128466741022464] DEBUG - Deep Analysis: Read 180000 packets at 2056.930000
+Jan 30, 2026 02:10:00.707 [128466741022464] DEBUG - Deep Analysis: Read 190000 packets at 2171.204000
+Jan 30, 2026 02:10:03.837 [128466741022464] DEBUG - Deep Analysis: Read 200000 packets at 2285.705000
+Jan 30, 2026 02:10:06.901 [128466741022464] DEBUG - Deep Analysis: Read 210000 packets at 2400.690000
+Jan 30, 2026 02:10:09.983 [128466741022464] DEBUG - Deep Analysis: Read 220000 packets at 2515.273000
+Jan 30, 2026 02:10:13.126 [128466741022464] DEBUG - Deep Analysis: Read 230000 packets at 2630.372000
+Jan 30, 2026 02:10:16.237 [128466741022464] DEBUG - Deep Analysis: Read 240000 packets at 2745.161000
+Jan 30, 2026 02:10:19.370 [128466741022464] DEBUG - Deep Analysis: Read 250000 packets at 2859.268000
+Jan 30, 2026 02:10:22.516 [128466741022464] DEBUG - Deep Analysis: Read 260000 packets at 2973.801000
+Jan 30, 2026 02:10:25.595 [128466741022464] DEBUG - Deep Analysis: Read 270000 packets at 3088.420000
+Jan 30, 2026 02:10:28.632 [128466741022464] DEBUG - Deep Analysis: Read 280000 packets at 3202.724000
+Jan 30, 2026 02:10:31.794 [128466741022464] DEBUG - Deep Analysis: Read 290000 packets at 3317.412000
+Jan 30, 2026 02:10:34.923 [128466741022464] DEBUG - Deep Analysis: Read 300000 packets at 3432.179000
+Jan 30, 2026 02:10:38.042 [128466741022464] DEBUG - Deep Analysis: Read 310000 packets at 3546.372000
+Jan 30, 2026 02:10:41.150 [128466741022464] DEBUG - Deep Analysis: Read 320000 packets at 3660.740000
+Jan 30, 2026 02:10:44.285 [128466741022464] DEBUG - Deep Analysis: Read 330000 packets at 3776.100000
+Jan 30, 2026 02:10:47.430 [128466741022464] DEBUG - Deep Analysis: Read 340000 packets at 3891.108000
+Jan 30, 2026 02:10:50.595 [128466741022464] DEBUG - Deep Analysis: Read 350000 packets at 4005.865000
+Jan 30, 2026 02:10:53.632 [128466741022464] DEBUG - Deep Analysis: Read 360000 packets at 4121.033000
+Jan 30, 2026 02:10:56.868 [128466741022464] DEBUG - Deep Analysis: Read 370000 packets at 4235.940000
+Jan 30, 2026 02:10:59.966 [128466741022464] DEBUG - Deep Analysis: Read 380000 packets at 4351.684000
+Jan 30, 2026 02:11:03.209 [128466741022464] DEBUG - Deep Analysis: Read 390000 packets at 4466.889000
+Jan 30, 2026 02:11:06.315 [128466741022464] DEBUG - Deep Analysis: Read 400000 packets at 4582.217000
+Jan 30, 2026 02:11:09.587 [128466741022464] DEBUG - Deep Analysis: Read 410000 packets at 4697.067000
+Jan 30, 2026 02:11:12.692 [128466741022464] DEBUG - Deep Analysis: Read 420000 packets at 4812.100000
+Jan 30, 2026 02:11:15.849 [128466741022464] DEBUG - Deep Analysis: Read 430000 packets at 4926.633000
+Jan 30, 2026 02:11:18.876 [128466741022464] DEBUG - Deep Analysis: Read 440000 packets at 5040.804000
+Jan 30, 2026 02:11:20.648 [128466741022464] DEBUG - Deep Analysis: Read 450000 packets at 5155.908000
+Jan 30, 2026 02:11:20.811 [128466741022464] DEBUG - Deep Analysis: Sorting packets
+Jan 30, 2026 02:11:20.874 [128466741022464] DEBUG - Deep Analysis: Performing file bitrate analysis
+Jan 30, 2026 02:11:20.997 [128466741022464] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+Jan 30, 2026 02:11:21.018 [128466741022464] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+Jan 30, 2026 02:11:21.032 [128466741022464] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 2
+Jan 30, 2026 02:11:21.046 [128466741022464] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 3
+Jan 30, 2026 02:11:21.047 [128466741022464] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 4
+Jan 30, 2026 02:11:21.048 [128466741022464] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 5
+Jan 30, 2026 02:11:21.048 [128466741022464] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 6
+Jan 30, 2026 02:11:21.050 [128466741022464] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
+Jan 30, 2026 02:11:21.053 [128466741022464] DEBUG - Deep Analysis: Saving bitrate analysis
+Jan 30, 2026 02:11:21.053 [128466741022464] DEBUG - Updating part with ID=215 [/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv]
+Jan 30, 2026 02:11:21.054 [128466741022464] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv"
+Jan 30, 2026 02:11:21.054 [128466741022464] DEBUG - Updating media item 215, size=10760135502, metadata_item_id=127
+Jan 30, 2026 02:11:21.054 [128466741022464] DEBUG - Updating part with ID=215 [/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv]

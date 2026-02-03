@@ -1,450 +1,151 @@
-Jan 22, 2026 17:07:52.240 [127328671054592] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-Jan 22, 2026 17:07:52.241 [127328671054592] INFO - Linux version: 6.8.0-90-generic, language: en-US
-Jan 22, 2026 17:07:52.241 [127328671054592] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
-Jan 22, 2026 17:07:52.241 [127328671054592] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 3,4,5,6,7,8,9,10,11
-Jan 22, 2026 17:07:52.241 [127328671563520] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jan 22, 2026 17:07:52.345 [127328671563520] DEBUG - Analyzing media parts for item 3 (Blood and Bourbon): 1
-Jan 22, 2026 17:07:52.346 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:52.346 [127328671563520] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:52.346 [127328660974336] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:52.347 [127328671563520] DEBUG - Updating metadata item (save) (Blood and Bourbon) with ID 3
-Jan 22, 2026 17:07:52.348 [127328660302592] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:52.349 [127328671563520] DEBUG - [ID 1] Media part analysis: /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E01 - Blood and Bourbon - HDTV-2160p.mkv
-Jan 22, 2026 17:07:52.349 [127328660974336] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:52.349 [127328671563520] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E01 - Blood and Bourbon - HDTV-2160p.mkv"
-Jan 22, 2026 17:07:52.352 [127328671563520] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E01 - Blood and Bourbon - HDTV-2160p.mkv' for reading
-Jan 22, 2026 17:07:52.353 [127328671563520] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jan 22, 2026 17:07:52.360 [127328671563520] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jan 22, 2026 17:07:52.361 [127328671563520] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:52.361 [127328671563520] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:52.361 [127328671563520] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:52.361 [127328671563520] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:52.361 [127328671563520] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:52.361 [127328671563520] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:52.361 [127328671563520] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:52.362 [127328671563520] INFO - CodecManager: obtaining decoder 'hevc'
-Jan 22, 2026 17:07:52.362 [127328671563520] DEBUG - [HCl#3] HTTP requesting GET https://plex.tv/api/codecs/hevc_decoder?build=linux-x86_64-standard&deviceId=f28ee410-cdd5-4986-ac3c-461ab467042b&oldestPreviousVersion=1%2E42%2E2%2E10156-f737b826c&version=46f74ab-560174306fe167a5978a79dd
-Jan 22, 2026 17:07:52.896 [127328660974336] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.5s) 200 response from GET https://plex.tv/api/codecs/hevc_decoder?build=linux-x86_64-standard&deviceId=f28ee410-cdd5-4986-ac3c-461ab467042b&oldestPreviousVersion=1%2E42%2E2%2E10156-f737b826c&version=46f74ab-560174306fe167a5978a79dd
-Jan 22, 2026 17:07:52.897 [127328660450048] DEBUG - [GetFile/HCl#4] HTTP requesting GET https://downloads.plex.tv/codecs/46f74ab-560174306fe167a5978a79dd/linux-x86_64-standard/libhevc_decoder.so
-Jan 22, 2026 17:07:53.113 [127328660974336] DEBUG - [HttpClient/HCl#4] HTTP/2.0 (0.2s) 200 response from GET https://downloads.plex.tv/codecs/46f74ab-560174306fe167a5978a79dd/linux-x86_64-standard/libhevc_decoder.so
-Jan 22, 2026 17:07:53.123 [127328671563520] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6106 bytes read:35832 seeks:2 nb_streams:7
-Jan 22, 2026 17:07:53.126 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.126 [127328671563520] DEBUG - [FFMPEG] - Decoding VPS
-Jan 22, 2026 17:07:53.126 [127328671563520] DEBUG - [FFMPEG] - Main 10 profile bitstream
-Jan 22, 2026 17:07:53.126 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.126 [127328671563520] DEBUG - [FFMPEG] - Decoding SPS
-Jan 22, 2026 17:07:53.126 [127328671563520] DEBUG - [FFMPEG] - Main 10 profile bitstream
-Jan 22, 2026 17:07:53.126 [127328671563520] DEBUG - [FFMPEG] - Decoding VUI
-Jan 22, 2026 17:07:53.126 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.126 [127328671563520] DEBUG - [FFMPEG] - Decoding PPS
-Jan 22, 2026 17:07:53.127 [127328671563520] DEBUG - [FFMPEG] - All info found
-Jan 22, 2026 17:07:53.127 [127328671563520] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 51961 bytes read:101368 seeks:2 frames:19
-Jan 22, 2026 17:07:53.134 [127328671563520] DEBUG - [MI]  * 8f937870970f2cf3e637b9ce31c48f3846f00a1c [mkv hevc/eac3] Duration: 2874880ms, 3832x1632 (2.348039) 23.976fps, bitrate=13200kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E01 - Blood and Bourbon - HDTV-2160p.mkv")
-Jan 22, 2026 17:07:53.134 [127328671563520] DEBUG - [MI] Chapters had generic titles, clearing.
-Jan 22, 2026 17:07:53.134 [127328671563520] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E01 - Blood and Bourbon - HDTV-2160p.mkv"
-Jan 22, 2026 17:07:53.136 [127328671563520] DEBUG - Committing media stream changes for part 1
-Jan 22, 2026 17:07:53.137 [127328671563520] DEBUG - Updating media item 1, size=4743556960, metadata_item_id=3
-Jan 22, 2026 17:07:53.137 [127328671563520] DEBUG - Updating part with ID=1 [/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E01 - Blood and Bourbon - HDTV-2160p.mkv]
-Jan 22, 2026 17:07:53.137 [127328660302592] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jan 22, 2026 17:07:53.138 [127328660974336] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Jan 22, 2026 17:07:53.138 [127328660302592] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jan 22, 2026 17:07:53.139 [127328660974336] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=3&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jan 22, 2026 17:07:53.141 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.141 [127328671563520] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.141 [127328660974336] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.142 [127328671563520] DEBUG - Updating metadata item (save) (Blood and Bourbon) with ID 3
-Jan 22, 2026 17:07:53.143 [127328660302592] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.143 [127328660974336] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.145 [127328671563520] DEBUG - Analyzing media parts for item 4 (The Fifty): 2
-Jan 22, 2026 17:07:53.146 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.146 [127328671563520] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.146 [127328660974336] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.146 [127328671563520] DEBUG - Updating metadata item (save) (The Fifty) with ID 4
-Jan 22, 2026 17:07:53.147 [127328660302592] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.147 [127328671563520] DEBUG - [ID 2] Media part analysis: /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E02 - The Fifty - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:53.148 [127328660974336] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E02 - The Fifty - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E02 - The Fifty - WEBDL-2160p.mkv' for reading
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4451
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4539
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4594
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4660
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4723
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4770
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4817
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.148 [127328671563520] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.149 [127328671563520] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.149 [127328671563520] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.149 [127328671563520] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.149 [127328671563520] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.149 [127328671563520] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.149 [127328671563520] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6090 bytes read:34992 seeks:2 nb_streams:7
-Jan 22, 2026 17:07:53.149 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.149 [127328671563520] DEBUG - [FFMPEG] - Decoding VPS
-Jan 22, 2026 17:07:53.149 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.149 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.150 [127328671563520] DEBUG - [FFMPEG] - Decoding SPS
-Jan 22, 2026 17:07:53.150 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.150 [127328671563520] DEBUG - [FFMPEG] - Decoding VUI
-Jan 22, 2026 17:07:53.150 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.150 [127328671563520] DEBUG - [FFMPEG] - Decoding PPS
-Jan 22, 2026 17:07:53.150 [127328671563520] DEBUG - [FFMPEG] - All info found
-Jan 22, 2026 17:07:53.150 [127328671563520] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 49620 bytes read:100528 seeks:2 frames:17
-Jan 22, 2026 17:07:53.150 [127328671563520] DEBUG - [MI]  * b7af1949ca7bfbef8a4e5b990874e60118c47635 [mkv hevc/eac3] Duration: 2700406ms, 3840x2160 (1.777778) 23.976fps, bitrate=15889kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E02 - The Fifty - WEBDL-2160p.mkv")
-Jan 22, 2026 17:07:53.151 [127328671563520] DEBUG - [MI] Chapters had generic titles, clearing.
-Jan 22, 2026 17:07:53.151 [127328671563520] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E02 - The Fifty - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.151 [127328671563520] DEBUG - Committing media stream changes for part 2
-Jan 22, 2026 17:07:53.152 [127328671563520] DEBUG - Updating media item 2, size=5363665890, metadata_item_id=4
-Jan 22, 2026 17:07:53.152 [127328671563520] DEBUG - Updating part with ID=2 [/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E02 - The Fifty - WEBDL-2160p.mkv]
-Jan 22, 2026 17:07:53.152 [127328660302592] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=4&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jan 22, 2026 17:07:53.153 [127328660974336] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=4&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Jan 22, 2026 17:07:53.153 [127328660302592] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=4&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jan 22, 2026 17:07:53.154 [127328660974336] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=4&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jan 22, 2026 17:07:53.156 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.156 [127328671563520] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.157 [127328660974336] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.157 [127328671563520] DEBUG - Updating metadata item (save) (The Fifty) with ID 4
-Jan 22, 2026 17:07:53.158 [127328660302592] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.159 [127328660974336] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.161 [127328671563520] DEBUG - Analyzing media parts for item 5 (Staring Down the Barrel): 3
-Jan 22, 2026 17:07:53.161 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.161 [127328671563520] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.162 [127328660974336] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.162 [127328671563520] DEBUG - Updating metadata item (save) (Staring Down the Barrel) with ID 5
-Jan 22, 2026 17:07:53.163 [127328660302592] DEBUG - [HCl#10] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.163 [127328671563520] DEBUG - [ID 3] Media part analysis: /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E04 - Staring Down the Barrel - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:53.163 [127328660974336] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.163 [127328671563520] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E04 - Staring Down the Barrel - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.163 [127328671563520] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E04 - Staring Down the Barrel - WEBDL-2160p.mkv' for reading
-Jan 22, 2026 17:07:53.163 [127328671563520] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4444
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4544
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4599
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4669
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4729
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4773
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4824
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.164 [127328671563520] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6085 bytes read:34987 seeks:2 nb_streams:7
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - Decoding VPS
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - Decoding SPS
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - Decoding VUI
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - Decoding PPS
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - All info found
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 49615 bytes read:100523 seeks:2 frames:17
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [MI]  * 16072ff86558f72aaaf35136e440388098bc3edb [mkv hevc/eac3] Duration: 2361818ms, 3840x2160 (1.777778) 23.976fps, bitrate=15844kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E04 - Staring Down the Barrel - WEBDL-2160p.mkv")
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [MI] Chapters had generic titles, clearing.
-Jan 22, 2026 17:07:53.165 [127328671563520] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E04 - Staring Down the Barrel - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.166 [127328671563520] DEBUG - Committing media stream changes for part 3
-Jan 22, 2026 17:07:53.166 [127328671563520] DEBUG - Updating media item 3, size=4677592999, metadata_item_id=5
-Jan 22, 2026 17:07:53.166 [127328671563520] DEBUG - Updating part with ID=3 [/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E04 - Staring Down the Barrel - WEBDL-2160p.mkv]
-Jan 22, 2026 17:07:53.167 [127328660302592] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=5&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jan 22, 2026 17:07:53.167 [127328660974336] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=5&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Jan 22, 2026 17:07:53.167 [127328660302592] DEBUG - [HCl#12] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=5&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jan 22, 2026 17:07:53.168 [127328660974336] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=5&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jan 22, 2026 17:07:53.169 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.169 [127328671563520] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.170 [127328660974336] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.170 [127328671563520] DEBUG - Updating metadata item (save) (Staring Down the Barrel) with ID 5
-Jan 22, 2026 17:07:53.170 [127328660302592] DEBUG - [HCl#14] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.171 [127328660974336] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.172 [127328671563520] DEBUG - Analyzing media parts for item 6 (On the Rocks): 4
-Jan 22, 2026 17:07:53.173 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.173 [127328671563520] DEBUG - [HCl#15] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.173 [127328660974336] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.173 [127328671563520] DEBUG - Updating metadata item (save) (On the Rocks) with ID 6
-Jan 22, 2026 17:07:53.174 [127328660302592] DEBUG - [HCl#16] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.174 [127328671563520] DEBUG - [ID 4] Media part analysis: /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E05 - On the Rocks - HDTV-2160p.mkv
-Jan 22, 2026 17:07:53.174 [127328660974336] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.174 [127328671563520] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E05 - On the Rocks - HDTV-2160p.mkv"
-Jan 22, 2026 17:07:53.174 [127328671563520] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E05 - On the Rocks - HDTV-2160p.mkv' for reading
-Jan 22, 2026 17:07:53.174 [127328671563520] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jan 22, 2026 17:07:53.175 [127328671563520] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jan 22, 2026 17:07:53.175 [127328671563520] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.175 [127328671563520] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.175 [127328671563520] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.175 [127328671563520] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.175 [127328671563520] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.175 [127328671563520] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.175 [127328671563520] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.175 [127328671563520] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6089 bytes read:35832 seeks:2 nb_streams:7
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - Decoding VPS
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - Decoding SPS
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - Decoding VUI
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - Decoding PPS
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - All info found
-Jan 22, 2026 17:07:53.176 [127328671563520] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 49619 bytes read:101368 seeks:2 frames:17
-Jan 22, 2026 17:07:53.177 [127328671563520] DEBUG - [MI]  * 6ccc40544a31adc0b839c8276ef535cbae8ada37 [mkv hevc/eac3] Duration: 2629760ms, 3840x2160 (1.777778) 23.976fps, bitrate=15875kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E05 - On the Rocks - HDTV-2160p.mkv")
-Jan 22, 2026 17:07:53.177 [127328671563520] DEBUG - [MI] Chapters had generic titles, clearing.
-Jan 22, 2026 17:07:53.177 [127328671563520] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E05 - On the Rocks - HDTV-2160p.mkv"
-Jan 22, 2026 17:07:53.177 [127328671563520] DEBUG - Committing media stream changes for part 4
-Jan 22, 2026 17:07:53.178 [127328671563520] DEBUG - Updating media item 4, size=5218545328, metadata_item_id=6
-Jan 22, 2026 17:07:53.178 [127328671563520] DEBUG - Updating part with ID=4 [/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E05 - On the Rocks - HDTV-2160p.mkv]
-Jan 22, 2026 17:07:53.178 [127328660302592] DEBUG - [HCl#17] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jan 22, 2026 17:07:53.179 [127328660974336] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Jan 22, 2026 17:07:53.179 [127328660302592] DEBUG - [HCl#18] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jan 22, 2026 17:07:53.179 [127328660974336] DEBUG - [HttpClient/HCl#18] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=6&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jan 22, 2026 17:07:53.181 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.181 [127328671563520] DEBUG - [HCl#19] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.181 [127328660974336] DEBUG - [HttpClient/HCl#19] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.181 [127328671563520] DEBUG - Updating metadata item (save) (On the Rocks) with ID 6
-Jan 22, 2026 17:07:53.182 [127328660302592] DEBUG - [HCl#1a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.182 [127328660974336] DEBUG - [HttpClient/HCl#1a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.184 [127328671563520] DEBUG - Analyzing media parts for item 7 (Bubbles): 5
-Jan 22, 2026 17:07:53.184 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.184 [127328671563520] DEBUG - [HCl#1b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.185 [127328660974336] DEBUG - [HttpClient/HCl#1b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.185 [127328671563520] DEBUG - Updating metadata item (save) (Bubbles) with ID 7
-Jan 22, 2026 17:07:53.186 [127328660302592] DEBUG - [HCl#1c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.186 [127328671563520] DEBUG - [ID 5] Media part analysis: /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E06 - Bubbles - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:53.186 [127328660974336] DEBUG - [HttpClient/HCl#1c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.186 [127328671563520] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E06 - Bubbles - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.186 [127328671563520] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E06 - Bubbles - WEBDL-2160p.mkv' for reading
-Jan 22, 2026 17:07:53.186 [127328671563520] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4433
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4526
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4588
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4639
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5837 bytes read:33818 seeks:2 nb_streams:4
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Decoding VPS
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Decoding SPS
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Decoding VUI
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.187 [127328671563520] DEBUG - [FFMPEG] - Decoding PPS
-Jan 22, 2026 17:07:53.188 [127328671563520] DEBUG - [FFMPEG] - All info found
-Jan 22, 2026 17:07:53.188 [127328671563520] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 28878 bytes read:66586 seeks:2 frames:10
-Jan 22, 2026 17:07:53.188 [127328671563520] DEBUG - [MI]  * d3f6ba3a61be74f3dcf8cb062c00ac520f9b0394 [mkv hevc/eac3] Duration: 2373888ms, 3840x2160 (1.777778) 23.976fps, bitrate=15187kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E06 - Bubbles - WEBDL-2160p.mkv")
-Jan 22, 2026 17:07:53.188 [127328671563520] DEBUG - [MI] Chapters had generic titles, clearing.
-Jan 22, 2026 17:07:53.188 [127328671563520] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E06 - Bubbles - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.189 [127328671563520] DEBUG - Committing media stream changes for part 5
-Jan 22, 2026 17:07:53.189 [127328671563520] DEBUG - Updating media item 5, size=4506531464, metadata_item_id=7
-Jan 22, 2026 17:07:53.189 [127328671563520] DEBUG - Updating part with ID=5 [/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E06 - Bubbles - WEBDL-2160p.mkv]
-Jan 22, 2026 17:07:53.190 [127328660302592] DEBUG - [HCl#1d] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jan 22, 2026 17:07:53.190 [127328660974336] DEBUG - [HttpClient/HCl#1d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Jan 22, 2026 17:07:53.190 [127328660302592] DEBUG - [HCl#1e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jan 22, 2026 17:07:53.191 [127328660974336] DEBUG - [HttpClient/HCl#1e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=7&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jan 22, 2026 17:07:53.192 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.192 [127328671563520] DEBUG - [HCl#1f] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.193 [127328660974336] DEBUG - [HttpClient/HCl#1f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.193 [127328671563520] DEBUG - Updating metadata item (save) (Bubbles) with ID 7
-Jan 22, 2026 17:07:53.194 [127328660302592] DEBUG - [HCl#20] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.194 [127328660974336] DEBUG - [HttpClient/HCl#20] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.196 [127328671563520] DEBUG - Analyzing media parts for item 8 (Art of War): 6
-Jan 22, 2026 17:07:53.196 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.196 [127328671563520] DEBUG - [HCl#21] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.197 [127328660974336] DEBUG - [HttpClient/HCl#21] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.197 [127328671563520] DEBUG - Updating metadata item (save) (Art of War) with ID 8
-Jan 22, 2026 17:07:53.197 [127328660302592] DEBUG - [HCl#22] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.197 [127328671563520] DEBUG - [ID 6] Media part analysis: /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E07 - Art of War - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E07 - Art of War - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.198 [127328660974336] DEBUG - [HttpClient/HCl#22] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E07 - Art of War - WEBDL-2160p.mkv' for reading
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4433
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4526
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4588
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4639
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.198 [127328671563520] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5837 bytes read:33818 seeks:2 nb_streams:4
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - Decoding VPS
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - Decoding SPS
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - Decoding VUI
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - Decoding PPS
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - All info found
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 28878 bytes read:66586 seeks:2 frames:10
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [MI]  * 32804e7bcf8cf26d6e2564d7bf0c3659c21c6dd3 [mkv hevc/eac3] Duration: 2385440ms, 3840x2160 (1.777778) 23.976fps, bitrate=15197kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E07 - Art of War - WEBDL-2160p.mkv")
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [MI] Chapters had generic titles, clearing.
-Jan 22, 2026 17:07:53.199 [127328671563520] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E07 - Art of War - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.200 [127328671563520] DEBUG - Committing media stream changes for part 6
-Jan 22, 2026 17:07:53.200 [127328671563520] DEBUG - Updating media item 6, size=4531682011, metadata_item_id=8
-Jan 22, 2026 17:07:53.200 [127328671563520] DEBUG - Updating part with ID=6 [/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E07 - Art of War - WEBDL-2160p.mkv]
-Jan 22, 2026 17:07:53.206 [127328660302592] DEBUG - [HCl#23] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jan 22, 2026 17:07:53.207 [127328660974336] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Jan 22, 2026 17:07:53.207 [127328660302592] DEBUG - [HCl#24] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jan 22, 2026 17:07:53.207 [127328660974336] DEBUG - [HttpClient/HCl#24] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=8&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jan 22, 2026 17:07:53.209 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.209 [127328671563520] DEBUG - [HCl#25] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.209 [127328660974336] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.209 [127328671563520] DEBUG - Updating metadata item (save) (Art of War) with ID 8
-Jan 22, 2026 17:07:53.211 [127328660302592] DEBUG - [HCl#26] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.212 [127328660974336] DEBUG - [HttpClient/HCl#26] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.214 [127328671563520] DEBUG - Analyzing media parts for item 9 (Nothing Is Over): 7
-Jan 22, 2026 17:07:53.214 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.214 [127328671563520] DEBUG - [HCl#27] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.215 [127328660974336] DEBUG - [HttpClient/HCl#27] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.215 [127328671563520] DEBUG - Updating metadata item (save) (Nothing Is Over) with ID 9
-Jan 22, 2026 17:07:53.216 [127328660302592] DEBUG - [HCl#28] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.216 [127328671563520] DEBUG - [ID 7] Media part analysis: /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E08 - Nothing Is Over - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:53.216 [127328660974336] DEBUG - [HttpClient/HCl#28] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.216 [127328671563520] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E08 - Nothing Is Over - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.216 [127328671563520] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E08 - Nothing Is Over - WEBDL-2160p.mkv' for reading
-Jan 22, 2026 17:07:53.216 [127328671563520] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jan 22, 2026 17:07:53.216 [127328671563520] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4455
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4535
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4590
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5783 bytes read:33583 seeks:2 nb_streams:3
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - Decoding VPS
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - Main 10 profile bitstream
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - Decoding SPS
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - Main 10 profile bitstream
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - Decoding VUI
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.217 [127328671563520] DEBUG - [FFMPEG] - Decoding PPS
-Jan 22, 2026 17:07:53.218 [127328671563520] DEBUG - [FFMPEG] - All info found
-Jan 22, 2026 17:07:53.218 [127328671563520] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 31149 bytes read:66351 seeks:2 frames:12
-Jan 22, 2026 17:07:53.218 [127328671563520] DEBUG - [MI]  * 26fba9bf507dfc39302ae73f9e6868e663d8cc93 [mkv hevc/eac3] Duration: 2417600ms, 3832x1632 (2.348039) 23.976fps, bitrate=12539kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E08 - Nothing Is Over - WEBDL-2160p.mkv")
-Jan 22, 2026 17:07:53.218 [127328671563520] DEBUG - [MI] Chapters had generic titles, clearing.
-Jan 22, 2026 17:07:53.218 [127328671563520] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E08 - Nothing Is Over - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.218 [127328671563520] DEBUG - Committing media stream changes for part 7
-Jan 22, 2026 17:07:53.219 [127328671563520] DEBUG - Updating media item 7, size=3789493108, metadata_item_id=9
-Jan 22, 2026 17:07:53.219 [127328671563520] DEBUG - Updating part with ID=7 [/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E08 - Nothing Is Over - WEBDL-2160p.mkv]
-Jan 22, 2026 17:07:53.219 [127328660302592] DEBUG - [HCl#29] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jan 22, 2026 17:07:53.219 [127328660974336] DEBUG - [HttpClient/HCl#29] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Jan 22, 2026 17:07:53.220 [127328660302592] DEBUG - [HCl#2a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jan 22, 2026 17:07:53.220 [127328660974336] DEBUG - [HttpClient/HCl#2a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=9&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jan 22, 2026 17:07:53.221 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.221 [127328671563520] DEBUG - [HCl#2b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.222 [127328660974336] DEBUG - [HttpClient/HCl#2b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.222 [127328671563520] DEBUG - Updating metadata item (save) (Nothing Is Over) with ID 9
-Jan 22, 2026 17:07:53.223 [127328660302592] DEBUG - [HCl#2c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.223 [127328660974336] DEBUG - [HttpClient/HCl#2c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.225 [127328671563520] DEBUG - Analyzing media parts for item 10 (Dead Weight): 8
-Jan 22, 2026 17:07:53.225 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.225 [127328671563520] DEBUG - [HCl#2d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.226 [127328660974336] DEBUG - [HttpClient/HCl#2d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.226 [127328671563520] DEBUG - Updating metadata item (save) (Dead Weight) with ID 10
-Jan 22, 2026 17:07:53.226 [127328660302592] DEBUG - [HCl#2e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [ID 8] Media part analysis: /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E09 - Dead Weight - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E09 - Dead Weight - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.227 [127328660974336] DEBUG - [HttpClient/HCl#2e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E09 - Dead Weight - WEBDL-2160p.mkv' for reading
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4438
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4531
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4589
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4644
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.227 [127328671563520] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5846 bytes read:33838 seeks:2 nb_streams:4
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - Decoding VPS
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - Decoding SPS
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - Decoding VUI
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - Decoding PPS
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - All info found
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 28887 bytes read:66606 seeks:2 frames:10
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [MI]  * d48e74f7580cbeea929c7c90a0bace8bba41126e [mkv hevc/eac3] Duration: 2315712ms, 3840x2160 (1.777778) 23.976fps, bitrate=15193kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E09 - Dead Weight - WEBDL-2160p.mkv")
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [MI] Chapters had generic titles, clearing.
-Jan 22, 2026 17:07:53.228 [127328671563520] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E09 - Dead Weight - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.229 [127328671563520] DEBUG - Committing media stream changes for part 8
-Jan 22, 2026 17:07:53.229 [127328671563520] DEBUG - Updating media item 8, size=4397830203, metadata_item_id=10
-Jan 22, 2026 17:07:53.229 [127328671563520] DEBUG - Updating part with ID=8 [/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E09 - Dead Weight - WEBDL-2160p.mkv]
-Jan 22, 2026 17:07:53.229 [127328660302592] DEBUG - [HCl#2f] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jan 22, 2026 17:07:53.230 [127328660974336] DEBUG - [HttpClient/HCl#2f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Jan 22, 2026 17:07:53.230 [127328660302592] DEBUG - [HCl#30] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jan 22, 2026 17:07:53.230 [127328660974336] DEBUG - [HttpClient/HCl#30] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=10&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jan 22, 2026 17:07:53.232 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.232 [127328671563520] DEBUG - [HCl#31] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.232 [127328660974336] DEBUG - [HttpClient/HCl#31] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.232 [127328671563520] DEBUG - Updating metadata item (save) (Dead Weight) with ID 10
-Jan 22, 2026 17:07:53.233 [127328660302592] DEBUG - [HCl#32] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.233 [127328660974336] DEBUG - [HttpClient/HCl#32] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.235 [127328671563520] DEBUG - Analyzing media parts for item 11 (Jesus Lizard): 9
-Jan 22, 2026 17:07:53.236 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.236 [127328671563520] DEBUG - [HCl#33] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.236 [127328660974336] DEBUG - [HttpClient/HCl#33] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.236 [127328671563520] DEBUG - Updating metadata item (save) (Jesus Lizard) with ID 11
-Jan 22, 2026 17:07:53.237 [127328660302592] DEBUG - [HCl#34] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.237 [127328671563520] DEBUG - [ID 9] Media part analysis: /tv/Tulsa King (2022)/Season 3/Tulsa King - S03E10 - Out of Adventure - WEBDL-2160p.mkv
-Jan 22, 2026 17:07:53.237 [127328660974336] DEBUG - [HttpClient/HCl#34] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
-Jan 22, 2026 17:07:53.237 [127328671563520] DEBUG - [MI] Opening input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E10 - Out of Adventure - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.237 [127328671563520] DEBUG - [FFMPEG] - Opening '/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E10 - Out of Adventure - WEBDL-2160p.mkv' for reading
-Jan 22, 2026 17:07:53.237 [127328671563520] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Jan 22, 2026 17:07:53.238 [127328671563520] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Jan 22, 2026 17:07:53.238 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4440
-Jan 22, 2026 17:07:53.238 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4521
-Jan 22, 2026 17:07:53.238 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4579
-Jan 22, 2026 17:07:53.238 [127328671563520] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4626
-Jan 22, 2026 17:07:53.238 [127328671563520] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.238 [127328671563520] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.238 [127328671563520] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.238 [127328671563520] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Jan 22, 2026 17:07:53.238 [127328671563520] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5836 bytes read:33825 seeks:2 nb_streams:4
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - Decoding VPS
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - Decoding SPS
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - Main profile bitstream
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - Decoding VUI
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - Decoding PPS
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - All info found
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 28877 bytes read:66593 seeks:2 frames:10
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [MI]  * 0d8421f5a40c6fbcff251d39613c2b20c2973ff7 [mkv hevc/eac3] Duration: 2161034ms, 3840x2160 (1.777778) 23.976fps, bitrate=15142kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E10 - Out of Adventure - WEBDL-2160p.mkv")
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [MI] Chapters had generic titles, clearing.
-Jan 22, 2026 17:07:53.239 [127328671563520] DEBUG - [MI] Closing input file: "/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E10 - Out of Adventure - WEBDL-2160p.mkv"
-Jan 22, 2026 17:07:53.240 [127328671563520] DEBUG - Committing media stream changes for part 9
-Jan 22, 2026 17:07:53.240 [127328671563520] DEBUG - Updating media item 9, size=4090323174, metadata_item_id=11
-Jan 22, 2026 17:07:53.240 [127328671563520] DEBUG - Updating part with ID=9 [/tv/Tulsa King (2022)/Season 3/Tulsa King - S03E10 - Out of Adventure - WEBDL-2160p.mkv]
-Jan 22, 2026 17:07:53.241 [127328660302592] DEBUG - [HCl#35] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=11&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Jan 22, 2026 17:07:53.241 [127328660974336] DEBUG - [HttpClient/HCl#35] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=11&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
-Jan 22, 2026 17:07:53.241 [127328660302592] DEBUG - [HCl#36] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=11&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Jan 22, 2026 17:07:53.242 [127328660974336] DEBUG - [HttpClient/HCl#36] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=11&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Jan 22, 2026 17:07:53.243 [127328671563520] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.243 [127328671563520] DEBUG - [HCl#37] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Jan 22, 2026 17:07:53.244 [127328660974336] DEBUG - [HttpClient/HCl#37] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Jan 22, 2026 17:07:53.244 [127328671563520] DEBUG - Updating metadata item (save) (Jesus Lizard) with ID 11
-Jan 22, 2026 17:07:53.244 [127328660302592] DEBUG - [HCl#38] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1
-Jan 22, 2026 17:07:53.245 [127328660974336] DEBUG - [HttpClient/HCl#38] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1 (reused)
+Jan 29, 2026 12:09:39.224 [135687050025728] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 29, 2026 12:09:39.224 [135687050025728] INFO - Linux version: 6.8.0-90-generic, language: en-US
+Jan 29, 2026 12:09:39.224 [135687050025728] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+Jan 29, 2026 12:09:39.224 [135687050025728] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 131,127
+Jan 29, 2026 12:09:39.225 [135687050534656] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Jan 29, 2026 12:09:39.354 [135687050534656] DEBUG - Analyzing media parts for item 131 (Birthright): 194,214
+Jan 29, 2026 12:09:39.354 [135687050534656] DEBUG - [ID 194] Media part analysis: /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-720p.mkv
+Jan 29, 2026 12:09:39.355 [135687050534656] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-720p.mkv"
+Jan 29, 2026 12:09:39.355 [135687050534656] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-720p.mkv' for reading
+Jan 29, 2026 12:09:39.355 [135687050534656] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 29, 2026 12:09:39.356 [135687050534656] ERROR - Exception analyzing media file '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-720p.mkv' (Could not parse /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-720p.mkv (error=-2): No such file or directory)
+Jan 29, 2026 12:09:39.357 [135687050534656] ERROR - Failed to successfully analyze part 194.
+Jan 29, 2026 12:09:39.358 [135687050534656] DEBUG - [ID 214] Media part analysis: /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv
+Jan 29, 2026 12:09:39.358 [135687050534656] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv"
+Jan 29, 2026 12:09:39.358 [135687050534656] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv' for reading
+Jan 29, 2026 12:09:39.358 [135687050534656] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4447
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4540
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4588
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4635
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4679
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4723
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4770
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4814
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4858
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4902
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4946
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4990
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6390
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6442
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6495
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6549
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6603
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6657
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6709
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6763
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.359 [135687050534656] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6876 bytes read:35805 seeks:2 nb_streams:12
+Jan 29, 2026 12:09:39.360 [135687050534656] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 29, 2026 12:09:39.360 [135687050534656] DEBUG - [FFMPEG] - Decoding VPS
+Jan 29, 2026 12:09:39.360 [135687050534656] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 29, 2026 12:09:39.360 [135687050534656] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 29, 2026 12:09:39.360 [135687050534656] DEBUG - [FFMPEG] - Decoding SPS
+Jan 29, 2026 12:09:39.360 [135687050534656] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 29, 2026 12:09:39.360 [135687050534656] DEBUG - [FFMPEG] - Decoding VUI
+Jan 29, 2026 12:09:39.360 [135687050534656] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 29, 2026 12:09:39.360 [135687050534656] DEBUG - [FFMPEG] - Decoding PPS
+Jan 29, 2026 12:09:39.361 [135687050534656] DEBUG - [FFMPEG] - All info found
+Jan 29, 2026 12:09:39.361 [135687050534656] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 32698 bytes read:68573 seeks:2 frames:20
+Jan 29, 2026 12:09:39.366 [135687050534656] DEBUG - [MI]  * a3b173388fc22f41581173aa2425d093394e800e [mkv hevc/eac3] Duration: 3506720ms, 3840x2160 (1.777778) 23.976fps, bitrate=18986kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv")
+Jan 29, 2026 12:09:39.366 [135687050534656] DEBUG - [MI] Importing 8 media chapters.
+Jan 29, 2026 12:09:39.367 [135687050534656] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv"
+Jan 29, 2026 12:09:39.367 [135687050534656] DEBUG - Committing media stream changes for part 214
+Jan 29, 2026 12:09:39.368 [135687050534656] DEBUG - Updating media item 214, size=8322546753, metadata_item_id=131
+Jan 29, 2026 12:09:39.368 [135687050534656] DEBUG - Updating part with ID=214 [/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E06 - Birthright - WEBDL-2160p Proper.mkv]
+Jan 29, 2026 12:09:39.369 [135687030971136] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=131&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 29, 2026 12:09:39.371 [135687030823680] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=131&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 29, 2026 12:09:39.371 [135687030971136] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=131&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jan 29, 2026 12:09:39.372 [135687030823680] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=131&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jan 29, 2026 12:09:39.375 [135687050534656] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 29, 2026 12:09:39.375 [135687050534656] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 29, 2026 12:09:39.376 [135687030823680] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 29, 2026 12:09:39.377 [135687050534656] DEBUG - Updating metadata item (save) (Birthright) with ID 131
+Jan 29, 2026 12:09:39.379 [135687030971136] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122
+Jan 29, 2026 12:09:39.380 [135687050534656] DEBUG - Doing expensive tags write for 'Birthright' because something changed.
+Jan 29, 2026 12:09:39.380 [135687030823680] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122 (reused)
+Jan 29, 2026 12:09:39.381 [135687050534656] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 29, 2026 12:09:39.381 [135687050534656] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 29, 2026 12:09:39.382 [135687030823680] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 29, 2026 12:09:39.382 [135687050534656] DEBUG - Updating metadata item (save) (Birthright) with ID 131
+Jan 29, 2026 12:09:39.389 [135687030971136] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122
+Jan 29, 2026 12:09:39.390 [135687030823680] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122 (reused)
+Jan 29, 2026 12:09:39.393 [135687050534656] DEBUG - Analyzing media parts for item 127 (Something Borrowed): 184,215
+Jan 29, 2026 12:09:39.393 [135687050534656] DEBUG - [ID 184] Media part analysis: /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-1080p.mkv
+Jan 29, 2026 12:09:39.394 [135687050534656] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-1080p.mkv"
+Jan 29, 2026 12:09:39.394 [135687050534656] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-1080p.mkv' for reading
+Jan 29, 2026 12:09:39.394 [135687050534656] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 29, 2026 12:09:39.394 [135687050534656] ERROR - Exception analyzing media file '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-1080p.mkv' (Could not parse /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-1080p.mkv (error=-2): No such file or directory)
+Jan 29, 2026 12:09:39.394 [135687050534656] ERROR - Failed to successfully analyze part 184.
+Jan 29, 2026 12:09:39.394 [135687050534656] DEBUG - [ID 215] Media part analysis: /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [MI] Opening input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv"
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Opening '/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv' for reading
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4471
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4543
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4614
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4687
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4742
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4797
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4865
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6313
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6360
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6409
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6456
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6505
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 6559
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.395 [135687050534656] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Jan 29, 2026 12:09:39.396 [135687050534656] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6671 bytes read:35030 seeks:2 nb_streams:7
+Jan 29, 2026 12:09:39.396 [135687050534656] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Jan 29, 2026 12:09:39.396 [135687050534656] DEBUG - [FFMPEG] - Decoding VPS
+Jan 29, 2026 12:09:39.396 [135687050534656] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 29, 2026 12:09:39.396 [135687050534656] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Jan 29, 2026 12:09:39.396 [135687050534656] DEBUG - [FFMPEG] - Decoding SPS
+Jan 29, 2026 12:09:39.396 [135687050534656] DEBUG - [FFMPEG] - Main 10 profile bitstream
+Jan 29, 2026 12:09:39.396 [135687050534656] DEBUG - [FFMPEG] - Decoding VUI
+Jan 29, 2026 12:09:39.396 [135687050534656] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Jan 29, 2026 12:09:39.396 [135687050534656] DEBUG - [FFMPEG] - Decoding PPS
+Jan 29, 2026 12:09:39.397 [135687050534656] DEBUG - [FFMPEG] - All info found
+Jan 29, 2026 12:09:39.397 [135687050534656] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 50563 bytes read:100566 seeks:2 frames:17
+Jan 29, 2026 12:09:39.397 [135687050534656] DEBUG - [MI]  * ab6cd2e0ba242b1aa878983d502b10a47589d7c1 [mkv hevc/ac3] Duration: 5178633ms, 3840x2160 (1.777778) 23.976fps, bitrate=16622kbps, audio channels=6, optimizedForStreaming=0 ("/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv")
+Jan 29, 2026 12:09:39.397 [135687050534656] DEBUG - [MI] Importing 6 media chapters.
+Jan 29, 2026 12:09:39.398 [135687050534656] DEBUG - [MI] Closing input file: "/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv"
+Jan 29, 2026 12:09:39.398 [135687050534656] DEBUG - Committing media stream changes for part 215
+Jan 29, 2026 12:09:39.402 [135687050534656] DEBUG - Updating media item 215, size=10760135502, metadata_item_id=127
+Jan 29, 2026 12:09:39.402 [135687050534656] DEBUG - Updating part with ID=215 [/tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E10 - Something Borrowed - WEBDL-2160p.mkv]
+Jan 29, 2026 12:09:39.403 [135687030971136] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=127&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Jan 29, 2026 12:09:39.407 [135687030823680] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=127&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Jan 29, 2026 12:09:39.408 [135687030971136] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=127&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Jan 29, 2026 12:09:39.408 [135687050534656] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 29, 2026 12:09:39.409 [135687050534656] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 29, 2026 12:09:39.410 [135687030823680] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Jan 29, 2026 12:09:39.410 [135687030823680] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=127&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Jan 29, 2026 12:09:39.410 [135687050534656] DEBUG - Updating metadata item (save) (Something Borrowed) with ID 127
+Jan 29, 2026 12:09:39.411 [135687030971136] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122
+Jan 29, 2026 12:09:39.412 [135687050534656] DEBUG - Doing expensive tags write for 'Something Borrowed' because something changed.
+Jan 29, 2026 12:09:39.413 [135687030823680] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122 (reused)
+Jan 29, 2026 12:09:39.414 [135687050534656] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Jan 29, 2026 12:09:39.414 [135687050534656] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Jan 29, 2026 12:09:39.415 [135687030823680] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Jan 29, 2026 12:09:39.415 [135687050534656] DEBUG - Updating metadata item (save) (Something Borrowed) with ID 127
+Jan 29, 2026 12:09:39.416 [135687030971136] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122
+Jan 29, 2026 12:09:39.417 [135687030823680] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=122 (reused)
