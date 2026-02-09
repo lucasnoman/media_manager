@@ -33,10 +33,6 @@ services:
     extends:
       file: compose.tools.yml
       service: flaresolverr
-  jellyseerr:
-    extends:
-      file: compose.tools.yml
-      service: jellyseerr
   qbittorrent:
     extends:
       file: compose.tools.yml

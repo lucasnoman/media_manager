@@ -12,19 +12,6 @@ services:
     ports:
       - '${PORT:-8191}:8191'
 
-  jellyseerr:
-    image: fallenbagel/jellyseerr:latest
-    container_name: jellyseerr
-    extends:
-      file: compose.base-config.yml
-      service: base
-    environment:
-      - LOG_LEVEL=debug
-    ports:
-      - 5055:5055
-    volumes:
-      - ${CONFIG_PATH}/jellyseerr_data:/app/config
-
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest
     container_name: qbittorrent
