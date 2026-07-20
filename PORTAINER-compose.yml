@@ -107,6 +107,9 @@ services:
     container_name: qbittorrent
     <<: *base_config
     environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
       - WEBUI_PORT=8080
       - TORRENTING_PORT=6881
     volumes:
@@ -125,3 +128,16 @@ services:
       - 6868:6868
     volumes:
       - ${CONFIG_PATH}/profilarr_data:/config
+
+  cleanuparr:
+    image: ghcr.io/cleanuparr/cleanuparr:latest
+    container_name: cleanuparr
+    <<: *base_config
+    ports:
+      - 11011:11011
+    volumes:
+      - ${CONFIG_PATH}/cleanuparr_data:/config
+      - ${HOST_TORRENT_PATH}:/downloads
+    environment:
+      - PORT=11011
+      - UMASK=022

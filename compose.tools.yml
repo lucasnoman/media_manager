@@ -19,6 +19,9 @@ services:
       file: compose.base-config.yml
       service: base
     environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
       - WEBUI_PORT=8080
       - TORRENTING_PORT=6881
     volumes:
@@ -32,6 +35,9 @@ services:
   profilarr:
     image: santiagosayshey/profilarr:latest
     container_name: profilarr
+    extends:
+      file: compose.base-config.yml
+      service: base
     user: ${PUID}:${PUID}
     volumes:
       - ${CONFIG_PATH}/profilarr_data:/config
