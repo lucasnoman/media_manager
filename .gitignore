@@ -4,4 +4,6 @@
 *_data/MediaCover/*
 *_data/Jackett/log*
 *_data/Jackett/update*
+jellyfin_data/*
+plex_data/*
 .env

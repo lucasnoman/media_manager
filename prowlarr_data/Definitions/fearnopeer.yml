@@ -64,7 +64,7 @@ settings:
     default: "Accounts that have not logged in for 150 days will be disabled, and may be deleted shortly afterwards."
 
 login:
-  path: /api/torrents
+  path: api/torrents
   method: get
   inputs: {} # TODO: remove in v10
   error:
@@ -122,8 +122,6 @@ search:
       selector: details_link
     download:
       selector: download_link
-    infohash:
-      selector: info_hash
     poster:
       selector: meta.poster
       filters:
@@ -194,4 +192,4 @@ search:
       text: "{{ if .Result._featured }}2{{ else }}{{ .Result.uploadvolumefactor_double_upload }}{{ end }}"
     minimumratio:
       text: 0.81
-# json UNIT3D 9.1.5
+# json UNIT3D 9.2.0

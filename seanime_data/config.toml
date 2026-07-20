@@ -1,4 +1,4 @@
-version = '3.4.3'
+version = '3.10.1'
 
 [cache]
 dir = '$SEANIME_DATA_DIR/cache'
@@ -26,6 +26,9 @@ host = '0.0.0.0'
 offline = false
 port = 43211
 usebinarypath = true
+
+[torrent]
+dir = '$SEANIME_DATA_DIR/torrent'
 
 [web]
 assetdir = '$SEANIME_DATA_DIR/assets'

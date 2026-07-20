@@ -1,1 +1,1 @@
-{'podnapisi': ('ConnectionError', datetime.datetime(2026, 2, 3, 11, 18, 0, 302747), '10 minutes')}
+{'tvsubtitles': ('HTTPError', datetime.datetime(2026, 7, 20, 14, 5, 15, 282790), '10 minutes'), 'addic7ed': ('IndexError', datetime.datetime(2026, 7, 20, 14, 6, 30, 868864), '10 minutes')}

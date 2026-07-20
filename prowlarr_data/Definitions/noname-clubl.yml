@@ -406,7 +406,6 @@ caps:
     - {id: 680, cat: Audio, desc: " |- DVD-Audio"}
     - {id: 1149, cat: Audio, desc: " |- SACD-R"}
     - {id: 429, cat: Audio, desc: " |- DTS-Audio"}
-    - {id: 1234, cat: Audio, desc: " |- WEB-DL-Audio"}
     - {id: 681, cat: Audio, desc: " |- Vinyl-Rip и Hand-Made"}
     - {id: 330, cat: Audio, desc: "Классика"}
     - {id: 1256, cat: Audio, desc: " |- Классика (HD Audio)"}
@@ -434,6 +433,7 @@ caps:
     - {id: 1188, cat: Audio/Lossless, desc: " |- Blues, Soul (Lossless)"}
     - {id: 1189, cat: Audio, desc: " |- Blues, Soul"}
     - {id: 328, cat: Audio, desc: "Шансон, Авторская и Военная песня"}
+    - {id: 1370, cat: Audio, desc: " |- Шансон, Авторская и Военная песня (Hi-Res)"}
     - {id: 1180, cat: Audio/Lossless, desc: " |- Зарубежный Шансон (Lossless)"}
     - {id: 1181, cat: Audio, desc: " |- Зарубежный Шансон"}
     - {id: 364, cat: Audio/Lossless, desc: " |- Русский Шансон (Lossless)"}
@@ -458,6 +458,7 @@ caps:
     - {id: 332, cat: Audio, desc: " |- Русский рок"}
     - {id: 325, cat: Audio, desc: "Pop"}
     - {id: 1354, cat: Audio, desc: " |- Pop (Hi-Res)"}
+    - {id: 1355, cat: Audio, desc: " |- Eurodance, Disco (Hi-Res)"}
     - {id: 1165, cat: Audio/Lossless, desc: " |- Eurodance, Euro-House, Technopop (Lossless)"}
     - {id: 1166, cat: Audio, desc: " |- Eurodance, Euro-House, Technopop"}
     - {id: 1168, cat: Audio, desc: " |- Disco, Italo-Disco, Euro-Disco, Hi-NRG"}
@@ -505,6 +506,7 @@ caps:
     - {id: 348, cat: Audio, desc: " |- Psychedelic, psytrance, fullon"}
     - {id: 674, cat: Audio, desc: " |- Radioshow, Live Mixes"}
     - {id: 323, cat: Audio, desc: "Rap, Hip-hop, RnB, Reggae"}
+    - {id: 1369, cat: Audio, desc: "Rap, Hip-hop, RnB, Reggae (Hi-Res)"}
     - {id: 1187, cat: Audio/Lossless, desc: " |- Rap, Hip-hop зарубежный (Lossless)"}
     - {id: 339, cat: Audio, desc: " |- Rap, Hip-hop зарубежный"}
     - {id: 1186, cat: Audio/Lossless, desc: " |- Rap, Hip-hop отечественный (Lossless)"}
@@ -670,6 +672,7 @@ caps:
     - {id: 1102, cat: Other, desc: "Материалы для мультимедиа и дизайна"}
     - {id: 1070, cat: Other, desc: " |- Digital Juice"}
     - {id: 534, cat: Other, desc: " |- Звуковые библиотеки"}
+    - {id: 676, cat: Other, desc: " |- Пресеты"}
     - {id: 1077, cat: Other, desc: " |- Дополнения"}
     - {id: 267, cat: Other, desc: " |- Футажи"}
     - {id: 1071, cat: Other, desc: " |- 3D модели и материалы"}
@@ -694,6 +697,7 @@ caps:
     - {id: 1273, cat: Other, desc: " |- Слайдшоу (проекты)"}
     - {id: 1274, cat: Other, desc: " |- Титры (проекты)"}
     - {id: 1275, cat: Other, desc: " |- Элементы (проекты)"}
+    - {id: 1372, cat: Other, desc: " |- Переходы, фоны и оверлеи (проекты)"}
     - {id: 1276, cat: Other, desc: " |- Разное (проекты)"}
     - {id: 1103, cat: Other, desc: "Графика, Арт, Разное"}
     - {id: 1114, cat: Other, desc: " |- Классическое искусство"}
@@ -744,6 +748,10 @@ caps:
   allowrawsearch: true
 
 settings:
+  - name: info_row
+    type: info
+    label: Search settings
+    default: This Indexer requires specific columns to be active on your account search settings.<br>Login to the web site and ensure that only the <b>Автор</b> (Author) and <b>Форум</b> (Forum) checkboxes are ticked in the <b>Показывать колонку</b> (Show Columns) section of the <b>Настройки поиска Torrent</b> (Torrent Search Settings) page.<br>Having other columns active may prevent the Indexer processing/displaying results correctly.
   - name: cookie
     type: text
     label: Cookie
@@ -777,10 +785,6 @@ settings:
     options:
       2: desc
       1: asc
-  - name: info_row
-    type: info
-    label: Search settings
-    default: This Indexer requires specific columns to be active on your account search settings.<br>Login to the web site and ensure that only the <b>Автор</b> (Author) and <b>Форум</b> (Forum) checkboxes are ticked in the <b>Показывать колонку</b> (Show Columns) section of the <b>Настройки поиска Torrent</b> (Torrent Search Settings) page.<br>Having other columns active may prevent the Indexer processing/displaying results correctly.
 
 login:
   method: cookie
@@ -895,6 +899,8 @@ search:
           args: ["[\\[\\(\\{<«][\\s\\W]*[\\]\\)\\}>»]", ""]
         - name: re_replace
           args: ["^[\\s&,\\.!\\?\\+\\-_\\|\\/':]+", ""]
+        - name: re_replace
+          args: ["^(.*?)(\\((?:(?:20|19)\\d{2}-?)+\\))(.*?)(.*?)\\((\bS\\d{1,2}E\\d{1,3}(?:-\\d{1,3})?(?:\\s+of\\s+[?0-9]+)?)\\)(.*)", "$1 / $5 $2$4$6"]
         - name: append
           args: "{{ if and (ne .Result.category_id \"913\") (.Config.addrussiantotitle) }} RUS{{ else }}{{ end }}"
     details:

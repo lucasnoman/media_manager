@@ -14,12 +14,12 @@ legacylinks:
 caps:
   categorymappings:
     - {id: 1, cat: Movies, desc: "Movie"}
+    - {id: 28, cat: Movies, desc: "Foreign Movie"}
     - {id: 2, cat: TV, desc: "Serie TV"}
     - {id: 15, cat: Books/EBook, desc: "Ebook"}
     - {id: 26, cat: Audio/Audiobook, desc: "Audio Book"}
     - {id: 17, cat: Books/Mags, desc: "Riviste e Giornali"}
     - {id: 3, cat: Audio, desc: "Music"}
-    - {id: 27, cat: Audio/Other, desc: "Podcast"}
     - {id: 7, cat: PC/Games, desc: "Games"}
     - {id: 23, cat: PC, desc: "Software"}
     - {id: 24, cat: TV/Sport, desc: "Eventi Sportivi"}
@@ -70,7 +70,7 @@ settings:
     default: "After 60 days of no activity, your account will be automatically deleted."
 
 login:
-  path: /api/torrents
+  path: api/torrents
   method: get
   inputs: {} # TODO: remove in v10
   error:
@@ -229,4 +229,4 @@ search:
     minimumseedtime:
       # 6 days (as seconds = 6 x 24 x 60 x 60)
       text: 518400
-# json UNIT3D 9.1.7 (custom)
+# json UNIT3D 9.2.0 (custom)

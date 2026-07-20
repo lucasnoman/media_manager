@@ -163,14 +163,28 @@ search:
     download:
       selector: a[href*="download.php?id="]
       attribute: href
+    imdbid:
+      selector: a[href*="imdb.com/title/tt"]
+      attribute: href
+    doubanid:
+      selector: a[href*="movie.douban.com/subject/"]
+      attribute: href
     size:
       selector: td.rowfollow:nth-child(5)
-    grabs:
-      selector: td.rowfollow:nth-child(8)
+      optional: true
+      default: 512MB
     seeders:
       selector: td.rowfollow:nth-child(6)
+      optional: true
+      default: 0
     leechers:
       selector: td.rowfollow:nth-child(7)
+      optional: true
+      default: 0
+    grabs:
+      selector: td.rowfollow:nth-child(8)
+      optional: true
+      default: 0
     date_elapsed:
       # time type: time elapsed (default)
       selector: td.rowfollow:nth-child(4) > span[title]
@@ -207,6 +221,5 @@ search:
         img.pro_2up: 2
         "*": 1
     description:
-      selector: td:nth-child(2)
-      remove: a, b, font, img, span
+      selector: table.torrentname td.embedded:first-child > span:last-child
 # NexusPHP v2.0 2014-11-24

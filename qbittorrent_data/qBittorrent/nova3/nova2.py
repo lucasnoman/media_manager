@@ -1,4 +1,4 @@
-#VERSION: 1.48
+# VERSION: 1.53
 
 # Author:
 #  Fabien Devaux <fab AT gnux DOT info>
@@ -34,23 +34,34 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 import importlib
+import multiprocessing as MP
 import pathlib
 import sys
 import traceback
 import urllib.parse
 import xml.etree.ElementTree as ET
+from abc import ABC, abstractmethod
 from collections.abc import Iterable
 from enum import Enum
 from glob import glob
-from multiprocessing import Pool, cpu_count
 from os import path
 from typing import Optional
 
+# qbt tend to run this script in 'isolate mode' so append the current path manually
+current_path = str(pathlib.Path(__file__).parent.resolve())
+if current_path not in sys.path:
+    sys.path.append(current_path)
+
+import helpers
+
+# enable SOCKS proxy for all plugins by default
+helpers.enable_socks_proxy(True)
+
 THREADED: bool = True
 try:
-    MAX_THREADS: int = cpu_count()
+    MAX_THREADS: int = MP.cpu_count()
 except NotImplementedError:
-    MAX_THREADS = 1
+    MAX_THREADS = 1  # pyright: ignore[reportConstantRedefinition]
 
 Category = Enum('Category', ['all', 'anime', 'books', 'games', 'movies', 'music', 'pictures', 'software', 'tv'])
 
@@ -67,19 +78,21 @@ Category = Enum('Category', ['all', 'anime', 'books', 'games', 'movies', 'music'
 EngineModuleName = str  # the filename of the engine plugin
 
 
-class Engine:
-    url: str
+class Engine(ABC):
     name: str
+    url: str
     supported_categories: dict[str, str]
 
-    def __init__(self) -> None:
-        pass
+    @abstractmethod
+    def search(self, query: str, category: str = Category.all.name) -> None:
+        #novaprinter.prettyPrinter()
+        raise NotImplementedError
 
-    def search(self, what: str, cat: str = Category.all.name) -> None:
-        pass
-
-    def download_torrent(self, info: str) -> None:
-        pass
+    """
+    Provide customized .torrent file download implementation. For example in your own subclass:
+    def download_torrent(self, url: str) -> None:
+        print(helpers.download_file(url))
+    """
 
 
 # global state
@@ -93,7 +106,7 @@ def list_engines() -> list[EngineModuleName]:
         Return list of all engines' module name
     """
 
-    names = []
+    names: list[EngineModuleName] = []
 
     for engine_path in glob(path.join(path.dirname(__file__), 'engines', '*.py')):
         engine_module_name = path.basename(engine_path).split('.')[0].strip()
@@ -182,11 +195,6 @@ def run_search(search_params: tuple[type[Engine], str, Category]) -> bool:
 
 if __name__ == "__main__":
     def main() -> int:
-        # qbt tend to run this script in 'isolate mode' so append the current path manually
-        current_path = str(pathlib.Path(__file__).parent.resolve())
-        if current_path not in sys.path:
-            sys.path.append(current_path)
-
         # https://docs.python.org/3/library/sys.html#sys.exit
         class ExitCode(Enum):
             OK = 0
@@ -228,7 +236,8 @@ if __name__ == "__main__":
         search_success = False
         if THREADED:
             processes = max(min(len(engines), MAX_THREADS), 1)
-            with Pool(processes) as pool:
+            # cannot use `forkserver` as it will interfere with `helpers.enable_socks_proxy()`
+            with MP.get_context("spawn").Pool(processes) as pool:
                 search_success = all(pool.map(run_search, params))
         else:
             search_success = all(map(run_search, params))
