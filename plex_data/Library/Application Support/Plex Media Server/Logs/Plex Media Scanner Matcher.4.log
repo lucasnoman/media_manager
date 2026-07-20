@@ -1,7 +1,0 @@
-Jan 31, 2026 02:04:12.796 [134028293253888] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-Jan 31, 2026 02:04:12.796 [134028293253888] INFO - Linux version: 6.8.0-90-generic, language: en-US
-Jan 31, 2026 02:04:12.796 [134028293253888] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
-Jan 31, 2026 02:04:12.796 [134028293253888] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 133 --content-type=application/json --match-tag-mode=all
-Jan 31, 2026 02:04:12.797 [134028293762816] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jan 31, 2026 02:04:12.892 [134028293762816] DEBUG - Matcher: found 18 auxiliary files for Luceo Non Uro
-Jan 31, 2026 02:04:12.892 [134028293762816] DEBUG - Matcher: no sidecar subtitle files found for /tv/Outlander Blood of My Blood (2025)/Season 1/Outlander Blood of My Blood - S01E07 - Luceo Non Uro - WEBDL-1080p.mkv

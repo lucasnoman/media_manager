@@ -1,4 +1,0 @@
-Jan 24, 2026 13:18:46.472 [138100500855608] INFO - Crash Uploader - Platform: Linux ServerUUID: 5e7f690a5d7aaebc45f52729540aadee813dd9f4 UserId: lucas.noman7@gmail.com Version: 1.42.2.10156-f737b826c
-Jan 24, 2026 13:18:46.472 [138100500855608] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.42.2.10156-f737b826c
-Jan 24, 2026 13:18:46.472 [138100500855608] INFO - Post-processed minidump directory: /run/plex-temp
-Jan 24, 2026 13:18:46.476 [138100528777224] INFO - Crash Uploader - Processing Complete.

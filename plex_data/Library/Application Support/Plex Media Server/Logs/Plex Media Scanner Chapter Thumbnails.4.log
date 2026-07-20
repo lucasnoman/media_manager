@@ -1,9 +1,0 @@
-Jan 31, 2026 02:04:14.431 [134338143042304] INFO - Plex Media Scanner v1.42.2.10156-f737b826c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
-Jan 31, 2026 02:04:14.432 [134338143042304] INFO - Linux version: 6.8.0-90-generic, language: en-US
-Jan 31, 2026 02:04:14.432 [134338143042304] INFO - Processor: 4-core Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
-Jan 31, 2026 02:04:14.432 [134338143042304] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --generate --chapter-thumbs-only --item 152 --log-file-suffix  Chapter Thumbnails
-Jan 31, 2026 02:04:14.433 [134338143551232] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Jan 31, 2026 02:04:14.529 [134338143551232] DEBUG - Created chapter thumbnail for metadata item 152, media item 219 for chapter number 1:0 at "/config/Library/Application Support/Plex Media Server/Media/localhost/9/d2a09bf3581545ff007cd9dfdcab41f87efcc36.bundle/Contents/Chapters/chapter1.jpg"
-Jan 31, 2026 02:04:14.529 [134338143551232] DEBUG - Created chapter thumbnail for metadata item 152, media item 219 for chapter number 2:164500 at "/config/Library/Application Support/Plex Media Server/Media/localhost/9/d2a09bf3581545ff007cd9dfdcab41f87efcc36.bundle/Contents/Chapters/chapter2.jpg"
-Jan 31, 2026 02:04:14.529 [134338143551232] DEBUG - Created chapter thumbnail for metadata item 152, media item 219 for chapter number 3:237500 at "/config/Library/Application Support/Plex Media Server/Media/localhost/9/d2a09bf3581545ff007cd9dfdcab41f87efcc36.bundle/Contents/Chapters/chapter3.jpg"
-Jan 31, 2026 02:04:14.529 [134338143551232] DEBUG - Created chapter thumbnail for metadata item 152, media item 219 for chapter number 4:2465450 at "/config/Library/Application Support/Plex Media Server/Media/localhost/9/d2a09bf3581545ff007cd9dfdcab41f87efcc36.bundle/Contents/Chapters/chapter4.jpg"
