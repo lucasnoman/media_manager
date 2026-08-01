@@ -29,19 +29,15 @@ services:
       - ${HOST_MEDIA_PATH}/movies:/movies
     network_mode: host
 
-  seanime:
-    image: umagistr/seanime:latest
-    container_name: seanime
-    <<: *base_config
-    environment:
-      - SEANIME_SERVER_HOST=0.0.0.0
+  suwayomi:
+    image: ghcr.io/suwayomi/suwayomi-server:stable
+    container_name: suwayomi
     volumes:
-      - ${CONFIG_PATH}/seanime_data:/root/.config/Seanime
-      - ${HOST_MEDIA_PATH}/animes:/anime
-      - ${HOST_MEDIA_PATH}/mangas:/manga
-      - ${HOST_TORRENT_PATH}:/downloads
+      - ${HOST_TORRENT_PATH}:/home/suwayomi/.local/share/Tachidesk/downloads
+      - ${HOST_MEDIA_PATH}/mangas:/home/suwayomi/.local/share/Tachidesk
     ports:
-      - 3211:43211
+      - 4568:4567
+    restart: unless-stopped
 
   jellyfin:
     image: lscr.io/linuxserver/jellyfin:latest
